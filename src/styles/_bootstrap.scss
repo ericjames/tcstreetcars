@@ -1,0 +1,14 @@
+$darkLiver: rgba(84, 73, 75, 1);
+$isabelline: rgba(241, 247, 237, 1);
+$etonBlue: rgba(145, 199, 177, 1);
+$dingyDungeon: rgba(179, 57, 81, 1);
+$flax: rgba(227, 208, 129, 1);
+
+$theme-colors: (
+  "primary": $isabelline,
+  "secondary": $darkLiver,
+  "light": $etonBlue,
+  "dark": $dingyDungeon
+);
+
+@import "~bootstrap/scss/bootstrap.scss";
