@@ -1,3 +1,4 @@
+import { Corridor, YearRange } from "../../constants/types";
 import {
   DEFAULT_LINE_WIDTH,
   HTML_POPUP,
@@ -12,7 +13,6 @@ import mapboxgl, {
 } from "mapbox-gl";
 
 import { COLORS } from "../../constants/colors";
-import { Corridor } from "../../constants/types";
 import { IRouteProp } from "../../constants/props";
 
 interface IProps extends IRouteProp {
@@ -24,6 +24,7 @@ interface IProps extends IRouteProp {
   sourceLayerName: string;
   onLineHover: () => void;
   onRouteLayerClick: (route: Corridor | null) => void;
+  yearRange: YearRange;
 }
 
 interface Refs {
@@ -39,6 +40,7 @@ const RouteLayer: FC<IProps> = ({
   isSelected,
   onLineHover,
   onRouteLayerClick,
+  yearRange,
 }) => {
   const symbolLayerName = layerName + "-symbols";
 
@@ -46,6 +48,12 @@ const RouteLayer: FC<IProps> = ({
     useState<SetStateAction<LngLatBounds | LngLatBoundsLike | null>>(null);
 
   const refLayer = useRef<Refs>({ popup: null });
+
+  const initialFilter: Array<Array<string> | string> = [
+    "==",
+    "CORRIDOR",
+    corridor?.corridorName || "",
+  ];
 
   useEffect(() => {
     setupLayer();
@@ -79,7 +87,7 @@ const RouteLayer: FC<IProps> = ({
             "line-translate": corridor?.offset ? [3, 3] : [0, 0],
             "line-opacity": 1,
           },
-          filter: ["==", "CORRIDOR", corridor?.corridorName],
+          filter: initialFilter,
         });
 
         map.addLayer({
@@ -191,6 +199,21 @@ const RouteLayer: FC<IProps> = ({
   }, [map, isSelected]);
 
   useEffect(() => {
+    if (map) {
+      if (yearRange[0] && yearRange[1]) {
+        map.setFilter(layerName, [
+          "all",
+          initialFilter,
+          ["<=", "YR_START1", yearRange[1]],
+          // ["<=", "YR_END1", `${yearRange[1]}`],
+        ]);
+      } else {
+        map.setFilter(layerName, initialFilter);
+      }
+    }
+  }, [yearRange]);
+
+  useEffect(() => {
     if (map && map.getLayer(layerName)) {
       const styleSelectedLayer = () => {
         // Highlight selected layer
@@ -229,11 +252,7 @@ const RouteLayer: FC<IProps> = ({
     }
   });
 
-  return <div></div>;
+  return null;
 };
-
-// const PopUp = ({ e: object }) => {
-//   return <div>{JSON.stringify(e)}</div>;
-// };
 
 export default RouteLayer;

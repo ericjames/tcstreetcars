@@ -1,4 +1,5 @@
 import { LngLatLike } from "mapbox-gl";
+import { YearRange } from "./types";
 
 export const TC_CENTER: [number, number] = [-93.201, 44.9675];
 
@@ -22,9 +23,19 @@ export const SELECTED_LINE_WIDTH = 10;
 
 export const RECEDED_LINE_OPACITY = 0.3;
 
+export const YEAR_RANGES: Array<YearRange> = [
+  [1889, 1899],
+  [1904, 1917],
+  [1917, 1927],
+  [1928, 1930],
+  [1931, 1954],
+  [null, null],
+];
+
 export const HTML_POPUP = (e: any) => `
 <div style="padding: 0.5em; border-radius: 0.5em; background: #000; color: #fff">
 CORRIDOR: ${e?.features[0]?.properties.CORRIDOR}<br/>
 TYPE: ${e?.features[0]?.properties.TYPE}<br/>
+YEARS: ${e?.features[0]?.properties.YR_START1} - ${e?.features[0]?.properties.YR_END1}<br/>
 </div>
 `;

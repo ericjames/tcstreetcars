@@ -20,7 +20,7 @@ const Home: FC = () => {
     <div className="vh-100 d-flex flex-column">
       <Header />
       <div className="row flex-fill g-0">
-        <div className="col-4">
+        <div className="col-3">
           <InfoBox
             corridors={CORRIDORS}
             selectedCorridor={selectedCorridor}
@@ -28,7 +28,7 @@ const Home: FC = () => {
           />
         </div>
 
-        <div className="col-8">
+        <div className="col-9">
           <MapViewer
             corridors={CORRIDORS}
             selectedCorridor={selectedCorridor}

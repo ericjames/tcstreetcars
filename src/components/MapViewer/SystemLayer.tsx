@@ -32,7 +32,7 @@ const SystemLayer: FC<IProps> = ({
             },
             paint: {
               "line-color": COLORS.tcrt_olive,
-              "line-width": 1,
+              "line-width": 3,
             },
             filter: ["==", "TYPE", "Streetcar"],
           });

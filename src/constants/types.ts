@@ -21,6 +21,8 @@ export interface Corridor {
   offset?: boolean;
 }
 
+export type YearRange = [number | null, number | null];
+
 export enum AppState {
   Setup = "Setup",
   Start = "Start",
