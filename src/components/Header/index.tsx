@@ -1,23 +1,15 @@
-import React, { FC, useEffect, useState } from 'react';
+import React, { FC } from "react";
 
-import styled from 'styled-components';
+import styled from "styled-components";
 
-const Wrapper = styled.div`
-flex: 0 1 80px;
-display: flex;
-align-items: center;
-`;
+const Wrapper = styled.div``;
 
 const Header: FC = () => {
-
-  // const [appState, setAppState] = useState<AppState>(null);
-
-
   return (
-    <Wrapper>
-      <h1>TC Streetcars</h1>
+    <Wrapper className="d-flex p-3 align-items-center">
+      <h1 className="fs-3 m-0">TC Streetcars</h1>
     </Wrapper>
   );
-}
+};
 
 export default Header;

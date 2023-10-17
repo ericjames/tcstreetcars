@@ -1,0 +1,23 @@
+.mapboxgl-popup-content {
+  background: #000 !important;
+  color: #fff !important;
+  box-shadow: none !important;
+  padding: none !important;
+}
+
+.mapboxgl-popup {
+  animation: fadeIn 250ms;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  // Mapbox popup has a delay in positioning so hide it until here
+  25% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

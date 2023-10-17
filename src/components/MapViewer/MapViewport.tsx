@@ -8,8 +8,8 @@ import React, {
   useRef,
   useState,
 } from "react";
+import { STARTUP_ZOOM, TC_CENTER, TC_MAP_STYLE } from "../../constants";
 
-import { TC_CENTER } from "../../../../constants";
 import mapboxgl from "mapbox-gl";
 
 type IProps = {
@@ -35,10 +35,16 @@ const MapViewport: FC<IProps> = ({ setMap }) => {
     const mapboxMap = new mapboxgl.Map({
       container: node,
       accessToken: process.env.REACT_APP_MAPBOX_TOKEN,
-      style: "mapbox://styles/mapbox/streets-v11",
-      center: [TC_CENTER.longitude, TC_CENTER.latitude],
-      zoom: 9.5,
+      style: TC_MAP_STYLE,
+      center: TC_CENTER,
+      zoom: 10,
     });
+
+    // setTimeout(() => {
+    //   requestAnimationFrame(() => {
+    //     mapboxMap.flyTo({ duration: 5000, zoom: STARTUP_ZOOM, essential: true });
+    //   });
+    // }, 500);
 
     if (setMap) {
       setMap(mapboxMap);

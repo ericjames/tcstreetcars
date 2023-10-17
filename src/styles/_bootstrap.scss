@@ -1,14 +1,20 @@
-$darkLiver: rgba(84, 73, 75, 1);
-$isabelline: rgba(241, 247, 237, 1);
-$etonBlue: rgba(145, 199, 177, 1);
-$dingyDungeon: rgba(179, 57, 81, 1);
-$flax: rgba(227, 208, 129, 1);
+$tcrt_red: #a12a1e;
+$tcrt_beige: #bb9765;
+$tcrt_yellow: #fbd656;
+$tcrt_olive: #455041;
+$tcrt_map_red: #fa5340;
+$tcrt_map_green: #679d5f;
+$off_white1: #fffff0;
+$off_white2: #fcfbe8;
+$off_black1: #002211;
 
 $theme-colors: (
-  "primary": $isabelline,
-  "secondary": $darkLiver,
-  "light": $etonBlue,
-  "dark": $dingyDungeon
+  "primary": $tcrt_map_red,
+  "secondary": $tcrt_map_green,
+  "light": $off_white1,
+  "dark": $off_black1,
+  "picture": #ccc,
+  "selected": $tcrt_map_red
 );
 
 @import "~bootstrap/scss/bootstrap.scss";

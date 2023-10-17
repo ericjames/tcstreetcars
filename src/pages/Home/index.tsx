@@ -1,13 +1,16 @@
 import React, { FC, useEffect, useState } from "react";
 
+import { CORRIDORS } from "../../constants/DATA_CORRIDORS";
+import { Corridor } from "../../constants/types";
 import Header from "../../components/Header";
 import { IRouteProp } from "../../constants/props";
-import Info from "../../components/Info";
+import InfoBox from "../../components/InfoBox";
 import MapViewer from "../../components/MapViewer";
-import { Route } from "../../constants/types";
 
 const Home: FC = () => {
-  const [activeRoute, setActiveRoute] = useState<Route | null>(null);
+  const [selectedCorridor, setSelectedCorridor] = useState<Corridor | null>(
+    null
+  );
 
   useEffect(() => {
     // Router toggles on active route per URL?
@@ -15,16 +18,22 @@ const Home: FC = () => {
 
   return (
     <div className="vh-100 d-flex flex-column">
-      <div>
-        <Header />
-      </div>
-      <div className="row p-3 g-3 h-100">
+      <Header />
+      <div className="row flex-fill g-0">
         <div className="col-4">
-          <Info route={activeRoute} />
+          <InfoBox
+            corridors={CORRIDORS}
+            selectedCorridor={selectedCorridor}
+            setSelectedCorridor={setSelectedCorridor}
+          />
         </div>
 
         <div className="col-8">
-          <MapViewer route={activeRoute} setActiveRoute={setActiveRoute} />
+          <MapViewer
+            corridors={CORRIDORS}
+            selectedCorridor={selectedCorridor}
+            setSelectedCorridor={setSelectedCorridor}
+          />
         </div>
       </div>
     </div>

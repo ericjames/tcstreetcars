@@ -1,5 +1,5 @@
-import { Route } from "./types"
+import { Corridor } from "./types";
 
 export interface IRouteProp {
-  route: Route | null
+  corridor: Corridor | null;
 }

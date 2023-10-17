@@ -5,26 +5,44 @@ import React, {
   useEffect,
   useState,
 } from "react";
+import {
+  SOURCE_ID,
+  SOURCE_LAYER_NAME,
+  SOURCE_URL,
+  STARTUP_ZOOM,
+  TC_CENTER,
+} from "../../constants";
 
-import { ALL_ROUTES } from "../../constants/routes";
+import { Corridor } from "../../constants/types";
 import { ErrorBoundary } from "react-error-boundary";
-import { IRouteProp } from "../../constants/props";
-import Line from "./Line";
-import MapViewport from "../common/MapboxLibrary/MapViewport";
-import PhotoGallery from "../PhotoGallery";
-import { Route } from "../../constants/types";
-import RouteDetails from "./RouteDetails";
+import MapSource from "./MapSource";
+import MapViewport from "./MapViewport";
+import RouteInfoBox from "./RouteInfoBox";
+import RouteLayer from "./RouteLayer";
+import SystemLayer from "./SystemLayer";
 
 type IProps = {
-  route: Route | null;
-  setActiveRoute: Dispatch<SetStateAction<Route | null>>;
+  corridors: Array<Corridor>;
+  selectedCorridor: Corridor | null;
+  setSelectedCorridor: Dispatch<SetStateAction<Corridor | null>>;
 };
 
-const MapViewer: FC<IProps> = ({ route, setActiveRoute }) => {
+const MapViewer: FC<IProps> = ({
+  corridors,
+  selectedCorridor,
+  setSelectedCorridor,
+}) => {
   // const [appState, setAppState] = useState<AppState>(null);
   const [map, setMap] = useState<mapboxgl.Map>();
 
   // Router toggles viewable stuff not data
+
+  const resetMap = () => {
+    if (map) {
+      map.flyTo({ zoom: STARTUP_ZOOM, center: TC_CENTER });
+    }
+    setSelectedCorridor(null);
+  };
 
   const onLineHover = () => {
     toggleLineSelected();
@@ -32,28 +50,39 @@ const MapViewer: FC<IProps> = ({ route, setActiveRoute }) => {
 
   const toggleLineSelected = () => {};
 
-  const onLineClick = (route: Route | null) => {
-    setActiveRoute(route);
+  const onRouteLayerClick = (route: Corridor | null) => {
+    setSelectedCorridor(route);
   };
 
   return (
     <div className="h-100 position-relative">
       <ErrorBoundary fallback={<>Map couldn't load</>}>
         <MapViewport setMap={setMap} />
+        <MapSource map={map} id={SOURCE_ID} url={SOURCE_URL} />
+        <SystemLayer
+          map={map}
+          layerName={"system-layer"}
+          sourceLayerName={SOURCE_LAYER_NAME}
+          sourceId={SOURCE_ID}
+        />
 
-        <RouteDetails route={route} />
-
-        {ALL_ROUTES.map((route, i) => (
-          <Line
+        {corridors.map((corridor, i) => (
+          <RouteLayer
             key={i}
             map={map}
-            route={route}
+            corridor={corridor}
+            isSelected={
+              selectedCorridor ? selectedCorridor?.id === corridor.id : null
+            }
+            layerName={`route-layer-${corridor.id}`}
+            sourceId={SOURCE_ID}
+            sourceLayerName={SOURCE_LAYER_NAME}
             onLineHover={onLineHover}
-            onLineClick={onLineClick}
+            onRouteLayerClick={onRouteLayerClick}
           />
         ))}
 
-        <PhotoGallery photos={route?.photos} />
+        <RouteInfoBox corridor={selectedCorridor} resetMap={resetMap} />
       </ErrorBoundary>
     </div>
   );
