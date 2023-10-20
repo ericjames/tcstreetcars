@@ -8,6 +8,7 @@ import React, {
 } from "react";
 
 import CorridorInfo from "./CorridorInfo";
+import RouteList from "./RouteList";
 import styled from "styled-components";
 
 const Wrapper = styled.div`
@@ -26,18 +27,6 @@ const InfoBox: FC<IPropsInfoBox> = ({
   navigation,
 }) => {
   // const [appState, setAppState] = useState<AppState>(null);
-
-  let routesByCity: any = {};
-  corridors?.forEach((c) => {
-    if (c.mainCity) {
-      if (!routesByCity[c.mainCity]) {
-        routesByCity[c.mainCity] = [];
-      }
-      routesByCity[c.mainCity].push(c);
-    } else {
-      routesByCity["Minneapolis"].push(c);
-    }
-  });
 
   return (
     <Wrapper className="bg-sidebar">
@@ -66,35 +55,29 @@ const InfoBox: FC<IPropsInfoBox> = ({
           </div>
         )}
 
-        <h3>Minneapolis</h3>
-        <div className="list-group">
-          {routesByCity &&
-            routesByCity.Minneapolis.map((route: Corridor, i: number) => (
-              <button
-                key={i}
-                className={`list-group-item list-group-item-action w-100 text-start
-                  ${selectedCorridor?.id === route.id ? "active" : ""}
-                `}
-                onClick={() => setSelectedCorridor(route)}>
-                {route.routeName}
-              </button>
-            ))}
-        </div>
+        <RouteList
+          corridors={corridors}
+          selectedCorridor={selectedCorridor}
+          setSelectedCorridor={setSelectedCorridor}
+          filterOut={[
+            ["mainCity", "Minneapolis"],
+            ["DATA_TYPE", selectedType?.toString() || ""],
+          ]}
+          sortProperty="routeName"
+          heading="Minneapolis"
+        />
 
-        <h3 className="mt-5">Saint Paul</h3>
-        <div className="list-group">
-          {routesByCity &&
-            routesByCity["Saint Paul"].map((route: Corridor, i: number) => (
-              <button
-                key={i}
-                className={`list-group-item list-group-item-action w-100 text-start
-                  ${selectedCorridor?.id === route.id ? "active" : ""}
-                `}
-                onClick={() => setSelectedCorridor(route)}>
-                {route.routeName}
-              </button>
-            ))}
-        </div>
+        <RouteList
+          corridors={corridors}
+          selectedCorridor={selectedCorridor}
+          setSelectedCorridor={setSelectedCorridor}
+          filterOut={[
+            ["mainCity", "Saint Paul"],
+            ["DATA_TYPE", selectedType?.toString() || ""],
+          ]}
+          sortProperty="routeName"
+          heading="Saint Paul"
+        />
         <br />
         <br />
         <br />

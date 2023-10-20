@@ -25,15 +25,15 @@ export enum RegionName {
   north = "North Metro",
   south = "South Metro",
 }
-export interface RoutePhoto {
+export type RoutePhoto = {
   previewUrl?: string;
   fullSizeUrl?: string;
   name?: string;
   source?: string;
   sourceUrl?: string;
-}
+};
 
-export interface Corridor {
+export type Corridor = {
   id: number; // Internal
   DATA_CORRIDOR: string; // Reference Mapbox tileset
   DATA_TYPE: string; // Reference Mapbox tileset
@@ -48,7 +48,7 @@ export interface Corridor {
   photos?: Array<RoutePhoto>;
   overlapIndex?: number;
   mainCity?: string;
-}
+};
 
 export type YearRange = [number | null, number | null];
 
