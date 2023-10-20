@@ -1,7 +1,13 @@
-import { DEFAULT_LINE_WIDTH, HTML_POPUP } from "../../constants";
+import {
+  DEFAULT_LINE_WIDTH,
+  HTML_POPUP,
+  LINE_WIDTH_STOPS,
+} from "../../constants/mapbox";
 import React, { FC, useEffect, useRef, useState } from "react";
 
 import { COLORS } from "../../constants/colors";
+import { YEAR_FILTER_HOOK } from "./helpers";
+import { YearRange } from "../../constants/types";
 import mapboxgl from "mapbox-gl";
 
 type IProps = {
@@ -9,6 +15,7 @@ type IProps = {
   sourceId: string;
   sourceLayerName: string;
   map: mapboxgl.Map | undefined;
+  yearRange: YearRange;
 };
 
 const SystemLayer: FC<IProps> = ({
@@ -16,54 +23,90 @@ const SystemLayer: FC<IProps> = ({
   sourceId,
   sourceLayerName,
   map,
+  yearRange,
 }) => {
+  const initialFilter = null;
+
   useEffect(() => {
+    setupLayer();
+
+    return () => {
+      if (map) {
+        map.on("load", () => {
+          map.removeLayer(layerName);
+        });
+      }
+    };
+  }, [map]);
+
+  const setupLayer = () => {
     if (map) {
       map.on("load", () => {
-        if (!map.getLayer(layerName)) {
-          map.addLayer({
-            id: layerName,
-            source: sourceId,
-            "source-layer": sourceLayerName,
-            type: "line",
-            layout: {
-              "line-join": "round",
-              "line-cap": "round",
-            },
-            paint: {
-              "line-color": COLORS.tcrt_olive,
-              "line-width": 3,
-            },
-            filter: ["==", "TYPE", "Streetcar"],
-          });
-
-          let popup: mapboxgl.Popup;
-
-          map.on("click", layerName, (e) => {
-            if (e) {
-              new mapboxgl.Popup()
-                .setLngLat(e.lngLat)
-                .setHTML(HTML_POPUP(e))
-                .addTo(map);
-            }
-          });
-
-          // Change the cursor to a pointer when
-          // the mouse is over the states layer.
-
-          map.on("mouseenter", layerName, (e) => {
-            map.getCanvas().style.cursor = "pointer";
-          });
-
-          // Change the cursor back to a pointer
-          // when it leaves the states layer.
-          map.on("mouseleave", layerName, () => {
-            map.getCanvas().style.cursor = "";
-          });
+        if (map.getLayer(layerName)) {
+          return null;
         }
+
+        map.addLayer({
+          id: layerName,
+          source: sourceId,
+          "source-layer": sourceLayerName,
+          type: "line",
+          layout: {
+            "line-join": "round",
+            "line-cap": "round",
+          },
+          paint: {
+            "line-color": [
+              "case",
+              ["==", ["get", "TYPE"], "Streetcar"],
+              "#000",
+              ["==", ["get", "TYPE"], "Bus"],
+              COLORS.bus,
+              ["==", ["get", "TYPE"], "Ferry"],
+              COLORS.ferry,
+              ["==", ["get", "TYPE"], "Steam Power"],
+              COLORS.steampower,
+              ["==", ["get", "TYPE"], "Horsecar"],
+              COLORS.horsecar,
+              COLORS.black1,
+            ],
+            "line-width": LINE_WIDTH_STOPS,
+          },
+        });
+
+        let popup: mapboxgl.Popup;
+
+        map.on("click", layerName, (e) => {
+          if (e) {
+            new mapboxgl.Popup()
+              .setLngLat(e.lngLat)
+              .setHTML(HTML_POPUP(e))
+              .addTo(map);
+          }
+        });
+
+        // Change the cursor to a pointer when
+        // the mouse is over the states layer.
+
+        map.on("mouseenter", layerName, (e) => {
+          map.getCanvas().style.cursor = "pointer";
+        });
+
+        // Change the cursor back to a pointer
+        // when it leaves the states layer.
+        map.on("mouseleave", layerName, () => {
+          map.getCanvas().style.cursor = "";
+        });
       });
     }
-  }, [map]);
+  };
+
+  YEAR_FILTER_HOOK({
+    map,
+    yearRange,
+    layerName,
+    initialFilter,
+  });
 
   return null;
 };

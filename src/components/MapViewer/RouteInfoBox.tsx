@@ -35,18 +35,11 @@ const RouteInfoBox: FC<IProps> = ({ corridor, resetMap }) => {
   };
   return (
     <Wrapper
-      className={`bg-light position-absolute p-3`}
+      className={`position-absolute p-3`}
       style={{
         bottom: isActive ? 0 : -250,
-      }}
-    >
+      }}>
       <button onClick={onButtonClick}>Exit</button>
-      <ul>
-        <li>Corridor: {corridor?.corridorName}</li>
-        <li>Route Name: {corridor?.routeName}</li>
-        <li>Year Start: {corridor?.yearStart}</li>
-        <li>Year End: {corridor?.yearEnd}</li>
-      </ul>
       <PhotoGallery photos={corridor?.photos} />
     </Wrapper>
   );

@@ -1,20 +1,11 @@
-$tcrt_red: #a12a1e;
-$tcrt_beige: #bb9765;
-$tcrt_yellow: #fbd656;
-$tcrt_olive: #455041;
-$tcrt_map_red: #fa5340;
-$tcrt_map_green: #679d5f;
-$off_white1: #fffff0;
-$off_white2: #fcfbe8;
-$off_black1: #002211;
-
 $theme-colors: (
   "primary": $tcrt_map_red,
   "secondary": $tcrt_map_green,
-  "light": $off_white1,
+  "light": $very_light_gray,
   "dark": $off_black1,
-  "picture": #ccc,
-  "selected": $tcrt_map_red
+  "picture": $light_gray,
+  "selected": $tcrt_map_red,
+  "sidebar": $map_bg_beige
 );
 
 @import "~bootstrap/scss/bootstrap.scss";

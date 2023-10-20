@@ -7,7 +7,7 @@ import React, {
   useState,
 } from "react";
 
-import { YEAR_RANGES } from "../../constants";
+import { YEAR_RANGES } from "../../constants/mapbox";
 import styled from "styled-components";
 
 const Wrapper = styled.div`
@@ -31,10 +31,8 @@ const YearToggler: FC<IProps> = ({
     setYearRange(range);
   };
   return (
-    <Wrapper
-      className={`btn-group`}
-    >
-      {YEAR_RANGES.map((range) => {
+    <Wrapper className={`btn-group`}>
+      {YEAR_RANGES.map((range, i) => {
         const isAllYears = !range[0] && !range[1];
         const isSelected = isAllYears
           ? !yearRange[0] && !yearRange[1]
@@ -42,6 +40,7 @@ const YearToggler: FC<IProps> = ({
 
         return (
           <button
+            key={i}
             onClick={() => onButtonClick(range)}
             className={`btn btn-small ${isSelected ? "btn-light" : ""}`}
           >

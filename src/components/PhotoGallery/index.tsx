@@ -18,13 +18,13 @@ const PhotoGallery: FC<IProps> = ({ photos }) => {
       {photos?.map((photo) => (
         <Photo photo={photo} />
       ))}
-      {!photos && (
+      {/* {!photos && (
         <>
           <Photo />
           <Photo />
           <Photo />
         </>
-      )}
+      )} */}
     </Wrapper>
   );
 };

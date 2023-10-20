@@ -2,9 +2,10 @@ import { Corridor, YearRange } from "../../constants/types";
 import {
   DEFAULT_LINE_WIDTH,
   HTML_POPUP,
+  LINE_WIDTH_STOPS,
   RECEDED_LINE_OPACITY,
   SELECTED_LINE_WIDTH,
-} from "../../constants";
+} from "../../constants/mapbox";
 import { FC, SetStateAction, useEffect, useRef, useState } from "react";
 import mapboxgl, {
   LngLatBounds,
@@ -13,7 +14,8 @@ import mapboxgl, {
 } from "mapbox-gl";
 
 import { COLORS } from "../../constants/colors";
-import { IRouteProp } from "../../constants/props";
+import { IRouteProp } from "../../constants/types";
+import { YEAR_FILTER_HOOK } from "./helpers";
 
 interface IProps extends IRouteProp {
   map: mapboxgl.Map | undefined;
@@ -50,9 +52,9 @@ const RouteLayer: FC<IProps> = ({
   const refLayer = useRef<Refs>({ popup: null });
 
   const initialFilter: Array<Array<string> | string> = [
-    "==",
-    "CORRIDOR",
-    corridor?.corridorName || "",
+    "all",
+    ["==", "CORRIDOR", corridor?.DATA_CORRIDOR || ""],
+    ["==", "TYPE", corridor?.DATA_TYPE || ""],
   ];
 
   useEffect(() => {
@@ -83,8 +85,8 @@ const RouteLayer: FC<IProps> = ({
           },
           paint: {
             "line-color": COLORS.tcrt_map_red,
-            "line-width": DEFAULT_LINE_WIDTH,
-            "line-translate": corridor?.offset ? [3, 3] : [0, 0],
+            "line-width": LINE_WIDTH_STOPS,
+            // "line-translate": [corridor?.id ? corridor?.id * 0.25 : 0, 0],
             "line-opacity": 1,
           },
           filter: initialFilter,
@@ -96,7 +98,7 @@ const RouteLayer: FC<IProps> = ({
           "source-layer": sourceLayerName,
           type: "symbol",
           layout: {
-            "text-field": "{CORRIDOR}",
+            "text-field": corridor?.routeName,
             "symbol-placement": "line",
             "text-size": 14,
             // "text-size": ['match', ['get', 'id'], 0, 1, 0.8]
@@ -109,14 +111,14 @@ const RouteLayer: FC<IProps> = ({
             "text-halo-color": "#fff",
             "text-halo-width": 3,
           },
-          filter: ["==", "CORRIDOR", corridor?.corridorName],
+          filter: initialFilter,
         });
 
         map.once("idle", () => {
           if (!bounds) {
             const features = map.querySourceFeatures(sourceId, {
               sourceLayer: sourceLayerName,
-              filter: ["==", "CORRIDOR", corridor?.corridorName],
+              filter: initialFilter,
             });
             if (features && features.length) {
               // const allCoordinates:any = [];
@@ -198,20 +200,12 @@ const RouteLayer: FC<IProps> = ({
     }
   }, [map, isSelected]);
 
-  useEffect(() => {
-    if (map) {
-      if (yearRange[0] && yearRange[1]) {
-        map.setFilter(layerName, [
-          "all",
-          initialFilter,
-          ["<=", "YR_START1", yearRange[1]],
-          // ["<=", "YR_END1", `${yearRange[1]}`],
-        ]);
-      } else {
-        map.setFilter(layerName, initialFilter);
-      }
-    }
-  }, [yearRange]);
+  YEAR_FILTER_HOOK({
+    map,
+    yearRange,
+    layerName,
+    initialFilter,
+  });
 
   useEffect(() => {
     if (map && map.getLayer(layerName)) {

@@ -1,3 +1,4 @@
+import { Corridor, IPropsInfoBox } from "../../constants/types";
 import React, {
   Dispatch,
   FC,
@@ -6,55 +7,98 @@ import React, {
   useState,
 } from "react";
 
-import { Corridor } from "../../constants/types";
+import CorridorInfo from "./CorridorInfo";
 import styled from "styled-components";
 
 const Wrapper = styled.div`
-  margin: 1em;
-  padding: 1em;
-  background: #fff;
-  height: 90vh;
-  overflow: scroll;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
 `;
 
-type IProps = {
-  selectedCorridor: Corridor | null;
-  corridors: Array<Corridor>;
-  setSelectedCorridor: Dispatch<SetStateAction<Corridor | null>>;
-};
-
-const InfoBox: FC<IProps> = ({
+const InfoBox: FC<IPropsInfoBox> = ({
   selectedCorridor,
   setSelectedCorridor,
+  selectedType,
+  setSelectedType,
   corridors,
+  navigation,
 }) => {
   // const [appState, setAppState] = useState<AppState>(null);
 
-  return (
-    <Wrapper>
-      <h2>Welcome</h2>
-      <p>
-        Streetcars created the Twin Cities we see today. From 1890 to 1954, the
-        yellow and green cars criss-crossed the urban grid. Explore the transit
-        map by clicking on lines or by scrolling and finding a route below.
-      </p>
+  let routesByCity: any = {};
+  corridors?.forEach((c) => {
+    if (c.mainCity) {
+      if (!routesByCity[c.mainCity]) {
+        routesByCity[c.mainCity] = [];
+      }
+      routesByCity[c.mainCity].push(c);
+    } else {
+      routesByCity["Minneapolis"].push(c);
+    }
+  });
 
-      <h2>Streetcar Routes</h2>
-      <ul>
-        {corridors.map((route, i) => (
-          <li
-            key={i}
-            className={selectedCorridor?.id === route.id ? "bg-selected" : ""}
-          >
-            <button
-              onClick={() => setSelectedCorridor(route)}
-              className="btn btn-large w-100 text-start"
-            >
-              {route.id} {route.corridorName} {route.routeName}
-            </button>
-          </li>
-        ))}
-      </ul>
+  return (
+    <Wrapper className="bg-sidebar">
+      <CorridorInfo
+        selectedCorridor={selectedCorridor}
+        setSelectedCorridor={setSelectedCorridor}
+      />
+
+      <div className={`p-4 h-100 overflow-scroll`}>
+        <p>
+          A grand transportation system created the Twin Cities metro area.
+          Explore by metro region above and select routes below.
+        </p>
+
+        {navigation?.types && (
+          <div className="btn-group w-100 mb-4">
+            {navigation?.types?.map((type) => (
+              <button
+                className={`btn btn-outline-secondary ${
+                  selectedType === type ? "btn-selected" : ""
+                }`}
+                onClick={() => setSelectedType(type)}>
+                {type}
+              </button>
+            ))}
+          </div>
+        )}
+
+        <h3>Minneapolis</h3>
+        <div className="list-group">
+          {routesByCity &&
+            routesByCity.Minneapolis.map((route: Corridor, i: number) => (
+              <button
+                key={i}
+                className={`list-group-item list-group-item-action w-100 text-start
+                  ${selectedCorridor?.id === route.id ? "active" : ""}
+                `}
+                onClick={() => setSelectedCorridor(route)}>
+                {route.routeName}
+              </button>
+            ))}
+        </div>
+
+        <h3 className="mt-5">Saint Paul</h3>
+        <div className="list-group">
+          {routesByCity &&
+            routesByCity["Saint Paul"].map((route: Corridor, i: number) => (
+              <button
+                key={i}
+                className={`list-group-item list-group-item-action w-100 text-start
+                  ${selectedCorridor?.id === route.id ? "active" : ""}
+                `}
+                onClick={() => setSelectedCorridor(route)}>
+                {route.routeName}
+              </button>
+            ))}
+        </div>
+        <br />
+        <br />
+        <br />
+      </div>
     </Wrapper>
   );
 };

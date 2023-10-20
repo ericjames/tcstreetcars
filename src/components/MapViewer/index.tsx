@@ -12,9 +12,10 @@ import {
   SOURCE_URL,
   STARTUP_ZOOM,
   TC_CENTER,
-} from "../../constants";
+} from "../../constants/mapbox";
 
 import { ErrorBoundary } from "react-error-boundary";
+import { IPropsMapViewer } from "../../constants/types";
 import MapSource from "./MapSource";
 import MapViewport from "./MapViewport";
 import RouteInfoBox from "./RouteInfoBox";
@@ -22,16 +23,12 @@ import RouteLayer from "./RouteLayer";
 import SystemLayer from "./SystemLayer";
 import YearToggler from "./YearToggler";
 
-interface IMapProps {
-  corridors: Array<Corridor>;
-  selectedCorridor: Corridor | null;
-  setSelectedCorridor: Dispatch<SetStateAction<Corridor | null>>;
-}
-
-const MapViewer: FC<IMapProps> = ({
+const MapViewer: FC<IPropsMapViewer> = ({
   corridors,
   selectedCorridor,
   setSelectedCorridor,
+  selectedType,
+  setSelectedType,
 }) => {
   // const [appState, setAppState] = useState<AppState>(null);
   const [map, setMap] = useState<mapboxgl.Map>();
@@ -43,7 +40,6 @@ const MapViewer: FC<IMapProps> = ({
     if (map) {
       map.flyTo({ zoom: STARTUP_ZOOM, center: TC_CENTER });
     }
-    setSelectedCorridor(null);
   };
 
   const onLineHover = () => {
@@ -55,6 +51,12 @@ const MapViewer: FC<IMapProps> = ({
   const onRouteLayerClick = (route: Corridor | null) => {
     setSelectedCorridor(route);
   };
+
+  useEffect(() => {
+    if (selectedCorridor === null) {
+      resetMap();
+    }
+  }, [selectedCorridor]);
 
   return (
     <div className="h-100 position-relative">
@@ -71,24 +73,26 @@ const MapViewer: FC<IMapProps> = ({
           layerName={"system-layer"}
           sourceLayerName={SOURCE_LAYER_NAME}
           sourceId={SOURCE_ID}
+          yearRange={yearRange}
         />
 
-        {corridors.map((corridor, i) => (
-          <RouteLayer
-            key={i}
-            map={map}
-            corridor={corridor}
-            isSelected={
-              selectedCorridor ? selectedCorridor?.id === corridor.id : null
-            }
-            layerName={`route-layer-${corridor.id}`}
-            sourceId={SOURCE_ID}
-            sourceLayerName={SOURCE_LAYER_NAME}
-            onLineHover={onLineHover}
-            onRouteLayerClick={onRouteLayerClick}
-            yearRange={yearRange}
-          />
-        ))}
+        {corridors &&
+          corridors.map((corridor, i) => (
+            <RouteLayer
+              key={i}
+              map={map}
+              corridor={corridor}
+              isSelected={
+                selectedCorridor ? selectedCorridor?.id === corridor.id : null
+              }
+              layerName={`route-layer-${corridor.id}`}
+              sourceId={SOURCE_ID}
+              sourceLayerName={SOURCE_LAYER_NAME}
+              onLineHover={onLineHover}
+              onRouteLayerClick={onRouteLayerClick}
+              yearRange={yearRange}
+            />
+          ))}
 
         <RouteInfoBox corridor={selectedCorridor} resetMap={resetMap} />
       </ErrorBoundary>

@@ -1,33 +1,37 @@
+@import "./_colors.scss";
 @import "./_bootstrap.scss";
 @import "./_mapbox.scss";
 
+.btn-white:hover {
+  background: $very_light_gray;
+}
+
+.btn-selected {
+  background: none;
+  border-bottom: 2px solid var(--bs-btn-hover-bg);
+}
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
-    "Droid Sans", "Helvetica Neue", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background: #eee;
+  font-family: "PT Serif";
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Oswald";
 }
 
-input,
-button {
-  padding: 0.5em;
-  font: inherit;
-  border-radius: 0.5em;
-  border: 1px solid #aaa;
-  margin-right: 0.5em;
+h1 {
+  font-size: 2em;
 }
-
-button {
-  cursor: pointer;
-  padding: 0.5em 1em 0.5em 1em;
+h2 {
+  font-size: 1.7em;
 }
-
-button:hover {
-  background: #ccc !important;
+h3 {
+  font-size: 1.5em;
+}
+h4 {
+  font-size: 1.4em;
 }

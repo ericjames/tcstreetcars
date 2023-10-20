@@ -1,3 +1,30 @@
+import { Dispatch, SetStateAction } from "react";
+
+export enum TransitTypes {
+  STREETCAR = "Streetcar",
+  HORSECAR = "Horsecar",
+  FERRY = "Ferry",
+  STEAMPOWER = "Steam Power",
+  BUS = "Bus",
+  TRAIN = "Train",
+  FREIGHT = "Freight",
+}
+
+export interface NavigationState {
+  title: string;
+  showPage?: string;
+  types?: Array<TransitTypes>;
+}
+
+export type NavigationStateProp = NavigationState | null;
+
+export enum RegionName {
+  tc = "Twin Cities",
+  west = "West Metro",
+  east = "East Metro",
+  north = "North Metro",
+  south = "South Metro",
+}
 export interface RoutePhoto {
   previewUrl?: string;
   fullSizeUrl?: string;
@@ -7,91 +34,126 @@ export interface RoutePhoto {
 }
 
 export interface Corridor {
-  id: number;
-  corridorName: string;
-  terminus: string;
-  type: string;
-  description: string;
-  routeName: string;
-  mainColor: string;
+  id: number; // Internal
+  DATA_CORRIDOR: string; // Reference Mapbox tileset
+  DATA_TYPE: string; // Reference Mapbox tileset
   yearStart: number | null;
   yearEnd: number | null;
-  source: string;
-  photos: Array<RoutePhoto>;
-  offset?: boolean;
+  routeName: string;
+  routeNumber?: string;
+  terminus?: string;
+  description?: string;
+  mainColor?: string;
+  sources?: string;
+  photos?: Array<RoutePhoto>;
+  overlapIndex?: number;
+  mainCity?: string;
 }
 
 export type YearRange = [number | null, number | null];
 
-export enum AppState {
-  Setup = "Setup",
-  Start = "Start",
-  End = "End",
-  Open = "Open", // blocking and pathing time
+export interface IRouteProp {
+  corridor: Corridor | null;
+}
+export interface IPropsHeader {
+  navigation: NavigationStateProp;
+  setNavigation: Dispatch<SetStateAction<NavigationStateProp>>;
 }
 
-export enum CellType {
-  Start = "Start",
-  End = "End",
-  Open = "Open",
-  Passed = "Passed",
-  Blocked = "Blocked",
+export interface IPropsInfoBox {
+  navigation?: NavigationStateProp;
+  corridors?: Array<Corridor>;
+  selectedCorridor: Corridor | null;
+  setSelectedCorridor: Dispatch<SetStateAction<Corridor | null>>;
+  selectedType: TransitTypes | null;
+  setSelectedType: Dispatch<SetStateAction<TransitTypes | null>>;
 }
 
-export type OnCellClick = (cell: CellStatus) => void;
-
-export interface GridForm {
-  rows: number;
-  columns: number;
+export interface IPropsMapViewer {
+  navigation?: NavigationStateProp;
+  corridors?: Array<Corridor>;
+  selectedCorridor: Corridor | null;
+  setSelectedCorridor: Dispatch<SetStateAction<Corridor | null>>;
+  selectedType: TransitTypes | null;
+  setSelectedType: Dispatch<SetStateAction<TransitTypes | null>>;
 }
 
-export type CellIndex = number;
-export interface CellStatus {
-  x: number | null;
-  y: number | null;
-  type: CellType;
-  index: CellIndex; // location in main array
-  boundaryLeft: boolean;
-  boundaryRight: boolean;
-  boundaryTop: boolean;
-  boundaryBottom: boolean;
+export interface IPropsCorridorInfo {
+  selectedCorridor: Corridor | null;
+  setSelectedCorridor: Dispatch<SetStateAction<Corridor | null>>;
 }
 
-export type CellGrid = Array<Array<CellStatus>>;
+//////////
 
-// Pathfinder Types
+// export enum AppState {
+//   Setup = "Setup",
+//   Start = "Start",
+//   End = "End",
+//   Open = "Open", // blocking and pathing time
+// }
 
-export enum Direction {
-  Up = "Up",
-  Down = "Down",
-  Left = "Left",
-  Right = "Right",
-}
-export interface PathCell {
-  cellIndex: CellIndex; // location in main array
-  result: PathSearchResult; // help determine if we've reached the end of a path
-  prevDirection: Direction; // help UI draw arrows
-  nextDirection: Direction; // help UI draw arrows
-}
-export type Path = Array<PathCell>;
-export type PathsThroughMatrix = Array<Path>;
-export type MatrixGrid = Array<Array<MatrixCell>>;
+// export enum CellType {
+//   Start = "Start",
+//   End = "End",
+//   Open = "Open",
+//   Passed = "Passed",
+//   Blocked = "Blocked",
+// }
 
-export interface MatrixCell {
-  cellIndex: CellIndex;
-  type: CellType;
-}
+// export type OnCellClick = (cell: CellStatus) => void;
 
-export interface QueueCell extends MatrixCell {
-  y: number;
-  x: number;
-  path: Path;
-  prevDirection: Direction; // Gets passed into PathCell later
-  nextDirection: Direction; // Gets passed into PathCell later
-}
+// export interface GridForm {
+//   rows: number;
+//   columns: number;
+// }
 
-export enum PathSearchResult {
-  Reached = "Reached",
-  Blocked = "Blocked",
-  Passed = "Passed",
-}
+// export type CellIndex = number;
+// export interface CellStatus {
+//   x: number | null;
+//   y: number | null;
+//   type: CellType;
+//   index: CellIndex; // location in main array
+//   boundaryLeft: boolean;
+//   boundaryRight: boolean;
+//   boundaryTop: boolean;
+//   boundaryBottom: boolean;
+// }
+
+// export type CellGrid = Array<Array<CellStatus>>;
+
+// // Pathfinder Types
+
+// export enum Direction {
+//   Up = "Up",
+//   Down = "Down",
+//   Left = "Left",
+//   Right = "Right",
+// }
+// export interface PathCell {
+//   cellIndex: CellIndex; // location in main array
+//   result: PathSearchResult; // help determine if we've reached the end of a path
+//   prevDirection: Direction; // help UI draw arrows
+//   nextDirection: Direction; // help UI draw arrows
+// }
+// export type Path = Array<PathCell>;
+// export type PathsThroughMatrix = Array<Path>;
+// export type MatrixGrid = Array<Array<MatrixCell>>;
+
+// export interface MatrixCell {
+//   cellIndex: CellIndex;
+//   type: CellType;
+// }
+
+// export interface QueueCell extends MatrixCell {
+//   y: number;
+//   x: number;
+//   path: Path;
+//   prevDirection: Direction; // Gets passed into PathCell later
+//   nextDirection: Direction; // Gets passed into PathCell later
+// }
+
+// export enum PathSearchResult {
+//   Reached = "Reached",
+//   Blocked = "Blocked",
+//   Passed = "Passed",
+// }

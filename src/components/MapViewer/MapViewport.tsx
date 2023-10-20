@@ -8,7 +8,7 @@ import React, {
   useRef,
   useState,
 } from "react";
-import { STARTUP_ZOOM, TC_CENTER, TC_MAP_STYLE } from "../../constants";
+import { STARTUP_ZOOM, TC_CENTER, TC_MAP_STYLE } from "../../constants/mapbox";
 
 import mapboxgl from "mapbox-gl";
 
