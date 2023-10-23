@@ -3,10 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@mapbox/mapbox-gl-draw": "^1.4.3",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "@types/jest": "^27.5.2",
+    "@types/mapbox__mapbox-gl-draw": "^1.4.5",
     "@types/mapbox-gl": "^2.7.15",
     "@types/node": "^16.18.11",
     "@types/react": "^18.0.26",
@@ -48,6 +50,7 @@
   "devDependencies": {
     "@types/node-sass": "^4.11.5",
     "@types/styled-components": "^5.1.26",
+    "json-loader": "^0.5.7",
     "node-sass": "^7.0.3",
     "sass": "^1.69.3"
   }

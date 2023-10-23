@@ -1,17 +1,11 @@
-import React, {
-  Dispatch,
-  FC,
-  SetStateAction,
-  useEffect,
-  useState,
-} from "react";
+import React, { FC } from "react";
 
-import { IPropsCorridorInfo } from "../../constants/types";
+import { IPropsCorridorInfo } from "../../../constants/types";
 import styled from "styled-components";
 
-const Wrapper = styled.div<{ "data-isActive"?: string }>`
+const Wrapper = styled.div<{ "data-isactive"?: string }>`
   top: 0;
-  left: ${(p) => (p["data-isActive"] === "true" ? "0" : "110%")};
+  left: ${(p) => (p["data-isactive"] === "true" ? "0" : "110%")};
   width: 100%;
   height: 100%;
   overflow: scroll;
@@ -27,7 +21,7 @@ const CorridorInfo: FC<IPropsCorridorInfo> = ({
   return (
     <Wrapper
       className="bg-sidebar shadow-lg"
-      data-isActive={`${selectedCorridor !== null}`}>
+      data-isactive={`${selectedCorridor !== null}`}>
       <button className="btn btn-lg" onClick={() => setSelectedCorridor(null)}>
         &larr;
       </button>

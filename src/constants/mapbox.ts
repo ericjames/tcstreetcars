@@ -2,16 +2,27 @@ import { YearRange } from "./types";
 import mapboxgl from "mapbox-gl";
 
 export const TC_CENTER: [number, number] = [-93.201, 44.9675];
+export const WESTMETRO_CENTER: [number, number] = [-93.48, 44.932];
+export const EASTMETRO_CENTER: [number, number] = [-92.918, 45.024];
+export const NORTHMETRO_CENTER: [number, number] = [-93.319, 45.123];
+export const SOUTHMETRO_CENTER: [number, number] = [-93.121, 44.786];
+
+export const TC_ZOOM = 11.2;
+export const WESTMETRO_ZOOM = 10.5;
+export const EASTMETRO_ZOOM = 10.9;
+export const NORTHMETRO_ZOOM = 11;
+export const SOUTHMETRO_ZOOM = 10.1;
 
 export const TC_MAP_STYLE =
   "mapbox://styles/fluidicmethod/ckvdayqly5n1714pca4qep17o";
-
-export const STARTUP_ZOOM = 11.5;
 
 export const SOURCE_ID = "historic-routes-source";
 
 export const SOURCE_URL =
   "mapbox://fluidicmethod.cja7kfi3dax6q2qpa97jgg3sz-1hsge";
+
+export const SOURCE_DATASET_URL =
+  "mapbox://fluidicmethod.cja7kfi3dax6q2qpa97jgg3sz";
 
 export const SOURCE_LAYER_NAME = "Historic_Transit_Routes_-_Twin_C";
 
@@ -40,14 +51,27 @@ export const LINE_WIDTH_STOPS = {
   ],
 };
 
-export const HTML_POPUP = (e: any) => `
-<div style="padding: 0.5em; border-radius: 0.5em; background: #000; color: #fff">
-ID: ${e?.features[0]?.properties.ID}<br/>
-CORRIDOR: ${e?.features[0]?.properties.CORRIDOR}<br/>
-TYPE: ${e?.features[0]?.properties.TYPE}<br/>
-YEARS: ${e?.features[0]?.properties.YR_START1} - ${e?.features[0]?.properties.YR_END1}<br/>
-</div>
-`;
+export const LABEL_SIZE_STOPS = {
+  stops: [
+    [8, 8],
+    [11, 10],
+    [13, 15],
+  ],
+};
+
+export const HTML_POPUP = (e: any) => {
+  const feature = e?.features[0];
+  const prop = feature?.properties || {};
+  return `
+  <div className="mapbox-popup-inner">
+    feature id: ${feature.id}<br/>
+    CORRIDOR: ${prop?.CORRIDOR}<br/>
+    GROUP_ID: ${prop?.GROUP_ID}<br/>
+    TYPE: ${prop?.TYPE}<br/>
+    YEARS: ${prop?.YR_START1} - ${prop?.YR_END1}<br/>
+  </div>
+  `;
+};
 
 export const addAnimation = (map: mapboxgl.Map) => {
   // add a line layer without line-dasharray defined to fill the gaps in the dashed line

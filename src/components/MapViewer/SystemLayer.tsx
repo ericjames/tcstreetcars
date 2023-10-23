@@ -1,13 +1,13 @@
+import { Corridor, TransitTypes, YearRange } from "../../constants/types";
 import {
-  DEFAULT_LINE_WIDTH,
   HTML_POPUP,
   LINE_WIDTH_STOPS,
+  RECEDED_LINE_OPACITY,
 } from "../../constants/mapbox";
 import React, { FC, useEffect, useRef, useState } from "react";
 
 import { COLORS } from "../../constants/colors";
 import { YEAR_FILTER_HOOK } from "./helpers";
-import { YearRange } from "../../constants/types";
 import mapboxgl from "mapbox-gl";
 
 type IProps = {
@@ -16,6 +16,8 @@ type IProps = {
   sourceLayerName: string;
   map: mapboxgl.Map | undefined;
   yearRange: YearRange;
+  selectedCorridor: Corridor | null;
+  selectedType: TransitTypes | null;
 };
 
 const SystemLayer: FC<IProps> = ({
@@ -24,6 +26,8 @@ const SystemLayer: FC<IProps> = ({
   sourceLayerName,
   map,
   yearRange,
+  selectedCorridor,
+  selectedType,
 }) => {
   const initialFilter = null;
 
@@ -32,9 +36,7 @@ const SystemLayer: FC<IProps> = ({
 
     return () => {
       if (map) {
-        map.on("load", () => {
-          map.removeLayer(layerName);
-        });
+        map.removeLayer(layerName);
       }
     };
   }, [map]);
@@ -49,7 +51,7 @@ const SystemLayer: FC<IProps> = ({
         map.addLayer({
           id: layerName,
           source: sourceId,
-          "source-layer": sourceLayerName,
+          // "source-layer": sourceLayerName,
           type: "line",
           layout: {
             "line-join": "round",
@@ -59,7 +61,7 @@ const SystemLayer: FC<IProps> = ({
             "line-color": [
               "case",
               ["==", ["get", "TYPE"], "Streetcar"],
-              "#000",
+              COLORS.map_dark_red,
               ["==", ["get", "TYPE"], "Bus"],
               COLORS.bus,
               ["==", ["get", "TYPE"], "Ferry"],
@@ -72,39 +74,50 @@ const SystemLayer: FC<IProps> = ({
             ],
             "line-width": LINE_WIDTH_STOPS,
           },
+          // filter: ["==", "TYPE", selectedType],
         });
+      });
 
-        let popup: mapboxgl.Popup;
+      // let popup: mapboxgl.Popup;
 
-        map.on("click", layerName, (e) => {
-          if (e) {
-            new mapboxgl.Popup()
-              .setLngLat(e.lngLat)
-              .setHTML(HTML_POPUP(e))
-              .addTo(map);
-          }
-        });
+      map.on("click", layerName, (e) => {
+        // if (e) {
+        //   new mapboxgl.Popup()
+        //     .setLngLat(e.lngLat)
+        //     .setHTML(HTML_POPUP(e))
+        //     .addTo(map);
+        // }
+      });
 
-        // Change the cursor to a pointer when
-        // the mouse is over the states layer.
+      // Change the cursor to a pointer when
+      // the mouse is over the states layer.
 
-        map.on("mouseenter", layerName, (e) => {
-          map.getCanvas().style.cursor = "pointer";
-        });
+      map.on("mouseenter", layerName, (e) => {
+        map.getCanvas().style.cursor = "pointer";
+      });
 
-        // Change the cursor back to a pointer
-        // when it leaves the states layer.
-        map.on("mouseleave", layerName, () => {
-          map.getCanvas().style.cursor = "";
-        });
+      // Change the cursor back to a pointer
+      // when it leaves the states layer.
+      map.on("mouseleave", layerName, () => {
+        map.getCanvas().style.cursor = "";
       });
     }
   };
 
+  useEffect(() => {
+    if (map) {
+      if (selectedCorridor) {
+        map.setPaintProperty(layerName, "line-opacity", RECEDED_LINE_OPACITY);
+      } else {
+        map.setPaintProperty(layerName, "line-opacity", 1);
+      }
+    }
+  }, [selectedCorridor]);
+
   YEAR_FILTER_HOOK({
     map,
     yearRange,
-    layerName,
+    layerNames: [layerName],
     initialFilter,
   });
 

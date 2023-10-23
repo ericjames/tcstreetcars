@@ -21,6 +21,8 @@
     "jsx": "react-jsx"
   },
   "include": [
-    "src"
-, "Unused"  ]
+    "src",
+  ],
+  "resolveJsonModule": true,
+  "esModuleInterop": true,
 }

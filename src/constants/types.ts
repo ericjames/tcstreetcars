@@ -10,13 +10,17 @@ export enum TransitTypes {
   FREIGHT = "Freight",
 }
 
-export interface NavigationState {
+export type NavigationState = {
   title: string;
+  description?: string;
   showPage?: string;
   types?: Array<TransitTypes>;
-}
+  region?: RegionName;
+  zoom?: number;
+  center?: [number, number];
+};
 
-export type NavigationStateProp = NavigationState | null;
+export type NavigationStateProp = NavigationState | undefined | null;
 
 export enum RegionName {
   tc = "Twin Cities",
@@ -37,16 +41,18 @@ export type Corridor = {
   id: number; // Internal
   DATA_CORRIDOR: string; // Reference Mapbox tileset
   DATA_TYPE: string; // Reference Mapbox tileset
-  yearStart: number | null;
-  yearEnd: number | null;
-  routeName: string;
+  DATA_THROUGHROUTE?: string;
+  DATA_CORRIDOR_SHARED?: string;
+  yearStart?: number | null;
+  yearEnd?: number | null;
+  routeName?: string;
   routeNumber?: string;
   terminus?: string;
   description?: string;
   mainColor?: string;
   sources?: string;
   photos?: Array<RoutePhoto>;
-  overlapIndex?: number;
+  overlapIndex?: number | null;
   mainCity?: string;
 };
 

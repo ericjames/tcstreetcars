@@ -1,22 +1,41 @@
 import "mapbox-gl/dist/mapbox-gl.css";
+import "@mapbox/mapbox-gl-draw/dist/mapbox-gl-draw.css";
 
-import React, {
-  Dispatch,
-  FC,
-  SetStateAction,
-  useEffect,
-  useRef,
-  useState,
-} from "react";
-import { STARTUP_ZOOM, TC_CENTER, TC_MAP_STYLE } from "../../constants/mapbox";
+import {
+  Corridor,
+  NavigationStateProp,
+  RegionName,
+} from "../../constants/types";
+import { Dispatch, FC, SetStateAction, useEffect, useRef } from "react";
+import {
+  EASTMETRO_CENTER,
+  EASTMETRO_ZOOM,
+  NORTHMETRO_CENTER,
+  NORTHMETRO_ZOOM,
+  SOUTHMETRO_CENTER,
+  SOUTHMETRO_ZOOM,
+  TC_CENTER,
+  TC_MAP_STYLE,
+  TC_ZOOM,
+  WESTMETRO_CENTER,
+  WESTMETRO_ZOOM,
+} from "../../constants/mapbox";
 
 import mapboxgl from "mapbox-gl";
 
 type IProps = {
+  map: mapboxgl.Map | undefined;
   setMap: Dispatch<SetStateAction<mapboxgl.Map | undefined>>;
+  navigation?: NavigationStateProp;
+  selectedCorridor?: Corridor | null;
 };
 
-const MapViewport: FC<IProps> = ({ setMap }) => {
+const MapViewport: FC<IProps> = ({
+  map,
+  setMap,
+  selectedCorridor,
+  navigation,
+}) => {
   // this is where the map instance will be stored after initialization
   // const [map, setMap] = useState<mapboxgl.Map>();
 
@@ -37,7 +56,8 @@ const MapViewport: FC<IProps> = ({ setMap }) => {
       accessToken: process.env.REACT_APP_MAPBOX_TOKEN,
       style: TC_MAP_STYLE,
       center: TC_CENTER,
-      zoom: 10,
+      zoom: 11,
+      // zoom: 10,
     });
 
     // setTimeout(() => {
@@ -46,16 +66,52 @@ const MapViewport: FC<IProps> = ({ setMap }) => {
     //   });
     // }, 500);
 
-    if (setMap) {
-      setMap(mapboxMap);
-    }
+    setMap(mapboxMap);
+
+    mapboxMap.on("click", () => {
+      console.log(mapboxMap.getCenter(), mapboxMap.getZoom());
+    });
 
     return () => {
       mapboxMap.remove();
     };
-  }, []);
+  }, [setMap]);
 
-  return <div ref={mapNode} style={{ width: "100%", height: "100%" }} />;
+  useEffect(() => {
+    if (selectedCorridor === null) {
+      resetMap();
+    }
+  }, [selectedCorridor, navigation]);
+
+  const resetMap = () => {
+    if (map) {
+      switch (navigation?.region) {
+        case RegionName.tc:
+          map.flyTo({ zoom: TC_ZOOM, center: TC_CENTER });
+          break;
+        case RegionName.west:
+          map.flyTo({ zoom: WESTMETRO_ZOOM, center: WESTMETRO_CENTER });
+          break;
+        case RegionName.east:
+          map.flyTo({ zoom: EASTMETRO_ZOOM, center: EASTMETRO_CENTER });
+          break;
+        case RegionName.north:
+          map.flyTo({ zoom: NORTHMETRO_ZOOM, center: NORTHMETRO_CENTER });
+          break;
+        case RegionName.south:
+          map.flyTo({ zoom: SOUTHMETRO_ZOOM, center: SOUTHMETRO_CENTER });
+          break;
+        default:
+      }
+    }
+  };
+
+  return (
+    <div
+      ref={mapNode}
+      style={{ width: "100%", height: "100%" }}
+    />
+  );
 };
 
 export default MapViewport;

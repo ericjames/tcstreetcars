@@ -1,4 +1,9 @@
-import { Corridor, IPropsInfoBox } from "../../constants/types";
+import {
+  Corridor,
+  IPropsInfoBox,
+  RegionName,
+  TransitTypes,
+} from "../../constants/types";
 import React, {
   Dispatch,
   FC,
@@ -8,7 +13,7 @@ import React, {
 } from "react";
 
 import CorridorInfo from "./CorridorInfo";
-import RouteList from "./RouteList";
+import TCInfo from "./TCInfo";
 import styled from "styled-components";
 
 const Wrapper = styled.div`
@@ -35,52 +40,21 @@ const InfoBox: FC<IPropsInfoBox> = ({
         setSelectedCorridor={setSelectedCorridor}
       />
 
-      <div className={`p-4 h-100 overflow-scroll`}>
-        <p>
-          A grand transportation system created the Twin Cities metro area.
-          Explore by metro region above and select routes below.
-        </p>
-
-        {navigation?.types && (
-          <div className="btn-group w-100 mb-4">
-            {navigation?.types?.map((type) => (
-              <button
-                className={`btn btn-outline-secondary ${
-                  selectedType === type ? "btn-selected" : ""
-                }`}
-                onClick={() => setSelectedType(type)}>
-                {type}
-              </button>
-            ))}
-          </div>
+      <div className={`h-100 overflow-scroll`}>
+        {navigation?.showPage === "About" ? (
+          <div className="p-3">Created by Eric James</div>
+        ) : navigation?.region === RegionName.tc ? (
+          <TCInfo
+            selectedCorridor={selectedCorridor}
+            setSelectedCorridor={setSelectedCorridor}
+            selectedType={selectedType}
+            setSelectedType={setSelectedType}
+            corridors={corridors}
+            navigation={navigation}
+          />
+        ) : (
+          <></>
         )}
-
-        <RouteList
-          corridors={corridors}
-          selectedCorridor={selectedCorridor}
-          setSelectedCorridor={setSelectedCorridor}
-          filterOut={[
-            ["mainCity", "Minneapolis"],
-            ["DATA_TYPE", selectedType?.toString() || ""],
-          ]}
-          sortProperty="routeName"
-          heading="Minneapolis"
-        />
-
-        <RouteList
-          corridors={corridors}
-          selectedCorridor={selectedCorridor}
-          setSelectedCorridor={setSelectedCorridor}
-          filterOut={[
-            ["mainCity", "Saint Paul"],
-            ["DATA_TYPE", selectedType?.toString() || ""],
-          ]}
-          sortProperty="routeName"
-          heading="Saint Paul"
-        />
-        <br />
-        <br />
-        <br />
       </div>
     </Wrapper>
   );

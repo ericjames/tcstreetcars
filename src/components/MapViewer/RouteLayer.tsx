@@ -2,11 +2,19 @@ import { Corridor, YearRange } from "../../constants/types";
 import {
   DEFAULT_LINE_WIDTH,
   HTML_POPUP,
+  LABEL_SIZE_STOPS,
   LINE_WIDTH_STOPS,
   RECEDED_LINE_OPACITY,
   SELECTED_LINE_WIDTH,
 } from "../../constants/mapbox";
-import { FC, SetStateAction, useEffect, useRef, useState } from "react";
+import {
+  Dispatch,
+  FC,
+  SetStateAction,
+  useEffect,
+  useRef,
+  useState,
+} from "react";
 import mapboxgl, {
   LngLatBounds,
   LngLatBoundsLike,
@@ -27,6 +35,7 @@ interface IProps extends IRouteProp {
   onLineHover: () => void;
   onRouteLayerClick: (route: Corridor | null) => void;
   yearRange: YearRange;
+  setFeature?: Dispatch<SetStateAction<object | null>>;
 }
 
 interface Refs {
@@ -43,6 +52,7 @@ const RouteLayer: FC<IProps> = ({
   onLineHover,
   onRouteLayerClick,
   yearRange,
+  setFeature,
 }) => {
   const symbolLayerName = layerName + "-symbols";
 
@@ -52,9 +62,10 @@ const RouteLayer: FC<IProps> = ({
   const refLayer = useRef<Refs>({ popup: null });
 
   const initialFilter: Array<Array<string> | string> = [
-    "all",
+    "any",
     ["==", "CORRIDOR", corridor?.DATA_CORRIDOR || ""],
-    ["==", "TYPE", corridor?.DATA_TYPE || ""],
+    ["==", "CORRIDOR", corridor?.DATA_THROUGHROUTE || ""],
+    ["==", "CORRIDOR", corridor?.DATA_CORRIDOR_SHARED || ""],
   ];
 
   useEffect(() => {
@@ -62,10 +73,8 @@ const RouteLayer: FC<IProps> = ({
 
     return () => {
       if (map) {
-        map.on("load", () => {
-          map.removeLayer(layerName);
-          map.removeLayer(symbolLayerName);
-        });
+        map.removeLayer(layerName);
+        map.removeLayer(symbolLayerName);
       }
     };
   }, [map]);
@@ -76,18 +85,18 @@ const RouteLayer: FC<IProps> = ({
         map.addLayer({
           id: layerName,
           source: sourceId,
-          "source-layer": sourceLayerName,
+          // "source-layer": sourceLayerName,
           type: "line",
           layout: {
             "line-join": "round",
             "line-cap": "round",
-            "line-sort-key": corridor?.id,
+            "line-sort-key": 10,
           },
           paint: {
             "line-color": COLORS.tcrt_map_red,
-            "line-width": LINE_WIDTH_STOPS,
+            "line-width": 10,
             // "line-translate": [corridor?.id ? corridor?.id * 0.25 : 0, 0],
-            "line-opacity": 1,
+            "line-opacity": 0,
           },
           filter: initialFilter,
         });
@@ -95,21 +104,20 @@ const RouteLayer: FC<IProps> = ({
         map.addLayer({
           id: symbolLayerName,
           source: sourceId,
-          "source-layer": sourceLayerName,
+          // "source-layer": sourceLayerName,
           type: "symbol",
           layout: {
             "text-field": corridor?.routeName,
             "symbol-placement": "line",
-            "text-size": 14,
+            "text-size": LABEL_SIZE_STOPS,
             // "text-size": ['match', ['get', 'id'], 0, 1, 0.8]
             "text-font": ["DIN Pro Bold"],
-            "text-anchor": "top",
-            "text-padding": 10,
+            "text-anchor": "bottom",
           },
           paint: {
-            "text-color": COLORS.tcrt_map_red,
-            "text-halo-color": "#fff",
-            "text-halo-width": 3,
+            "text-color": COLORS.map_dark_red,
+            "text-halo-color": COLORS.map_bg_beige,
+            "text-halo-width": 2,
           },
           filter: initialFilter,
         });
@@ -117,7 +125,7 @@ const RouteLayer: FC<IProps> = ({
         map.once("idle", () => {
           if (!bounds) {
             const features = map.querySourceFeatures(sourceId, {
-              sourceLayer: sourceLayerName,
+              // sourceLayer: sourceLayerName,
               filter: initialFilter,
             });
             if (features && features.length) {
@@ -133,17 +141,8 @@ const RouteLayer: FC<IProps> = ({
               });
               setBounds(newBounds);
             } else {
-              console.log("No features", features);
+              console.log("No features for " + corridor?.DATA_CORRIDOR);
             }
-          }
-        });
-
-        map.on("click", layerName, (e) => {
-          if (refLayer.current.popup) {
-            refLayer.current.popup.remove();
-          }
-          if (e) {
-            onRouteLayerClick(corridor);
           }
         });
 
@@ -155,95 +154,115 @@ const RouteLayer: FC<IProps> = ({
     }
   };
 
-  useEffect(() => {
+  const styleSelectedLayer = () => {
     if (map) {
-      // Any listeners that need to continually use state values must be setup below
+      // Highlight selected layer
+      map.setLayoutProperty(layerName, "visibility", "visible");
+      map.setLayoutProperty(symbolLayerName, "visibility", "visible");
+      map.setPaintProperty(layerName, "line-opacity", 1);
+      map.setLayoutProperty(layerName, "line-sort-key", 1000);
+      if (bounds) {
+        map.fitBounds(bounds as LngLatBoundsLike, {
+          padding: 200,
+          offset: [0, -50],
+        });
+      }
+    }
+  };
 
-      const onMouseEnter = (e: { lngLat: mapboxgl.LngLatLike }) => {
-        map.getCanvas().style.cursor = "pointer";
-        map.setPaintProperty(layerName, "line-width", SELECTED_LINE_WIDTH);
-        if (e && refLayer.current.popup) {
-          refLayer.current.popup
-            .setLngLat(e.lngLat)
-            .trackPointer()
-            .setHTML(HTML_POPUP(e))
-            .addTo(map);
-        }
-      };
+  const styleInactiveLayer = () => {
+    if (map) {
+      map.setLayoutProperty(layerName, "visibility", "none");
+      map.setLayoutProperty(symbolLayerName, "visibility", "none");
+      // map.setPaintProperty(layerName, "line-opacity", 0);
+      // map.setLayoutProperty(layerName, "line-sort-key", corridor?.id);
+    }
+  };
 
-      const onMouseLeave = () => {
-        if (refLayer.current.popup) {
-          refLayer.current.popup.remove();
+  const resetLayerStyle = () => {
+    if (map) {
+      map.setLayoutProperty(layerName, "visibility", "visible");
+      map.setLayoutProperty(symbolLayerName, "visibility", "visible");
+      map.setPaintProperty(layerName, "line-opacity", 0);
+      map.setLayoutProperty(layerName, "line-sort-key", corridor?.id);
+    }
+  };
+
+  const onMouseEnter = (e: { lngLat: mapboxgl.LngLatLike }) => {
+    if (map) {
+      map.getCanvas().style.cursor = "pointer";
+      map.setPaintProperty(layerName, "line-opacity", 1);
+      // if (e && refLayer.current.popup) {
+      //   refLayer.current.popup
+      //     .setLngLat(e.lngLat)
+      //     .trackPointer()
+      //     .setHTML(HTML_POPUP(e))
+      //     .addTo(map);
+      // }
+    }
+  };
+  const onMouseLeave = () => {
+    if (map) {
+      if (refLayer.current.popup) {
+        refLayer.current.popup.remove();
+      }
+      if (map) {
+        map.getCanvas().style.cursor = "";
+        if (!isSelected) {
+          map.setPaintProperty(layerName, "line-opacity", isSelected ? 1 : 0);
         }
-        if (map) {
-          map.getCanvas().style.cursor = "";
-          map.setPaintProperty(
-            layerName,
-            "line-width",
-            isSelected ? SELECTED_LINE_WIDTH : DEFAULT_LINE_WIDTH
-          );
-        }
-      };
+      }
+    }
+  };
+
+  const onClickLayer = (e: any) => {
+    // if (setFeature) {
+    //   const feature = e.features[0];
+    //   setFeature(feature);
+    // }
+    if (refLayer.current.popup) {
+      refLayer.current.popup.remove();
+    }
+    onRouteLayerClick(corridor);
+  };
+
+  useEffect(() => {
+    if (isSelected === null) {
+      resetLayerStyle();
+    } else if (isSelected === true) {
+      styleSelectedLayer();
+    } else {
+      styleInactiveLayer();
+    }
+  }, [isSelected]);
+
+  useEffect(() => {
+    // Mapbox event listeners must be Reactified here
+    if (map) {
       map.on("mouseleave", layerName, onMouseLeave);
-      map.on("mouseleave", symbolLayerName, onMouseLeave);
       map.on("mouseenter", layerName, onMouseEnter);
-      map.on("mouseenter", symbolLayerName, onMouseEnter);
+      map.on("click", layerName, onClickLayer);
+      // map.on("mouseleave", symbolLayerName, onMouseLeave);
+      // map.on("mouseenter", symbolLayerName, onMouseEnter);
       return () => {
+        // Tear down
         map.off("mouseleave", layerName, onMouseLeave);
         map.off("mouseenter", layerName, onMouseEnter);
-        map.off("mouseleave", symbolLayerName, onMouseLeave);
-        map.off("mouseenter", symbolLayerName, onMouseEnter);
+        map.off("click", layerName, onClickLayer);
+        // map.off("mouseleave", symbolLayerName, onMouseLeave);
+        // map.off("mouseenter", symbolLayerName, onMouseEnter);
         if (refLayer.current.popup) {
           refLayer.current.popup.remove();
         }
       };
     }
-  }, [map, isSelected]);
+  }, [map, isSelected]); // Dependent variables in methods above must be added
 
   YEAR_FILTER_HOOK({
     map,
     yearRange,
-    layerName,
+    layerNames: [layerName, symbolLayerName],
     initialFilter,
-  });
-
-  useEffect(() => {
-    if (map && map.getLayer(layerName)) {
-      const styleSelectedLayer = () => {
-        // Highlight selected layer
-        map.setPaintProperty(layerName, "line-opacity", 1);
-        map.setPaintProperty(layerName, "line-width", SELECTED_LINE_WIDTH);
-        map.setLayoutProperty(layerName, "line-sort-key", 1000);
-        if (bounds) {
-          map.fitBounds(bounds as LngLatBoundsLike, {
-            padding: 200,
-            offset: [0, -50],
-          });
-        }
-      };
-
-      const styleOtherLayers = () => {
-        map.setPaintProperty(layerName, "line-opacity", RECEDED_LINE_OPACITY);
-        map.setPaintProperty(layerName, "line-width", DEFAULT_LINE_WIDTH);
-        map.setLayoutProperty(layerName, "line-sort-key", corridor?.id);
-      };
-
-      const resetMapStyles = () => {
-        map.setPaintProperty(layerName, "line-opacity", 1);
-        map.setPaintProperty(layerName, "line-width", DEFAULT_LINE_WIDTH);
-        map.setLayoutProperty(layerName, "line-sort-key", corridor?.id);
-      };
-
-      if (isSelected !== null) {
-        if (isSelected) {
-          styleSelectedLayer();
-        } else {
-          styleOtherLayers();
-        }
-      } else {
-        resetMapStyles();
-      }
-    }
   });
 
   return null;

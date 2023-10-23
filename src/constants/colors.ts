@@ -13,5 +13,7 @@ export const COLORS = {
   off_white1: "#FFFFF0",
   off_white2: "#FCFBE8",
   black1: "#003355",
-  
+
+  map_bg_beige: "#f2eee8",
+  map_dark_red: "#AA3300",
 };

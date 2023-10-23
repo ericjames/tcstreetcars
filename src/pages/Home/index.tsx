@@ -5,7 +5,7 @@ import {
 } from "../../constants/types";
 import React, { FC, useEffect, useState } from "react";
 
-import { CORRIDORS } from "../../constants/DATA_CORRIDORS";
+import CORRIDORS from "../../constants/DATA_CORRIDORS.json";
 import Header from "../../components/Header";
 import InfoBox from "../../components/InfoBox";
 import MapViewer from "../../components/MapViewer";
@@ -40,7 +40,7 @@ const Home: FC = () => {
         <Header setNavigation={setNavigation} navigation={navigation} />
       </StyledHeader>
       <StyledWrapper className="row g-0 overflow-hidden">
-        <div className="col-4 h-100">
+        <div className="d-none d-md-block col-md-4 h-100">
           <InfoBox
             navigation={navigation}
             corridors={CORRIDORS}
@@ -51,7 +51,7 @@ const Home: FC = () => {
           />
         </div>
 
-        <div className="col-8">
+        <div className="col-12 col-md-8">
           <MapViewer
             navigation={navigation}
             corridors={CORRIDORS}

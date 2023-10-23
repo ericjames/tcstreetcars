@@ -19,9 +19,9 @@
   background: $very_light_gray;
 }
 
-.btn-selected {
+header .btn-selected {
   background: none;
-  border-bottom: 2px solid var(--bs-btn-hover-bg);
+  border-bottom: 3px solid var(--bs-btn-bg);
 }
 
 body {

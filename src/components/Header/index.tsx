@@ -1,4 +1,4 @@
-import React, { FC, SetStateAction } from "react";
+import React, { FC } from "react";
 
 import { IPropsHeader } from "../../constants/types";
 import { NAVIGATION } from "../../constants";
@@ -12,11 +12,12 @@ const Header: FC<IPropsHeader> = ({ navigation, setNavigation }) => {
   return (
     <Wrapper className="d-flex align-items-center">
       <div className="btn-group">
-        {NAVIGATION.map((nav) => (
+        {NAVIGATION.map((nav, i) => (
           <button
+            key={i}
             className={`btn btn-white p-3 fs-5 ${
               nav.title === navigation?.title
-                ? "btn-selected border-top-0 border-start-0 border-end-0"
+                ? "btn-selected border-top-0 border-start-0 border-end-0 border-4 bg-transparent"
                 : ""
             }`}
             onClick={() => setNavigation(nav)}>

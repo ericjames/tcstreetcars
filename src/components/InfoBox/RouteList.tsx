@@ -26,7 +26,7 @@ const RouteList: FC<IProps> = ({
     return filterOut.every((f) => corridor[f[0] as keyof Corridor] === f[1]);
   });
 
-  if (!filtered) return null;
+  if (!filtered || !filtered.length) return null;
 
   filtered.sort((a, b) => {
     const valueA = a[sorter] || "";

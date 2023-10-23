@@ -5,32 +5,38 @@ import { useEffect } from "react";
 interface YFHProps {
   map: mapboxgl.Map | undefined;
   yearRange: YearRange;
-  layerName: string;
+  layerNames: Array<string>;
   initialFilter: Array<any> | null;
 }
 
 export const YEAR_FILTER_HOOK = ({
   map,
   yearRange,
-  layerName,
+  layerNames,
   initialFilter,
 }: YFHProps) => {
   useEffect(() => {
     if (map) {
       if (!yearRange[0] && !yearRange[1]) {
+        // Year range is null, make all features on layer appear
         if (initialFilter) {
-          map.setFilter(layerName, initialFilter);
+          layerNames.forEach((layerName) => {
+            map.setFilter(layerName, initialFilter);
+          });
         } else {
-          map.setFilter(layerName, null);
+          layerNames.forEach((layerName) => {
+            map.setFilter(layerName, null);
+          });
         }
       } else {
+        // Filter out layers
         const startYear = yearRange[0];
         const endYear =
           yearRange[1] && yearRange[1] > 9999
             ? yearRange[1].toString().substring(-4)
             : yearRange[1];
 
-        console.log(startYear, endYear);
+        // console.log(startYear, endYear);
 
         const rangeFilter = [
           // [">=", "YR_START1", startYear],
@@ -39,9 +45,13 @@ export const YEAR_FILTER_HOOK = ({
         ];
 
         if (initialFilter) {
-          map.setFilter(layerName, ["all", initialFilter, ...rangeFilter]);
+          layerNames.forEach((layerName) => {
+            map.setFilter(layerName, ["all", initialFilter, ...rangeFilter]);
+          });
         } else {
-          map.setFilter(layerName, ...rangeFilter);
+          layerNames.forEach((layerName) => {
+            map.setFilter(layerName, ...rangeFilter);
+          });
         }
       }
     }
