@@ -54,6 +54,7 @@ export type Corridor = {
   photos?: Array<RoutePhoto>;
   overlapIndex?: number | null;
   mainCity?: string;
+  operators?: string;
 };
 
 export type YearRange = [number | null, number | null];

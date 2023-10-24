@@ -30,6 +30,9 @@ const SystemLayer: FC<IProps> = ({
   selectedType,
 }) => {
   const initialFilter = null;
+  const systemLayerRef = useRef<{ popup?: mapboxgl.Popup | null }>({
+    popup: null,
+  });
 
   useEffect(() => {
     setupLayer();
@@ -77,30 +80,42 @@ const SystemLayer: FC<IProps> = ({
           // filter: ["==", "TYPE", selectedType],
         });
       });
+    }
+  };
 
-      // let popup: mapboxgl.Popup;
+  useEffect(() => {
+    if (map) {
+      map.on("click", layerName, (e) => {});
+      map.on("mouseenter", layerName, onMouseEnter);
+      map.on("mouseleave", layerName, onMouseLeave);
+      systemLayerRef.current.popup = new mapboxgl.Popup({ closeButton: false });
+      return () => {
+        // Tear down
+        map.off("mouseenter", layerName, onMouseEnter);
+        map.off("mouseleave", layerName, onMouseLeave);
+        systemLayerRef.current.popup?.remove();
+      };
+    }
+  }, [map]);
 
-      map.on("click", layerName, (e) => {
-        // if (e) {
-        //   new mapboxgl.Popup()
-        //     .setLngLat(e.lngLat)
-        //     .setHTML(HTML_POPUP(e))
-        //     .addTo(map);
-        // }
-      });
+  const onMouseEnter = (e: any) => {
+    if (map) {
+      if (e && systemLayerRef.current.popup) {
+        systemLayerRef.current.popup
+          .setLngLat(e.lngLat)
+          .setHTML(HTML_POPUP(e))
+          .addTo(map);
+      }
+      map.getCanvas().style.cursor = "pointer";
+    }
+  };
 
-      // Change the cursor to a pointer when
-      // the mouse is over the states layer.
-
-      map.on("mouseenter", layerName, (e) => {
-        map.getCanvas().style.cursor = "pointer";
-      });
-
-      // Change the cursor back to a pointer
-      // when it leaves the states layer.
-      map.on("mouseleave", layerName, () => {
-        map.getCanvas().style.cursor = "";
-      });
+  const onMouseLeave = (e: any) => {
+    if (map) {
+      map.getCanvas().style.cursor = "";
+      if (systemLayerRef.current.popup) {
+        systemLayerRef.current.popup?.remove();
+      }
     }
   };
 

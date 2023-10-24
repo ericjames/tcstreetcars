@@ -68,9 +68,9 @@ const MapViewport: FC<IProps> = ({
 
     setMap(mapboxMap);
 
-    mapboxMap.on("click", () => {
-      console.log(mapboxMap.getCenter(), mapboxMap.getZoom());
-    });
+    // mapboxMap.on("click", () => {
+    //   console.log(mapboxMap.getCenter(), mapboxMap.getZoom());
+    // });
 
     return () => {
       mapboxMap.remove();

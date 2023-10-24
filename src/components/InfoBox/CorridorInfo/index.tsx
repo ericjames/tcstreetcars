@@ -1,6 +1,7 @@
 import React, { FC } from "react";
 
 import { IPropsCorridorInfo } from "../../../constants/types";
+import Icon from "../../common/Icon";
 import styled from "styled-components";
 
 const Wrapper = styled.div<{ "data-isactive"?: string }>`
@@ -14,6 +15,15 @@ const Wrapper = styled.div<{ "data-isactive"?: string }>`
   transition: all 350ms ease-out;
 `;
 
+const StyledHeader = styled.div`
+  display: flex;
+  margin-bottom: 1em;
+  img {
+    width: 2em;
+    height: auto;
+  }
+`;
+
 const CorridorInfo: FC<IPropsCorridorInfo> = ({
   selectedCorridor,
   setSelectedCorridor,
@@ -22,20 +32,23 @@ const CorridorInfo: FC<IPropsCorridorInfo> = ({
     <Wrapper
       className="bg-sidebar shadow-lg"
       data-isactive={`${selectedCorridor !== null}`}>
-      <button className="btn btn-lg" onClick={() => setSelectedCorridor(null)}>
+      <button
+        className="btn btn-lg"
+        onClick={() => setSelectedCorridor(null)}>
         &larr;
       </button>
 
       <div className="p-3">
-        <h1>{selectedCorridor?.routeName}</h1>
+        <StyledHeader>
+          <h2>{selectedCorridor?.routeName}</h2>
+          <Icon name={selectedCorridor?.DATA_TYPE.toLowerCase()} />
+        </StyledHeader>
         <ul>
-          <li>DATA_TYPE: {selectedCorridor?.DATA_TYPE}</li>
-          <li>DATA_CORRIDOR: {selectedCorridor?.DATA_CORRIDOR}</li>
-          <li>Route Name: {selectedCorridor?.routeName}</li>
-          <li>Route Number: {selectedCorridor?.routeNumber}</li>
           <li>Year Start: {selectedCorridor?.yearStart}</li>
           <li>Year End: {selectedCorridor?.yearEnd}</li>
         </ul>
+
+        <p>{selectedCorridor?.description}</p>
       </div>
     </Wrapper>
   );

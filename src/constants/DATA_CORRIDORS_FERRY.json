@@ -1,0 +1,34 @@
+[
+  {
+    "id": 104,
+    "routeName": "Excelsior Express Boat",
+    "DATA_CORRIDOR": "Excelsior",
+    "DATA_CORRIDOR_SHARED": "",
+    "DATA_THROUGHROUTE": "",
+    "DATA_TYPE": "Ferry",
+    "mainCity": "West Metro",
+    "start": "",
+    "terminus": "",
+    "yearStart": 1906,
+    "yearEnd": 1926,
+    "description": "",
+    "sources": "Met Council Data",
+    "overlapIndex": null
+  },
+  {
+    "id": 105,
+    "routeName": "Wildhurst Express Boat",
+    "DATA_CORRIDOR": "Wildhurst",
+    "DATA_CORRIDOR_SHARED": "",
+    "DATA_THROUGHROUTE": "",
+    "DATA_TYPE": "Ferry",
+    "mainCity": "West Metro",
+    "start": "",
+    "terminus": "",
+    "yearStart": 1906,
+    "yearEnd": 1926,
+    "description": "",
+    "sources": "Met Council Data",
+    "overlapIndex": null
+  }
+]

@@ -5461,7 +5461,7 @@
       "properties": {
         "ID": 0,
         "TYPE": "Streetcar",
-        "CORRIDOR": null,
+        "CORRIDOR": "White Bear Lake",
         "YR_START1": 1904,
         "YR_END1": 1932,
         "YR_START2": 0,
@@ -5665,8 +5665,8 @@
       "type": "Feature",
       "properties": {
         "ID": 0,
-        "TYPE": "Stillwater Streetcar",
-        "CORRIDOR": null,
+        "TYPE": "Streetcar",
+        "CORRIDOR": "Stillwater Streetcar",
         "YR_START1": 1889,
         "YR_END1": 1897,
         "YR_START2": 0,
@@ -7693,7 +7693,7 @@
       "properties": {
         "ID": 26,
         "TYPE": "Streetcar",
-        "CORRIDOR": "South St Paul",
+        "CORRIDOR": "South St Paul Hastings",
         "YR_START1": 1914,
         "YR_END1": 19501954,
         "YR_START2": 0,
@@ -9898,7 +9898,7 @@
       "properties": {
         "ID": 0,
         "TYPE": "Streetcar",
-        "CORRIDOR": "Hazel Park",
+        "CORRIDOR": "Stillwater Extension",
         "YR_START1": 1899,
         "YR_END1": 1932,
         "YR_START2": 0,
@@ -10998,7 +10998,7 @@
       "properties": {
         "ID": 26,
         "TYPE": "Streetcar",
-        "CORRIDOR": "South St Paul",
+        "CORRIDOR": "South St Paul Hastings",
         "YR_START1": 1914,
         "YR_END1": 1933,
         "YR_START2": 0,
@@ -14279,7 +14279,7 @@
       "properties": {
         "ID": 237,
         "TYPE": "Streetcar",
-        "CORRIDOR": "Hazel Park",
+        "CORRIDOR": "White Bear Lake",
         "YR_START1": 1890,
         "YR_END1": 19501954,
         "YR_START2": 0,
@@ -15902,7 +15902,7 @@
       "properties": {
         "ID": 26,
         "TYPE": "Streetcar",
-        "CORRIDOR": "South St Paul",
+        "CORRIDOR": "South St Paul Hastings",
         "YR_START1": 1914,
         "YR_END1": 1928,
         "YR_START2": 0,
@@ -16028,7 +16028,7 @@
       "properties": {
         "ID": 237,
         "TYPE": "Streetcar",
-        "CORRIDOR": "Hazel Park",
+        "CORRIDOR": "White Bear Lake",
         "YR_START1": 1890,
         "YR_END1": 19501954,
         "YR_START2": 0,
