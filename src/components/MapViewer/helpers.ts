@@ -6,7 +6,7 @@ interface YFHProps {
   map: mapboxgl.Map | undefined;
   yearRange: YearRange;
   layerNames: Array<string>;
-  initialFilter: Array<any> | null;
+  initialFilter?: Array<any> | null;
 }
 
 export const YEAR_FILTER_HOOK = ({

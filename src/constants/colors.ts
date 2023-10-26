@@ -15,5 +15,6 @@ export const COLORS = {
   black1: "#003355",
 
   map_bg_beige: "#f2eee8",
+  map_bright_red: "#A12A1E",
   map_dark_red: "#AA3300",
 };

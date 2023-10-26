@@ -1,30 +1,20 @@
-import { Corridor, RegionName, YearRange } from "../../constants/types";
-import React, {
-  Dispatch,
-  FC,
-  SetStateAction,
-  useEffect,
-  useState,
-} from "react";
 import {
-  SOURCE_ID,
-  SOURCE_LAYER_NAME,
-  SOURCE_URL,
-  TC_CENTER,
-  TC_ZOOM,
-} from "../../constants/mapbox";
+  AppFeatureCollection,
+  AppGeometryFeature,
+  YearRange,
+} from "../../constants/types";
+import { EDITOR_MODE, getDataFeatureCollection } from "../../constants";
+import { FC, useEffect, useState } from "react";
+import { SOURCE_ID, SOURCE_LAYER_NAME } from "../../constants/mapbox";
 
-import { EDITOR_MODE } from "../../constants";
 import { ErrorBoundary } from "react-error-boundary";
 import { IPropsMapViewer } from "../../constants/types";
 import MapEditor from "./MapEditor";
 import MapSource from "./MapSource";
 import MapViewport from "./MapViewport";
-import RouteInfoBox from "./RouteInfoBox";
 import RouteLayer from "./RouteLayer";
 import SystemLayer from "./SystemLayer";
 import YearToggler from "./YearToggler";
-import featureCollectionGeoJson from "../../constants/DATA_FEATURE_COLLECTION.json";
 import mapboxgl from "mapbox-gl";
 
 const MapViewer: FC<IPropsMapViewer> = ({
@@ -38,27 +28,26 @@ const MapViewer: FC<IPropsMapViewer> = ({
   // const [appState, setAppState] = useState<AppState>(null);
   const [map, setMap] = useState<mapboxgl.Map>();
   const [yearRange, setYearRange] = useState<YearRange>([null, null]);
-  const [feature, setFeature] = useState<object | null>(null);
-  const [geoJSON, setGeoJSON] = useState<object>(featureCollectionGeoJson);
-  const [mapboxDraw, setMapboxDraw] = useState<any | null>(null);
+  const [geoJSON, setGeoJSON] = useState<AppFeatureCollection | null>(null);
 
-  // Router toggles viewable stuff not data
+  useEffect(() => {
+    const FEATURES = getDataFeatureCollection();
+    if (FEATURES) {
+      setGeoJSON(FEATURES);
+    }
+  }, []);
 
-  const onLineHover = () => {
-    toggleLineSelected();
+  const onLineFeatureClick = (corridorName: string) => {
+    if (corridors) {
+      corridors.some((corridor) => {
+        if (corridorName === corridor.DATA_CORRIDOR) {
+          setSelectedCorridor(corridor);
+          return true;
+        }
+        return false;
+      });
+    }
   };
-
-  const toggleLineSelected = () => {};
-
-  const onRouteLayerClick = (route: Corridor | null) => {
-    setSelectedCorridor(route);
-  };
-
-  // useEffect(() => {
-  //   if (selectedCorridor === null) {
-  //     resetMap();
-  //   }
-  // }, [selectedCorridor]);
 
   return (
     <div className="h-100 position-relative">
@@ -93,30 +82,20 @@ const MapViewer: FC<IPropsMapViewer> = ({
           selectedType={selectedType}
         />
 
-        {corridors &&
-          corridors.map((corridor, i) => (
-            <RouteLayer
-              key={i}
-              map={map}
-              setFeature={setFeature}
-              corridor={corridor}
-              isSelected={
-                selectedCorridor ? selectedCorridor?.id === corridor.id : null
-              }
-              layerName={`route-layer-${corridor.id}`}
-              sourceId={SOURCE_ID}
-              sourceLayerName={SOURCE_LAYER_NAME}
-              onLineHover={onLineHover}
-              onRouteLayerClick={onRouteLayerClick}
-              yearRange={yearRange}
-            />
-          ))}
+        <RouteLayer
+          map={map}
+          selectedCorridor={selectedCorridor}
+          layerName={`route-layer`}
+          sourceId={SOURCE_ID}
+          sourceLayerName={SOURCE_LAYER_NAME}
+          yearRange={yearRange}
+          onLineFeatureClick={onLineFeatureClick}
+          selectedType={selectedType}
+        />
 
         {EDITOR_MODE && (
           <MapEditor
             map={map}
-            feature={feature}
-            setFeature={setFeature}
             geoJSON={geoJSON}
             setGeoJSON={setGeoJSON}
             selectedCorridor={selectedCorridor}

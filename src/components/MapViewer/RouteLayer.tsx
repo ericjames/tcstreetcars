@@ -1,4 +1,4 @@
-import { Corridor, YearRange } from "../../constants/types";
+import { Corridor, TransitTypes, YearRange } from "../../constants/types";
 import {
   DEFAULT_LINE_WIDTH,
   HTML_POPUP,
@@ -22,20 +22,17 @@ import mapboxgl, {
 } from "mapbox-gl";
 
 import { COLORS } from "../../constants/colors";
-import { IRouteProp } from "../../constants/types";
 import { YEAR_FILTER_HOOK } from "./helpers";
 
-interface IProps extends IRouteProp {
+interface IProps {
   map: mapboxgl.Map | undefined;
-  corridor: Corridor | null;
-  isSelected: boolean | null;
+  selectedCorridor: Corridor | null;
   layerName: string;
   sourceId: string;
-  sourceLayerName: string;
-  onLineHover: () => void;
-  onRouteLayerClick: (route: Corridor | null) => void;
+  sourceLayerName?: string;
   yearRange: YearRange;
-  setFeature?: Dispatch<SetStateAction<object | null>>;
+  onLineFeatureClick: (corridorName: string) => void;
+  selectedType?: TransitTypes | null;
 }
 
 interface Refs {
@@ -47,26 +44,22 @@ const RouteLayer: FC<IProps> = ({
   sourceId,
   sourceLayerName,
   map,
-  corridor,
-  isSelected,
-  onLineHover,
-  onRouteLayerClick,
+  selectedCorridor,
   yearRange,
-  setFeature,
+  selectedType,
+  onLineFeatureClick,
 }) => {
+  const routeLayerRef = useRef<{ popup?: mapboxgl.Popup | null }>({
+    popup: null,
+  });
+
+  const highlightLayer = "highlight-layer";
+  const highlightOutlineLayer = "highlight-outline-layer";
   const symbolLayerName = layerName + "-symbols";
+  const initialFilter = ["==", "TYPE", selectedType || ""];
 
   const [bounds, setBounds] =
     useState<SetStateAction<LngLatBounds | LngLatBoundsLike | null>>(null);
-
-  const refLayer = useRef<Refs>({ popup: null });
-
-  const initialFilter: Array<Array<string> | string> = [
-    "any",
-    ["==", "CORRIDOR", corridor?.DATA_CORRIDOR || ""],
-    ["==", "CORRIDOR", corridor?.DATA_THROUGHROUTE || ""],
-    ["==", "CORRIDOR", corridor?.DATA_CORRIDOR_SHARED || ""],
-  ];
 
   useEffect(() => {
     setupLayer();
@@ -74,6 +67,8 @@ const RouteLayer: FC<IProps> = ({
     return () => {
       if (map) {
         map.removeLayer(layerName);
+        map.removeLayer(highlightOutlineLayer);
+        map.removeLayer(highlightLayer);
         map.removeLayer(symbolLayerName);
       }
     };
@@ -81,24 +76,49 @@ const RouteLayer: FC<IProps> = ({
 
   const setupLayer = () => {
     if (map) {
-      map.on("load", () => {
+      map.on("style.load", () => {
         map.addLayer({
-          id: layerName,
+          id: highlightOutlineLayer,
           source: sourceId,
           // "source-layer": sourceLayerName,
           type: "line",
           layout: {
             "line-join": "round",
             "line-cap": "round",
-            "line-sort-key": 10,
           },
           paint: {
-            "line-color": COLORS.tcrt_map_red,
-            "line-width": 10,
-            // "line-translate": [corridor?.id ? corridor?.id * 0.25 : 0, 0],
+            "line-color": "#fff",
+            "line-width": 14,
             "line-opacity": 0,
           },
-          filter: initialFilter,
+        });
+        map.addLayer({
+          id: highlightLayer,
+          source: sourceId,
+          // "source-layer": sourceLayerName,
+          type: "line",
+          layout: {
+            "line-join": "round",
+            "line-cap": "round",
+          },
+          paint: {
+            "line-color": [
+              "case",
+              ["==", ["get", "TYPE"], "Streetcar"],
+              COLORS.map_bright_red,
+              ["==", ["get", "TYPE"], "Bus"],
+              COLORS.bus,
+              ["==", ["get", "TYPE"], "Ferry"],
+              COLORS.ferry,
+              ["==", ["get", "TYPE"], "Steam Power"],
+              COLORS.steampower,
+              ["==", ["get", "TYPE"], "Horsecar"],
+              COLORS.horsecar,
+              COLORS.black1,
+            ],
+            "line-width": 8,
+            "line-opacity": 0,
+          },
         });
 
         map.addLayer({
@@ -107,46 +127,39 @@ const RouteLayer: FC<IProps> = ({
           // "source-layer": sourceLayerName,
           type: "symbol",
           layout: {
-            "text-field": corridor?.routeName,
+            "text-field": "",
             "symbol-placement": "line",
             "text-size": LABEL_SIZE_STOPS,
             // "text-size": ['match', ['get', 'id'], 0, 1, 0.8]
             "text-font": ["DIN Pro Bold"],
             "text-anchor": "bottom",
+            "text-transform": "uppercase",
           },
           paint: {
             "text-color": COLORS.map_dark_red,
             "text-halo-color": COLORS.map_bg_beige,
             "text-halo-width": 2,
+            "text-opacity": 0,
+          },
+        });
+
+        map.addLayer({
+          id: layerName,
+          source: sourceId,
+          // "source-layer": sourceLayerName,
+          type: "line",
+          layout: {
+            "line-join": "round",
+            "line-cap": "round",
+          },
+          paint: {
+            "line-width": 14,
+            "line-opacity": 0,
           },
           filter: initialFilter,
         });
 
-        map.once("idle", () => {
-          if (!bounds) {
-            const features = map.querySourceFeatures(sourceId, {
-              // sourceLayer: sourceLayerName,
-              filter: initialFilter,
-            });
-            if (features && features.length) {
-              // const allCoordinates:any = [];
-              let newBounds = new mapboxgl.LngLatBounds();
-
-              features.forEach((feature: MapboxGeoJSONFeature) => {
-                if (feature.geometry.type === "LineString") {
-                  feature.geometry.coordinates.forEach((coord) => {
-                    newBounds.extend([coord[0], coord[1]]);
-                  });
-                }
-              });
-              setBounds(newBounds);
-            } else {
-              console.log("No features for " + corridor?.DATA_CORRIDOR);
-            }
-          }
-        });
-
-        refLayer.current.popup = new mapboxgl.Popup({
+        routeLayerRef.current.popup = new mapboxgl.Popup({
           closeButton: false,
           closeOnClick: false,
         });
@@ -154,87 +167,119 @@ const RouteLayer: FC<IProps> = ({
     }
   };
 
-  const styleSelectedLayer = () => {
-    if (map) {
-      // Highlight selected layer
-      map.setLayoutProperty(layerName, "visibility", "visible");
-      map.setLayoutProperty(symbolLayerName, "visibility", "visible");
-      map.setPaintProperty(layerName, "line-opacity", 1);
-      map.setLayoutProperty(layerName, "line-sort-key", 1000);
-      if (bounds) {
-        map.fitBounds(bounds as LngLatBoundsLike, {
-          padding: 200,
-          offset: [0, -50],
-        });
+  const onMouseEnter = (e: any) => {
+    if (selectedCorridor === null) {
+      if (e.features[0] && e.features[0].properties.CORRIDOR) {
+        console.log("mouse enter", e.features[0].properties.CORRIDOR);
+        setHighlightedCorridor(e.features[0].properties.CORRIDOR);
       }
+    }
+    if (map) {
+      map.getCanvas().style.cursor = "pointer";
+      if (e && routeLayerRef.current.popup) {
+        routeLayerRef.current.popup
+          .setLngLat(e.lngLat)
+          .setHTML(HTML_POPUP(e))
+          .addTo(map);
+      }
+    }
+  };
+
+  const onMouseLeave = (e: any) => {
+    if (selectedCorridor === null) {
+      deHighlightCorridors();
+    }
+    if (map) {
+      map.getCanvas().style.cursor = "";
+      if (routeLayerRef.current.popup) {
+        routeLayerRef.current.popup?.remove();
+      }
+    }
+  };
+
+  const setHighlightedCorridor = (corridorName: string) => {
+    if (map) {
+      map.setFilter(highlightLayer, ["==", "CORRIDOR", corridorName]);
+      map.setFilter(highlightOutlineLayer, ["==", "CORRIDOR", corridorName]);
+
+      map.setPaintProperty(highlightLayer, "line-opacity", 1);
+      map.setPaintProperty(highlightOutlineLayer, "line-opacity", 1);
+
+      // map.setLayoutProperty(highlightLayer, "visibility", "visible");
+      // map.setLayoutProperty(highlightOutlineLayer, "visibility", "visible");
+      // map.setLayoutProperty(symbolLayerName, "visibility", "visible");
+    }
+  };
+
+  const deHighlightCorridors = () => {
+    if (map) {
+      map.setPaintProperty(highlightLayer, "line-opacity", 0);
+      map.setPaintProperty(highlightOutlineLayer, "line-opacity", 0);
+      // map.setLayoutProperty(highlightLayer, "visibility", "none");
+      // map.setLayoutProperty(highlightOutlineLayer, "visibility", "none");
+    }
+  };
+
+  const styleSelectedCorridor = () => {
+    if (map) {
+      map.setFilter(highlightLayer, [
+        "==",
+        "CORRIDOR",
+        selectedCorridor?.DATA_CORRIDOR,
+      ]);
+      map.setFilter(highlightOutlineLayer, [
+        "==",
+        "CORRIDOR",
+        selectedCorridor?.DATA_CORRIDOR,
+      ]);
+
+      // Highlight selected layer
+      // map.setLayoutProperty(highlightLayer, "visibility", "visible");
+      // map.setLayoutProperty(highlightOutlineLayer, "visibility", "visible");
+      // map.setLayoutProperty(symbolLayerName, "visibility", "visible");
+      map.setPaintProperty(
+        symbolLayerName,
+        "text-color",
+        COLORS.map_bright_red
+      );
+      map.setPaintProperty(symbolLayerName, "text-opacity", 1);
+      map.setPaintProperty(highlightLayer, "line-opacity", 1);
+      map.setPaintProperty(highlightOutlineLayer, "line-opacity", 1);
     }
   };
 
   const styleInactiveLayer = () => {
     if (map) {
-      map.setLayoutProperty(layerName, "visibility", "none");
-      map.setLayoutProperty(symbolLayerName, "visibility", "none");
+      map.setPaintProperty(symbolLayerName, "text-color", COLORS.map_dark_red);
+      map.setPaintProperty(symbolLayerName, "text-opacity", 0);
+      map.setPaintProperty(highlightLayer, "line-opacity", 0);
+      map.setPaintProperty(highlightOutlineLayer, "line-opacity", 0);
+      // map.setLayoutProperty(layerName, "visibility", "none");
+      // map.setLayoutProperty(highlightOutlineLayer, "visibility", "none");
+      // map.setLayoutProperty(symbolLayerName, "visibility", "none");
       // map.setPaintProperty(layerName, "line-opacity", 0);
       // map.setLayoutProperty(layerName, "line-sort-key", corridor?.id);
     }
   };
 
-  const resetLayerStyle = () => {
-    if (map) {
-      map.setLayoutProperty(layerName, "visibility", "visible");
-      map.setLayoutProperty(symbolLayerName, "visibility", "visible");
-      map.setPaintProperty(layerName, "line-opacity", 0);
-      map.setLayoutProperty(layerName, "line-sort-key", corridor?.id);
-    }
-  };
-
-  const onMouseEnter = (e: { lngLat: mapboxgl.LngLatLike }) => {
-    if (map) {
-      map.getCanvas().style.cursor = "pointer";
-      map.setPaintProperty(layerName, "line-opacity", 1);
-      // if (e && refLayer.current.popup) {
-      //   refLayer.current.popup
-      //     .setLngLat(e.lngLat)
-      //     .trackPointer()
-      //     .setHTML(HTML_POPUP(e))
-      //     .addTo(map);
-      // }
-    }
-  };
-  const onMouseLeave = () => {
-    if (map) {
-      if (refLayer.current.popup) {
-        refLayer.current.popup.remove();
-      }
-      if (map) {
-        map.getCanvas().style.cursor = "";
-        if (!isSelected) {
-          map.setPaintProperty(layerName, "line-opacity", isSelected ? 1 : 0);
-        }
-      }
-    }
-  };
-
   const onClickLayer = (e: any) => {
+    if (map) {
+      if (selectedCorridor === null) {
+        const features = map.queryRenderedFeatures(e.point);
+        const corridorName = features[0].properties?.CORRIDOR;
+        onLineFeatureClick(corridorName);
+      } else {
+        // actions when selected
+      }
+    }
     // if (setFeature) {
     //   const feature = e.features[0];
     //   setFeature(feature);
     // }
-    if (refLayer.current.popup) {
-      refLayer.current.popup.remove();
-    }
-    onRouteLayerClick(corridor);
+    // if (routeLayerRef.current.popup) {
+    //   routeLayerRef.current.popup.remove();
+    // }
   };
-
-  useEffect(() => {
-    if (isSelected === null) {
-      resetLayerStyle();
-    } else if (isSelected === true) {
-      styleSelectedLayer();
-    } else {
-      styleInactiveLayer();
-    }
-  }, [isSelected]);
 
   useEffect(() => {
     // Mapbox event listeners must be Reactified here
@@ -244,25 +289,34 @@ const RouteLayer: FC<IProps> = ({
       map.on("click", layerName, onClickLayer);
       // map.on("mouseleave", symbolLayerName, onMouseLeave);
       // map.on("mouseenter", symbolLayerName, onMouseEnter);
-      return () => {
+      if (map.isStyleLoaded()) {
+        if (selectedCorridor) {
+          styleSelectedCorridor();
+        } else {
+          styleInactiveLayer();
+        }
+      }
+    }
+
+    return () => {
+      if (map) {
         // Tear down
         map.off("mouseleave", layerName, onMouseLeave);
         map.off("mouseenter", layerName, onMouseEnter);
         map.off("click", layerName, onClickLayer);
         // map.off("mouseleave", symbolLayerName, onMouseLeave);
         // map.off("mouseenter", symbolLayerName, onMouseEnter);
-        if (refLayer.current.popup) {
-          refLayer.current.popup.remove();
+        if (routeLayerRef.current.popup) {
+          routeLayerRef.current.popup.remove();
         }
-      };
-    }
-  }, [map, isSelected]); // Dependent variables in methods above must be added
+      }
+    };
+  }, [map, selectedCorridor]); // Dependent variables in methods above must be added
 
   YEAR_FILTER_HOOK({
     map,
     yearRange,
     layerNames: [layerName, symbolLayerName],
-    initialFilter,
   });
 
   return null;

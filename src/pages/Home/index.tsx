@@ -37,10 +37,13 @@ const Home: FC = () => {
   return (
     <div className="vh-100 d-flex flex-column">
       <StyledHeader>
-        <Header setNavigation={setNavigation} navigation={navigation} />
+        <Header
+          setNavigation={setNavigation}
+          navigation={navigation}
+        />
       </StyledHeader>
       <StyledWrapper className="row g-0 overflow-hidden">
-        <div className="d-none d-md-block col-md-4 h-100">
+        <div className="d-none d-md-block col-md-3 h-100">
           <InfoBox
             navigation={navigation}
             corridors={CORRIDORS}
@@ -51,7 +54,7 @@ const Home: FC = () => {
           />
         </div>
 
-        <div className="col-12 col-md-8">
+        <div className="col-12 col-md-9">
           <MapViewer
             navigation={navigation}
             corridors={CORRIDORS}

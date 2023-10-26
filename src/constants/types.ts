@@ -1,5 +1,25 @@
 import { Dispatch, SetStateAction } from "react";
 
+// export enum AllowedGeometryTypes {
+//   LineString = "LineString",
+//   Point = "Point",
+// }
+export type AppFeatureCollection = {
+  type: "FeatureCollection";
+  features: Array<AppGeometryFeature>;
+};
+export type AllowedGeometryTypes = "LineString" | "Point";
+
+export type AppGeometryFeature = {
+  id: number | string;
+  properties: any;
+  type: "Feature";
+  geometry: {
+    type: AllowedGeometryTypes;
+    coordinates?: Array<[number, number]> | Array<Array<[number, number]>>;
+  };
+};
+
 export enum TransitTypes {
   STREETCAR = "Streetcar",
   HORSECAR = "Horsecar",
@@ -58,10 +78,6 @@ export type Corridor = {
 };
 
 export type YearRange = [number | null, number | null];
-
-export interface IRouteProp {
-  corridor: Corridor | null;
-}
 export interface IPropsHeader {
   navigation: NavigationStateProp;
   setNavigation: Dispatch<SetStateAction<NavigationStateProp>>;

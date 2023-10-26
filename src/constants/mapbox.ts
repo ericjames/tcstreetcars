@@ -1,5 +1,5 @@
-import { YearRange } from "./types";
-import mapboxgl from "mapbox-gl";
+import { AllowedGeometryTypes, AppGeometryFeature, YearRange } from "./types";
+import mapboxgl, { MapboxGeoJSONFeature } from "mapbox-gl";
 
 export const TC_CENTER: [number, number] = [-93.201, 44.9675];
 export const WESTMETRO_CENTER: [number, number] = [-93.48, 44.932];
@@ -15,6 +15,8 @@ export const SOUTHMETRO_ZOOM = 10.1;
 
 export const TC_MAP_STYLE =
   "mapbox://styles/fluidicmethod/ckvdayqly5n1714pca4qep17o";
+
+export const SATELLITE_STYLE = "mapbox://styles/mapbox/satellite-streets-v12";
 
 export const SOURCE_ID = "historic-routes-source";
 
@@ -59,16 +61,32 @@ export const LABEL_SIZE_STOPS = {
   ],
 };
 
+// export const CONVERT_GEOJSON_TO_FEATURE = (
+//   mbFeature: MapboxGeoJSONFeature
+// ): AppGeometryFeature | null => {
+//   console.log("TEST", mbFeature);
+//   if (AllowedGeometryTypes.indexOf(mbFeature.geometry.type) !== -1) {
+//     return {
+//       id: mbFeature?.id || 9999,
+//       properties: mbFeature?.properties,
+//       type: mbFeature.type,
+//       geometry: {
+//         type: mbFeature.geometry.type as "LineString" | "Point",
+//         // geometry: mbFeature.geometry,
+//       },
+//     };
+//   }
+//   return null;
+// };
+
 export const HTML_POPUP = (e: any) => {
   const feature = e?.features[0];
   const prop = feature?.properties || {};
   return `
   <div className="mapbox-popup-inner">
-    feature id: ${feature.id}<br/>
-    CORRIDOR: ${prop?.CORRIDOR}<br/>
-    GROUP_ID: ${prop?.GROUP_ID}<br/>
+    ID: ${prop?.id}<br/>
     TYPE: ${prop?.TYPE}<br/>
-    YEARS: ${prop?.YR_START1} - ${prop?.YR_END1}<br/>
+    CORRIDOR: ${prop?.CORRIDOR}<br/>
   </div>
   `;
 };

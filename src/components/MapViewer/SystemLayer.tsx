@@ -1,14 +1,26 @@
-import { Corridor, TransitTypes, YearRange } from "../../constants/types";
+import {
+  AppGeometryFeature,
+  Corridor,
+  TransitTypes,
+  YearRange,
+} from "../../constants/types";
 import {
   HTML_POPUP,
   LINE_WIDTH_STOPS,
   RECEDED_LINE_OPACITY,
 } from "../../constants/mapbox";
-import React, { FC, useEffect, useRef, useState } from "react";
+import React, {
+  Dispatch,
+  FC,
+  SetStateAction,
+  useEffect,
+  useRef,
+  useState,
+} from "react";
+import mapboxgl, { MapboxGeoJSONFeature } from "mapbox-gl";
 
 import { COLORS } from "../../constants/colors";
 import { YEAR_FILTER_HOOK } from "./helpers";
-import mapboxgl from "mapbox-gl";
 
 type IProps = {
   layerName: string;
@@ -18,6 +30,7 @@ type IProps = {
   yearRange: YearRange;
   selectedCorridor: Corridor | null;
   selectedType: TransitTypes | null;
+  onLineFeatureClick?: (corridorName: string) => void;
 };
 
 const SystemLayer: FC<IProps> = ({
@@ -27,16 +40,19 @@ const SystemLayer: FC<IProps> = ({
   map,
   yearRange,
   selectedCorridor,
+  onLineFeatureClick,
   selectedType,
 }) => {
-  const initialFilter = null;
   const systemLayerRef = useRef<{ popup?: mapboxgl.Popup | null }>({
     popup: null,
   });
 
-  useEffect(() => {
-    setupLayer();
+  const highlightLayer = "highlight-layer";
+  const highlightOutlineLayer = "highlight-outline-layer";
+  const initialFilter = ["==", "TYPE", selectedType];
 
+  useEffect(() => {
+    addLayer();
     return () => {
       if (map) {
         map.removeLayer(layerName);
@@ -44,13 +60,9 @@ const SystemLayer: FC<IProps> = ({
     };
   }, [map]);
 
-  const setupLayer = () => {
+  const addLayer = () => {
     if (map) {
-      map.on("load", () => {
-        if (map.getLayer(layerName)) {
-          return null;
-        }
-
+      map.on("style.load", () => {
         map.addLayer({
           id: layerName,
           source: sourceId,
@@ -77,45 +89,9 @@ const SystemLayer: FC<IProps> = ({
             ],
             "line-width": LINE_WIDTH_STOPS,
           },
-          // filter: ["==", "TYPE", selectedType],
+          filter: initialFilter,
         });
       });
-    }
-  };
-
-  useEffect(() => {
-    if (map) {
-      map.on("click", layerName, (e) => {});
-      map.on("mouseenter", layerName, onMouseEnter);
-      map.on("mouseleave", layerName, onMouseLeave);
-      systemLayerRef.current.popup = new mapboxgl.Popup({ closeButton: false });
-      return () => {
-        // Tear down
-        map.off("mouseenter", layerName, onMouseEnter);
-        map.off("mouseleave", layerName, onMouseLeave);
-        systemLayerRef.current.popup?.remove();
-      };
-    }
-  }, [map]);
-
-  const onMouseEnter = (e: any) => {
-    if (map) {
-      if (e && systemLayerRef.current.popup) {
-        systemLayerRef.current.popup
-          .setLngLat(e.lngLat)
-          .setHTML(HTML_POPUP(e))
-          .addTo(map);
-      }
-      map.getCanvas().style.cursor = "pointer";
-    }
-  };
-
-  const onMouseLeave = (e: any) => {
-    if (map) {
-      map.getCanvas().style.cursor = "";
-      if (systemLayerRef.current.popup) {
-        systemLayerRef.current.popup?.remove();
-      }
     }
   };
 

@@ -12,6 +12,8 @@ import {
   EASTMETRO_ZOOM,
   NORTHMETRO_CENTER,
   NORTHMETRO_ZOOM,
+  SATELLITE_STYLE,
+  SOURCE_ID,
   SOUTHMETRO_CENTER,
   SOUTHMETRO_ZOOM,
   TC_CENTER,
@@ -20,8 +22,16 @@ import {
   WESTMETRO_CENTER,
   WESTMETRO_ZOOM,
 } from "../../constants/mapbox";
+import mapboxgl, { LngLatBoundsLike, MapboxGeoJSONFeature } from "mapbox-gl";
 
-import mapboxgl from "mapbox-gl";
+import styled from "styled-components";
+
+const StyledControl = styled.div`
+  position: absolute;
+  bottom: 0;
+  left: 100px;
+  z-index: 10;
+`;
 
 type IProps = {
   map: mapboxgl.Map | undefined;
@@ -78,12 +88,44 @@ const MapViewport: FC<IProps> = ({
   }, [setMap]);
 
   useEffect(() => {
-    if (selectedCorridor === null) {
-      resetMap();
+    if (selectedCorridor) {
+      zoomToLayer();
+    } else {
+      zoomToRegion();
     }
   }, [selectedCorridor, navigation]);
 
-  const resetMap = () => {
+  const zoomToLayer = () => {
+    if (map) {
+      if (selectedCorridor) {
+        const features = map.querySourceFeatures(SOURCE_ID, {
+          // sourceLayer: sourceLayerName,
+          filter: ["==", ["get", "CORRIDOR"], selectedCorridor.DATA_CORRIDOR],
+        });
+        if (features && features.length) {
+          // const allCoordinates:any = [];
+          let newBounds = new mapboxgl.LngLatBounds();
+
+          features.forEach((feature: MapboxGeoJSONFeature) => {
+            if (feature.geometry.type === "LineString") {
+              feature.geometry.coordinates.forEach((coord: any) => {
+                newBounds.extend([coord[0], coord[1]]);
+              });
+            }
+          });
+
+          map.fitBounds(newBounds as LngLatBoundsLike, {
+            padding: 200,
+            offset: [0, -50],
+          });
+        } else {
+          console.log("No bounds for " + selectedCorridor?.DATA_CORRIDOR);
+        }
+      }
+    }
+  };
+
+  const zoomToRegion = () => {
     if (map) {
       switch (navigation?.region) {
         case RegionName.tc:
@@ -106,11 +148,29 @@ const MapViewport: FC<IProps> = ({
     }
   };
 
+  const setMapStyle = (style: string) => {
+    if (map) {
+      map.setStyle(style);
+    }
+  };
+
   return (
     <div
       ref={mapNode}
-      style={{ width: "100%", height: "100%" }}
-    />
+      style={{ width: "100%", height: "100%" }}>
+      <StyledControl className="btn-group">
+        <button
+          className="btn"
+          onClick={() => setMapStyle(TC_MAP_STYLE)}>
+          Normal
+        </button>
+        <button
+          className="btn"
+          onClick={() => setMapStyle(SATELLITE_STYLE)}>
+          Satellite
+        </button>
+      </StyledControl>
+    </div>
   );
 };
 

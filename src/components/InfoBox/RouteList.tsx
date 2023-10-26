@@ -1,6 +1,7 @@
 import { Dispatch, FC, SetStateAction } from "react";
 
 import { Corridor } from "../../constants/types";
+import styled from "styled-components";
 
 interface IProps {
   corridors: Array<Corridor> | undefined;
@@ -10,6 +11,11 @@ interface IProps {
   selectedCorridor: Corridor | null;
   setSelectedCorridor: Dispatch<SetStateAction<Corridor | null>>;
 }
+
+const StyledButton = styled.button`
+  letter-spacing: 1px;
+`;
+
 const RouteList: FC<IProps> = ({
   corridors,
   heading,
@@ -47,14 +53,14 @@ const RouteList: FC<IProps> = ({
       </li>
       {filtered &&
         filtered.map((route: Corridor, i: number) => (
-          <button
+          <StyledButton
             key={i}
-            className={`font-sans fs-5 list-group-item list-group-item-action w-100 text-start
+            className={`font-sans fs-5 text-uppercase list-group-item list-group-item-action w-100 text-start
                   ${selectedCorridor?.id === route.id ? "active" : ""}
                 `}
             onClick={() => setSelectedCorridor(route)}>
             {route.routeName}
-          </button>
+          </StyledButton>
         ))}
     </div>
   );

@@ -17,7 +17,7 @@ type IProps = {
 const MapSource: FC<IProps> = ({ id, url, map, type, data }) => {
   useEffect(() => {
     if (map) {
-      map.on("load", () => {
+      map.on("style.load", () => {
         if (type === "vector") {
           map.addSource(id, {
             type,
@@ -25,13 +25,14 @@ const MapSource: FC<IProps> = ({ id, url, map, type, data }) => {
           });
         } else if (type === "geojson") {
           // Assign new IDs
-          data.features.forEach((feature: any, i: number) => {
-            feature.id = i + 1;
-          });
-
+          // data.features.forEach((feature: any, i: number) => {
+          //   feature.id = i + 1;
+          // });
+          console.log("Load Source");
           map.addSource(id, {
             type,
             data,
+            // generateId: true,
           });
         }
       });
@@ -45,9 +46,10 @@ const MapSource: FC<IProps> = ({ id, url, map, type, data }) => {
 
   useEffect(() => {
     if (data && map) {
-      console.log("new update, data", data);
       const source = map.getSource(id) as GeoJSONSource;
-      source.setData(data);
+      if (source) {
+        source.setData(data);
+      }
     }
   }, [data]);
 

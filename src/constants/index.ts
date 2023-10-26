@@ -1,5 +1,13 @@
-import { NavigationState, RegionName, TransitTypes } from "./types";
+import {
+  AppFeatureCollection,
+  AppGeometryFeature,
+  NavigationState,
+  RegionName,
+  TransitTypes,
+} from "./types";
 import { TC_CENTER, TC_ZOOM, WESTMETRO_CENTER, WESTMETRO_ZOOM } from "./mapbox";
+
+import FEATURE_COLLECTION from "./DATA_FEATURE_COLLECTION.json";
 
 export const EDITOR_MODE: boolean = false;
 
@@ -43,3 +51,35 @@ export const NAVIGATION: Array<NavigationState> = [
     region: RegionName.south,
   },
 ];
+
+export const getDataFeatureCollection = () => {
+  const fc = FEATURE_COLLECTION as AppFeatureCollection;
+  let col: any = {};
+  fc.features.forEach((feature: AppGeometryFeature) => {
+    let corridorName = feature?.properties?.CORRIDOR;
+
+    if (corridorName) {
+      corridorName = corridorName
+        .toUpperCase()
+        .replace("-", "")
+        .replaceAll(" ", "_");
+      if (!col[corridorName]) {
+        col[corridorName] = corridorName;
+      }
+    } else {
+      console.log("MISSING", feature);
+    }
+  });
+  console.log(col);
+  return fc;
+};
+
+export const CORRIDOR_TO_ROUTEKEY = {
+  CH: "Como - Harriet",
+  OH: "Oak - Harriet",
+  BJ: "Bryant - Johnson",
+  NIC: "Nicollet - 2nd St NE",
+  CHIFRE: "Chicago - Fremont",
+  CHIPEN: "Chicago - Penn",
+  MINNE: "Minnehaha - Ft. Snelling",
+};

@@ -19,6 +19,7 @@ const StyledHeader = styled.div`
   display: flex;
   margin-bottom: 1em;
   img {
+    margin-right: 0.5em;
     width: 2em;
     height: auto;
   }
@@ -40,8 +41,8 @@ const CorridorInfo: FC<IPropsCorridorInfo> = ({
 
       <div className="p-3">
         <StyledHeader>
-          <h2>{selectedCorridor?.routeName}</h2>
           <Icon name={selectedCorridor?.DATA_TYPE.toLowerCase()} />
+          <h2>{selectedCorridor?.routeName}</h2>
         </StyledHeader>
         <ul>
           <li>Year Start: {selectedCorridor?.yearStart}</li>
