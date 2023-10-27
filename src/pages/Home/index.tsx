@@ -37,7 +37,6 @@ const Home: FC = () => {
   );
 
   useEffect(() => {
-    console.log("USEEFFECT");
     const featureCollection = getDataFeatureCollection();
     const corridors = getCorridors();
     setGeoJSON(featureCollection);

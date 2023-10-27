@@ -27,6 +27,7 @@ import { YEAR_FILTER_HOOK } from "./helpers";
 interface IProps {
   map: mapboxgl.Map | undefined;
   selectedCorridor: Corridor | null;
+  corridors?: Array<Corridor> | null;
   layerName: string;
   sourceId: string;
   sourceLayerName?: string;
@@ -42,6 +43,7 @@ interface Refs {
 const RouteLayer: FC<IProps> = ({
   layerName,
   sourceId,
+  corridors = null,
   sourceLayerName,
   map,
   selectedCorridor,
@@ -170,7 +172,7 @@ const RouteLayer: FC<IProps> = ({
   const onMouseEnter = (e: any) => {
     if (selectedCorridor === null) {
       if (e.features[0] && e.features[0].properties.CORRIDOR) {
-        console.log("mouse enter", e.features[0].properties.CORRIDOR);
+        // console.log("mouse enter", e.features[0].properties.CORRIDOR);
         setHighlightedCorridor(e.features[0].properties.CORRIDOR);
       }
     }
@@ -199,8 +201,22 @@ const RouteLayer: FC<IProps> = ({
 
   const setHighlightedCorridor = (corridorName: string) => {
     if (map) {
-      map.setFilter(highlightLayer, ["==", "CORRIDOR", corridorName]);
-      map.setFilter(highlightOutlineLayer, ["==", "CORRIDOR", corridorName]);
+      // Highlight shared routes
+      corridors?.some((corridor) => {
+        if (corridor.DATA_CORRIDOR === corridorName) {
+          const filter = [
+            "any",
+            ["==", "CORRIDOR", corridor.DATA_CORRIDOR || ""],
+            ["==", "CORRIDOR", corridor.DATA_CORRIDOR_SHARED || ""],
+            ["==", "CORRIDOR", corridor.DATA_CORRIDOR_PAIRED || ""],
+          ];
+          map.setFilter(highlightLayer, filter);
+          map.setFilter(highlightOutlineLayer, filter);
+          return true;
+        } else {
+          return false;
+        }
+      });
 
       map.setPaintProperty(highlightLayer, "line-opacity", 1);
       map.setPaintProperty(highlightOutlineLayer, "line-opacity", 1);
@@ -222,16 +238,15 @@ const RouteLayer: FC<IProps> = ({
 
   const styleSelectedCorridor = () => {
     if (map) {
-      map.setFilter(highlightLayer, [
-        "==",
-        "CORRIDOR",
-        selectedCorridor?.DATA_CORRIDOR,
-      ]);
-      map.setFilter(highlightOutlineLayer, [
-        "==",
-        "CORRIDOR",
-        selectedCorridor?.DATA_CORRIDOR,
-      ]);
+      const filter = [
+        "any",
+        ["==", "CORRIDOR", selectedCorridor?.DATA_CORRIDOR || ""],
+        ["==", "CORRIDOR", selectedCorridor?.DATA_CORRIDOR_SHARED || ""],
+        ["==", "CORRIDOR", selectedCorridor?.DATA_CORRIDOR_PAIRED || ""],
+      ];
+
+      map.setFilter(highlightLayer, filter);
+      map.setFilter(highlightOutlineLayer, filter);
 
       // Highlight selected layer
       // map.setLayoutProperty(highlightLayer, "visibility", "visible");

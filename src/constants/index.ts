@@ -10,10 +10,10 @@ import {
 import { TC_CENTER, TC_ZOOM, WESTMETRO_CENTER, WESTMETRO_ZOOM } from "./mapbox";
 
 import CORRIDOR_NAMES from "./CORRIDOR_NAMES.json";
-import DATA_CORRIDORS from "./DATA_CORRIDORS.json";
+import DATA_CORRIDORS_STREETCAR from "./DATA_CORRIDORS_STREETCAR.json";
 import FEATURE_COLLECTION from "./DATA_FEATURE_COLLECTION.json";
 
-export const EDITOR_MODE: boolean = true;
+export const EDITOR_MODE: boolean = false;
 
 export const NAVIGATION: Array<NavigationState> = [
   {
@@ -60,7 +60,21 @@ export const getDataFeatureCollection = () => {
   const fc = JSON.parse(
     JSON.stringify(FEATURE_COLLECTION)
   ) as AppFeatureCollection;
+  // _getCorridorTypes(fc);
   return fc;
+};
+
+const _getCorridorTypes = (fc: AppFeatureCollection) => {
+  // Get list of types
+  const corridorNameTypes: Array<string> = [];
+  fc.features.forEach((feature: AppGeometryFeature) => {
+    if (corridorNameTypes.indexOf(feature?.properties?.CORRIDOR) === -1) {
+      corridorNameTypes.push(feature?.properties?.CORRIDOR);
+    }
+  });
+  console.log(corridorNameTypes.sort());
+
+  // // Edit names
   // let col: any = {};
   // console.log("data");
   // fc.features.forEach((feature: AppGeometryFeature) => {
@@ -76,28 +90,21 @@ export const getDataFeatureCollection = () => {
   //   }
   // });
   // console.log(col);
-  // return fc;
 };
 
 export const getCorridors = () => {
-  // const names = CORRIDOR_NAMES as GenericObjectMap;
   const corridors = JSON.parse(
-    JSON.stringify(DATA_CORRIDORS)
+    JSON.stringify(DATA_CORRIDORS_STREETCAR)
   ) as Array<Corridor>;
+
+  // // Generate list of CORRIDOR_NAMES
+  // const names = CORRIDOR_NAMES as GenericObjectMap;
   // corridors.forEach((corridor) => {
-  //   const oldName = corridor.DATA_CORRIDOR;
-  //   corridor.DATA_CORRIDOR = names[oldName];
+  //   const oldName = corridor.DATA_CORRIDOR_PAIRED;
+  //   corridor.DATA_CORRIDOR_SHARED = oldName ? names[oldName] : "";
+  //   corridor.DATA_CORRIDOR_PAIRED = oldName ? names[oldName] : "";
   // });
   // console.log(corridors);
-  return corridors;
-};
 
-export const CORRIDOR_TO_ROUTEKEY = {
-  CH: "Como - Harriet",
-  OH: "Oak - Harriet",
-  BJ: "Bryant - Johnson",
-  NIC: "Nicollet - 2nd St NE",
-  CHIFRE: "Chicago - Fremont",
-  CHIPEN: "Chicago - Penn",
-  MINNE: "Minnehaha - Ft. Snelling",
+  return corridors;
 };

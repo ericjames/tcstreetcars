@@ -28,7 +28,6 @@ const MapSource: FC<IProps> = ({ id, url, map, type, data }) => {
           // data.features.forEach((feature: any, i: number) => {
           //   feature.id = i + 1;
           // });
-          console.log("Load Source");
           map.addSource(id, {
             type,
             data,

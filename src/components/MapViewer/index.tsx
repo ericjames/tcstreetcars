@@ -1,8 +1,3 @@
-import {
-  AppFeatureCollection,
-  AppGeometryFeature,
-  YearRange,
-} from "../../constants/types";
 import { EDITOR_MODE, getDataFeatureCollection } from "../../constants";
 import { FC, useEffect, useState } from "react";
 import { SOURCE_ID, SOURCE_LAYER_NAME } from "../../constants/mapbox";
@@ -14,6 +9,7 @@ import MapSource from "./MapSource";
 import MapViewport from "./MapViewport";
 import RouteLayer from "./RouteLayer";
 import SystemLayer from "./SystemLayer";
+import { YearRange } from "../../constants/types";
 import YearToggler from "./YearToggler";
 import mapboxgl from "mapbox-gl";
 
@@ -78,6 +74,7 @@ const MapViewer: FC<IPropsMapViewer> = ({
 
         <RouteLayer
           map={map}
+          corridors={corridors}
           selectedCorridor={selectedCorridor}
           layerName={`route-layer`}
           sourceId={SOURCE_ID}
