@@ -78,6 +78,11 @@ export type Corridor = {
 };
 
 export type YearRange = [number | null, number | null];
+
+export type GenericObjectMap = {
+  [key: string]: string;
+};
+
 export interface IPropsHeader {
   navigation: NavigationStateProp;
   setNavigation: Dispatch<SetStateAction<NavigationStateProp>>;
@@ -85,7 +90,7 @@ export interface IPropsHeader {
 
 export interface IPropsInfoBox {
   navigation?: NavigationStateProp;
-  corridors?: Array<Corridor>;
+  corridors?: Array<Corridor> | null;
   selectedCorridor: Corridor | null;
   setSelectedCorridor: Dispatch<SetStateAction<Corridor | null>>;
   selectedType: TransitTypes | null;
@@ -94,11 +99,13 @@ export interface IPropsInfoBox {
 
 export interface IPropsMapViewer {
   navigation?: NavigationStateProp;
-  corridors?: Array<Corridor>;
+  corridors?: Array<Corridor> | null;
   selectedCorridor: Corridor | null;
   setSelectedCorridor: Dispatch<SetStateAction<Corridor | null>>;
   selectedType: TransitTypes | null;
   setSelectedType: Dispatch<SetStateAction<TransitTypes | null>>;
+  geoJSON: AppFeatureCollection | null;
+  setGeoJSON: Dispatch<SetStateAction<AppFeatureCollection | null>>;
 }
 
 export interface IPropsCorridorInfo {

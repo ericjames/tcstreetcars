@@ -4,7 +4,7 @@ import { Corridor } from "../../constants/types";
 import styled from "styled-components";
 
 interface IProps {
-  corridors: Array<Corridor> | undefined;
+  corridors: Array<Corridor> | null;
   heading: string;
   filterOut: Array<Array<string>>;
   sortProperty: string;

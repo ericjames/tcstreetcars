@@ -98,6 +98,7 @@ const MapViewport: FC<IProps> = ({
   const zoomToLayer = () => {
     if (map) {
       if (selectedCorridor) {
+        console.log(selectedCorridor);
         const features = map.querySourceFeatures(SOURCE_ID, {
           // sourceLayer: sourceLayerName,
           filter: ["==", ["get", "CORRIDOR"], selectedCorridor.DATA_CORRIDOR],

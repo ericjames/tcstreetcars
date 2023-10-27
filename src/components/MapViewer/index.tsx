@@ -18,6 +18,8 @@ import YearToggler from "./YearToggler";
 import mapboxgl from "mapbox-gl";
 
 const MapViewer: FC<IPropsMapViewer> = ({
+  geoJSON,
+  setGeoJSON,
   corridors,
   navigation,
   selectedCorridor,
@@ -28,14 +30,6 @@ const MapViewer: FC<IPropsMapViewer> = ({
   // const [appState, setAppState] = useState<AppState>(null);
   const [map, setMap] = useState<mapboxgl.Map>();
   const [yearRange, setYearRange] = useState<YearRange>([null, null]);
-  const [geoJSON, setGeoJSON] = useState<AppFeatureCollection | null>(null);
-
-  useEffect(() => {
-    const FEATURES = getDataFeatureCollection();
-    if (FEATURES) {
-      setGeoJSON(FEATURES);
-    }
-  }, []);
 
   const onLineFeatureClick = (corridorName: string) => {
     if (corridors) {

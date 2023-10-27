@@ -3,7 +3,7 @@ import { IPropsInfoBox } from "../../../constants/types";
 import RouteList from "../RouteList";
 
 const TCStreetcar: FC<IPropsInfoBox> = ({
-  corridors,
+  corridors = null,
   selectedCorridor,
   setSelectedCorridor,
   selectedType,

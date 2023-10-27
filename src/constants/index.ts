@@ -1,15 +1,19 @@
 import {
   AppFeatureCollection,
   AppGeometryFeature,
+  Corridor,
+  GenericObjectMap,
   NavigationState,
   RegionName,
   TransitTypes,
 } from "./types";
 import { TC_CENTER, TC_ZOOM, WESTMETRO_CENTER, WESTMETRO_ZOOM } from "./mapbox";
 
+import CORRIDOR_NAMES from "./CORRIDOR_NAMES.json";
+import DATA_CORRIDORS from "./DATA_CORRIDORS.json";
 import FEATURE_COLLECTION from "./DATA_FEATURE_COLLECTION.json";
 
-export const EDITOR_MODE: boolean = false;
+export const EDITOR_MODE: boolean = true;
 
 export const NAVIGATION: Array<NavigationState> = [
   {
@@ -53,25 +57,39 @@ export const NAVIGATION: Array<NavigationState> = [
 ];
 
 export const getDataFeatureCollection = () => {
-  const fc = FEATURE_COLLECTION as AppFeatureCollection;
-  let col: any = {};
-  fc.features.forEach((feature: AppGeometryFeature) => {
-    let corridorName = feature?.properties?.CORRIDOR;
-
-    if (corridorName) {
-      corridorName = corridorName
-        .toUpperCase()
-        .replace("-", "")
-        .replaceAll(" ", "_");
-      if (!col[corridorName]) {
-        col[corridorName] = corridorName;
-      }
-    } else {
-      console.log("MISSING", feature);
-    }
-  });
-  console.log(col);
+  const fc = JSON.parse(
+    JSON.stringify(FEATURE_COLLECTION)
+  ) as AppFeatureCollection;
   return fc;
+  // let col: any = {};
+  // console.log("data");
+  // fc.features.forEach((feature: AppGeometryFeature) => {
+  //   const corridorNameType = `${feature?.properties?.CORRIDOR} ${feature?.properties?.TYPE}`;
+
+  //   const transformedName = corridorNameType
+  //     .toUpperCase()
+  //     .replace("-", "")
+  //     .replaceAll(" ", "_");
+  //   feature.properties.CORRIDOR = transformedName;
+  //   if (!col[corridorNameType]) {
+  //     col[corridorNameType] = transformedName;
+  //   }
+  // });
+  // console.log(col);
+  // return fc;
+};
+
+export const getCorridors = () => {
+  // const names = CORRIDOR_NAMES as GenericObjectMap;
+  const corridors = JSON.parse(
+    JSON.stringify(DATA_CORRIDORS)
+  ) as Array<Corridor>;
+  // corridors.forEach((corridor) => {
+  //   const oldName = corridor.DATA_CORRIDOR;
+  //   corridor.DATA_CORRIDOR = names[oldName];
+  // });
+  // console.log(corridors);
+  return corridors;
 };
 
 export const CORRIDOR_TO_ROUTEKEY = {

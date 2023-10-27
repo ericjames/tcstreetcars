@@ -1,15 +1,19 @@
 import {
+  AppFeatureCollection,
   Corridor,
   NavigationStateProp,
   TransitTypes,
 } from "../../constants/types";
+import {
+  NAVIGATION,
+  getCorridors,
+  getDataFeatureCollection,
+} from "../../constants";
 import React, { FC, useEffect, useState } from "react";
 
-import CORRIDORS from "../../constants/DATA_CORRIDORS.json";
 import Header from "../../components/Header";
 import InfoBox from "../../components/InfoBox";
 import MapViewer from "../../components/MapViewer";
-import { NAVIGATION } from "../../constants";
 import styled from "styled-components";
 
 const StyledWrapper = styled.div`
@@ -21,6 +25,8 @@ const StyledHeader = styled.div`
 
 const Home: FC = () => {
   const initialNav = NAVIGATION[1];
+  const [geoJSON, setGeoJSON] = useState<AppFeatureCollection | null>(null);
+  const [corridors, setCorridors] = useState<Array<Corridor> | null>(null);
   const [navigation, setNavigation] = useState<NavigationStateProp>(initialNav);
   const [selectedCorridor, setSelectedCorridor] = useState<Corridor | null>(
     null
@@ -31,8 +37,12 @@ const Home: FC = () => {
   );
 
   useEffect(() => {
-    // Router toggles on active route per URL?
-  });
+    console.log("USEEFFECT");
+    const featureCollection = getDataFeatureCollection();
+    const corridors = getCorridors();
+    setGeoJSON(featureCollection);
+    setCorridors(corridors);
+  }, []);
 
   return (
     <div className="vh-100 d-flex flex-column">
@@ -46,7 +56,7 @@ const Home: FC = () => {
         <div className="d-none d-md-block col-md-3 h-100">
           <InfoBox
             navigation={navigation}
-            corridors={CORRIDORS}
+            corridors={corridors}
             selectedCorridor={selectedCorridor}
             setSelectedCorridor={setSelectedCorridor}
             selectedType={selectedType}
@@ -57,11 +67,13 @@ const Home: FC = () => {
         <div className="col-12 col-md-9">
           <MapViewer
             navigation={navigation}
-            corridors={CORRIDORS}
+            corridors={corridors}
             selectedCorridor={selectedCorridor}
             setSelectedCorridor={setSelectedCorridor}
             selectedType={selectedType}
             setSelectedType={setSelectedType}
+            geoJSON={geoJSON}
+            setGeoJSON={setGeoJSON}
           />
         </div>
       </StyledWrapper>
