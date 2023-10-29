@@ -40,7 +40,7 @@ export type NavigationState = {
   center?: [number, number];
 };
 
-export type NavigationStateProp = NavigationState | undefined | null;
+export type NavigationStateProp = NavigationState | null;
 
 export enum RegionName {
   tc = "Twin Cities",
@@ -89,7 +89,7 @@ export interface IPropsHeader {
 }
 
 export interface IPropsInfoBox {
-  navigation?: NavigationStateProp;
+  navigation?: NavigationStateProp | null;
   corridors?: Array<Corridor> | null;
   selectedCorridor: Corridor | null;
   setSelectedCorridor: Dispatch<SetStateAction<Corridor | null>>;
@@ -112,6 +112,8 @@ export interface IPropsCorridorInfo {
   selectedCorridor: Corridor | null;
   setSelectedCorridor: Dispatch<SetStateAction<Corridor | null>>;
 }
+
+export type SetSelectedType = Dispatch<SetStateAction<TransitTypes | null>>;
 
 export type FeatureType =
   | "Streetcar"

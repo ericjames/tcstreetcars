@@ -10,6 +10,7 @@ import {
 import { TC_CENTER, TC_ZOOM, WESTMETRO_CENTER, WESTMETRO_ZOOM } from "./mapbox";
 
 import CORRIDOR_NAMES from "./CORRIDOR_NAMES.json";
+import DATA_CORRIDORS_FERRY from "./DATA_CORRIDORS_FERRY.json";
 import DATA_CORRIDORS_STREETCAR from "./DATA_CORRIDORS_STREETCAR.json";
 import FEATURE_COLLECTION from "./DATA_FEATURE_COLLECTION.json";
 
@@ -30,10 +31,10 @@ export const NAVIGATION: Array<NavigationState> = [
   {
     title: RegionName.west.toString(),
     types: [
-      TransitTypes.FERRY,
-      TransitTypes.STEAMPOWER,
       TransitTypes.STREETCAR,
+      TransitTypes.FERRY,
       TransitTypes.BUS,
+      TransitTypes.STEAMPOWER,
     ],
     region: RegionName.west,
     zoom: WESTMETRO_ZOOM,
@@ -93,10 +94,12 @@ const _getCorridorTypes = (fc: AppFeatureCollection) => {
 };
 
 export const getCorridors = () => {
-  const corridors = JSON.parse(
-    JSON.stringify(DATA_CORRIDORS_STREETCAR)
-  ) as Array<Corridor>;
-
+  const corridors = [
+    ...(JSON.parse(
+      JSON.stringify(DATA_CORRIDORS_STREETCAR)
+    ) as Array<Corridor>),
+    ...(JSON.parse(JSON.stringify(DATA_CORRIDORS_FERRY)) as Array<Corridor>),
+  ];
   // // Generate list of CORRIDOR_NAMES
   // const names = CORRIDOR_NAMES as GenericObjectMap;
   // corridors.forEach((corridor) => {

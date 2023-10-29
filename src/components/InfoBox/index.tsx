@@ -14,6 +14,7 @@ import React, {
 
 import CorridorInfo from "./CorridorInfo";
 import TCInfo from "./TCInfo";
+import WestMetroInfo from "./WestMetroInfo";
 import styled from "styled-components";
 
 const Wrapper = styled.div`
@@ -29,7 +30,7 @@ const InfoBox: FC<IPropsInfoBox> = ({
   selectedType,
   setSelectedType,
   corridors,
-  navigation,
+  navigation = null,
 }) => {
   // const [appState, setAppState] = useState<AppState>(null);
 
@@ -45,6 +46,15 @@ const InfoBox: FC<IPropsInfoBox> = ({
           <div className="p-3">Created by Eric James</div>
         ) : navigation?.region === RegionName.tc ? (
           <TCInfo
+            selectedCorridor={selectedCorridor}
+            setSelectedCorridor={setSelectedCorridor}
+            selectedType={selectedType}
+            setSelectedType={setSelectedType}
+            corridors={corridors}
+            navigation={navigation}
+          />
+        ) : navigation?.region === RegionName.west ? (
+          <WestMetroInfo
             selectedCorridor={selectedCorridor}
             setSelectedCorridor={setSelectedCorridor}
             selectedType={selectedType}

@@ -13,11 +13,11 @@ import graphicStreetcar from "../../../images/graphic_streetcar.png";
 import styled from "styled-components";
 
 const StyledImage = styled.div`
-  height: 200px;
+  height: 100px;
   overflow: hidden;
 `;
 
-const TCInfo: FC<IPropsInfoBox> = ({
+const WestMetroInfo: FC<IPropsInfoBox> = ({
   selectedCorridor,
   setSelectedCorridor,
   selectedType,
@@ -41,41 +41,47 @@ const TCInfo: FC<IPropsInfoBox> = ({
           selectedType={selectedType}
           navigation={navigation}
         />
-        <h1>Twin Cities</h1>
+
+        <h1>West Metro</h1>
         {selectedType === TransitTypes.STREETCAR ? (
           <>
             <p>
-              A great streetcar system created the Twin Cities metro area and
-              peaked at around 1947 until its demise in 1954. Explore the map by
-              hovering over routes and clicking on them to enter. You can also
-              directly select routes below or explore other regions in the
-              navigation bar above.
+              Streetcars originally served the growing western communities to
+              industrial work centers in Minneapolis.
             </p>
+
             <RouteList
               corridors={corridors}
               selectedCorridor={selectedCorridor}
               setSelectedCorridor={setSelectedCorridor}
               filterOut={[
-                ["mainCity", "Minneapolis"],
+                ["mainCity", "West Metro"],
                 ["DATA_TYPE", selectedType?.toString() || ""],
               ]}
               sortProperty="routeName"
-              heading="Minneapolis"
-            />
-            <RouteList
-              corridors={corridors}
-              selectedCorridor={selectedCorridor}
-              setSelectedCorridor={setSelectedCorridor}
-              filterOut={[
-                ["mainCity", "Saint Paul"],
-                ["DATA_TYPE", selectedType?.toString() || ""],
-              ]}
-              sortProperty="routeName"
-              heading="Saint Paul"
+              heading="Western Communities"
             />
           </>
-        ) : selectedType === TransitTypes.HORSECAR ? (
-          <p>Horsecar</p>
+        ) : selectedType === TransitTypes.FERRY ? (
+          <>
+            <p>
+              Ferries sailed across Lake Minnetonka to serve local residents
+              commuting to streetcar lines and during summer months vacationing southerners escaping
+              the heat.
+            </p>
+
+            <RouteList
+              corridors={corridors}
+              selectedCorridor={selectedCorridor}
+              setSelectedCorridor={setSelectedCorridor}
+              filterOut={[
+                ["mainCity", "West Metro"],
+                ["DATA_TYPE", selectedType?.toString() || ""],
+              ]}
+              sortProperty="routeName"
+              heading="Lake Minnetonka"
+            />
+          </>
         ) : selectedType === TransitTypes.BUS ? (
           <p>Bus</p>
         ) : (
@@ -89,4 +95,4 @@ const TCInfo: FC<IPropsInfoBox> = ({
   );
 };
 
-export default TCInfo;
+export default WestMetroInfo;

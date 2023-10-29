@@ -55,6 +55,7 @@ const RouteLayer: FC<IProps> = ({
     popup: null,
   });
 
+  const selectorLayer = layerName + "-selector";
   const highlightLayer = "highlight-layer";
   const highlightOutlineLayer = "highlight-outline-layer";
   const symbolLayerName = layerName + "-symbols";
@@ -146,7 +147,7 @@ const RouteLayer: FC<IProps> = ({
         });
 
         map.addLayer({
-          id: layerName,
+          id: selectorLayer,
           source: sourceId,
           // "source-layer": sourceLayerName,
           type: "line",
@@ -171,7 +172,11 @@ const RouteLayer: FC<IProps> = ({
 
   const onMouseEnter = (e: any) => {
     if (selectedCorridor === null) {
-      if (e.features[0] && e.features[0].properties.CORRIDOR) {
+      if (
+        e.features[0] &&
+        e.features[0].properties.CORRIDOR &&
+        e.features[0].properties.TYPE === selectedType
+      ) {
         // console.log("mouse enter", e.features[0].properties.CORRIDOR);
         setHighlightedCorridor(e.features[0].properties.CORRIDOR);
       }
@@ -208,7 +213,7 @@ const RouteLayer: FC<IProps> = ({
             "any",
             ["==", "CORRIDOR", corridor.DATA_CORRIDOR || ""],
             ["==", "CORRIDOR", corridor.DATA_CORRIDOR_SHARED || ""],
-            ["==", "CORRIDOR", corridor.DATA_CORRIDOR_PAIRED || ""],
+            // ["==", "CORRIDOR", corridor.DATA_CORRIDOR_PAIRED || ""],
           ];
           map.setFilter(highlightLayer, filter);
           map.setFilter(highlightOutlineLayer, filter);
@@ -270,10 +275,10 @@ const RouteLayer: FC<IProps> = ({
       map.setPaintProperty(highlightLayer, "line-opacity", 0);
       map.setPaintProperty(highlightOutlineLayer, "line-opacity", 0);
       // map.setLayoutProperty(layerName, "visibility", "none");
-      // map.setLayoutProperty(highlightOutlineLayer, "visibility", "none");
+      // map.setLayoutProperty(selectorLayer, "visibility", "none");
       // map.setLayoutProperty(symbolLayerName, "visibility", "none");
-      // map.setPaintProperty(layerName, "line-opacity", 0);
-      // map.setLayoutProperty(layerName, "line-sort-key", corridor?.id);
+      // map.setPaintProperty(selectorLayer, "line-opacity", 0);
+      // map.setLayoutProperty(selectorLayer, "line-sort-key", corridor?.id);
     }
   };
 
@@ -299,9 +304,9 @@ const RouteLayer: FC<IProps> = ({
   useEffect(() => {
     // Mapbox event listeners must be Reactified here
     if (map) {
-      map.on("mouseleave", layerName, onMouseLeave);
-      map.on("mouseenter", layerName, onMouseEnter);
-      map.on("click", layerName, onClickLayer);
+      map.on("mouseleave", selectorLayer, onMouseLeave);
+      map.on("mouseenter", selectorLayer, onMouseEnter);
+      map.on("click", selectorLayer, onClickLayer);
       // map.on("mouseleave", symbolLayerName, onMouseLeave);
       // map.on("mouseenter", symbolLayerName, onMouseEnter);
       if (map.isStyleLoaded()) {
@@ -316,9 +321,9 @@ const RouteLayer: FC<IProps> = ({
     return () => {
       if (map) {
         // Tear down
-        map.off("mouseleave", layerName, onMouseLeave);
-        map.off("mouseenter", layerName, onMouseEnter);
-        map.off("click", layerName, onClickLayer);
+        map.off("mouseleave", selectorLayer, onMouseLeave);
+        map.off("mouseenter", selectorLayer, onMouseEnter);
+        map.off("click", selectorLayer, onClickLayer);
         // map.off("mouseleave", symbolLayerName, onMouseLeave);
         // map.off("mouseenter", symbolLayerName, onMouseEnter);
         if (routeLayerRef.current.popup) {
@@ -331,7 +336,12 @@ const RouteLayer: FC<IProps> = ({
   YEAR_FILTER_HOOK({
     map,
     yearRange,
-    layerNames: [layerName, symbolLayerName],
+    layerNames: [
+      highlightLayer,
+      highlightOutlineLayer,
+      selectorLayer,
+      symbolLayerName,
+    ],
   });
 
   return null;

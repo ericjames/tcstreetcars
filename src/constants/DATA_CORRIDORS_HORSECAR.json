@@ -2,9 +2,9 @@
   {
     "id": 500,
     "routeName": "Cable Car",
-    "DATA_CORRIDOR": "Cable Car",
+    "DATA_CORRIDOR": "CABLE_CAR_CABLE_CAR",
     "DATA_CORRIDOR_SHARED": "",
-    "DATA_THROUGHROUTE": "",
+    "DATA_CORRIDOR_PAIRED": "",
     "DATA_TYPE": "Cable Car",
     "mainCity": "Minneapolis",
     "start": "",
@@ -18,9 +18,9 @@
   {
     "id": 600,
     "routeName": "Horsecar",
-    "DATA_CORRIDOR": "Horsecar",
+    "DATA_CORRIDOR": "HORSECAR_HORSECAR",
     "DATA_CORRIDOR_SHARED": "",
-    "DATA_THROUGHROUTE": "",
+    "DATA_CORRIDOR_PAIRED": "",
     "DATA_TYPE": "Horsecar",
     "mainCity": "Twin Cities",
     "start": "",
