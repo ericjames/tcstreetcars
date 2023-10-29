@@ -6,11 +6,13 @@ import {
 } from "../../constants/types";
 import {
   NAVIGATION,
+  PRODUCTION_MODE,
   getCorridors,
   getDataFeatureCollection,
 } from "../../constants";
 import React, { FC, useEffect, useState } from "react";
 
+import About from "../../components/About";
 import Header from "../../components/Header";
 import InfoBox from "../../components/InfoBox";
 import MapViewer from "../../components/MapViewer";
@@ -24,7 +26,7 @@ const StyledHeader = styled.div`
 `;
 
 const Home: FC = () => {
-  const initialNav = NAVIGATION[1];
+  const initialNav = PRODUCTION_MODE ? NAVIGATION[0] : NAVIGATION[1];
   const [geoJSON, setGeoJSON] = useState<AppFeatureCollection | null>(null);
   const [corridors, setCorridors] = useState<Array<Corridor> | null>(null);
   const [navigation, setNavigation] = useState<NavigationStateProp>(initialNav);
@@ -43,11 +45,19 @@ const Home: FC = () => {
     setCorridors(corridors);
   }, []);
 
+  const setSiteNavigation = (nav: NavigationStateProp) => {
+    if (selectedType && nav?.types?.indexOf(selectedType) === -1) {
+      setSelectedType(nav.types[0]);
+    }
+    setNavigation(nav);
+  };
+
   return (
     <div className="vh-100 d-flex flex-column">
+      {navigation?.modal === "About" && <About setNavigation={setNavigation} />}
       <StyledHeader>
         <Header
-          setNavigation={setNavigation}
+          setSiteNavigation={setSiteNavigation}
           navigation={navigation}
         />
       </StyledHeader>

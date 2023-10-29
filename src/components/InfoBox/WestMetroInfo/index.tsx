@@ -66,8 +66,8 @@ const WestMetroInfo: FC<IPropsInfoBox> = ({
           <>
             <p>
               Ferries sailed across Lake Minnetonka to serve local residents
-              commuting to streetcar lines and during summer months vacationing southerners escaping
-              the heat.
+              commuting to streetcar lines and during summer months vacationing
+              southerners escaping the heat.
             </p>
 
             <RouteList
@@ -83,6 +83,21 @@ const WestMetroInfo: FC<IPropsInfoBox> = ({
             />
           </>
         ) : selectedType === TransitTypes.BUS ? (
+          <>
+            <p>Bus</p>
+            <RouteList
+              corridors={corridors}
+              selectedCorridor={selectedCorridor}
+              setSelectedCorridor={setSelectedCorridor}
+              filterOut={[
+                ["mainCity", "West Metro"],
+                ["DATA_TYPE", selectedType?.toString() || ""],
+              ]}
+              sortProperty="routeName"
+              heading="West Metro"
+            />
+          </>
+        ) : selectedType === TransitTypes.STEAMPOWER ? (
           <p>Bus</p>
         ) : (
           <></>

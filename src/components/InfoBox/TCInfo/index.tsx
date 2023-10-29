@@ -13,7 +13,7 @@ import graphicStreetcar from "../../../images/graphic_streetcar.png";
 import styled from "styled-components";
 
 const StyledImage = styled.div`
-  height: 200px;
+  height: 100px;
   overflow: hidden;
 `;
 
@@ -75,9 +75,46 @@ const TCInfo: FC<IPropsInfoBox> = ({
             />
           </>
         ) : selectedType === TransitTypes.HORSECAR ? (
-          <p>Horsecar</p>
+          <>
+            <p>Horsecar </p>
+            <RouteList
+              corridors={corridors}
+              selectedCorridor={selectedCorridor}
+              setSelectedCorridor={setSelectedCorridor}
+              filterOut={[
+                ["mainCity", "Minneapolis"],
+                ["DATA_TYPE", selectedType?.toString() || ""],
+              ]}
+              sortProperty="routeName"
+              heading="Minneapolis"
+            />
+          </>
         ) : selectedType === TransitTypes.BUS ? (
-          <p>Bus</p>
+          <>
+            <p>Bus </p>
+            <RouteList
+              corridors={corridors}
+              selectedCorridor={selectedCorridor}
+              setSelectedCorridor={setSelectedCorridor}
+              filterOut={[
+                ["mainCity", "Minneapolis"],
+                ["DATA_TYPE", selectedType?.toString() || ""],
+              ]}
+              sortProperty="routeName"
+              heading="Minneapolis"
+            />
+            <RouteList
+              corridors={corridors}
+              selectedCorridor={selectedCorridor}
+              setSelectedCorridor={setSelectedCorridor}
+              filterOut={[
+                ["mainCity", "Saint Paul"],
+                ["DATA_TYPE", selectedType?.toString() || ""],
+              ]}
+              sortProperty="routeName"
+              heading="Saint Paul"
+            />
+          </>
         ) : (
           <></>
         )}

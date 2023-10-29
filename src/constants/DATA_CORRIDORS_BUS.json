@@ -2,7 +2,7 @@
   {
     "id": 1000,
     "routeName": "Dale - Hoyt",
-    "DATA_CORRIDOR": "Dale Hoyt Bus",
+    "DATA_CORRIDOR": "DALE_HOYT_BUS",
     "DATA_CORRIDOR_SHARED": "",
     "DATA_CORRIDOR_PAIRED": "",
     "DATA_TYPE": "Bus",
@@ -19,7 +19,7 @@
   {
     "id": 1001,
     "routeName": "Jackson - S. Robert - South St. Paul",
-    "DATA_CORRIDOR": "Jackson Robert SSP Bus",
+    "DATA_CORRIDOR": "Jackson Robert St",
     "DATA_CORRIDOR_SHARED": "",
     "DATA_CORRIDOR_PAIRED": "",
     "DATA_TYPE": "Bus",
@@ -36,7 +36,7 @@
   {
     "id": 1002,
     "routeName": "E 6th St - Stillwater",
-    "DATA_CORRIDOR": "E 6th St Bus",
+    "DATA_CORRIDOR": "E_6TH_ST_BUS",
     "DATA_CORRIDOR_SHARED": "",
     "DATA_CORRIDOR_PAIRED": "",
     "DATA_TYPE": "Bus",
@@ -53,7 +53,7 @@
   {
     "id": 1003,
     "routeName": "E 6th St - Ruth",
-    "DATA_CORRIDOR": "E 6th St Bus",
+    "DATA_CORRIDOR": "E_6TH_ST_BUS",
     "DATA_CORRIDOR_SHARED": "",
     "DATA_CORRIDOR_PAIRED": "E 3rd St Bus",
     "DATA_TYPE": "Bus",
@@ -70,7 +70,7 @@
   {
     "id": 1004,
     "routeName": "St. Paul Airport",
-    "DATA_CORRIDOR": "St Paul Airport Bus",
+    "DATA_CORRIDOR": "ST_PAUL_AIRPORT_BUS",
     "DATA_CORRIDOR_SHARED": "",
     "DATA_CORRIDOR_PAIRED": "",
     "DATA_TYPE": "Bus",
@@ -87,7 +87,7 @@
   {
     "id": 1005,
     "routeName": "Western Ave",
-    "DATA_CORRIDOR": "Western Ave Bus",
+    "DATA_CORRIDOR": "WESTERN_AVE_BUS",
     "DATA_CORRIDOR_SHARED": "",
     "DATA_CORRIDOR_PAIRED": "",
     "DATA_TYPE": "Bus",
@@ -104,7 +104,7 @@
   {
     "id": 1006,
     "routeName": "Highland Park - Cleveland",
-    "DATA_CORRIDOR": "Highland Park Cleveland Bus",
+    "DATA_CORRIDOR": "HIGHLAND_PARK_CLEVELAND_BUS",
     "DATA_CORRIDOR_SHARED": "",
     "DATA_CORRIDOR_PAIRED": "",
     "DATA_TYPE": "Bus",
@@ -138,7 +138,7 @@
   {
     "id": 1008,
     "routeName": "Rondo - Stryker",
-    "DATA_CORRIDOR": "Rondo Stryker Bus",
+    "DATA_CORRIDOR": "RONDO_STRYKER_BUS",
     "DATA_CORRIDOR_SHARED": "",
     "DATA_CORRIDOR_PAIRED": "",
     "DATA_TYPE": "Bus",
@@ -172,7 +172,7 @@
   {
     "id": 1010,
     "routeName": "Minneapolis - St. Paul Express",
-    "DATA_CORRIDOR": "MSP Express Bus",
+    "DATA_CORRIDOR": "MPLS_ST_PAUL_EXPRESS_BUS",
     "DATA_CORRIDOR_SHARED": "",
     "DATA_CORRIDOR_PAIRED": "",
     "DATA_TYPE": "Bus",
@@ -223,7 +223,7 @@
   {
     "id": 1020,
     "routeName": "Lowry Ave",
-    "DATA_CORRIDOR": "Lowry Ave Bus",
+    "DATA_CORRIDOR": "LOWRY_AVE_BUS",
     "DATA_CORRIDOR_SHARED": "",
     "DATA_CORRIDOR_PAIRED": "",
     "DATA_TYPE": "Bus",
@@ -240,7 +240,7 @@
   {
     "id": 1021,
     "routeName": "Humboldt Ave",
-    "DATA_CORRIDOR": "Humboldt Ave Bus",
+    "DATA_CORRIDOR": "HUMBOLDT_AVE_BUS",
     "DATA_CORRIDOR_SHARED": "",
     "DATA_CORRIDOR_PAIRED": "",
     "DATA_TYPE": "Bus",
@@ -257,7 +257,7 @@
   {
     "id": 1022,
     "routeName": "West 39th St",
-    "DATA_CORRIDOR": "W 39th St Bus",
+    "DATA_CORRIDOR": "W_39TH_ST_BUS",
     "DATA_CORRIDOR_SHARED": "",
     "DATA_CORRIDOR_PAIRED": "",
     "DATA_TYPE": "Bus",
@@ -274,7 +274,7 @@
   {
     "id": 1023,
     "routeName": "Hennepin - France",
-    "DATA_CORRIDOR": "Hennepin France Bus",
+    "DATA_CORRIDOR": "HENNEPIN_FRANCE_BUS",
     "DATA_CORRIDOR_SHARED": "",
     "DATA_CORRIDOR_PAIRED": "",
     "DATA_TYPE": "Bus",
@@ -308,7 +308,7 @@
   {
     "id": 1025,
     "routeName": "Chicago Ave",
-    "DATA_CORRIDOR": "Chicago Ave Bus",
+    "DATA_CORRIDOR": "CHICAGO_AVE_BUS",
     "DATA_CORRIDOR_SHARED": "",
     "DATA_CORRIDOR_PAIRED": "",
     "DATA_TYPE": "Bus",
@@ -376,7 +376,7 @@
   {
     "id": 1029,
     "routeName": "38th St",
-    "DATA_CORRIDOR": "38th St Bus",
+    "DATA_CORRIDOR": "38TH_ST_BUS",
     "DATA_CORRIDOR_SHARED": "",
     "DATA_CORRIDOR_PAIRED": "",
     "DATA_TYPE": "Bus",
@@ -393,7 +393,7 @@
   {
     "id": 1030,
     "routeName": "Kenwood - St. Louis Park - Russell Ave N",
-    "DATA_CORRIDOR": "Kenwood SLP Russell Bus",
+    "DATA_CORRIDOR": "KENWOOD_SLP_RUSSELL_BUS",
     "DATA_CORRIDOR_SHARED": "",
     "DATA_CORRIDOR_PAIRED": "",
     "DATA_TYPE": "Bus",
@@ -410,7 +410,7 @@
   {
     "id": 1031,
     "routeName": "50th St",
-    "DATA_CORRIDOR": "50th St Bus",
+    "DATA_CORRIDOR": "50TH_ST_BUS",
     "DATA_CORRIDOR_SHARED": "",
     "DATA_CORRIDOR_PAIRED": "",
     "DATA_TYPE": "Bus",
@@ -427,7 +427,7 @@
   {
     "id": 1032,
     "routeName": "2nd St NE",
-    "DATA_CORRIDOR": "2nd St NE Bus",
+    "DATA_CORRIDOR": "2ND_ST_NE_BUS",
     "DATA_CORRIDOR_SHARED": "",
     "DATA_CORRIDOR_PAIRED": "",
     "DATA_TYPE": "Bus",
@@ -461,7 +461,7 @@
   {
     "id": 1034,
     "routeName": "Nicollet - Hennepin",
-    "DATA_CORRIDOR": "Nicollet Hennepin Bus",
+    "DATA_CORRIDOR": "NICOLLET_HENNEPIN_BUS",
     "DATA_CORRIDOR_SHARED": "",
     "DATA_CORRIDOR_PAIRED": "",
     "DATA_TYPE": "Bus",

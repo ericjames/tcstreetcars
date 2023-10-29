@@ -8,7 +8,7 @@ const Wrapper = styled.div`
   font-family: "Oswald";
 `;
 
-const Header: FC<IPropsHeader> = ({ navigation, setNavigation }) => {
+const Header: FC<IPropsHeader> = ({ navigation, setSiteNavigation }) => {
   return (
     <Wrapper className="d-flex align-items-center">
       <div className="btn-group">
@@ -20,7 +20,7 @@ const Header: FC<IPropsHeader> = ({ navigation, setNavigation }) => {
                 ? "btn-selected border-top-0 border-start-0 border-end-0 border-4 bg-transparent"
                 : ""
             }`}
-            onClick={() => setNavigation(nav)}>
+            onClick={() => setSiteNavigation(nav)}>
             {nav.title}
           </button>
         ))}

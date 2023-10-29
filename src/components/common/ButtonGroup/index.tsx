@@ -11,7 +11,7 @@ import styled from "styled-components";
 const StyledButtonGroup = styled.div`
   flex-wrap: wrap;
   button {
-    min-width: 100px;
+    flex: 1 1 50% !important;
   }
 `;
 

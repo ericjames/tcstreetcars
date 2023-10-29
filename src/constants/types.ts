@@ -33,7 +33,7 @@ export enum TransitTypes {
 export type NavigationState = {
   title: string;
   description?: string;
-  showPage?: string;
+  modal?: string;
   types?: Array<TransitTypes>;
   region?: RegionName;
   zoom?: number;
@@ -41,6 +41,8 @@ export type NavigationState = {
 };
 
 export type NavigationStateProp = NavigationState | null;
+
+export type SetNavigationType = Dispatch<SetStateAction<NavigationStateProp>>;
 
 export enum RegionName {
   tc = "Twin Cities",
@@ -85,7 +87,7 @@ export type GenericObjectMap = {
 
 export interface IPropsHeader {
   navigation: NavigationStateProp;
-  setNavigation: Dispatch<SetStateAction<NavigationStateProp>>;
+  setSiteNavigation: (nav: NavigationStateProp) => void;
 }
 
 export interface IPropsInfoBox {

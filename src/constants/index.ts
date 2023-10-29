@@ -10,20 +10,34 @@ import {
 import { TC_CENTER, TC_ZOOM, WESTMETRO_CENTER, WESTMETRO_ZOOM } from "./mapbox";
 
 import CORRIDOR_NAMES from "./CORRIDOR_NAMES.json";
+import DATA_CORRIDORS_BUS from "./DATA_CORRIDORS_BUS.json";
 import DATA_CORRIDORS_FERRY from "./DATA_CORRIDORS_FERRY.json";
+import DATA_CORRIDORS_HORSECAR from "./DATA_CORRIDORS_HORSECAR.json";
 import DATA_CORRIDORS_STREETCAR from "./DATA_CORRIDORS_STREETCAR.json";
 import FEATURE_COLLECTION from "./DATA_FEATURE_COLLECTION.json";
 
+// DATA_CORRIDORS_BUS.forEach((bus) => {
+//   const names = CORRIDOR_NAMES as any;
+//   bus.DATA_CORRIDOR = names[bus.DATA_CORRIDOR] || bus.DATA_CORRIDOR;
+// });
+// console.log(DATA_CORRIDORS_BUS);
+
 export const EDITOR_MODE: boolean = false;
+export const PRODUCTION_MODE: boolean = true;
 
 export const NAVIGATION: Array<NavigationState> = [
   {
     title: "About",
-    showPage: "About",
+    modal: "About",
   },
   {
     title: RegionName.tc.toString(),
-    types: [TransitTypes.STREETCAR, TransitTypes.HORSECAR, TransitTypes.BUS],
+    types: [
+      TransitTypes.STREETCAR,
+      TransitTypes.BUS,
+      TransitTypes.HORSECAR,
+      TransitTypes.STEAMPOWER,
+    ],
     region: RegionName.tc,
     zoom: TC_ZOOM,
     center: TC_CENTER,
@@ -99,6 +113,8 @@ export const getCorridors = () => {
       JSON.stringify(DATA_CORRIDORS_STREETCAR)
     ) as Array<Corridor>),
     ...(JSON.parse(JSON.stringify(DATA_CORRIDORS_FERRY)) as Array<Corridor>),
+    ...(JSON.parse(JSON.stringify(DATA_CORRIDORS_BUS)) as Array<Corridor>),
+    ...(JSON.parse(JSON.stringify(DATA_CORRIDORS_HORSECAR)) as Array<Corridor>),
   ];
   // // Generate list of CORRIDOR_NAMES
   // const names = CORRIDOR_NAMES as GenericObjectMap;
