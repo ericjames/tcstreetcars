@@ -1,5 +1,13 @@
-import { AllowedGeometryTypes, AppGeometryFeature, YearRange } from "./types";
+import {
+  AllowedGeometryTypes,
+  AppGeometryFeature,
+  CorridorNameMap,
+  FeatureCorridorNames,
+  YearRange,
+} from "./types";
 import mapboxgl, { MapboxGeoJSONFeature } from "mapbox-gl";
+
+import CORRIDOR_NAMES from "./CORRIDOR_NAMES.json";
 
 export const TC_CENTER: [number, number] = [-93.201, 44.9675];
 export const WESTMETRO_CENTER: [number, number] = [-93.48, 44.932];
@@ -82,11 +90,16 @@ export const LABEL_SIZE_STOPS = {
 export const HTML_POPUP = (e: any) => {
   const feature = e?.features[0];
   const prop = feature?.properties || {};
+  const names = CORRIDOR_NAMES as CorridorNameMap;
+  const title = Object.entries(names).find((name) => {
+    if (name[0] === prop?.CORRIDOR) {
+      return name;
+    }
+    return false;
+  });
   return `
   <div className="mapbox-popup-inner">
-    ID: ${prop?.id}<br/>
-    TYPE: ${prop?.TYPE}<br/>
-    CORRIDOR: ${prop?.CORRIDOR}<br/>
+     ${title ? title[1] : prop?.CORRIDOR}
   </div>
   `;
 };

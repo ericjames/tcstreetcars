@@ -1,4 +1,4 @@
-import React, { FC, useEffect, useState } from "react";
+import React, { FC } from "react";
 
 import Photo from "./Photo";
 import { RoutePhoto } from "../../constants/types";

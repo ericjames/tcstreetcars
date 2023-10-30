@@ -47,7 +47,7 @@ const RouteList: FC<IProps> = ({
   });
 
   return (
-    <div className="list-group">
+    <div className="list-group mb-5">
       <li className="list-group-item bg-transparent text-center border-0 border-bottom">
         <h3>{heading}</h3>
       </li>
@@ -55,7 +55,7 @@ const RouteList: FC<IProps> = ({
         filtered.map((route: Corridor, i: number) => (
           <StyledButton
             key={i}
-            className={`font-sans fs-5 text-uppercase list-group-item list-group-item-action w-100 text-start
+            className={`font-sans fs-6 text-center text-uppercase list-group-item list-group-item-action w-100 text-start
                   ${selectedCorridor?.id === route.id ? "active" : ""}
                 `}
             onClick={() => setSelectedCorridor(route)}>

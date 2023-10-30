@@ -1,3 +1,4 @@
+import { GET_PHOTOS_API, GET_PHOTO_JSON } from "../../constants/photos";
 import React, {
   Dispatch,
   FC,
@@ -18,11 +19,12 @@ const Wrapper = styled.div`
 
 type IProps = {
   corridor: Corridor | null;
-  resetMap: () => void;
+  exitMethod: () => void;
 };
 
-const RouteInfoBox: FC<IProps> = ({ corridor, resetMap }) => {
+const RouteInfoBox: FC<IProps> = ({ corridor, exitMethod }) => {
   const [isActive, setIsActive] = useState(false);
+  const [photos, setPhotos] = useState(null);
   useEffect(() => {
     if (corridor) {
       setIsActive(true);
@@ -31,16 +33,29 @@ const RouteInfoBox: FC<IProps> = ({ corridor, resetMap }) => {
 
   const onButtonClick = () => {
     setIsActive(!isActive);
-    resetMap();
+    exitMethod();
   };
+
+  useEffect(() => {
+    const fetchData = async () => {
+      return await GET_PHOTO_JSON(corridor?.DATA_CORRIDOR);
+    };
+
+    const photos = fetchData()
+      .catch(console.error)
+      .then((photos) => {
+        setPhotos(photos);
+      });
+  }, [corridor]);
+
   return (
     <Wrapper
       className={`position-absolute p-3`}
       style={{
         bottom: isActive ? 0 : -250,
       }}>
-      <button onClick={onButtonClick}>Exit</button>
-      <PhotoGallery photos={corridor?.photos} />
+      {/* <button onClick={onButtonClick}>Exit</button> */}
+      <PhotoGallery photos={photos} />
     </Wrapper>
   );
 };

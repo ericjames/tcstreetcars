@@ -5,7 +5,13 @@ import { NAVIGATION } from "../../constants";
 import styled from "styled-components";
 
 const Wrapper = styled.div`
-  font-family: "Oswald";
+  button {
+    font-family: var(--font-sans);
+    font-weight: 300;
+    &.btn-selected {
+      font-weight: 400;
+    }
+  }
 `;
 
 const Header: FC<IPropsHeader> = ({ navigation, setSiteNavigation }) => {

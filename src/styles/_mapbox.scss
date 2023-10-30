@@ -1,11 +1,10 @@
-.mapboxgl-popup-content {
-  background: #fff !important;
-  box-shadow: none !important;
-  padding: none !important;
-}
-
 .mapboxgl-popup {
   animation: fadeIn 250ms;
+  .mapboxgl-popup-content {
+    box-shadow: 0 0.5em 1.5em $medium-gray;
+    padding: 0.5em 1em 0.5em 1em;
+    font-family: $fontSans;
+  }
 }
 
 @keyframes fadeIn {

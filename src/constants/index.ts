@@ -23,7 +23,7 @@ import FEATURE_COLLECTION from "./DATA_FEATURE_COLLECTION.json";
 // console.log(DATA_CORRIDORS_BUS);
 
 export const EDITOR_MODE: boolean = false;
-export const PRODUCTION_MODE: boolean = true;
+export const PRODUCTION_MODE: boolean = false;
 
 export const NAVIGATION: Array<NavigationState> = [
   {
@@ -75,19 +75,28 @@ export const getDataFeatureCollection = () => {
   const fc = JSON.parse(
     JSON.stringify(FEATURE_COLLECTION)
   ) as AppFeatureCollection;
-  // _getCorridorTypes(fc);
+  // _featureEditor(fc);
   return fc;
 };
 
-const _getCorridorTypes = (fc: AppFeatureCollection) => {
-  // Get list of types
-  const corridorNameTypes: Array<string> = [];
+const _featureEditor = (fc: AppFeatureCollection) => {
+  // Get types not in list
+  let leftovers: any = {};
+  const names: any = CORRIDOR_NAMES;
   fc.features.forEach((feature: AppGeometryFeature) => {
-    if (corridorNameTypes.indexOf(feature?.properties?.CORRIDOR) === -1) {
-      corridorNameTypes.push(feature?.properties?.CORRIDOR);
+    if (!names[feature.properties.CORRIDOR]) {
+      leftovers[feature.properties.CORRIDOR] = "";
     }
   });
-  console.log(corridorNameTypes.sort());
+  console.log(leftovers);
+  // Get list of types
+  // const corridorNameTypes: Array<string> = [];
+  // fc.features.forEach((feature: AppGeometryFeature) => {
+  //   if (corridorNameTypes.indexOf(feature?.properties?.CORRIDOR) === -1) {
+  //     corridorNameTypes.push(feature?.properties?.CORRIDOR);
+  //   }
+  // });
+  // console.log(corridorNameTypes.sort());
 
   // // Edit names
   // let col: any = {};
@@ -124,6 +133,13 @@ export const getCorridors = () => {
   //   corridor.DATA_CORRIDOR_PAIRED = oldName ? names[oldName] : "";
   // });
   // console.log(corridors);
+
+  // // Generate { CORRIDOR: routeName } list
+  // let list: any = {};
+  // corridors.forEach((corridor) => {
+  //   list[corridor.DATA_CORRIDOR] = corridor.routeName;
+  // });
+  // console.log(list);
 
   return corridors;
 };

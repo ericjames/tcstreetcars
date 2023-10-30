@@ -1,10 +1,13 @@
+$fontSans: "Oswald";
+$fontSerif: "Lexend";
+
 @import "./_colors.scss";
 @import "./_bootstrap.scss";
 @import "./_mapbox.scss";
 
 :root {
-  --font-serif: "PT Serif";
   --font-sans: "Oswald";
+  --font-serif: "Lexend";
 }
 
 .font-serif {

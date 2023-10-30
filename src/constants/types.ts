@@ -1,5 +1,7 @@
 import { Dispatch, SetStateAction } from "react";
 
+import { Type } from "typescript";
+
 // export enum AllowedGeometryTypes {
 //   LineString = "LineString",
 //   Point = "Point",
@@ -52,9 +54,9 @@ export enum RegionName {
   south = "South Metro",
 }
 export type RoutePhoto = {
-  previewUrl?: string;
-  fullSizeUrl?: string;
-  name?: string;
+  previewUrl: string;
+  fullSizeUrl: string;
+  title: string;
   source?: string;
   sourceUrl?: string;
 };
@@ -83,6 +85,10 @@ export type YearRange = [number | null, number | null];
 
 export type GenericObjectMap = {
   [key: string]: string;
+};
+
+export type CorridorNameMap = {
+  [key: string]: FeatureCorridorNames | Array<FeatureCorridorNames>;
 };
 
 export interface IPropsHeader {

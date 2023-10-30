@@ -7,6 +7,7 @@ import { IPropsMapViewer } from "../../constants/types";
 import MapEditor from "./MapEditor";
 import MapSource from "./MapSource";
 import MapViewport from "./MapViewport";
+import RouteInfoBox from "./RouteInfoBox";
 import RouteLayer from "./RouteLayer";
 import SystemLayer from "./SystemLayer";
 import { YearRange } from "../../constants/types";
@@ -93,7 +94,10 @@ const MapViewer: FC<IPropsMapViewer> = ({
           />
         )}
 
-        {/* <RouteInfoBox corridor={selectedCorridor} resetMap={resetMap} /> */}
+        <RouteInfoBox
+          corridor={selectedCorridor}
+          exitMethod={() => setSelectedCorridor(null)}
+        />
       </ErrorBoundary>
     </div>
   );

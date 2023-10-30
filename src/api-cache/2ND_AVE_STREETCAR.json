@@ -1,0 +1,931 @@
+{
+  "links": {
+    "self": "https://collection.mndigital.org/catalog.json?all_fields=%222nd+Avenue%22+AND+Streetcar\u0026city_or_township=\u0026commit=Search\u0026county=Hennepin+OR+Ramsey\u0026creator=\u0026description=\u0026f_inclusive%5Btopic_ssim%5D%5B%5D=Transportation\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Moving+Image\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title=",
+    "last": "https://collection.mndigital.org/catalog.json?all_fields=%222nd+Avenue%22+AND+Streetcar\u0026city_or_township=\u0026commit=Search\u0026county=Hennepin+OR+Ramsey\u0026creator=\u0026description=\u0026f_inclusive%5Btopic_ssim%5D%5B%5D=Transportation\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Moving+Image\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026page=1\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+  },
+  "meta": {
+    "pages": {
+      "current_page": 1,
+      "next_page": null,
+      "prev_page": null,
+      "total_pages": 1,
+      "limit_value": 25,
+      "offset_value": 0,
+      "total_count": 6,
+      "first_page?": true,
+      "last_page?": true
+    }
+  },
+  "data": [
+    {
+      "id": "msn:2603",
+      "type": "Still Image",
+      "attributes": {
+        "title": "Streetcar on 5th Street at 2nd Avenue N., Minneapolis, Minnesota",
+        "dat_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:2603#dat_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "1950 - 1953",
+            "label": "Date Created"
+          }
+        },
+        "description_ts": {
+          "id": "https://collection.mndigital.org/catalog/msn:2603#description_ts",
+          "type": "document_value",
+          "attributes": {
+            "value": "Looking northwest along 5th Street from the roof of the Wyman Building at 2 PCC\u0026#39;s in the block of 5th Street between 2nd and 3rd Avenue N. Booth Cold Storage is at right, along with the Ford Building.",
+            "label": "Description"
+          }
+        },
+        "contributing_organization_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:2603#contributing_organization_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Minnesota \u003cem\u003eStreetcar\u003c/em\u003e Museum",
+            "label": "Contributing Institution"
+          }
+        },
+        "type_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:2603#type_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Still Image",
+            "label": "Type"
+          }
+        },
+        "physical_format_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:2603#physical_format_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Black-and-white photographs",
+            "label": "Format"
+          }
+        }
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/msn:2603"
+      }
+    },
+    {
+      "id": "msn:258",
+      "type": "Still Image",
+      "attributes": {
+        "title": "2nd Avenue South and Washington Avenue, Minneapolis, Minnesota",
+        "dat_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:258#dat_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "1950?",
+            "label": "Date Created"
+          }
+        },
+        "description_ts": {
+          "id": "https://collection.mndigital.org/catalog/msn:258#description_ts",
+          "type": "document_value",
+          "attributes": {
+            "value": "Looking east on \u003cem\u003e2nd\u003c/em\u003e \u003cem\u003eAvenue\u003c/em\u003e South across Washington Avenue.",
+            "label": "Description"
+          }
+        },
+        "contributing_organization_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:258#contributing_organization_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Minnesota \u003cem\u003eStreetcar\u003c/em\u003e Museum",
+            "label": "Contributing Institution"
+          }
+        },
+        "type_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:258#type_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Still Image",
+            "label": "Type"
+          }
+        },
+        "physical_format_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:258#physical_format_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Black-and-white photographs",
+            "label": "Format"
+          }
+        }
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/msn:258"
+      }
+    },
+    {
+      "id": "msn:274",
+      "type": "Still Image",
+      "attributes": {
+        "title": "4th Street and 2nd Avenue South, Minneapolis, Minnesota",
+        "dat_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:274#dat_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "1905?",
+            "label": "Date Created"
+          }
+        },
+        "description_ts": {
+          "id": "https://collection.mndigital.org/catalog/msn:274#description_ts",
+          "type": "document_value",
+          "attributes": {
+            "value": "Looking northeast on \u003cem\u003e2nd\u003c/em\u003e \u003cem\u003eAvenue\u003c/em\u003e South across 4th Street.",
+            "label": "Description"
+          }
+        },
+        "contributing_organization_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:274#contributing_organization_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Minnesota \u003cem\u003eStreetcar\u003c/em\u003e Museum",
+            "label": "Contributing Institution"
+          }
+        },
+        "type_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:274#type_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Still Image",
+            "label": "Type"
+          }
+        },
+        "physical_format_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:274#physical_format_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Black-and-white photographs",
+            "label": "Format"
+          }
+        }
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/msn:274"
+      }
+    },
+    {
+      "id": "msn:2014",
+      "type": "Still Image",
+      "attributes": {
+        "title": "Downtown streetcar, Minneapolis, Minnesota",
+        "creator_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:2014#creator_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Rolfe, Norman",
+            "label": "Creator"
+          }
+        },
+        "dat_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:2014#dat_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "1952",
+            "label": "Date Created"
+          }
+        },
+        "description_ts": {
+          "id": "https://collection.mndigital.org/catalog/msn:2014#description_ts",
+          "type": "document_value",
+          "attributes": {
+            "value": "A \u003cem\u003estreetcar\u003c/em\u003e on \u003cem\u003e2nd\u003c/em\u003e \u003cem\u003eAvenue\u003c/em\u003e South crosses 3rd Street.",
+            "label": "Description"
+          }
+        },
+        "contributing_organization_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:2014#contributing_organization_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Minnesota \u003cem\u003eStreetcar\u003c/em\u003e Museum",
+            "label": "Contributing Institution"
+          }
+        },
+        "type_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:2014#type_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Still Image",
+            "label": "Type"
+          }
+        },
+        "physical_format_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:2014#physical_format_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Negatives (photographic)",
+            "label": "Format"
+          }
+        }
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/msn:2014"
+      }
+    },
+    {
+      "id": "msn:229",
+      "type": "Still Image",
+      "attributes": {
+        "title": "Streetcar track construction, Minneapolis, Minnesota",
+        "dat_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:229#dat_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "1905?",
+            "label": "Date Created"
+          }
+        },
+        "description_ts": {
+          "id": "https://collection.mndigital.org/catalog/msn:229#description_ts",
+          "type": "document_value",
+          "attributes": {
+            "value": "Double tracks crossing each other at 4th Street and \u003cem\u003e2nd\u003c/em\u003e \u003cem\u003eAvenue\u003c/em\u003e South.",
+            "label": "Description"
+          }
+        },
+        "contributing_organization_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:229#contributing_organization_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Minnesota \u003cem\u003eStreetcar\u003c/em\u003e Museum",
+            "label": "Contributing Institution"
+          }
+        },
+        "type_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:229#type_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Still Image",
+            "label": "Type"
+          }
+        },
+        "physical_format_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:229#physical_format_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Albumen prints",
+            "label": "Format"
+          }
+        }
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/msn:229"
+      }
+    },
+    {
+      "id": "msn:230",
+      "type": "Still Image",
+      "attributes": {
+        "title": "Streetcar track construction, Minneapolis, Minnesota",
+        "dat_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:230#dat_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "1905?",
+            "label": "Date Created"
+          }
+        },
+        "description_ts": {
+          "id": "https://collection.mndigital.org/catalog/msn:230#description_ts",
+          "type": "document_value",
+          "attributes": {
+            "value": "Double tracks under construction at 5th Street and \u003cem\u003e2nd\u003c/em\u003e \u003cem\u003eAvenue\u003c/em\u003e South.",
+            "label": "Description"
+          }
+        },
+        "contributing_organization_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:230#contributing_organization_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Minnesota \u003cem\u003eStreetcar\u003c/em\u003e Museum",
+            "label": "Contributing Institution"
+          }
+        },
+        "type_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:230#type_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Still Image",
+            "label": "Type"
+          }
+        },
+        "physical_format_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:230#physical_format_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Albumen prints",
+            "label": "Format"
+          }
+        }
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/msn:230"
+      }
+    }
+  ],
+  "included": [
+    {
+      "type": "facet",
+      "id": "topic_ssim",
+      "attributes": {
+        "label": "Topic",
+        "items": [
+          {
+            "attributes": {
+              "label": "Transportation",
+              "value": "Transportation",
+              "hits": 6
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=%222nd+Avenue%22+AND+Streetcar\u0026city_or_township=\u0026county=Hennepin+OR+Ramsey\u0026creator=\u0026description=\u0026f%5Btopic_ssim%5D%5B%5D=Transportation\u0026f_inclusive%5Btopic_ssim%5D%5B%5D=Transportation\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Moving+Image\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/facet/topic_ssim.json?all_fields=%222nd+Avenue%22+AND+Streetcar\u0026city_or_township=\u0026commit=Search\u0026county=Hennepin+OR+Ramsey\u0026creator=\u0026description=\u0026f_inclusive%5Btopic_ssim%5D%5B%5D=Transportation\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Moving+Image\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+      }
+    },
+    {
+      "type": "facet",
+      "id": "type_ssi",
+      "attributes": {
+        "label": "Type",
+        "items": [
+          {
+            "attributes": {
+              "label": "Still Image",
+              "value": "Still Image",
+              "hits": 6
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=%222nd+Avenue%22+AND+Streetcar\u0026city_or_township=\u0026county=Hennepin+OR+Ramsey\u0026creator=\u0026description=\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026f_inclusive%5Btopic_ssim%5D%5B%5D=Transportation\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Moving+Image\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/facet/type_ssi.json?all_fields=%222nd+Avenue%22+AND+Streetcar\u0026city_or_township=\u0026commit=Search\u0026county=Hennepin+OR+Ramsey\u0026creator=\u0026description=\u0026f_inclusive%5Btopic_ssim%5D%5B%5D=Transportation\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Moving+Image\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+      }
+    },
+    {
+      "type": "facet",
+      "id": "physical_format_ssi",
+      "attributes": {
+        "label": "Physical Format",
+        "items": [
+          {
+            "attributes": {
+              "label": "Black-and-white photographs",
+              "value": "Black-and-white photographs",
+              "hits": 3
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=%222nd+Avenue%22+AND+Streetcar\u0026city_or_township=\u0026county=Hennepin+OR+Ramsey\u0026creator=\u0026description=\u0026f%5Bphysical_format_ssi%5D%5B%5D=Black-and-white+photographs\u0026f_inclusive%5Btopic_ssim%5D%5B%5D=Transportation\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Moving+Image\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          },
+          {
+            "attributes": {
+              "label": "Albumen prints",
+              "value": "Albumen prints",
+              "hits": 2
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=%222nd+Avenue%22+AND+Streetcar\u0026city_or_township=\u0026county=Hennepin+OR+Ramsey\u0026creator=\u0026description=\u0026f%5Bphysical_format_ssi%5D%5B%5D=Albumen+prints\u0026f_inclusive%5Btopic_ssim%5D%5B%5D=Transportation\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Moving+Image\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          },
+          {
+            "attributes": {
+              "label": "Negatives (photographic)",
+              "value": "Negatives (photographic)",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=%222nd+Avenue%22+AND+Streetcar\u0026city_or_township=\u0026county=Hennepin+OR+Ramsey\u0026creator=\u0026description=\u0026f%5Bphysical_format_ssi%5D%5B%5D=Negatives+%28photographic%29\u0026f_inclusive%5Btopic_ssim%5D%5B%5D=Transportation\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Moving+Image\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/facet/physical_format_ssi.json?all_fields=%222nd+Avenue%22+AND+Streetcar\u0026city_or_township=\u0026commit=Search\u0026county=Hennepin+OR+Ramsey\u0026creator=\u0026description=\u0026f_inclusive%5Btopic_ssim%5D%5B%5D=Transportation\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Moving+Image\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+      }
+    },
+    {
+      "type": "facet",
+      "id": "dat_ssim",
+      "attributes": {
+        "label": "Date Created",
+        "items": [
+          {
+            "attributes": {
+              "label": "1905",
+              "value": "1905",
+              "hits": 3
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=%222nd+Avenue%22+AND+Streetcar\u0026city_or_township=\u0026county=Hennepin+OR+Ramsey\u0026creator=\u0026description=\u0026f_inclusive%5Btopic_ssim%5D%5B%5D=Transportation\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Moving+Image\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=begin\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=end\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=\u0026range%5Bdat_ssim%5D%5B%5D=1905\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          },
+          {
+            "attributes": {
+              "label": "1950",
+              "value": "1950",
+              "hits": 2
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=%222nd+Avenue%22+AND+Streetcar\u0026city_or_township=\u0026county=Hennepin+OR+Ramsey\u0026creator=\u0026description=\u0026f_inclusive%5Btopic_ssim%5D%5B%5D=Transportation\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Moving+Image\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=begin\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=end\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=\u0026range%5Bdat_ssim%5D%5B%5D=1950\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          },
+          {
+            "attributes": {
+              "label": "1952",
+              "value": "1952",
+              "hits": 2
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=%222nd+Avenue%22+AND+Streetcar\u0026city_or_township=\u0026county=Hennepin+OR+Ramsey\u0026creator=\u0026description=\u0026f_inclusive%5Btopic_ssim%5D%5B%5D=Transportation\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Moving+Image\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=begin\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=end\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=\u0026range%5Bdat_ssim%5D%5B%5D=1952\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          },
+          {
+            "attributes": {
+              "label": "1951",
+              "value": "1951",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=%222nd+Avenue%22+AND+Streetcar\u0026city_or_township=\u0026county=Hennepin+OR+Ramsey\u0026creator=\u0026description=\u0026f_inclusive%5Btopic_ssim%5D%5B%5D=Transportation\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Moving+Image\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=begin\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=end\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=\u0026range%5Bdat_ssim%5D%5B%5D=1951\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          },
+          {
+            "attributes": {
+              "label": "1953",
+              "value": "1953",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=%222nd+Avenue%22+AND+Streetcar\u0026city_or_township=\u0026county=Hennepin+OR+Ramsey\u0026creator=\u0026description=\u0026f_inclusive%5Btopic_ssim%5D%5B%5D=Transportation\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Moving+Image\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=begin\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=end\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=\u0026range%5Bdat_ssim%5D%5B%5D=1953\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/facet/dat_ssim.json?all_fields=%222nd+Avenue%22+AND+Streetcar\u0026city_or_township=\u0026commit=Search\u0026county=Hennepin+OR+Ramsey\u0026creator=\u0026description=\u0026f_inclusive%5Btopic_ssim%5D%5B%5D=Transportation\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Moving+Image\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+      }
+    },
+    {
+      "type": "facet",
+      "id": "formal_subject_ssim",
+      "attributes": {
+        "label": "Subject Headings",
+        "items": [
+          {
+            "attributes": {
+              "label": "Street Railroads",
+              "value": "Street Railroads",
+              "hits": 6
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=%222nd+Avenue%22+AND+Streetcar\u0026city_or_township=\u0026county=Hennepin+OR+Ramsey\u0026creator=\u0026description=\u0026f%5Bformal_subject_ssim%5D%5B%5D=Street+Railroads\u0026f_inclusive%5Btopic_ssim%5D%5B%5D=Transportation\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Moving+Image\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          },
+          {
+            "attributes": {
+              "label": "Streets",
+              "value": "Streets",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=%222nd+Avenue%22+AND+Streetcar\u0026city_or_township=\u0026county=Hennepin+OR+Ramsey\u0026creator=\u0026description=\u0026f%5Bformal_subject_ssim%5D%5B%5D=Streets\u0026f_inclusive%5Btopic_ssim%5D%5B%5D=Transportation\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Moving+Image\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          },
+          {
+            "attributes": {
+              "label": "Transportation",
+              "value": "Transportation",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=%222nd+Avenue%22+AND+Streetcar\u0026city_or_township=\u0026county=Hennepin+OR+Ramsey\u0026creator=\u0026description=\u0026f%5Bformal_subject_ssim%5D%5B%5D=Transportation\u0026f_inclusive%5Btopic_ssim%5D%5B%5D=Transportation\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Moving+Image\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/facet/formal_subject_ssim.json?all_fields=%222nd+Avenue%22+AND+Streetcar\u0026city_or_township=\u0026commit=Search\u0026county=Hennepin+OR+Ramsey\u0026creator=\u0026description=\u0026f_inclusive%5Btopic_ssim%5D%5B%5D=Transportation\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Moving+Image\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+      }
+    },
+    {
+      "type": "facet",
+      "id": "collection_name_ssi",
+      "attributes": {
+        "label": "Contributor",
+        "items": [
+          {
+            "attributes": {
+              "label": "Minnesota Streetcar Museum",
+              "value": "Minnesota Streetcar Museum",
+              "hits": 6
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=%222nd+Avenue%22+AND+Streetcar\u0026city_or_township=\u0026county=Hennepin+OR+Ramsey\u0026creator=\u0026description=\u0026f%5Bcollection_name_ssi%5D%5B%5D=Minnesota+Streetcar+Museum\u0026f_inclusive%5Btopic_ssim%5D%5B%5D=Transportation\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Moving+Image\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/facet/collection_name_ssi.json?all_fields=%222nd+Avenue%22+AND+Streetcar\u0026city_or_township=\u0026commit=Search\u0026county=Hennepin+OR+Ramsey\u0026creator=\u0026description=\u0026f_inclusive%5Btopic_ssim%5D%5B%5D=Transportation\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Moving+Image\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+      }
+    },
+    {
+      "type": "facet",
+      "id": "rights_status_ssi",
+      "attributes": {
+        "label": "Rights Status",
+        "items": [
+          {
+            "attributes": {
+              "label": "In Copyright",
+              "value": "In Copyright",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=%222nd+Avenue%22+AND+Streetcar\u0026city_or_township=\u0026county=Hennepin+OR+Ramsey\u0026creator=\u0026description=\u0026f%5Brights_status_ssi%5D%5B%5D=In+Copyright\u0026f_inclusive%5Btopic_ssim%5D%5B%5D=Transportation\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Moving+Image\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/facet/rights_status_ssi.json?all_fields=%222nd+Avenue%22+AND+Streetcar\u0026city_or_township=\u0026commit=Search\u0026county=Hennepin+OR+Ramsey\u0026creator=\u0026description=\u0026f_inclusive%5Btopic_ssim%5D%5B%5D=Transportation\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Moving+Image\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+      }
+    },
+    {
+      "type": "facet",
+      "id": "contributing_organization_ssi",
+      "attributes": {
+        "label": "Contributing Organization",
+        "items": [
+          {
+            "attributes": {
+              "label": "Minnesota Streetcar Museum",
+              "value": "Minnesota Streetcar Museum",
+              "hits": 6
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=%222nd+Avenue%22+AND+Streetcar\u0026city_or_township=\u0026county=Hennepin+OR+Ramsey\u0026creator=\u0026description=\u0026f%5Bcontributing_organization_ssi%5D%5B%5D=Minnesota+Streetcar+Museum\u0026f_inclusive%5Btopic_ssim%5D%5B%5D=Transportation\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Moving+Image\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/facet/contributing_organization_ssi.json?all_fields=%222nd+Avenue%22+AND+Streetcar\u0026city_or_township=\u0026commit=Search\u0026county=Hennepin+OR+Ramsey\u0026creator=\u0026description=\u0026f_inclusive%5Btopic_ssim%5D%5B%5D=Transportation\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Moving+Image\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+      }
+    },
+    {
+      "type": "facet",
+      "id": "creator_ssim",
+      "attributes": {
+        "label": "Creator",
+        "items": [
+          {
+            "attributes": {
+              "label": "Rolfe, Norman",
+              "value": "Rolfe, Norman",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=%222nd+Avenue%22+AND+Streetcar\u0026city_or_township=\u0026county=Hennepin+OR+Ramsey\u0026creator=\u0026description=\u0026f%5Bcreator_ssim%5D%5B%5D=Rolfe%2C+Norman\u0026f_inclusive%5Btopic_ssim%5D%5B%5D=Transportation\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Moving+Image\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/facet/creator_ssim.json?all_fields=%222nd+Avenue%22+AND+Streetcar\u0026city_or_township=\u0026commit=Search\u0026county=Hennepin+OR+Ramsey\u0026creator=\u0026description=\u0026f_inclusive%5Btopic_ssim%5D%5B%5D=Transportation\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Moving+Image\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+      }
+    },
+    {
+      "type": "facet",
+      "id": "dimensions_ssi",
+      "attributes": {
+        "label": "Dimensions",
+        "items": [
+          {
+            "attributes": {
+              "label": "6.4 x 8.9",
+              "value": "6.4 x 8.9",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=%222nd+Avenue%22+AND+Streetcar\u0026city_or_township=\u0026county=Hennepin+OR+Ramsey\u0026creator=\u0026description=\u0026f%5Bdimensions_ssi%5D%5B%5D=6.4+x+8.9\u0026f_inclusive%5Btopic_ssim%5D%5B%5D=Transportation\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Moving+Image\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/facet/dimensions_ssi.json?all_fields=%222nd+Avenue%22+AND+Streetcar\u0026city_or_township=\u0026commit=Search\u0026county=Hennepin+OR+Ramsey\u0026creator=\u0026description=\u0026f_inclusive%5Btopic_ssim%5D%5B%5D=Transportation\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Moving+Image\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+      }
+    },
+    {
+      "type": "facet",
+      "id": "subject_ssim",
+      "attributes": {
+        "label": "Keywords",
+        "items": [
+          {
+            "attributes": {
+              "label": "Street scenes",
+              "value": "Street scenes",
+              "hits": 4
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=%222nd+Avenue%22+AND+Streetcar\u0026city_or_township=\u0026county=Hennepin+OR+Ramsey\u0026creator=\u0026description=\u0026f%5Bsubject_ssim%5D%5B%5D=Street+scenes\u0026f_inclusive%5Btopic_ssim%5D%5B%5D=Transportation\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Moving+Image\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          },
+          {
+            "attributes": {
+              "label": "Streetcars",
+              "value": "Streetcars",
+              "hits": 4
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=%222nd+Avenue%22+AND+Streetcar\u0026city_or_township=\u0026county=Hennepin+OR+Ramsey\u0026creator=\u0026description=\u0026f%5Bsubject_ssim%5D%5B%5D=Streetcars\u0026f_inclusive%5Btopic_ssim%5D%5B%5D=Transportation\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Moving+Image\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          },
+          {
+            "attributes": {
+              "label": "Twin City Rapid Transit Company",
+              "value": "Twin City Rapid Transit Company",
+              "hits": 4
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=%222nd+Avenue%22+AND+Streetcar\u0026city_or_township=\u0026county=Hennepin+OR+Ramsey\u0026creator=\u0026description=\u0026f%5Bsubject_ssim%5D%5B%5D=Twin+City+Rapid+Transit+Company\u0026f_inclusive%5Btopic_ssim%5D%5B%5D=Transportation\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Moving+Image\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          },
+          {
+            "attributes": {
+              "label": "Streetcar",
+              "value": "Streetcar",
+              "hits": 2
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=%222nd+Avenue%22+AND+Streetcar\u0026city_or_township=\u0026county=Hennepin+OR+Ramsey\u0026creator=\u0026description=\u0026f%5Bsubject_ssim%5D%5B%5D=Streetcar\u0026f_inclusive%5Btopic_ssim%5D%5B%5D=Transportation\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Moving+Image\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/facet/subject_ssim.json?all_fields=%222nd+Avenue%22+AND+Streetcar\u0026city_or_township=\u0026commit=Search\u0026county=Hennepin+OR+Ramsey\u0026creator=\u0026description=\u0026f_inclusive%5Btopic_ssim%5D%5B%5D=Transportation\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Moving+Image\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+      }
+    },
+    {
+      "type": "facet",
+      "id": "city_ssim",
+      "attributes": {
+        "label": "City or Township",
+        "items": [
+          {
+            "attributes": {
+              "label": "Minneapolis",
+              "value": "Minneapolis",
+              "hits": 6
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=%222nd+Avenue%22+AND+Streetcar\u0026city_or_township=\u0026county=Hennepin+OR+Ramsey\u0026creator=\u0026description=\u0026f%5Bcity_ssim%5D%5B%5D=Minneapolis\u0026f_inclusive%5Btopic_ssim%5D%5B%5D=Transportation\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Moving+Image\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/facet/city_ssim.json?all_fields=%222nd+Avenue%22+AND+Streetcar\u0026city_or_township=\u0026commit=Search\u0026county=Hennepin+OR+Ramsey\u0026creator=\u0026description=\u0026f_inclusive%5Btopic_ssim%5D%5B%5D=Transportation\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Moving+Image\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+      }
+    },
+    {
+      "type": "facet",
+      "id": "county_ssim",
+      "attributes": {
+        "label": "County",
+        "items": [
+          {
+            "attributes": {
+              "label": "Hennepin",
+              "value": "Hennepin",
+              "hits": 6
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=%222nd+Avenue%22+AND+Streetcar\u0026city_or_township=\u0026county=Hennepin+OR+Ramsey\u0026creator=\u0026description=\u0026f%5Bcounty_ssim%5D%5B%5D=Hennepin\u0026f_inclusive%5Btopic_ssim%5D%5B%5D=Transportation\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Moving+Image\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/facet/county_ssim.json?all_fields=%222nd+Avenue%22+AND+Streetcar\u0026city_or_township=\u0026commit=Search\u0026county=Hennepin+OR+Ramsey\u0026creator=\u0026description=\u0026f_inclusive%5Btopic_ssim%5D%5B%5D=Transportation\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Moving+Image\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+      }
+    },
+    {
+      "type": "facet",
+      "id": "state_ssi",
+      "attributes": {
+        "label": "State or Province",
+        "items": [
+          {
+            "attributes": {
+              "label": "Minnesota",
+              "value": "Minnesota",
+              "hits": 6
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=%222nd+Avenue%22+AND+Streetcar\u0026city_or_township=\u0026county=Hennepin+OR+Ramsey\u0026creator=\u0026description=\u0026f%5Bstate_ssi%5D%5B%5D=Minnesota\u0026f_inclusive%5Btopic_ssim%5D%5B%5D=Transportation\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Moving+Image\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/facet/state_ssi.json?all_fields=%222nd+Avenue%22+AND+Streetcar\u0026city_or_township=\u0026commit=Search\u0026county=Hennepin+OR+Ramsey\u0026creator=\u0026description=\u0026f_inclusive%5Btopic_ssim%5D%5B%5D=Transportation\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Moving+Image\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+      }
+    },
+    {
+      "type": "facet",
+      "id": "country_ssi",
+      "attributes": {
+        "label": "Country",
+        "items": [
+          {
+            "attributes": {
+              "label": "United States",
+              "value": "United States",
+              "hits": 6
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=%222nd+Avenue%22+AND+Streetcar\u0026city_or_township=\u0026county=Hennepin+OR+Ramsey\u0026creator=\u0026description=\u0026f%5Bcountry_ssi%5D%5B%5D=United+States\u0026f_inclusive%5Btopic_ssim%5D%5B%5D=Transportation\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Moving+Image\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/facet/country_ssi.json?all_fields=%222nd+Avenue%22+AND+Streetcar\u0026city_or_township=\u0026commit=Search\u0026county=Hennepin+OR+Ramsey\u0026creator=\u0026description=\u0026f_inclusive%5Btopic_ssim%5D%5B%5D=Transportation\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Moving+Image\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+      }
+    },
+    {
+      "type": "search_field",
+      "id": "all_fields",
+      "attributes": {
+        "label": "All Fields"
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog.json?all_fields=%222nd+Avenue%22+AND+Streetcar\u0026city_or_township=\u0026commit=Search\u0026county=Hennepin+OR+Ramsey\u0026creator=\u0026description=\u0026f_inclusive%5Btopic_ssim%5D%5B%5D=Transportation\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Moving+Image\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=all_fields\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+      }
+    },
+    {
+      "type": "search_field",
+      "id": "title",
+      "attributes": {
+        "label": "Title"
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog.json?all_fields=%222nd+Avenue%22+AND+Streetcar\u0026city_or_township=\u0026commit=Search\u0026county=Hennepin+OR+Ramsey\u0026creator=\u0026description=\u0026f_inclusive%5Btopic_ssim%5D%5B%5D=Transportation\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Moving+Image\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=title\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+      }
+    },
+    {
+      "type": "search_field",
+      "id": "creator",
+      "attributes": {
+        "label": "Creator"
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog.json?all_fields=%222nd+Avenue%22+AND+Streetcar\u0026city_or_township=\u0026commit=Search\u0026county=Hennepin+OR+Ramsey\u0026creator=\u0026description=\u0026f_inclusive%5Btopic_ssim%5D%5B%5D=Transportation\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Moving+Image\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=creator\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+      }
+    },
+    {
+      "type": "search_field",
+      "id": "subject",
+      "attributes": {
+        "label": "Subject"
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog.json?all_fields=%222nd+Avenue%22+AND+Streetcar\u0026city_or_township=\u0026commit=Search\u0026county=Hennepin+OR+Ramsey\u0026creator=\u0026description=\u0026f_inclusive%5Btopic_ssim%5D%5B%5D=Transportation\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Moving+Image\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=subject\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+      }
+    },
+    {
+      "type": "search_field",
+      "id": "description",
+      "attributes": {
+        "label": "Description"
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog.json?all_fields=%222nd+Avenue%22+AND+Streetcar\u0026city_or_township=\u0026commit=Search\u0026county=Hennepin+OR+Ramsey\u0026creator=\u0026description=\u0026f_inclusive%5Btopic_ssim%5D%5B%5D=Transportation\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Moving+Image\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=description\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+      }
+    },
+    {
+      "type": "search_field",
+      "id": "city_or_township",
+      "attributes": {
+        "label": "City or Township"
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog.json?all_fields=%222nd+Avenue%22+AND+Streetcar\u0026city_or_township=\u0026commit=Search\u0026county=Hennepin+OR+Ramsey\u0026creator=\u0026description=\u0026f_inclusive%5Btopic_ssim%5D%5B%5D=Transportation\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Moving+Image\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=city_or_township\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+      }
+    },
+    {
+      "type": "search_field",
+      "id": "county",
+      "attributes": {
+        "label": "County"
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog.json?all_fields=%222nd+Avenue%22+AND+Streetcar\u0026city_or_township=\u0026commit=Search\u0026county=Hennepin+OR+Ramsey\u0026creator=\u0026description=\u0026f_inclusive%5Btopic_ssim%5D%5B%5D=Transportation\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Moving+Image\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=county\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+      }
+    },
+    {
+      "type": "sort",
+      "id": "score desc, dat_sort desc, title_sort asc",
+      "attributes": {
+        "label": "Relevance"
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog.json?all_fields=%222nd+Avenue%22+AND+Streetcar\u0026city_or_township=\u0026commit=Search\u0026county=Hennepin+OR+Ramsey\u0026creator=\u0026description=\u0026f_inclusive%5Btopic_ssim%5D%5B%5D=Transportation\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Moving+Image\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+      }
+    },
+    {
+      "type": "sort",
+      "id": "title_sort asc, dat_sort asc",
+      "attributes": {
+        "label": "Title: A to Z"
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog.json?all_fields=%222nd+Avenue%22+AND+Streetcar\u0026city_or_township=\u0026commit=Search\u0026county=Hennepin+OR+Ramsey\u0026creator=\u0026description=\u0026f_inclusive%5Btopic_ssim%5D%5B%5D=Transportation\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Moving+Image\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=title_sort+asc%2C+dat_sort+asc\u0026title="
+      }
+    },
+    {
+      "type": "sort",
+      "id": "title_sort desc, dat_sort desc",
+      "attributes": {
+        "label": "Title: Z to A"
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog.json?all_fields=%222nd+Avenue%22+AND+Streetcar\u0026city_or_township=\u0026commit=Search\u0026county=Hennepin+OR+Ramsey\u0026creator=\u0026description=\u0026f_inclusive%5Btopic_ssim%5D%5B%5D=Transportation\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Moving+Image\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=title_sort+desc%2C+dat_sort+desc\u0026title="
+      }
+    },
+    {
+      "type": "sort",
+      "id": "creator_sort asc, title_sort asc",
+      "attributes": {
+        "label": "Creator: A to Z"
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog.json?all_fields=%222nd+Avenue%22+AND+Streetcar\u0026city_or_township=\u0026commit=Search\u0026county=Hennepin+OR+Ramsey\u0026creator=\u0026description=\u0026f_inclusive%5Btopic_ssim%5D%5B%5D=Transportation\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Moving+Image\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=creator_sort+asc%2C+title_sort+asc\u0026title="
+      }
+    },
+    {
+      "type": "sort",
+      "id": "creator_sort desc, title_sort desc",
+      "attributes": {
+        "label": "Creator: Z to A"
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog.json?all_fields=%222nd+Avenue%22+AND+Streetcar\u0026city_or_township=\u0026commit=Search\u0026county=Hennepin+OR+Ramsey\u0026creator=\u0026description=\u0026f_inclusive%5Btopic_ssim%5D%5B%5D=Transportation\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Moving+Image\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=creator_sort+desc%2C+title_sort+desc\u0026title="
+      }
+    },
+    {
+      "type": "sort",
+      "id": "dat_ssi asc, title_sort asc",
+      "attributes": {
+        "label": "Date: Oldest First"
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog.json?all_fields=%222nd+Avenue%22+AND+Streetcar\u0026city_or_township=\u0026commit=Search\u0026county=Hennepin+OR+Ramsey\u0026creator=\u0026description=\u0026f_inclusive%5Btopic_ssim%5D%5B%5D=Transportation\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Moving+Image\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=dat_ssi+asc%2C+title_sort+asc\u0026title="
+      }
+    },
+    {
+      "type": "sort",
+      "id": "dat_ssi desc, title_sort desc",
+      "attributes": {
+        "label": "Date: Newest First"
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog.json?all_fields=%222nd+Avenue%22+AND+Streetcar\u0026city_or_township=\u0026commit=Search\u0026county=Hennepin+OR+Ramsey\u0026creator=\u0026description=\u0026f_inclusive%5Btopic_ssim%5D%5B%5D=Transportation\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Moving+Image\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=dat_ssi+desc%2C+title_sort+desc\u0026title="
+      }
+    },
+    {
+      "type": "sort",
+      "id": "dmcreated_ssi asc",
+      "attributes": {
+        "label": "Date Added: Oldest First"
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog.json?all_fields=%222nd+Avenue%22+AND+Streetcar\u0026city_or_township=\u0026commit=Search\u0026county=Hennepin+OR+Ramsey\u0026creator=\u0026description=\u0026f_inclusive%5Btopic_ssim%5D%5B%5D=Transportation\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Moving+Image\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=dmcreated_ssi+asc\u0026title="
+      }
+    },
+    {
+      "type": "sort",
+      "id": "dmcreated_ssi desc",
+      "attributes": {
+        "label": "Date Added: Newest First"
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog.json?all_fields=%222nd+Avenue%22+AND+Streetcar\u0026city_or_township=\u0026commit=Search\u0026county=Hennepin+OR+Ramsey\u0026creator=\u0026description=\u0026f_inclusive%5Btopic_ssim%5D%5B%5D=Transportation\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Moving+Image\u0026f_inclusive%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=dmcreated_ssi+desc\u0026title="
+      }
+    }
+  ]
+}

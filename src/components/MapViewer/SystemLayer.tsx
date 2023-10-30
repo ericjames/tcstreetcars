@@ -1,26 +1,10 @@
-import {
-  AppGeometryFeature,
-  Corridor,
-  TransitTypes,
-  YearRange,
-} from "../../constants/types";
-import {
-  HTML_POPUP,
-  LINE_WIDTH_STOPS,
-  RECEDED_LINE_OPACITY,
-} from "../../constants/mapbox";
-import React, {
-  Dispatch,
-  FC,
-  SetStateAction,
-  useEffect,
-  useRef,
-  useState,
-} from "react";
-import mapboxgl, { MapboxGeoJSONFeature } from "mapbox-gl";
+import { Corridor, TransitTypes, YearRange } from "../../constants/types";
+import { LINE_WIDTH_STOPS, RECEDED_LINE_OPACITY } from "../../constants/mapbox";
+import React, { FC, useEffect } from "react";
 
 import { COLORS } from "../../constants/colors";
-import { YEAR_FILTER_HOOK } from "./helpers";
+import { YEAR_FILTER_HOOK } from "./maphooks";
+import mapboxgl from "mapbox-gl";
 
 type IProps = {
   layerName: string;
@@ -43,12 +27,6 @@ const SystemLayer: FC<IProps> = ({
   onLineFeatureClick,
   selectedType,
 }) => {
-  const systemLayerRef = useRef<{ popup?: mapboxgl.Popup | null }>({
-    popup: null,
-  });
-
-  const highlightLayer = "highlight-layer";
-  const highlightOutlineLayer = "highlight-outline-layer";
   const initialFilter = ["==", "TYPE", selectedType];
 
   useEffect(() => {

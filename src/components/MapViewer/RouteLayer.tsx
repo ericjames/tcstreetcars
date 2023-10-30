@@ -1,4 +1,9 @@
-import { Corridor, TransitTypes, YearRange } from "../../constants/types";
+import {
+  Corridor,
+  FeatureCorridorNames,
+  TransitTypes,
+  YearRange,
+} from "../../constants/types";
 import {
   DEFAULT_LINE_WIDTH,
   HTML_POPUP,
@@ -22,7 +27,7 @@ import mapboxgl, {
 } from "mapbox-gl";
 
 import { COLORS } from "../../constants/colors";
-import { YEAR_FILTER_HOOK } from "./helpers";
+import { YEAR_FILTER_HOOK } from "./maphooks";
 
 interface IProps {
   map: mapboxgl.Map | undefined;
@@ -52,7 +57,10 @@ const RouteLayer: FC<IProps> = ({
   onLineFeatureClick,
 }) => {
   const routeLayerRef = useRef<{ popup?: mapboxgl.Popup | null }>({
-    popup: null,
+    popup: new mapboxgl.Popup({
+      closeButton: false,
+      closeOnClick: false,
+    }),
   });
 
   const selectorLayer = layerName + "-selector";
@@ -69,7 +77,7 @@ const RouteLayer: FC<IProps> = ({
 
     return () => {
       if (map) {
-        map.removeLayer(layerName);
+        map.removeLayer(selectorLayer);
         map.removeLayer(highlightOutlineLayer);
         map.removeLayer(highlightLayer);
         map.removeLayer(symbolLayerName);
@@ -161,46 +169,60 @@ const RouteLayer: FC<IProps> = ({
           },
           filter: initialFilter,
         });
-
-        routeLayerRef.current.popup = new mapboxgl.Popup({
-          closeButton: false,
-          closeOnClick: false,
-        });
       });
     }
   };
 
-  const onMouseEnter = (e: any) => {
-    if (selectedCorridor === null) {
-      if (
-        e.features[0] &&
-        e.features[0].properties.CORRIDOR &&
-        e.features[0].properties.TYPE === selectedType
-      ) {
-        // console.log("mouse enter", e.features[0].properties.CORRIDOR);
-        setHighlightedCorridor(e.features[0].properties.CORRIDOR);
-      }
+  const setPopup = (e: any) => {
+    if (e && map && routeLayerRef.current.popup) {
+      routeLayerRef.current.popup
+        // .setLngLat(e.lngLat)
+        .trackPointer()
+        .setHTML(HTML_POPUP(e))
+        .addTo(map);
     }
+  };
+
+  const onMouseEnter = (e: any) => {
     if (map) {
       map.getCanvas().style.cursor = "pointer";
-      if (e && routeLayerRef.current.popup) {
-        routeLayerRef.current.popup
-          .setLngLat(e.lngLat)
-          .setHTML(HTML_POPUP(e))
-          .addTo(map);
+
+      if (selectedCorridor === null) {
+        toggleCorridors(e);
+        setPopup(e);
       }
     }
   };
 
-  const onMouseLeave = (e: any) => {
-    if (selectedCorridor === null) {
-      deHighlightCorridors();
+  const onMouseMove = (e: any) => {
+    if (map && selectedCorridor === null) {
+      toggleCorridors(e);
+      routeLayerRef.current.popup?.setHTML(HTML_POPUP(e));
     }
+  };
+
+  const onMouseLeave = (e: any) => {
     if (map) {
       map.getCanvas().style.cursor = "";
-      if (routeLayerRef.current.popup) {
-        routeLayerRef.current.popup?.remove();
+      routeLayerRef.current.popup?.remove();
+
+      if (selectedCorridor === null) {
+        deHighlightCorridors();
       }
+    }
+  };
+
+  const toggleCorridors = (e: any) => {
+    if (
+      map &&
+      e.features[0] &&
+      e.features[0].properties.CORRIDOR &&
+      e.features[0].properties.TYPE === selectedType
+    ) {
+      const features = map.queryRenderedFeatures(e.point);
+      const corridorName = features[0].properties
+        ?.CORRIDOR as FeatureCorridorNames;
+      setHighlightedCorridor(corridorName);
     }
   };
 
@@ -213,7 +235,7 @@ const RouteLayer: FC<IProps> = ({
             "any",
             ["==", "CORRIDOR", corridor.DATA_CORRIDOR || ""],
             ["==", "CORRIDOR", corridor.DATA_CORRIDOR_SHARED || ""],
-            // ["==", "CORRIDOR", corridor.DATA_CORRIDOR_PAIRED || ""],
+            ["==", "CORRIDOR", corridor.DATA_CORRIDOR_PAIRED || ""],
           ];
           map.setFilter(highlightLayer, filter);
           map.setFilter(highlightOutlineLayer, filter);
@@ -286,46 +308,40 @@ const RouteLayer: FC<IProps> = ({
     if (map) {
       if (selectedCorridor === null) {
         const features = map.queryRenderedFeatures(e.point);
-        const corridorName = features[0].properties?.CORRIDOR;
+        const corridorName = features[0].properties
+          ?.CORRIDOR as FeatureCorridorNames;
         onLineFeatureClick(corridorName);
       } else {
         // actions when selected
       }
     }
-    // if (setFeature) {
-    //   const feature = e.features[0];
-    //   setFeature(feature);
-    // }
-    // if (routeLayerRef.current.popup) {
-    //   routeLayerRef.current.popup.remove();
-    // }
+  };
+
+  const onSelectedCorridor = () => {
+    if (map && map.isStyleLoaded()) {
+      if (selectedCorridor) {
+        styleSelectedCorridor();
+      } else {
+        styleInactiveLayer();
+      }
+    }
   };
 
   useEffect(() => {
-    // Mapbox event listeners must be Reactified here
     if (map) {
-      map.on("mouseleave", selectorLayer, onMouseLeave);
       map.on("mouseenter", selectorLayer, onMouseEnter);
+      map.on("mousemove", selectorLayer, onMouseMove);
+      map.on("mouseleave", selectorLayer, onMouseLeave);
       map.on("click", selectorLayer, onClickLayer);
-      // map.on("mouseleave", symbolLayerName, onMouseLeave);
-      // map.on("mouseenter", symbolLayerName, onMouseEnter);
-      if (map.isStyleLoaded()) {
-        if (selectedCorridor) {
-          styleSelectedCorridor();
-        } else {
-          styleInactiveLayer();
-        }
-      }
+      onSelectedCorridor();
     }
 
     return () => {
       if (map) {
-        // Tear down
-        map.off("mouseleave", selectorLayer, onMouseLeave);
         map.off("mouseenter", selectorLayer, onMouseEnter);
+        map.off("mousemove", selectorLayer, onMouseMove);
+        map.off("mouseleave", selectorLayer, onMouseLeave);
         map.off("click", selectorLayer, onClickLayer);
-        // map.off("mouseleave", symbolLayerName, onMouseLeave);
-        // map.off("mouseenter", symbolLayerName, onMouseEnter);
         if (routeLayerRef.current.popup) {
           routeLayerRef.current.popup.remove();
         }

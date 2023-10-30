@@ -35,7 +35,7 @@ const Home: FC = () => {
   );
 
   const [selectedType, setSelectedType] = useState<TransitTypes | null>(
-    initialNav.types ? initialNav.types[0] : null
+    TransitTypes.STREETCAR
   );
 
   useEffect(() => {
