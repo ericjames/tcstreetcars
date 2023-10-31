@@ -49,11 +49,12 @@ const MapViewer: FC<IPropsMapViewer> = ({
           navigation={navigation}
           selectedCorridor={selectedCorridor}
         />
-        <YearToggler
+
+        {/* <YearToggler
           selectedCorridor={selectedCorridor}
           yearRange={yearRange}
           setYearRange={setYearRange}
-        />
+        /> */}
 
         {/* <MapSource map={map} type="vector" id={SOURCE_ID} url={SOURCE_URL} /> */}
         <MapSource

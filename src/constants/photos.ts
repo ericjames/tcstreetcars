@@ -1,6 +1,6 @@
 import { FeatureCorridorNames, RoutePhoto } from "./types";
 
-import SECOND_ST_NE_STREETCAR from "../api-cache/2ND_AVE_STREETCAR.json";
+import SECOND_ST_NE_STREETCAR from "../api-cache/photos/2ND_AVE_STREETCAR.json";
 
 export const PHOTO_API = `https://collection.mndigital.org/catalog.json`;
 export const PHOTO_OPTIONS: any = {
@@ -21,16 +21,40 @@ const ROUTE_TO_FILE: any = {
   "2ND_ST_NE_STREETCAR": SECOND_ST_NE_STREETCAR,
 };
 
+const sanitizeHTML = (json: any) => {
+  return json?.data?.map((record: any) => {
+    const attrs = record.attributes;
+    for (const key in attrs) {
+      const row = attrs[key];
+      if (row.attributes) {
+        row.attributes.value = row?.attributes?.value.replace(
+          /\<(\w|\/)*\>/g,
+          ""
+        );
+      }
+    }
+    return record;
+  });
+};
+
 export const GET_PHOTO_JSON = (
   corridorName: FeatureCorridorNames | undefined
 ) => {
   if (corridorName && ROUTE_TO_FILE[corridorName]) {
     const json = ROUTE_TO_FILE[corridorName];
-    return json.data.map(
+
+    const sanitizedJson = sanitizeHTML(json);
+
+    return sanitizedJson.map(
       (record: any): RoutePhoto => ({
-        title: record.attributes.title,
-        previewUrl: MSN_LINK(record.id),
-        fullSizeUrl: MSN_LINK(record.id),
+        title: record?.attributes?.title,
+        sourceLink: record?.links?.self,
+        previewUrl: MSN_LINK(record?.id),
+        fullSizeUrl: MSN_LINK(record?.id),
+        description: record?.attributes?.description_ts.attributes.value,
+        date: record?.attributes?.dat_tesi.attributes.value,
+        source:
+          record?.attributes?.contributing_organization_tesi.attributes.value,
       })
     );
   }

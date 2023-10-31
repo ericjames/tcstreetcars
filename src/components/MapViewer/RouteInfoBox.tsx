@@ -1,40 +1,50 @@
-import { GET_PHOTOS_API, GET_PHOTO_JSON } from "../../constants/photos";
-import React, {
-  Dispatch,
-  FC,
-  SetStateAction,
-  useEffect,
-  useState,
-} from "react";
+import { Corridor, RoutePhoto } from "../../constants/types";
+import React, { FC, useEffect, useState } from "react";
 
-import { Corridor } from "../../constants/types";
+import { GET_PHOTO_JSON } from "../../constants/photos";
 import PhotoGallery from "../PhotoGallery";
+import PhotoViewer from "../PhotoGallery/PhotoViewer";
 import styled from "styled-components";
 
-const Wrapper = styled.div`
-  transition: all 450ms ease-in;
-  height: 250px;
+const Wrapper = styled.div<{
+  "data-hascorridor": boolean;
+  "data-hasphoto": boolean;
+}>`
+  position: absolute;
   width: 100%;
+  left: 0;
+  z-index: 100;
+  bottom: ${(props) =>
+    props["data-hascorridor"]
+      ? "0"
+      : props["data-hasphoto"]
+      ? "100%"
+      : "-250px"};
+  height: ${(props) => (props["data-hasphoto"] ? "100%" : "200px")};
+`;
+
+const StyledPhotoGallery = styled.div`
+  position: absolute;
+  bottom: 2em;
+  left: 0;
 `;
 
 type IProps = {
   corridor: Corridor | null;
   exitMethod: () => void;
+  externalPhotoCallback?: (coordinate: mapboxgl.LngLatLike) => void;
 };
 
-const RouteInfoBox: FC<IProps> = ({ corridor, exitMethod }) => {
-  const [isActive, setIsActive] = useState(false);
+const RouteInfoBox: FC<IProps> = ({
+  corridor,
+  exitMethod,
+  externalPhotoCallback,
+}) => {
   const [photos, setPhotos] = useState(null);
-  useEffect(() => {
-    if (corridor) {
-      setIsActive(true);
-    }
-  }, [corridor]);
+  const [selectedPhoto, setSelectedPhoto] = useState<RoutePhoto | null>(null);
 
-  const onButtonClick = () => {
-    setIsActive(!isActive);
-    exitMethod();
-  };
+  const hasCorridor = corridor !== null;
+  const hasSelectedPhoto = selectedPhoto !== null;
 
   useEffect(() => {
     const fetchData = async () => {
@@ -48,14 +58,25 @@ const RouteInfoBox: FC<IProps> = ({ corridor, exitMethod }) => {
       });
   }, [corridor]);
 
+  const exitPhotoViewer = () => {
+    setSelectedPhoto(null);
+  };
+
   return (
     <Wrapper
-      className={`position-absolute p-3`}
-      style={{
-        bottom: isActive ? 0 : -250,
-      }}>
-      {/* <button onClick={onButtonClick}>Exit</button> */}
-      <PhotoGallery photos={photos} />
+      data-hascorridor={hasCorridor}
+      data-hasphoto={hasSelectedPhoto}>
+      <StyledPhotoGallery>
+        <PhotoGallery
+          photos={photos}
+          selectedPhoto={selectedPhoto}
+          setSelectedPhoto={setSelectedPhoto}
+        />
+      </StyledPhotoGallery>
+      <PhotoViewer
+        photo={selectedPhoto}
+        exitPhotoViewer={exitPhotoViewer}
+      />
     </Wrapper>
   );
 };

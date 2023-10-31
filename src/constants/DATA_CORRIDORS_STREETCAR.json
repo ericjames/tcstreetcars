@@ -141,7 +141,8 @@
     "yearEnd": 1954,
     "description": "Merged with 2nd St NE",
     "sources": "Met Council Data",
-    "overlapIndex": null
+    "overlapIndex": null,
+    "hasPhotos": true
   },
   {
     "id": 4,

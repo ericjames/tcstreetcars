@@ -12,7 +12,7 @@ import React, {
   useState,
 } from "react";
 
-import CorridorInfo from "./CorridorInfo";
+import CorridorInfoDrawer from "./CorridorInfoDrawer";
 import EastMetroInfo from "./EastMetroInfo";
 import NorthMetroInfo from "./NorthMetroInfo";
 import SouthMetroInfo from "./SouthMetroInfo";
@@ -39,7 +39,7 @@ const InfoBox: FC<IPropsInfoBox> = ({
 
   return (
     <Wrapper className="bg-sidebar">
-      <CorridorInfo
+      <CorridorInfoDrawer
         selectedCorridor={selectedCorridor}
         setSelectedCorridor={setSelectedCorridor}
       />

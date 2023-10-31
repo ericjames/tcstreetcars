@@ -28,9 +28,10 @@ import styled from "styled-components";
 
 const StyledControl = styled.div`
   position: absolute;
-  bottom: 0;
-  left: 100px;
+  top: 0;
+  left: 0;
   z-index: 10;
+  font-family: var(--font-sans);
 `;
 
 type IProps = {

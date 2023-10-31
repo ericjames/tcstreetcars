@@ -1,6 +1,7 @@
 import { Dispatch, SetStateAction } from "react";
 
 import { Type } from "typescript";
+import mapboxgl from "mapbox-gl";
 
 // export enum AllowedGeometryTypes {
 //   LineString = "LineString",
@@ -46,6 +47,8 @@ export type NavigationStateProp = NavigationState | null;
 
 export type SetNavigationType = Dispatch<SetStateAction<NavigationStateProp>>;
 
+export type SetSelectedPhotoType = Dispatch<SetStateAction<RoutePhoto | null>>;
+
 export enum RegionName {
   tc = "Twin Cities",
   west = "West Metro",
@@ -57,8 +60,12 @@ export type RoutePhoto = {
   previewUrl: string;
   fullSizeUrl: string;
   title: string;
+  description?: string;
+  date?: string;
   source?: string;
   sourceUrl?: string;
+  sourceLink?: string;
+  location?: mapboxgl.LngLatLike;
 };
 
 export type Corridor = {
@@ -75,10 +82,11 @@ export type Corridor = {
   description?: string;
   mainColor?: string;
   sources?: string;
-  photos?: Array<RoutePhoto>;
   overlapIndex?: number | null;
   mainCity?: string;
   operators?: string;
+  hasPhotos?: boolean;
+  photos?: Array<RoutePhoto>;
 };
 
 export type YearRange = [number | null, number | null];

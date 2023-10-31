@@ -1,5 +1,6 @@
 import React, { FC } from "react";
 
+import { ArrowLeftCircle } from "react-bootstrap-icons";
 import { IPropsCorridorInfo } from "../../../constants/types";
 import Icon from "../../common/Icon";
 import styled from "styled-components";
@@ -25,7 +26,7 @@ const StyledHeader = styled.div`
   }
 `;
 
-const CorridorInfo: FC<IPropsCorridorInfo> = ({
+const CorridorInfoDrawer: FC<IPropsCorridorInfo> = ({
   selectedCorridor,
   setSelectedCorridor,
 }) => {
@@ -36,7 +37,7 @@ const CorridorInfo: FC<IPropsCorridorInfo> = ({
       <button
         className="btn btn-lg"
         onClick={() => setSelectedCorridor(null)}>
-        &larr;
+        <ArrowLeftCircle />
       </button>
 
       <div className="p-3">
@@ -55,4 +56,4 @@ const CorridorInfo: FC<IPropsCorridorInfo> = ({
   );
 };
 
-export default CorridorInfo;
+export default CorridorInfoDrawer;
