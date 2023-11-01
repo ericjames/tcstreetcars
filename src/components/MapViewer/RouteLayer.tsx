@@ -186,7 +186,7 @@ const RouteLayer: FC<IProps> = ({
           if (routeLayerRef.current.popup) {
             routeLayerRef.current.popup
               ?.trackPointer()
-              .setHTML(getPopupHTML(corridorNames))
+              .setHTML(getPopupHTML(corridorNames))git add 
               .addTo(map);
           }
         }
