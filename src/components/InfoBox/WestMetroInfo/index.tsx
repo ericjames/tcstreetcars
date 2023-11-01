@@ -36,72 +36,70 @@ const WestMetroInfo: FC<IPropsInfoBox> = ({
         )}
       </StyledImage>
       <div className="p-4">
-        <ButtonGroup
-          setSelectedType={setSelectedType}
-          selectedType={selectedType}
-          navigation={navigation}
-        />
-
         <h1>West Metro</h1>
-        {selectedType === TransitTypes.STREETCAR ? (
-          <>
-            <p>
-              Streetcars originally served the growing western communities to
-              industrial work centers in Minneapolis.
-            </p>
+        <>
+          <p>
+            Streetcars originally served the growing western communities to
+            industrial work centers in Minneapolis.
+          </p>
 
-            <RouteList
-              corridors={corridors}
-              selectedCorridor={selectedCorridor}
-              setSelectedCorridor={setSelectedCorridor}
-              filterOut={[
-                ["mainCity", "West Metro"],
-                ["DATA_TYPE", selectedType?.toString() || ""],
-              ]}
-              sortProperty="routeName"
-              heading="Western Communities"
-            />
-          </>
-        ) : selectedType === TransitTypes.FERRY ? (
-          <>
-            <p>
-              Ferries sailed across Lake Minnetonka to serve local residents
-              commuting to streetcar lines and during summer months vacationing
-              southerners escaping the heat.
-            </p>
+          <RouteList
+            corridors={corridors}
+            selectedCorridor={selectedCorridor}
+            setSelectedCorridor={setSelectedCorridor}
+            filterOut={[
+              ["mainCity", "West Metro"],
+              ["DATA_TYPE", "Streetcar"],
+            ]}
+            sortProperty="routeName"
+            heading="Streetcar"
+          />
+        </>
+        <>
+          <p>
+            Ferries sailed across Lake Minnetonka to serve local residents
+            commuting to streetcar lines and during summer months vacationing
+            southerners escaping the heat.
+          </p>
 
-            <RouteList
-              corridors={corridors}
-              selectedCorridor={selectedCorridor}
-              setSelectedCorridor={setSelectedCorridor}
-              filterOut={[
-                ["mainCity", "West Metro"],
-                ["DATA_TYPE", selectedType?.toString() || ""],
-              ]}
-              sortProperty="routeName"
-              heading="Lake Minnetonka"
-            />
-          </>
-        ) : selectedType === TransitTypes.BUS ? (
-          <>
-            <p>Bus</p>
-            <RouteList
-              corridors={corridors}
-              selectedCorridor={selectedCorridor}
-              setSelectedCorridor={setSelectedCorridor}
-              filterOut={[
-                ["mainCity", "West Metro"],
-                ["DATA_TYPE", selectedType?.toString() || ""],
-              ]}
-              sortProperty="routeName"
-              heading="West Metro"
-            />
-          </>
-        ) : selectedType === TransitTypes.STEAMPOWER ? (
-          <p>Bus</p>
-        ) : (
-          <></>
-        )}
+          <RouteList
+            corridors={corridors}
+            selectedCorridor={selectedCorridor}
+            setSelectedCorridor={setSelectedCorridor}
+            filterOut={[
+              ["mainCity", "West Metro"],
+              ["DATA_TYPE", "Ferry"],
+            ]}
+            sortProperty="routeName"
+            heading="Ferry"
+          />
+        </>
+        <>
+          <RouteList
+            corridors={corridors}
+            selectedCorridor={selectedCorridor}
+            setSelectedCorridor={setSelectedCorridor}
+            filterOut={[
+              ["mainCity", "West Metro"],
+              ["DATA_TYPE", "Bus"],
+            ]}
+            sortProperty="routeName"
+            heading="Bus"
+          />
+        </>
+        <>
+          <RouteList
+            corridors={corridors}
+            selectedCorridor={selectedCorridor}
+            setSelectedCorridor={setSelectedCorridor}
+            filterOut={[
+              ["mainCity", "West Metro"],
+              ["DATA_TYPE", "Steam Power"],
+            ]}
+            sortProperty="routeName"
+            heading="Steam Power"
+          />
+        </>{" "}
         <br />
         <br />
         <br />

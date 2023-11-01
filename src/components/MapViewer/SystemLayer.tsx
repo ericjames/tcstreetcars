@@ -1,4 +1,9 @@
-import { Corridor, TransitTypes, YearRange } from "../../constants/types";
+import {
+  Corridor,
+  FeatureCorridorNames,
+  TransitTypes,
+  YearRange,
+} from "../../constants/types";
 import { LINE_WIDTH_STOPS, RECEDED_LINE_OPACITY } from "../../constants/mapbox";
 import React, { FC, useEffect } from "react";
 
@@ -14,7 +19,7 @@ type IProps = {
   yearRange: YearRange;
   selectedCorridor: Corridor | null;
   selectedType: TransitTypes | null;
-  onLineFeatureClick?: (corridorName: string) => void;
+  onCorridorSelect?: (corridorName: FeatureCorridorNames) => void;
 };
 
 const SystemLayer: FC<IProps> = ({
@@ -24,10 +29,15 @@ const SystemLayer: FC<IProps> = ({
   map,
   yearRange,
   selectedCorridor,
-  onLineFeatureClick,
+  onCorridorSelect,
   selectedType,
 }) => {
-  const initialFilter = ["==", "TYPE", selectedType];
+  const initialFilter = [
+    "any",
+    ["==", "TYPE", selectedType],
+    ["==", "TYPE", "Ferry"],
+    // ["==", "TYPE", "Train"],
+  ];
 
   useEffect(() => {
     addLayer();
@@ -59,6 +69,8 @@ const SystemLayer: FC<IProps> = ({
               COLORS.bus,
               ["==", ["get", "TYPE"], "Ferry"],
               COLORS.ferry,
+              ["==", ["get", "TYPE"], "Train"],
+              COLORS.train,
               ["==", ["get", "TYPE"], "Steam Power"],
               COLORS.steampower,
               ["==", ["get", "TYPE"], "Horsecar"],

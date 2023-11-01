@@ -5,9 +5,11 @@ import {
   FeatureCorridorNames,
   YearRange,
 } from "./types";
-import mapboxgl, { MapboxGeoJSONFeature } from "mapbox-gl";
+import mapboxgl, { MapMouseEvent, MapboxGeoJSONFeature } from "mapbox-gl";
 
 import CORRIDOR_NAMES from "./CORRIDOR_NAMES.json";
+import { createPortal } from "react-dom";
+import { disambiguateCorridorNames } from ".";
 
 export const TC_CENTER: [number, number] = [-93.201, 44.9675];
 export const WESTMETRO_CENTER: [number, number] = [-93.48, 44.932];
@@ -103,6 +105,23 @@ export const getPopupHTML = (
   ${buttons}
   </div>
   `;
+};
+
+export const getFeatureCorridorNames = (
+  map: mapboxgl.Map,
+  e: MapMouseEvent
+): Array<FeatureCorridorNames> | null => {
+  // Identify overlapped routes
+  if (map) {
+    const features = map.queryRenderedFeatures(e.point);
+    const rawCorridorName = features[0].properties
+      ?.CORRIDOR as FeatureCorridorNames;
+
+    // return [rawCorridorName];
+    const corridorNames = disambiguateCorridorNames(rawCorridorName);
+    return corridorNames;
+  }
+  return null;
 };
 
 export const addAnimation = (map: mapboxgl.Map) => {

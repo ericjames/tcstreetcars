@@ -9,6 +9,7 @@ export const COLORS = {
   ferry: "#BB9765",
   horsecar: "#964B00",
   bus: "#679D5F",
+  train: "#888",
   steampower: "#ff5533",
   off_white1: "#FFFFF0",
   off_white2: "#FCFBE8",

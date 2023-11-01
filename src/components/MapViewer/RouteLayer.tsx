@@ -5,18 +5,16 @@ import {
   TransitTypes,
   YearRange,
 } from "../../constants/types";
-import { FC, SetStateAction, useEffect, useRef, useState } from "react";
-import { LABEL_SIZE_STOPS, getPopupHTML } from "../../constants/mapbox";
-import mapboxgl, {
-  LngLatBounds,
-  LngLatBoundsLike,
-  LngLatLike,
-  MapMouseEvent,
-} from "mapbox-gl";
+import { FC, useEffect } from "react";
+import {
+  LABEL_SIZE_STOPS,
+  getFeatureCorridorNames,
+} from "../../constants/mapbox";
+import mapboxgl, { MapMouseEvent } from "mapbox-gl";
 
 import { COLORS } from "../../constants/colors";
+import MapPopup from "./MapPopup";
 import { YEAR_FILTER_HOOK } from "./maphooks";
-import { disambiguateCorridorNames } from "../../constants";
 
 interface IProps {
   map: mapboxgl.Map | undefined;
@@ -26,7 +24,7 @@ interface IProps {
   sourceId: string;
   sourceLayerName?: string;
   yearRange: YearRange;
-  onLineFeatureClick: (corridorName: string) => void;
+  onCorridorSelect: (corridorName: FeatureCorridorNames) => void;
   selectedType?: TransitTypes | null;
 }
 
@@ -43,34 +41,18 @@ const RouteLayer: FC<IProps> = ({
   selectedCorridor,
   yearRange,
   selectedType,
-  onLineFeatureClick,
+  onCorridorSelect,
 }) => {
-  const routeLayerRef = useRef<{
-    popup: mapboxgl.Popup | null;
-    selectorPopup: mapboxgl.Popup | null;
-  }>({
-    popup: new mapboxgl.Popup({
-      closeButton: false,
-      closeOnClick: false,
-    }),
-    selectorPopup: new mapboxgl.Popup({
-      closeButton: false,
-      closeOnClick: false,
-    }),
-  });
-
   const selectorLayer = layerName + "-selector";
   const highlightLayer = "highlight-layer";
   const highlightOutlineLayer = "highlight-outline-layer";
   const symbolLayerName = layerName + "-symbols";
-  const initialFilter = ["==", "TYPE", selectedType || ""];
+  const initialFilter = ["all", ["==", "TYPE", selectedType || ""]];
 
-  const [bounds, setBounds] =
-    useState<SetStateAction<LngLatBounds | LngLatBoundsLike | null>>(null);
+  const isDiscoveryMode = selectedCorridor === null; // User is searching around map for a route to click on
 
   useEffect(() => {
     setupLayer();
-
     return () => {
       if (map) {
         map.removeLayer(selectorLayer);
@@ -134,7 +116,7 @@ const RouteLayer: FC<IProps> = ({
           // "source-layer": sourceLayerName,
           type: "symbol",
           layout: {
-            "text-field": "",
+            "text-field": "{CORRIDOR_NAME}",
             "symbol-placement": "line",
             "text-size": LABEL_SIZE_STOPS,
             // "text-size": ['match', ['get', 'id'], 0, 1, 0.8]
@@ -170,38 +152,23 @@ const RouteLayer: FC<IProps> = ({
   };
 
   const onMouseEnter = (e: MapMouseEvent) => {
-    if (routeLayerRef.current.selectorPopup) {
-      setTimeout(() => {
-        routeLayerRef.current.selectorPopup?.remove();
-      }, 500);
-    }
-
     if (map) {
       map.getCanvas().style.cursor = "pointer";
 
-      if (selectedCorridor === null) {
-        const corridorNames = getFeatureCorridorNames(e);
+      if (isDiscoveryMode) {
+        const corridorNames = getFeatureCorridorNames(map, e);
         if (corridorNames) {
-          setHighlightedCorridor(corridorNames);
-          if (routeLayerRef.current.popup) {
-            routeLayerRef.current.popup
-              ?.trackPointer()
-              .setHTML(getPopupHTML(corridorNames))git add 
-              .addTo(map);
-          }
+          highlightCorridor(corridorNames);
         }
       }
     }
   };
 
   const onMouseMove = (e: MapMouseEvent) => {
-    if (map && selectedCorridor === null) {
-      const corridorNames = getFeatureCorridorNames(e);
+    if (map && isDiscoveryMode) {
+      const corridorNames = getFeatureCorridorNames(map, e);
       if (corridorNames) {
-        setHighlightedCorridor(corridorNames);
-        if (routeLayerRef.current.popup) {
-          routeLayerRef.current.popup.setHTML(getPopupHTML(corridorNames));
-        }
+        highlightCorridor(corridorNames);
       }
     }
   };
@@ -209,30 +176,20 @@ const RouteLayer: FC<IProps> = ({
   const onMouseLeave = (e: MapMouseEvent) => {
     if (map) {
       map.getCanvas().style.cursor = "";
-      routeLayerRef.current.popup?.remove();
 
-      if (selectedCorridor === null) {
+      // Do not dehighlight for button popups
+      if (
+        isDiscoveryMode &&
+        e.originalEvent.relatedTarget instanceof HTMLButtonElement === false
+      ) {
         deHighlightCorridors();
       }
     }
   };
 
-  const getFeatureCorridorNames = (
-    e: MapMouseEvent
-  ): Array<FeatureCorridorNames> | null => {
-    // Identify overlapped routes
-    if (map) {
-      const features = map.queryRenderedFeatures(e.point);
-      const rawCorridorName = features[0].properties
-        ?.CORRIDOR as FeatureCorridorNames;
+  const onPopupButtonClick = (corridorName: FeatureCorridorNames) => {};
 
-      const corridorNames = disambiguateCorridorNames(rawCorridorName);
-      return corridorNames;
-    }
-    return null;
-  };
-
-  const setHighlightedCorridor = (corridorNames: FeatureCorridorNames[]) => {
+  const highlightCorridor = (corridorNames: FeatureCorridorNames[]) => {
     if (map) {
       let filter: MapboxFilterArray = ["any"];
       corridorNames.forEach((corridorName) => {
@@ -314,15 +271,12 @@ const RouteLayer: FC<IProps> = ({
 
   const onClickLayer = (e: MapMouseEvent) => {
     if (map) {
-      const corridorNames = getFeatureCorridorNames(e);
-      if (corridorNames && selectedCorridor === null) {
+      const corridorNames = getFeatureCorridorNames(map, e);
+      if (corridorNames && isDiscoveryMode) {
         if (corridorNames.length === 1) {
-          onLineFeatureClick(corridorNames[0]);
+          onCorridorSelect(corridorNames[0]);
         } else {
-          routeLayerRef.current.selectorPopup
-            ?.setHTML(getPopupHTML(corridorNames))
-            .setLngLat(e.lngLat)
-            .addTo(map);
+          // Multiple
         }
       } else {
         // actions when selected
@@ -347,19 +301,14 @@ const RouteLayer: FC<IProps> = ({
       map.on("mouseleave", selectorLayer, onMouseLeave);
       map.on("click", selectorLayer, onClickLayer);
       onSelectedCorridor();
-    }
 
-    return () => {
-      if (map) {
+      return () => {
         map.off("mouseenter", selectorLayer, onMouseEnter);
         map.off("mousemove", selectorLayer, onMouseMove);
         map.off("mouseleave", selectorLayer, onMouseLeave);
         map.off("click", selectorLayer, onClickLayer);
-        if (routeLayerRef.current.popup) {
-          routeLayerRef.current.popup.remove();
-        }
-      }
-    };
+      };
+    }
   }, [map, selectedCorridor]); // Dependent variables in methods above must be added
 
   YEAR_FILTER_HOOK({
@@ -373,7 +322,14 @@ const RouteLayer: FC<IProps> = ({
     ],
   });
 
-  return null;
+  return (
+    <MapPopup
+      map={map}
+      selectorLayer={selectorLayer}
+      selectedCorridor={selectedCorridor}
+      onCorridorSelect={onCorridorSelect}
+    />
+  );
 };
 
 export default RouteLayer;

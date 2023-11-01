@@ -1,9 +1,9 @@
 import { EDITOR_MODE, getDataFeatureCollection } from "../../constants";
 import { FC, useEffect, useState } from "react";
+import { FeatureCorridorNames, IPropsMapViewer } from "../../constants/types";
 import { SOURCE_ID, SOURCE_LAYER_NAME } from "../../constants/mapbox";
 
 import { ErrorBoundary } from "react-error-boundary";
-import { IPropsMapViewer } from "../../constants/types";
 import MapEditor from "./MapEditor";
 import MapSource from "./MapSource";
 import MapViewport from "./MapViewport";
@@ -28,7 +28,7 @@ const MapViewer: FC<IPropsMapViewer> = ({
   const [map, setMap] = useState<mapboxgl.Map>();
   const [yearRange, setYearRange] = useState<YearRange>([null, null]);
 
-  const onLineFeatureClick = (corridorName: string) => {
+  const onCorridorSelect = (corridorName: FeatureCorridorNames) => {
     if (corridors) {
       corridors.some((corridor) => {
         if (corridorName === corridor.DATA_CORRIDOR) {
@@ -82,7 +82,7 @@ const MapViewer: FC<IPropsMapViewer> = ({
           sourceId={SOURCE_ID}
           sourceLayerName={SOURCE_LAYER_NAME}
           yearRange={yearRange}
-          onLineFeatureClick={onLineFeatureClick}
+          onCorridorSelect={onCorridorSelect}
           selectedType={selectedType}
         />
 
