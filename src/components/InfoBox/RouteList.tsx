@@ -53,15 +53,15 @@ const RouteList: FC<IProps> = ({
         <h3>{heading}</h3>
       </li>
       {filtered &&
-        filtered.map((route: Corridor, i: number) => (
+        filtered.map((corridor: Corridor, i: number) => (
           <StyledButton
             key={i}
-            className={`font-sans fs-6 text-center text-uppercase list-group-item list-group-item-action w-100 text-start
-                  ${selectedCorridor?.id === route.id ? "active" : ""}
+            className={`font-sans fs-6 text-center text-uppercase list-group-item list-group-item-action w-100 text-start d-flex align-items-center justify-content-center gap-2
+                  ${selectedCorridor?.id === corridor.id ? "active" : ""}
                 `}
-            onClick={() => setSelectedCorridor(route)}>
-            {route.routeName}
-            {selectedCorridor?.hasPhotos && <Images />}
+            onClick={() => setSelectedCorridor(corridor)}>
+            {corridor.routeName}
+            {corridor?.hasPhotos && <Images />}
           </StyledButton>
         ))}
     </div>

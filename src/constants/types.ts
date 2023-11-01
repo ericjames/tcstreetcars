@@ -91,6 +91,8 @@ export type Corridor = {
 
 export type YearRange = [number | null, number | null];
 
+export type MapboxFilterArray = Array<Array<string> | string>;
+
 export type GenericObjectMap = {
   [key: string]: string;
 };
@@ -139,6 +141,10 @@ export type FeatureType =
   | "Steam Power"
   | "Train"
   | "Freight";
+
+export type SharedFeatureCorridorNames =
+  | "COMO_HARRIET_OAK_XER_STREETCAR"
+  | "28TH_AVE_34TH_AVE_STREETCAR";
 
 export type FeatureCorridorNames =
   | "25TH_ST_E_STREETCAR"

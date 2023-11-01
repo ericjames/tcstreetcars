@@ -1,33 +1,22 @@
 import {
   Corridor,
   FeatureCorridorNames,
+  MapboxFilterArray,
   TransitTypes,
   YearRange,
 } from "../../constants/types";
-import {
-  DEFAULT_LINE_WIDTH,
-  HTML_POPUP,
-  LABEL_SIZE_STOPS,
-  LINE_WIDTH_STOPS,
-  RECEDED_LINE_OPACITY,
-  SELECTED_LINE_WIDTH,
-} from "../../constants/mapbox";
-import {
-  Dispatch,
-  FC,
-  SetStateAction,
-  useEffect,
-  useRef,
-  useState,
-} from "react";
+import { FC, SetStateAction, useEffect, useRef, useState } from "react";
+import { LABEL_SIZE_STOPS, getPopupHTML } from "../../constants/mapbox";
 import mapboxgl, {
   LngLatBounds,
   LngLatBoundsLike,
-  MapboxGeoJSONFeature,
+  LngLatLike,
+  MapMouseEvent,
 } from "mapbox-gl";
 
 import { COLORS } from "../../constants/colors";
 import { YEAR_FILTER_HOOK } from "./maphooks";
+import { disambiguateCorridorNames } from "../../constants";
 
 interface IProps {
   map: mapboxgl.Map | undefined;
@@ -56,8 +45,15 @@ const RouteLayer: FC<IProps> = ({
   selectedType,
   onLineFeatureClick,
 }) => {
-  const routeLayerRef = useRef<{ popup?: mapboxgl.Popup | null }>({
+  const routeLayerRef = useRef<{
+    popup: mapboxgl.Popup | null;
+    selectorPopup: mapboxgl.Popup | null;
+  }>({
     popup: new mapboxgl.Popup({
+      closeButton: false,
+      closeOnClick: false,
+    }),
+    selectorPopup: new mapboxgl.Popup({
       closeButton: false,
       closeOnClick: false,
     }),
@@ -173,35 +169,44 @@ const RouteLayer: FC<IProps> = ({
     }
   };
 
-  const setPopup = (e: any) => {
-    if (e && map && routeLayerRef.current.popup) {
-      routeLayerRef.current.popup
-        // .setLngLat(e.lngLat)
-        .trackPointer()
-        .setHTML(HTML_POPUP(e))
-        .addTo(map);
+  const onMouseEnter = (e: MapMouseEvent) => {
+    if (routeLayerRef.current.selectorPopup) {
+      setTimeout(() => {
+        routeLayerRef.current.selectorPopup?.remove();
+      }, 500);
     }
-  };
 
-  const onMouseEnter = (e: any) => {
     if (map) {
       map.getCanvas().style.cursor = "pointer";
 
       if (selectedCorridor === null) {
-        toggleCorridors(e);
-        setPopup(e);
+        const corridorNames = getFeatureCorridorNames(e);
+        if (corridorNames) {
+          setHighlightedCorridor(corridorNames);
+          if (routeLayerRef.current.popup) {
+            routeLayerRef.current.popup
+              ?.trackPointer()
+              .setHTML(getPopupHTML(corridorNames))
+              .addTo(map);
+          }
+        }
       }
     }
   };
 
-  const onMouseMove = (e: any) => {
+  const onMouseMove = (e: MapMouseEvent) => {
     if (map && selectedCorridor === null) {
-      toggleCorridors(e);
-      routeLayerRef.current.popup?.setHTML(HTML_POPUP(e));
+      const corridorNames = getFeatureCorridorNames(e);
+      if (corridorNames) {
+        setHighlightedCorridor(corridorNames);
+        if (routeLayerRef.current.popup) {
+          routeLayerRef.current.popup.setHTML(getPopupHTML(corridorNames));
+        }
+      }
     }
   };
 
-  const onMouseLeave = (e: any) => {
+  const onMouseLeave = (e: MapMouseEvent) => {
     if (map) {
       map.getCanvas().style.cursor = "";
       routeLayerRef.current.popup?.remove();
@@ -212,38 +217,41 @@ const RouteLayer: FC<IProps> = ({
     }
   };
 
-  const toggleCorridors = (e: any) => {
-    if (
-      map &&
-      e.features[0] &&
-      e.features[0].properties.CORRIDOR &&
-      e.features[0].properties.TYPE === selectedType
-    ) {
+  const getFeatureCorridorNames = (
+    e: MapMouseEvent
+  ): Array<FeatureCorridorNames> | null => {
+    // Identify overlapped routes
+    if (map) {
       const features = map.queryRenderedFeatures(e.point);
-      const corridorName = features[0].properties
+      const rawCorridorName = features[0].properties
         ?.CORRIDOR as FeatureCorridorNames;
-      setHighlightedCorridor(corridorName);
+
+      const corridorNames = disambiguateCorridorNames(rawCorridorName);
+      return corridorNames;
     }
+    return null;
   };
 
-  const setHighlightedCorridor = (corridorName: string) => {
+  const setHighlightedCorridor = (corridorNames: FeatureCorridorNames[]) => {
     if (map) {
-      // Highlight shared routes
-      corridors?.some((corridor) => {
-        if (corridor.DATA_CORRIDOR === corridorName) {
-          const filter = [
-            "any",
-            ["==", "CORRIDOR", corridor.DATA_CORRIDOR || ""],
-            ["==", "CORRIDOR", corridor.DATA_CORRIDOR_SHARED || ""],
-            ["==", "CORRIDOR", corridor.DATA_CORRIDOR_PAIRED || ""],
-          ];
-          map.setFilter(highlightLayer, filter);
-          map.setFilter(highlightOutlineLayer, filter);
-          return true;
-        } else {
+      let filter: MapboxFilterArray = ["any"];
+      corridorNames.forEach((corridorName) => {
+        // Grab all routes in each corridor
+        corridors?.some((corridor) => {
+          if (corridor.DATA_CORRIDOR === corridorName) {
+            filter.push(["==", "CORRIDOR", corridor.DATA_CORRIDOR || ""]);
+            filter.push([
+              "==",
+              "CORRIDOR",
+              corridor.DATA_CORRIDOR_SHARED || "",
+            ]);
+            return true;
+          }
           return false;
-        }
+        });
       });
+      map.setFilter(highlightLayer, filter);
+      map.setFilter(highlightOutlineLayer, filter);
 
       map.setPaintProperty(highlightLayer, "line-opacity", 1);
       map.setPaintProperty(highlightOutlineLayer, "line-opacity", 1);
@@ -304,13 +312,18 @@ const RouteLayer: FC<IProps> = ({
     }
   };
 
-  const onClickLayer = (e: any) => {
+  const onClickLayer = (e: MapMouseEvent) => {
     if (map) {
-      if (selectedCorridor === null) {
-        const features = map.queryRenderedFeatures(e.point);
-        const corridorName = features[0].properties
-          ?.CORRIDOR as FeatureCorridorNames;
-        onLineFeatureClick(corridorName);
+      const corridorNames = getFeatureCorridorNames(e);
+      if (corridorNames && selectedCorridor === null) {
+        if (corridorNames.length === 1) {
+          onLineFeatureClick(corridorNames[0]);
+        } else {
+          routeLayerRef.current.selectorPopup
+            ?.setHTML(getPopupHTML(corridorNames))
+            .setLngLat(e.lngLat)
+            .addTo(map);
+        }
       } else {
         // actions when selected
       }

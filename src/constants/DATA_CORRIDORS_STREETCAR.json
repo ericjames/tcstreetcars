@@ -141,8 +141,7 @@
     "yearEnd": 1954,
     "description": "Merged with 2nd St NE",
     "sources": "Met Council Data",
-    "overlapIndex": null,
-    "hasPhotos": true
+    "overlapIndex": null
   },
   {
     "id": 4,
@@ -157,7 +156,8 @@
     "yearEnd": 1954,
     "description": "Merged with Nicollet",
     "sources": "Met Council Data",
-    "overlapIndex": null
+    "overlapIndex": null,
+    "hasPhotos": true
   },
   {
     "id": 7,

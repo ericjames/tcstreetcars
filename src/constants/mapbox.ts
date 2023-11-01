@@ -87,19 +87,20 @@ export const LABEL_SIZE_STOPS = {
 //   return null;
 // };
 
-export const HTML_POPUP = (e: any) => {
-  const feature = e?.features[0];
-  const prop = feature?.properties || {};
-  const names = CORRIDOR_NAMES as CorridorNameMap;
-  const title = Object.entries(names).find((name) => {
-    if (name[0] === prop?.CORRIDOR) {
-      return name;
-    }
-    return false;
+export const getPopupHTML = (
+  corridorNames: Array<FeatureCorridorNames>,
+  onButtonClick?: () => void
+) => {
+  const niceMap = CORRIDOR_NAMES as any;
+  let buttons = "";
+  corridorNames.forEach((corridorName) => {
+    const niceName = niceMap[corridorName] || corridorName;
+    buttons += `<button class="btn w-100" onClick="onButtonClick">${niceName}</button>`;
   });
+
   return `
   <div className="mapbox-popup-inner">
-     ${title ? title[1] : prop?.CORRIDOR}
+  ${buttons}
   </div>
   `;
 };

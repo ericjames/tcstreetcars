@@ -2,9 +2,11 @@ import {
   AppFeatureCollection,
   AppGeometryFeature,
   Corridor,
+  FeatureCorridorNames,
   GenericObjectMap,
   NavigationState,
   RegionName,
+  SharedFeatureCorridorNames,
   TransitTypes,
 } from "./types";
 import { TC_CENTER, TC_ZOOM, WESTMETRO_CENTER, WESTMETRO_ZOOM } from "./mapbox";
@@ -15,6 +17,7 @@ import DATA_CORRIDORS_FERRY from "./DATA_CORRIDORS_FERRY.json";
 import DATA_CORRIDORS_HORSECAR from "./DATA_CORRIDORS_HORSECAR.json";
 import DATA_CORRIDORS_STREETCAR from "./DATA_CORRIDORS_STREETCAR.json";
 import FEATURE_COLLECTION from "./DATA_FEATURE_COLLECTION.json";
+import SHARED_FEATURE_CORRIDORS from "./SHARED_FEATURE_CORRIDORS.json";
 
 // DATA_CORRIDORS_BUS.forEach((bus) => {
 //   const names = CORRIDOR_NAMES as any;
@@ -142,4 +145,14 @@ export const getCorridors = () => {
   // console.log(list);
 
   return corridors;
+};
+
+// Disambiguates shared keys
+export const disambiguateCorridorNames = (
+  featureCorridor: FeatureCorridorNames
+): FeatureCorridorNames[] => {
+  const shared = SHARED_FEATURE_CORRIDORS as {
+    [key: string]: Array<FeatureCorridorNames>;
+  };
+  return shared[featureCorridor] || [featureCorridor];
 };
