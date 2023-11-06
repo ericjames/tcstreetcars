@@ -1,14 +1,7 @@
-import {
-  AllowedGeometryTypes,
-  AppGeometryFeature,
-  CorridorNameMap,
-  FeatureCorridorNames,
-  YearRange,
-} from "./types";
-import mapboxgl, { MapMouseEvent, MapboxGeoJSONFeature } from "mapbox-gl";
+import { FeatureCorridorNames, YearRange } from "./types";
+import mapboxgl, { MapMouseEvent } from "mapbox-gl";
 
 import CORRIDOR_NAMES from "./CORRIDOR_NAMES.json";
-import { createPortal } from "react-dom";
 import { disambiguateCorridorNames } from ".";
 
 export const TC_CENTER: [number, number] = [-93.201, 44.9675];
@@ -23,8 +16,11 @@ export const EASTMETRO_ZOOM = 10.9;
 export const NORTHMETRO_ZOOM = 11;
 export const SOUTHMETRO_ZOOM = 10.1;
 
+// export const TC_MAP_STYLE =
+//   "mapbox://styles/fluidicmethod/ckvdayqly5n1714pca4qep17o";
+
 export const TC_MAP_STYLE =
-  "mapbox://styles/fluidicmethod/ckvdayqly5n1714pca4qep17o";
+  "mapbox://styles/fluidicmethod/clolu4e61000w01nwhlrw7ssi";
 
 export const SATELLITE_STYLE = "mapbox://styles/mapbox/satellite-streets-v12";
 
@@ -58,8 +54,8 @@ export const YEAR_RANGES: Array<YearRange> = [
 
 export const LINE_WIDTH_STOPS = {
   stops: [
-    [8, 1],
-    [12, DEFAULT_LINE_WIDTH],
+    [8, DEFAULT_LINE_WIDTH],
+    [12, 4],
   ],
 };
 

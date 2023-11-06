@@ -1,0 +1,2021 @@
+{
+  "links": {
+    "self": "https://collection.mndigital.org/catalog.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=%22RICE%22+AND+streetcar\u0026search_field=all_fields",
+    "last": "https://collection.mndigital.org/catalog.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026page=1\u0026q=%22RICE%22+AND+streetcar\u0026search_field=all_fields"
+  },
+  "meta": {
+    "pages": {
+      "current_page": 1,
+      "next_page": null,
+      "prev_page": null,
+      "total_pages": 1,
+      "limit_value": 25,
+      "offset_value": 0,
+      "total_count": 6,
+      "first_page?": true,
+      "last_page?": true
+    }
+  },
+  "data": [
+    {
+      "id": "msn:2411",
+      "type": "Still Image",
+      "attributes": {
+        "title": "Streetcar on Concord Street at Marie Avenue, South St. Paul, Minnesota",
+        "creator_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:2411#creator_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Butts, Frank",
+            "label": "Creator"
+          }
+        },
+        "dat_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:2411#dat_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "1941",
+            "label": "Date Created"
+          }
+        },
+        "description_ts": {
+          "id": "https://collection.mndigital.org/catalog/msn:2411#description_ts",
+          "type": "document_value",
+          "attributes": {
+            "value": "Looking \u003cem\u003esouth\u003c/em\u003e at a northbound \u003cem\u003estreetcar\u003c/em\u003e just north of Marie Avenue.",
+            "label": "Description"
+          }
+        },
+        "contributing_organization_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:2411#contributing_organization_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Minnesota \u003cem\u003eStreetcar\u003c/em\u003e Museum",
+            "label": "Contributing Institution"
+          }
+        },
+        "type_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:2411#type_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Still Image",
+            "label": "Type"
+          }
+        },
+        "physical_format_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:2411#physical_format_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Black-and-white photographs",
+            "label": "Format"
+          }
+        }
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/msn:2411"
+      }
+    },
+    {
+      "id": "msn:1578",
+      "type": "Still Image",
+      "attributes": {
+        "title": "End of the Concord line, South St. Paul, Minnesota",
+        "creator_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1578#creator_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Mehlenbeck, Robert",
+            "label": "Creator"
+          }
+        },
+        "dat_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1578#dat_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "1951",
+            "label": "Date Created"
+          }
+        },
+        "description_ts": {
+          "id": "https://collection.mndigital.org/catalog/msn:1578#description_ts",
+          "type": "document_value",
+          "attributes": {
+            "value": "End of the Concord Avenue \u003cem\u003estreetcar\u003c/em\u003e line at Linden Street.",
+            "label": "Description"
+          }
+        },
+        "contributing_organization_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1578#contributing_organization_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Minnesota \u003cem\u003eStreetcar\u003c/em\u003e Museum",
+            "label": "Contributing Institution"
+          }
+        },
+        "type_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1578#type_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Still Image",
+            "label": "Type"
+          }
+        },
+        "physical_format_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1578#physical_format_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Slides (photographs)",
+            "label": "Format"
+          }
+        }
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/msn:1578"
+      }
+    },
+    {
+      "id": "msn:1301",
+      "type": "Still Image",
+      "attributes": {
+        "title": "Streetcar on Concord Street, South St. Paul, Minnesota",
+        "creator_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1301#creator_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Wallin, C. A.",
+            "label": "Creator"
+          }
+        },
+        "dat_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1301#dat_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "1905?",
+            "label": "Date Created"
+          }
+        },
+        "description_ts": {
+          "id": "https://collection.mndigital.org/catalog/msn:1301#description_ts",
+          "type": "document_value",
+          "attributes": {
+            "value": "Crew posed with \u003cem\u003estreetcar\u003c/em\u003e, perhaps on Concord Street at Linden.",
+            "label": "Description"
+          }
+        },
+        "contributing_organization_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1301#contributing_organization_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Minnesota \u003cem\u003eStreetcar\u003c/em\u003e Museum",
+            "label": "Contributing Institution"
+          }
+        },
+        "type_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1301#type_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Still Image",
+            "label": "Type"
+          }
+        },
+        "physical_format_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1301#physical_format_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Black-and-white photographs",
+            "label": "Format"
+          }
+        }
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/msn:1301"
+      }
+    },
+    {
+      "id": "msn:662",
+      "type": "Still Image",
+      "attributes": {
+        "title": "Streetcar at the city limits, Inver Grove Heights, Minnesota",
+        "creator_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:662#creator_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Janssen, William",
+            "label": "Creator"
+          }
+        },
+        "dat_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:662#dat_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "1951",
+            "label": "Date Created"
+          }
+        },
+        "description_ts": {
+          "id": "https://collection.mndigital.org/catalog/msn:662#description_ts",
+          "type": "document_value",
+          "attributes": {
+            "value": "The Concord Avenue \u003cem\u003estreetcar\u003c/em\u003e has reached the end of the line, the wye at Linden Street, the city limits separating \u003cem\u003eSouth\u003c/em\u003e \u003cem\u003eSt\u003c/em\u003e. \u003cem\u003ePaul\u003c/em\u003e from Inver Grove Heights.",
+            "label": "Description"
+          }
+        },
+        "contributing_organization_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:662#contributing_organization_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Minnesota \u003cem\u003eStreetcar\u003c/em\u003e Museum",
+            "label": "Contributing Institution"
+          }
+        },
+        "type_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:662#type_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Still Image",
+            "label": "Type"
+          }
+        },
+        "physical_format_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:662#physical_format_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Black-and-white photographs",
+            "label": "Format"
+          }
+        }
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/msn:662"
+      }
+    },
+    {
+      "id": "msn:688",
+      "type": "Still Image",
+      "attributes": {
+        "title": "Streetcar at the city limits, Inver Grove Heights, Minnesota",
+        "creator_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:688#creator_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Mehlenbeck, Robert",
+            "label": "Creator"
+          }
+        },
+        "dat_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:688#dat_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "1951",
+            "label": "Date Created"
+          }
+        },
+        "description_ts": {
+          "id": "https://collection.mndigital.org/catalog/msn:688#description_ts",
+          "type": "document_value",
+          "attributes": {
+            "value": "The Concord Avenue \u003cem\u003estreetcar\u003c/em\u003e has reached the end of the line, the wye at Linden Street, the city limits separating \u003cem\u003eSouth\u003c/em\u003e \u003cem\u003eSt\u003c/em\u003e. \u003cem\u003ePaul\u003c/em\u003e from Inver Grove Heights.",
+            "label": "Description"
+          }
+        },
+        "contributing_organization_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:688#contributing_organization_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Minnesota \u003cem\u003eStreetcar\u003c/em\u003e Museum",
+            "label": "Contributing Institution"
+          }
+        },
+        "type_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:688#type_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Still Image",
+            "label": "Type"
+          }
+        },
+        "physical_format_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:688#physical_format_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Color photographs",
+            "label": "Format"
+          }
+        }
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/msn:688"
+      }
+    },
+    {
+      "id": "msn:373",
+      "type": "Still Image",
+      "attributes": {
+        "title": "Interurban railway, Hastings, Minnesota",
+        "dat_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:373#dat_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "1915?",
+            "label": "Date Created"
+          }
+        },
+        "description_ts": {
+          "id": "https://collection.mndigital.org/catalog/msn:373#description_ts",
+          "type": "document_value",
+          "attributes": {
+            "value": "Irving Todd (Vice President on company's board) and two others pose in front of \u003cem\u003eSt\u003c/em\u003e. \u003cem\u003ePaul\u003c/em\u003e Southern interurban on the \u003cem\u003esouth\u003c/em\u003e end of 2nd Street. In the distance on the right is another interurban parked on the wye in front of the Milwaukee Road depot.",
+            "label": "Description"
+          }
+        },
+        "contributing_organization_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:373#contributing_organization_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Minnesota \u003cem\u003eStreetcar\u003c/em\u003e Museum",
+            "label": "Contributing Institution"
+          }
+        },
+        "type_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:373#type_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Still Image",
+            "label": "Type"
+          }
+        },
+        "physical_format_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:373#physical_format_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Black-and-white photographs",
+            "label": "Format"
+          }
+        }
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/msn:373"
+      }
+    }
+  ],
+  "included": [
+    {
+      "type": "facet",
+      "id": "topic_ssim",
+      "attributes": {
+        "label": "Topic",
+        "items": [
+          {
+            "attributes": {
+              "label": "Transportation",
+              "value": "Transportation",
+              "hits": 6
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=South+St+Paul+AND+streetcar\u0026city_or_township=\u0026county=Dakota\u0026creator=\u0026description=\u0026f%5Btopic_ssim%5D%5B%5D=Transportation\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/facet/topic_ssim.json?all_fields=South+St+Paul+AND+streetcar\u0026city_or_township=\u0026commit=Search\u0026county=Dakota\u0026creator=\u0026description=\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+      }
+    },
+    {
+      "type": "facet",
+      "id": "type_ssi",
+      "attributes": {
+        "label": "Type",
+        "items": [
+          {
+            "attributes": {
+              "label": "Still Image",
+              "value": "Still Image",
+              "hits": 6
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=South+St+Paul+AND+streetcar\u0026city_or_township=\u0026county=Dakota\u0026creator=\u0026description=\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/facet/type_ssi.json?all_fields=South+St+Paul+AND+streetcar\u0026city_or_township=\u0026commit=Search\u0026county=Dakota\u0026creator=\u0026description=\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+      }
+    },
+    {
+      "type": "facet",
+      "id": "physical_format_ssi",
+      "attributes": {
+        "label": "Physical Format",
+        "items": [
+          {
+            "attributes": {
+              "label": "Black-and-white photographs",
+              "value": "Black-and-white photographs",
+              "hits": 4
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=South+St+Paul+AND+streetcar\u0026city_or_township=\u0026county=Dakota\u0026creator=\u0026description=\u0026f%5Bphysical_format_ssi%5D%5B%5D=Black-and-white+photographs\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          },
+          {
+            "attributes": {
+              "label": "Color photographs",
+              "value": "Color photographs",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=South+St+Paul+AND+streetcar\u0026city_or_township=\u0026county=Dakota\u0026creator=\u0026description=\u0026f%5Bphysical_format_ssi%5D%5B%5D=Color+photographs\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          },
+          {
+            "attributes": {
+              "label": "Slides (photographs)",
+              "value": "Slides (photographs)",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=South+St+Paul+AND+streetcar\u0026city_or_township=\u0026county=Dakota\u0026creator=\u0026description=\u0026f%5Bphysical_format_ssi%5D%5B%5D=Slides+%28photographs%29\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/facet/physical_format_ssi.json?all_fields=South+St+Paul+AND+streetcar\u0026city_or_township=\u0026commit=Search\u0026county=Dakota\u0026creator=\u0026description=\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+      }
+    },
+    {
+      "type": "facet",
+      "id": "dat_ssim",
+      "attributes": {
+        "label": "Date Created",
+        "items": [
+          {
+            "attributes": {
+              "label": "1951",
+              "value": "1951",
+              "hits": 3
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=South+St+Paul+AND+streetcar\u0026city_or_township=\u0026county=Dakota\u0026creator=\u0026description=\u0026op=AND\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=begin\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=end\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=\u0026range%5Bdat_ssim%5D%5B%5D=1951\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          },
+          {
+            "attributes": {
+              "label": "1905",
+              "value": "1905",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=South+St+Paul+AND+streetcar\u0026city_or_township=\u0026county=Dakota\u0026creator=\u0026description=\u0026op=AND\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=begin\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=end\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=\u0026range%5Bdat_ssim%5D%5B%5D=1905\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          },
+          {
+            "attributes": {
+              "label": "1915",
+              "value": "1915",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=South+St+Paul+AND+streetcar\u0026city_or_township=\u0026county=Dakota\u0026creator=\u0026description=\u0026op=AND\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=begin\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=end\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=\u0026range%5Bdat_ssim%5D%5B%5D=1915\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          },
+          {
+            "attributes": {
+              "label": "1941",
+              "value": "1941",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=South+St+Paul+AND+streetcar\u0026city_or_township=\u0026county=Dakota\u0026creator=\u0026description=\u0026op=AND\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=begin\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=end\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=\u0026range%5Bdat_ssim%5D%5B%5D=1941\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/facet/dat_ssim.json?all_fields=South+St+Paul+AND+streetcar\u0026city_or_township=\u0026commit=Search\u0026county=Dakota\u0026creator=\u0026description=\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+      }
+    },
+    {
+      "type": "facet",
+      "id": "formal_subject_ssim",
+      "attributes": {
+        "label": "Subject Headings",
+        "items": [
+          {
+            "attributes": {
+              "label": "Street Railroads",
+              "value": "Street Railroads",
+              "hits": 6
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=South+St+Paul+AND+streetcar\u0026city_or_township=\u0026county=Dakota\u0026creator=\u0026description=\u0026f%5Bformal_subject_ssim%5D%5B%5D=Street+Railroads\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          },
+          {
+            "attributes": {
+              "label": "Streets",
+              "value": "Streets",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=South+St+Paul+AND+streetcar\u0026city_or_township=\u0026county=Dakota\u0026creator=\u0026description=\u0026f%5Bformal_subject_ssim%5D%5B%5D=Streets\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          },
+          {
+            "attributes": {
+              "label": "Transportation",
+              "value": "Transportation",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=South+St+Paul+AND+streetcar\u0026city_or_township=\u0026county=Dakota\u0026creator=\u0026description=\u0026f%5Bformal_subject_ssim%5D%5B%5D=Transportation\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/facet/formal_subject_ssim.json?all_fields=South+St+Paul+AND+streetcar\u0026city_or_township=\u0026commit=Search\u0026county=Dakota\u0026creator=\u0026description=\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+      }
+    },
+    {
+      "type": "facet",
+      "id": "collection_name_ssi",
+      "attributes": {
+        "label": "Contributor",
+        "items": [
+          {
+            "attributes": {
+              "label": "Minnesota Streetcar Museum",
+              "value": "Minnesota Streetcar Museum",
+              "hits": 6
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=South+St+Paul+AND+streetcar\u0026city_or_township=\u0026county=Dakota\u0026creator=\u0026description=\u0026f%5Bcollection_name_ssi%5D%5B%5D=Minnesota+Streetcar+Museum\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/facet/collection_name_ssi.json?all_fields=South+St+Paul+AND+streetcar\u0026city_or_township=\u0026commit=Search\u0026county=Dakota\u0026creator=\u0026description=\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+      }
+    },
+    {
+      "type": "facet",
+      "id": "rights_status_ssi",
+      "attributes": {
+        "label": "Rights Status",
+        "items": [
+          {
+            "attributes": {
+              "label": "In Copyright",
+              "value": "In Copyright",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=South+St+Paul+AND+streetcar\u0026city_or_township=\u0026county=Dakota\u0026creator=\u0026description=\u0026f%5Brights_status_ssi%5D%5B%5D=In+Copyright\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/facet/rights_status_ssi.json?all_fields=South+St+Paul+AND+streetcar\u0026city_or_township=\u0026commit=Search\u0026county=Dakota\u0026creator=\u0026description=\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+      }
+    },
+    {
+      "type": "facet",
+      "id": "contributing_organization_ssi",
+      "attributes": {
+        "label": "Contributing Organization",
+        "items": [
+          {
+            "attributes": {
+              "label": "Minnesota Streetcar Museum",
+              "value": "Minnesota Streetcar Museum",
+              "hits": 6
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=South+St+Paul+AND+streetcar\u0026city_or_township=\u0026county=Dakota\u0026creator=\u0026description=\u0026f%5Bcontributing_organization_ssi%5D%5B%5D=Minnesota+Streetcar+Museum\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/facet/contributing_organization_ssi.json?all_fields=South+St+Paul+AND+streetcar\u0026city_or_township=\u0026commit=Search\u0026county=Dakota\u0026creator=\u0026description=\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+      }
+    },
+    {
+      "type": "facet",
+      "id": "creator_ssim",
+      "attributes": {
+        "label": "Creator",
+        "items": [
+          {
+            "attributes": {
+              "label": "Mehlenbeck, Robert",
+              "value": "Mehlenbeck, Robert",
+              "hits": 2
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=South+St+Paul+AND+streetcar\u0026city_or_township=\u0026county=Dakota\u0026creator=\u0026description=\u0026f%5Bcreator_ssim%5D%5B%5D=Mehlenbeck%2C+Robert\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          },
+          {
+            "attributes": {
+              "label": "Butts, Frank",
+              "value": "Butts, Frank",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=South+St+Paul+AND+streetcar\u0026city_or_township=\u0026county=Dakota\u0026creator=\u0026description=\u0026f%5Bcreator_ssim%5D%5B%5D=Butts%2C+Frank\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          },
+          {
+            "attributes": {
+              "label": "Janssen, William",
+              "value": "Janssen, William",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=South+St+Paul+AND+streetcar\u0026city_or_township=\u0026county=Dakota\u0026creator=\u0026description=\u0026f%5Bcreator_ssim%5D%5B%5D=Janssen%2C+William\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          },
+          {
+            "attributes": {
+              "label": "Wallin, C. A.",
+              "value": "Wallin, C. A.",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=South+St+Paul+AND+streetcar\u0026city_or_township=\u0026county=Dakota\u0026creator=\u0026description=\u0026f%5Bcreator_ssim%5D%5B%5D=Wallin%2C+C.+A.\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/facet/creator_ssim.json?all_fields=South+St+Paul+AND+streetcar\u0026city_or_township=\u0026commit=Search\u0026county=Dakota\u0026creator=\u0026description=\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+      }
+    },
+    {
+      "type": "facet",
+      "id": "contributor_ssim",
+      "attributes": {
+        "label": "Contributor",
+        "items": [
+          {
+            "attributes": {
+              "label": "Wallin's Studio (St. Paul, Minnesota)",
+              "value": "Wallin's Studio (St. Paul, Minnesota)",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=South+St+Paul+AND+streetcar\u0026city_or_township=\u0026county=Dakota\u0026creator=\u0026description=\u0026f%5Bcontributor_ssim%5D%5B%5D=Wallin%27s+Studio+%28St.+Paul%2C+Minnesota%29\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/facet/contributor_ssim.json?all_fields=South+St+Paul+AND+streetcar\u0026city_or_township=\u0026commit=Search\u0026county=Dakota\u0026creator=\u0026description=\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+      }
+    },
+    {
+      "type": "facet",
+      "id": "subject_ssim",
+      "attributes": {
+        "label": "Keywords",
+        "items": [
+          {
+            "attributes": {
+              "label": "Street scenes",
+              "value": "Street scenes",
+              "hits": 4
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=South+St+Paul+AND+streetcar\u0026city_or_township=\u0026county=Dakota\u0026creator=\u0026description=\u0026f%5Bsubject_ssim%5D%5B%5D=Street+scenes\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          },
+          {
+            "attributes": {
+              "label": "Streetcars",
+              "value": "Streetcars",
+              "hits": 4
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=South+St+Paul+AND+streetcar\u0026city_or_township=\u0026county=Dakota\u0026creator=\u0026description=\u0026f%5Bsubject_ssim%5D%5B%5D=Streetcars\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          },
+          {
+            "attributes": {
+              "label": "Twin City Rapid Transit Company",
+              "value": "Twin City Rapid Transit Company",
+              "hits": 3
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=South+St+Paul+AND+streetcar\u0026city_or_township=\u0026county=Dakota\u0026creator=\u0026description=\u0026f%5Bsubject_ssim%5D%5B%5D=Twin+City+Rapid+Transit+Company\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          },
+          {
+            "attributes": {
+              "label": "Streetcar",
+              "value": "Streetcar",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=South+St+Paul+AND+streetcar\u0026city_or_township=\u0026county=Dakota\u0026creator=\u0026description=\u0026f%5Bsubject_ssim%5D%5B%5D=Streetcar\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          },
+          {
+            "attributes": {
+              "label": "Streetcars: Hastings",
+              "value": "Streetcars: Hastings",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=South+St+Paul+AND+streetcar\u0026city_or_township=\u0026county=Dakota\u0026creator=\u0026description=\u0026f%5Bsubject_ssim%5D%5B%5D=Streetcars%3A+Hastings\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/facet/subject_ssim.json?all_fields=South+St+Paul+AND+streetcar\u0026city_or_township=\u0026commit=Search\u0026county=Dakota\u0026creator=\u0026description=\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+      }
+    },
+    {
+      "type": "facet",
+      "id": "city_ssim",
+      "attributes": {
+        "label": "City or Township",
+        "items": [
+          {
+            "attributes": {
+              "label": "South St. Paul",
+              "value": "South St. Paul",
+              "hits": 3
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=South+St+Paul+AND+streetcar\u0026city_or_township=\u0026county=Dakota\u0026creator=\u0026description=\u0026f%5Bcity_ssim%5D%5B%5D=South+St.+Paul\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          },
+          {
+            "attributes": {
+              "label": "Inver Grove Heights",
+              "value": "Inver Grove Heights",
+              "hits": 2
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=South+St+Paul+AND+streetcar\u0026city_or_township=\u0026county=Dakota\u0026creator=\u0026description=\u0026f%5Bcity_ssim%5D%5B%5D=Inver+Grove+Heights\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          },
+          {
+            "attributes": {
+              "label": "Hastings",
+              "value": "Hastings",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=South+St+Paul+AND+streetcar\u0026city_or_township=\u0026county=Dakota\u0026creator=\u0026description=\u0026f%5Bcity_ssim%5D%5B%5D=Hastings\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/facet/city_ssim.json?all_fields=South+St+Paul+AND+streetcar\u0026city_or_township=\u0026commit=Search\u0026county=Dakota\u0026creator=\u0026description=\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+      }
+    },
+    {
+      "type": "facet",
+      "id": "county_ssim",
+      "attributes": {
+        "label": "County",
+        "items": [
+          {
+            "attributes": {
+              "label": "Dakota",
+              "value": "Dakota",
+              "hits": 6
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=South+St+Paul+AND+streetcar\u0026city_or_township=\u0026county=Dakota\u0026creator=\u0026description=\u0026f%5Bcounty_ssim%5D%5B%5D=Dakota\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/facet/county_ssim.json?all_fields=South+St+Paul+AND+streetcar\u0026city_or_township=\u0026commit=Search\u0026county=Dakota\u0026creator=\u0026description=\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+      }
+    },
+    {
+      "type": "facet",
+      "id": "state_ssi",
+      "attributes": {
+        "label": "State or Province",
+        "items": [
+          {
+            "attributes": {
+              "label": "Minnesota",
+              "value": "Minnesota",
+              "hits": 6
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=South+St+Paul+AND+streetcar\u0026city_or_township=\u0026county=Dakota\u0026creator=\u0026description=\u0026f%5Bstate_ssi%5D%5B%5D=Minnesota\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/facet/state_ssi.json?all_fields=South+St+Paul+AND+streetcar\u0026city_or_township=\u0026commit=Search\u0026county=Dakota\u0026creator=\u0026description=\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+      }
+    },
+    {
+      "type": "facet",
+      "id": "country_ssi",
+      "attributes": {
+        "label": "Country",
+        "items": [
+          {
+            "attributes": {
+              "label": "United States",
+              "value": "United States",
+              "hits": 6
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=South+St+Paul+AND+streetcar\u0026city_or_township=\u0026county=Dakota\u0026creator=\u0026description=\u0026f%5Bcountry_ssi%5D%5B%5D=United+States\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/facet/country_ssi.json?all_fields=South+St+Paul+AND+streetcar\u0026city_or_township=\u0026commit=Search\u0026county=Dakota\u0026creator=\u0026description=\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+      }
+    },
+    {
+      "type": "search_field",
+      "id": "all_fields",
+      "attributes": {
+        "label": "All Fields"
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog.json?all_fields=South+St+Paul+AND+streetcar\u0026city_or_township=\u0026commit=Search\u0026county=Dakota\u0026creator=\u0026description=\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=all_fields\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+      }
+    },
+    {
+      "type": "search_field",
+      "id": "title",
+      "attributes": {
+        "label": "Title"
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog.json?all_fields=South+St+Paul+AND+streetcar\u0026city_or_township=\u0026commit=Search\u0026county=Dakota\u0026creator=\u0026description=\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=title\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+      }
+    },
+    {
+      "type": "search_field",
+      "id": "creator",
+      "attributes": {
+        "label": "Creator"
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog.json?all_fields=South+St+Paul+AND+streetcar\u0026city_or_township=\u0026commit=Search\u0026county=Dakota\u0026creator=\u0026description=\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=creator\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+      }
+    },
+    {
+      "type": "search_field",
+      "id": "subject",
+      "attributes": {
+        "label": "Subject"
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog.json?all_fields=South+St+Paul+AND+streetcar\u0026city_or_township=\u0026commit=Search\u0026county=Dakota\u0026creator=\u0026description=\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=subject\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+      }
+    },
+    {
+      "type": "search_field",
+      "id": "description",
+      "attributes": {
+        "label": "Description"
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog.json?all_fields=South+St+Paul+AND+streetcar\u0026city_or_township=\u0026commit=Search\u0026county=Dakota\u0026creator=\u0026description=\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=description\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+      }
+    },
+    {
+      "type": "search_field",
+      "id": "city_or_township",
+      "attributes": {
+        "label": "City or Township"
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog.json?all_fields=South+St+Paul+AND+streetcar\u0026city_or_township=\u0026commit=Search\u0026county=Dakota\u0026creator=\u0026description=\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=city_or_township\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+      }
+    },
+    {
+      "type": "search_field",
+      "id": "county",
+      "attributes": {
+        "label": "County"
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog.json?all_fields=South+St+Paul+AND+streetcar\u0026city_or_township=\u0026commit=Search\u0026county=Dakota\u0026creator=\u0026description=\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=county\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+      }
+    },
+    {
+      "type": "sort",
+      "id": "score desc, dat_sort desc, title_sort asc",
+      "attributes": {
+        "label": "Relevance"
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog.json?all_fields=South+St+Paul+AND+streetcar\u0026city_or_township=\u0026commit=Search\u0026county=Dakota\u0026creator=\u0026description=\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+      }
+    },
+    {
+      "type": "sort",
+      "id": "title_sort asc, dat_sort asc",
+      "attributes": {
+        "label": "Title: A to Z"
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog.json?all_fields=South+St+Paul+AND+streetcar\u0026city_or_township=\u0026commit=Search\u0026county=Dakota\u0026creator=\u0026description=\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=title_sort+asc%2C+dat_sort+asc\u0026title="
+      }
+    },
+    {
+      "type": "sort",
+      "id": "title_sort desc, dat_sort desc",
+      "attributes": {
+        "label": "Title: Z to A"
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog.json?all_fields=South+St+Paul+AND+streetcar\u0026city_or_township=\u0026commit=Search\u0026county=Dakota\u0026creator=\u0026description=\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=title_sort+desc%2C+dat_sort+desc\u0026title="
+      }
+    },
+    {
+      "type": "sort",
+      "id": "creator_sort asc, title_sort asc",
+      "attributes": {
+        "label": "Creator: A to Z"
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog.json?all_fields=South+St+Paul+AND+streetcar\u0026city_or_township=\u0026commit=Search\u0026county=Dakota\u0026creator=\u0026description=\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=creator_sort+asc%2C+title_sort+asc\u0026title="
+      }
+    },
+    {
+      "type": "sort",
+      "id": "creator_sort desc, title_sort desc",
+      "attributes": {
+        "label": "Creator: Z to A"
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog.json?all_fields=South+St+Paul+AND+streetcar\u0026city_or_township=\u0026commit=Search\u0026county=Dakota\u0026creator=\u0026description=\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=creator_sort+desc%2C+title_sort+desc\u0026title="
+      }
+    },
+    {
+      "type": "sort",
+      "id": "dat_ssi asc, title_sort asc",
+      "attributes": {
+        "label": "Date: Oldest First"
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog.json?all_fields=South+St+Paul+AND+streetcar\u0026city_or_township=\u0026commit=Search\u0026county=Dakota\u0026creator=\u0026description=\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=dat_ssi+asc%2C+title_sort+asc\u0026title="
+      }
+    },
+    {
+      "type": "sort",
+      "id": "dat_ssi desc, title_sort desc",
+      "attributes": {
+        "label": "Date: Newest First"
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog.json?all_fields=South+St+Paul+AND+streetcar\u0026city_or_township=\u0026commit=Search\u0026county=Dakota\u0026creator=\u0026description=\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=dat_ssi+desc%2C+title_sort+desc\u0026title="
+      }
+    },
+    {
+      "type": "sort",
+      "id": "dmcreated_ssi asc",
+      "attributes": {
+        "label": "Date Added: Oldest First"
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog.json?all_fields=South+St+Paul+AND+streetcar\u0026city_or_township=\u0026commit=Search\u0026county=Dakota\u0026creator=\u0026description=\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=dmcreated_ssi+asc\u0026title="
+      }
+    },
+    {
+      "type": "sort",
+      "id": "dmcreated_ssi desc",
+      "attributes": {
+        "label": "Date Added: Newest First"
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog.json?all_fields=South+St+Paul+AND+streetcar\u0026city_or_township=\u0026commit=Search\u0026county=Dakota\u0026creator=\u0026description=\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=dmcreated_ssi+desc\u0026title="
+      }
+    },
+    {
+      "id": "msn:183",
+      "type": "Still Image",
+      "attributes": {
+        "title": "Streetcar on Rice Street, St. Paul, Minnesota",
+        "dat_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:183#dat_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "1904?",
+            "label": "Date Created"
+          }
+        },
+        "description_ts": {
+          "id": "https://collection.mndigital.org/catalog/msn:183#description_ts",
+          "type": "document_value",
+          "attributes": {
+            "value": "Part of a series of photos on street repairs, this is \u003cem\u003eRice\u003c/em\u003e Street near Como Avenue.",
+            "label": "Description"
+          }
+        },
+        "contributing_organization_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:183#contributing_organization_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Minnesota \u003cem\u003eStreetcar\u003c/em\u003e Museum",
+            "label": "Contributing Institution"
+          }
+        },
+        "type_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:183#type_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Still Image",
+            "label": "Type"
+          }
+        },
+        "physical_format_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:183#physical_format_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Black-and-white photographs",
+            "label": "Format"
+          }
+        }
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/msn:183"
+      }
+    },
+    {
+      "id": "msn:2465",
+      "type": "Still Image",
+      "attributes": {
+        "title": "Streetcar on Como Avenue at Rice Street, St. Paul, Minnesota",
+        "creator_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:2465#creator_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Mehlenbeck, Bob",
+            "label": "Creator"
+          }
+        },
+        "dat_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:2465#dat_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "1931",
+            "label": "Date Created"
+          }
+        },
+        "description_ts": {
+          "id": "https://collection.mndigital.org/catalog/msn:2465#description_ts",
+          "type": "document_value",
+          "attributes": {
+            "value": "Looking south at northbound gate car 1129 on Como Avenue.",
+            "label": "Description"
+          }
+        },
+        "contributing_organization_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:2465#contributing_organization_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Minnesota \u003cem\u003eStreetcar\u003c/em\u003e Museum",
+            "label": "Contributing Institution"
+          }
+        },
+        "type_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:2465#type_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Still Image",
+            "label": "Type"
+          }
+        },
+        "physical_format_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:2465#physical_format_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Black-and-white photographs",
+            "label": "Format"
+          }
+        }
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/msn:2465"
+      }
+    },
+    {
+      "id": "msn:2348",
+      "type": "Still Image",
+      "attributes": {
+        "title": "Rice Street and University Avenue, St. Paul, Minnesota",
+        "dat_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:2348#dat_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "1900 - 1905",
+            "label": "Date Created"
+          }
+        },
+        "description_ts": {
+          "id": "https://collection.mndigital.org/catalog/msn:2348#description_ts",
+          "type": "document_value",
+          "attributes": {
+            "value": "View of the intersection of \u003cem\u003eRice\u003c/em\u003e Street and University Avenue.",
+            "label": "Description"
+          }
+        },
+        "contributing_organization_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:2348#contributing_organization_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Minnesota \u003cem\u003eStreetcar\u003c/em\u003e Museum",
+            "label": "Contributing Institution"
+          }
+        },
+        "type_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:2348#type_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Still Image",
+            "label": "Type"
+          }
+        },
+        "physical_format_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:2348#physical_format_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Black-and-white photographs",
+            "label": "Format"
+          }
+        }
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/msn:2348"
+      }
+    },
+    {
+      "id": "msn:766",
+      "type": "Still Image",
+      "attributes": {
+        "title": "Rice Street and University Avenue with streetcar, St. Paul, Minnesota",
+        "dat_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:766#dat_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "1948?",
+            "label": "Date Created"
+          }
+        },
+        "description_ts": {
+          "id": "https://collection.mndigital.org/catalog/msn:766#description_ts",
+          "type": "document_value",
+          "attributes": {
+            "value": "Headed for downtown St. Paul, a Como-Harriet \u003cem\u003estreetcar\u003c/em\u003e turns from \u003cem\u003eRice\u003c/em\u003e Street onto Wabasha Street.",
+            "label": "Description"
+          }
+        },
+        "contributing_organization_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:766#contributing_organization_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Minnesota \u003cem\u003eStreetcar\u003c/em\u003e Museum",
+            "label": "Contributing Institution"
+          }
+        },
+        "type_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:766#type_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Still Image",
+            "label": "Type"
+          }
+        },
+        "physical_format_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:766#physical_format_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Color photographs",
+            "label": "Format"
+          }
+        }
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/msn:766"
+      }
+    },
+    {
+      "id": "msn:1023",
+      "type": "Still Image",
+      "attributes": {
+        "title": "Rice Street at Ivy Street, St. Paul, Minnesota",
+        "creator_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1023#creator_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Whittaker, Wilbur C.",
+            "label": "Creator"
+          }
+        },
+        "dat_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1023#dat_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "1945",
+            "label": "Date Created"
+          }
+        },
+        "description_ts": {
+          "id": "https://collection.mndigital.org/catalog/msn:1023#description_ts",
+          "type": "document_value",
+          "attributes": {
+            "value": "A \u003cem\u003estreetcar\u003c/em\u003e at the north end of the \u003cem\u003eRice\u003c/em\u003e Street line pull out of the wye at Ivy Street.",
+            "label": "Description"
+          }
+        },
+        "contributing_organization_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1023#contributing_organization_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Minnesota \u003cem\u003eStreetcar\u003c/em\u003e Museum",
+            "label": "Contributing Institution"
+          }
+        },
+        "type_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1023#type_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Still Image",
+            "label": "Type"
+          }
+        },
+        "physical_format_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1023#physical_format_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Black-and-white photographs",
+            "label": "Format"
+          }
+        }
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/msn:1023"
+      }
+    },
+    {
+      "id": "msn:1848",
+      "type": "Still Image",
+      "attributes": {
+        "title": "Rice\u0026#39;s Point, Duluth, Minnesota",
+        "dat_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1848#dat_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "1902",
+            "label": "Date Created"
+          }
+        },
+        "description_ts": {
+          "id": "https://collection.mndigital.org/catalog/msn:1848#description_ts",
+          "type": "document_value",
+          "attributes": {
+            "value": "Looking south from Point of Rocks at \u003cem\u003eRice's\u003c/em\u003e Point in Duluth, Minnesota.",
+            "label": "Description"
+          }
+        },
+        "contributing_organization_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1848#contributing_organization_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Minnesota \u003cem\u003eStreetcar\u003c/em\u003e Museum",
+            "label": "Contributing Institution"
+          }
+        },
+        "type_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1848#type_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Still Image",
+            "label": "Type"
+          }
+        },
+        "physical_format_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1848#physical_format_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Black-and-white photographs",
+            "label": "Format"
+          }
+        }
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/msn:1848"
+      }
+    }
+  ],
+  "included": [
+    {
+      "type": "facet",
+      "id": "topic_ssim",
+      "attributes": {
+        "label": "Topic",
+        "items": [
+          {
+            "attributes": {
+              "label": "Transportation",
+              "value": "Transportation",
+              "hits": 6
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Btopic_ssim%5D%5B%5D=Transportation\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=%22RICE%22+AND+streetcar\u0026search_field=all_fields"
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/facet/topic_ssim.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=%22RICE%22+AND+streetcar\u0026search_field=all_fields"
+      }
+    },
+    {
+      "type": "facet",
+      "id": "type_ssi",
+      "attributes": {
+        "label": "Type",
+        "items": [
+          {
+            "attributes": {
+              "label": "Still Image",
+              "value": "Still Image",
+              "hits": 6
+            },
+            "links": {
+              "remove": "/catalog.json?q=%22RICE%22+AND+streetcar\u0026search_field=all_fields"
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/facet/type_ssi.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=%22RICE%22+AND+streetcar\u0026search_field=all_fields"
+      }
+    },
+    {
+      "type": "facet",
+      "id": "physical_format_ssi",
+      "attributes": {
+        "label": "Physical Format",
+        "items": [
+          {
+            "attributes": {
+              "label": "Black-and-white photographs",
+              "value": "Black-and-white photographs",
+              "hits": 5
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Bphysical_format_ssi%5D%5B%5D=Black-and-white+photographs\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=%22RICE%22+AND+streetcar\u0026search_field=all_fields"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Color photographs",
+              "value": "Color photographs",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Bphysical_format_ssi%5D%5B%5D=Color+photographs\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=%22RICE%22+AND+streetcar\u0026search_field=all_fields"
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/facet/physical_format_ssi.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=%22RICE%22+AND+streetcar\u0026search_field=all_fields"
+      }
+    },
+    {
+      "type": "facet",
+      "id": "dat_ssim",
+      "attributes": {
+        "label": "Date Created",
+        "items": [
+          {
+            "attributes": {
+              "label": "1902",
+              "value": "1902",
+              "hits": 2
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=%22RICE%22+AND+streetcar\u0026range%5Bdat_ssim%5D%5B%5D=1902\u0026search_field=all_fields"
+            }
+          },
+          {
+            "attributes": {
+              "label": "1904",
+              "value": "1904",
+              "hits": 2
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=%22RICE%22+AND+streetcar\u0026range%5Bdat_ssim%5D%5B%5D=1904\u0026search_field=all_fields"
+            }
+          },
+          {
+            "attributes": {
+              "label": "1900",
+              "value": "1900",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=%22RICE%22+AND+streetcar\u0026range%5Bdat_ssim%5D%5B%5D=1900\u0026search_field=all_fields"
+            }
+          },
+          {
+            "attributes": {
+              "label": "1901",
+              "value": "1901",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=%22RICE%22+AND+streetcar\u0026range%5Bdat_ssim%5D%5B%5D=1901\u0026search_field=all_fields"
+            }
+          },
+          {
+            "attributes": {
+              "label": "1903",
+              "value": "1903",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=%22RICE%22+AND+streetcar\u0026range%5Bdat_ssim%5D%5B%5D=1903\u0026search_field=all_fields"
+            }
+          },
+          {
+            "attributes": {
+              "label": "1905",
+              "value": "1905",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=%22RICE%22+AND+streetcar\u0026range%5Bdat_ssim%5D%5B%5D=1905\u0026search_field=all_fields"
+            }
+          },
+          {
+            "attributes": {
+              "label": "1931",
+              "value": "1931",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=%22RICE%22+AND+streetcar\u0026range%5Bdat_ssim%5D%5B%5D=1931\u0026search_field=all_fields"
+            }
+          },
+          {
+            "attributes": {
+              "label": "1945",
+              "value": "1945",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=%22RICE%22+AND+streetcar\u0026range%5Bdat_ssim%5D%5B%5D=1945\u0026search_field=all_fields"
+            }
+          },
+          {
+            "attributes": {
+              "label": "1948",
+              "value": "1948",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=%22RICE%22+AND+streetcar\u0026range%5Bdat_ssim%5D%5B%5D=1948\u0026search_field=all_fields"
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/facet/dat_ssim.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=%22RICE%22+AND+streetcar\u0026search_field=all_fields"
+      }
+    },
+    {
+      "type": "facet",
+      "id": "formal_subject_ssim",
+      "attributes": {
+        "label": "Subject Headings",
+        "items": [
+          {
+            "attributes": {
+              "label": "Street Railroads",
+              "value": "Street Railroads",
+              "hits": 6
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Bformal_subject_ssim%5D%5B%5D=Street+Railroads\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=%22RICE%22+AND+streetcar\u0026search_field=all_fields"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Transportation",
+              "value": "Transportation",
+              "hits": 2
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Bformal_subject_ssim%5D%5B%5D=Transportation\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=%22RICE%22+AND+streetcar\u0026search_field=all_fields"
+            }
+          },
+          {
+            "attributes": {
+              "label": "City Traffic",
+              "value": "City Traffic",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Bformal_subject_ssim%5D%5B%5D=City+Traffic\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=%22RICE%22+AND+streetcar\u0026search_field=all_fields"
+            }
+          },
+          {
+            "attributes": {
+              "label": "City and Town Life",
+              "value": "City and Town Life",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Bformal_subject_ssim%5D%5B%5D=City+and+Town+Life\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=%22RICE%22+AND+streetcar\u0026search_field=all_fields"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Local Transit",
+              "value": "Local Transit",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Bformal_subject_ssim%5D%5B%5D=Local+Transit\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=%22RICE%22+AND+streetcar\u0026search_field=all_fields"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Streets",
+              "value": "Streets",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Bformal_subject_ssim%5D%5B%5D=Streets\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=%22RICE%22+AND+streetcar\u0026search_field=all_fields"
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/facet/formal_subject_ssim.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=%22RICE%22+AND+streetcar\u0026search_field=all_fields"
+      }
+    },
+    {
+      "type": "facet",
+      "id": "collection_name_ssi",
+      "attributes": {
+        "label": "Contributor",
+        "items": [
+          {
+            "attributes": {
+              "label": "Minnesota Streetcar Museum",
+              "value": "Minnesota Streetcar Museum",
+              "hits": 6
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Bcollection_name_ssi%5D%5B%5D=Minnesota+Streetcar+Museum\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=%22RICE%22+AND+streetcar\u0026search_field=all_fields"
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/facet/collection_name_ssi.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=%22RICE%22+AND+streetcar\u0026search_field=all_fields"
+      }
+    },
+    {
+      "type": "facet",
+      "id": "rights_status_ssi",
+      "attributes": {
+        "label": "Rights Status",
+        "items": [
+          {
+            "attributes": {
+              "label": "In Copyright",
+              "value": "In Copyright",
+              "hits": 2
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Brights_status_ssi%5D%5B%5D=In+Copyright\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=%22RICE%22+AND+streetcar\u0026search_field=all_fields"
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/facet/rights_status_ssi.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=%22RICE%22+AND+streetcar\u0026search_field=all_fields"
+      }
+    },
+    {
+      "type": "facet",
+      "id": "contributing_organization_ssi",
+      "attributes": {
+        "label": "Contributing Organization",
+        "items": [
+          {
+            "attributes": {
+              "label": "Minnesota Streetcar Museum",
+              "value": "Minnesota Streetcar Museum",
+              "hits": 6
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Bcontributing_organization_ssi%5D%5B%5D=Minnesota+Streetcar+Museum\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=%22RICE%22+AND+streetcar\u0026search_field=all_fields"
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/facet/contributing_organization_ssi.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=%22RICE%22+AND+streetcar\u0026search_field=all_fields"
+      }
+    },
+    {
+      "type": "facet",
+      "id": "creator_ssim",
+      "attributes": {
+        "label": "Creator",
+        "items": [
+          {
+            "attributes": {
+              "label": "Mehlenbeck, Bob",
+              "value": "Mehlenbeck, Bob",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Bcreator_ssim%5D%5B%5D=Mehlenbeck%2C+Bob\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=%22RICE%22+AND+streetcar\u0026search_field=all_fields"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Whittaker, Wilbur C.",
+              "value": "Whittaker, Wilbur C.",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Bcreator_ssim%5D%5B%5D=Whittaker%2C+Wilbur+C.\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=%22RICE%22+AND+streetcar\u0026search_field=all_fields"
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/facet/creator_ssim.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=%22RICE%22+AND+streetcar\u0026search_field=all_fields"
+      }
+    },
+    {
+      "type": "facet",
+      "id": "subject_ssim",
+      "attributes": {
+        "label": "Keywords",
+        "items": [
+          {
+            "attributes": {
+              "label": "Streetcars",
+              "value": "Streetcars",
+              "hits": 4
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Bsubject_ssim%5D%5B%5D=Streetcars\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=%22RICE%22+AND+streetcar\u0026search_field=all_fields"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Street scenes",
+              "value": "Street scenes",
+              "hits": 3
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Bsubject_ssim%5D%5B%5D=Street+scenes\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=%22RICE%22+AND+streetcar\u0026search_field=all_fields"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Twin City Rapid Transit Company",
+              "value": "Twin City Rapid Transit Company",
+              "hits": 3
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Bsubject_ssim%5D%5B%5D=Twin+City+Rapid+Transit+Company\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=%22RICE%22+AND+streetcar\u0026search_field=all_fields"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Streetcar",
+              "value": "Streetcar",
+              "hits": 2
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Bsubject_ssim%5D%5B%5D=Streetcar\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=%22RICE%22+AND+streetcar\u0026search_field=all_fields"
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/facet/subject_ssim.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=%22RICE%22+AND+streetcar\u0026search_field=all_fields"
+      }
+    },
+    {
+      "type": "facet",
+      "id": "city_ssim",
+      "attributes": {
+        "label": "City or Township",
+        "items": [
+          {
+            "attributes": {
+              "label": "St. Paul",
+              "value": "St. Paul",
+              "hits": 5
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Bcity_ssim%5D%5B%5D=St.+Paul\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=%22RICE%22+AND+streetcar\u0026search_field=all_fields"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Duluth",
+              "value": "Duluth",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Bcity_ssim%5D%5B%5D=Duluth\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=%22RICE%22+AND+streetcar\u0026search_field=all_fields"
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/facet/city_ssim.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=%22RICE%22+AND+streetcar\u0026search_field=all_fields"
+      }
+    },
+    {
+      "type": "facet",
+      "id": "county_ssim",
+      "attributes": {
+        "label": "County",
+        "items": [
+          {
+            "attributes": {
+              "label": "Ramsey",
+              "value": "Ramsey",
+              "hits": 5
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Bcounty_ssim%5D%5B%5D=Ramsey\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=%22RICE%22+AND+streetcar\u0026search_field=all_fields"
+            }
+          },
+          {
+            "attributes": {
+              "label": "St. Louis",
+              "value": "St. Louis",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Bcounty_ssim%5D%5B%5D=St.+Louis\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=%22RICE%22+AND+streetcar\u0026search_field=all_fields"
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/facet/county_ssim.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=%22RICE%22+AND+streetcar\u0026search_field=all_fields"
+      }
+    },
+    {
+      "type": "facet",
+      "id": "state_ssi",
+      "attributes": {
+        "label": "State or Province",
+        "items": [
+          {
+            "attributes": {
+              "label": "Minnesota",
+              "value": "Minnesota",
+              "hits": 6
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Bstate_ssi%5D%5B%5D=Minnesota\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=%22RICE%22+AND+streetcar\u0026search_field=all_fields"
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/facet/state_ssi.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=%22RICE%22+AND+streetcar\u0026search_field=all_fields"
+      }
+    },
+    {
+      "type": "facet",
+      "id": "country_ssi",
+      "attributes": {
+        "label": "Country",
+        "items": [
+          {
+            "attributes": {
+              "label": "United States",
+              "value": "United States",
+              "hits": 6
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Bcountry_ssi%5D%5B%5D=United+States\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=%22RICE%22+AND+streetcar\u0026search_field=all_fields"
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/facet/country_ssi.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=%22RICE%22+AND+streetcar\u0026search_field=all_fields"
+      }
+    },
+    {
+      "type": "facet",
+      "id": "geographic_feature_ssim",
+      "attributes": {
+        "label": "Geographic Feature",
+        "items": [
+          {
+            "attributes": {
+              "label": "Rice's Point",
+              "value": "Rice's Point",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Bgeographic_feature_ssim%5D%5B%5D=Rice%27s+Point\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=%22RICE%22+AND+streetcar\u0026search_field=all_fields"
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/facet/geographic_feature_ssim.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=%22RICE%22+AND+streetcar\u0026search_field=all_fields"
+      }
+    },
+    {
+      "type": "search_field",
+      "id": "all_fields",
+      "attributes": {
+        "label": "All Fields"
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=%22RICE%22+AND+streetcar\u0026search_field=all_fields"
+      }
+    },
+    {
+      "type": "search_field",
+      "id": "title",
+      "attributes": {
+        "label": "Title"
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=%22RICE%22+AND+streetcar\u0026search_field=title"
+      }
+    },
+    {
+      "type": "search_field",
+      "id": "creator",
+      "attributes": {
+        "label": "Creator"
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=%22RICE%22+AND+streetcar\u0026search_field=creator"
+      }
+    },
+    {
+      "type": "search_field",
+      "id": "subject",
+      "attributes": {
+        "label": "Subject"
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=%22RICE%22+AND+streetcar\u0026search_field=subject"
+      }
+    },
+    {
+      "type": "search_field",
+      "id": "description",
+      "attributes": {
+        "label": "Description"
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=%22RICE%22+AND+streetcar\u0026search_field=description"
+      }
+    },
+    {
+      "type": "search_field",
+      "id": "city_or_township",
+      "attributes": {
+        "label": "City or Township"
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=%22RICE%22+AND+streetcar\u0026search_field=city_or_township"
+      }
+    },
+    {
+      "type": "search_field",
+      "id": "county",
+      "attributes": {
+        "label": "County"
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=%22RICE%22+AND+streetcar\u0026search_field=county"
+      }
+    },
+    {
+      "type": "sort",
+      "id": "score desc, dat_sort desc, title_sort asc",
+      "attributes": {
+        "label": "Relevance"
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=%22RICE%22+AND+streetcar\u0026search_field=all_fields\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc"
+      }
+    },
+    {
+      "type": "sort",
+      "id": "title_sort asc, dat_sort asc",
+      "attributes": {
+        "label": "Title: A to Z"
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=%22RICE%22+AND+streetcar\u0026search_field=all_fields\u0026sort=title_sort+asc%2C+dat_sort+asc"
+      }
+    },
+    {
+      "type": "sort",
+      "id": "title_sort desc, dat_sort desc",
+      "attributes": {
+        "label": "Title: Z to A"
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=%22RICE%22+AND+streetcar\u0026search_field=all_fields\u0026sort=title_sort+desc%2C+dat_sort+desc"
+      }
+    },
+    {
+      "type": "sort",
+      "id": "creator_sort asc, title_sort asc",
+      "attributes": {
+        "label": "Creator: A to Z"
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=%22RICE%22+AND+streetcar\u0026search_field=all_fields\u0026sort=creator_sort+asc%2C+title_sort+asc"
+      }
+    },
+    {
+      "type": "sort",
+      "id": "creator_sort desc, title_sort desc",
+      "attributes": {
+        "label": "Creator: Z to A"
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=%22RICE%22+AND+streetcar\u0026search_field=all_fields\u0026sort=creator_sort+desc%2C+title_sort+desc"
+      }
+    },
+    {
+      "type": "sort",
+      "id": "dat_ssi asc, title_sort asc",
+      "attributes": {
+        "label": "Date: Oldest First"
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=%22RICE%22+AND+streetcar\u0026search_field=all_fields\u0026sort=dat_ssi+asc%2C+title_sort+asc"
+      }
+    },
+    {
+      "type": "sort",
+      "id": "dat_ssi desc, title_sort desc",
+      "attributes": {
+        "label": "Date: Newest First"
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=%22RICE%22+AND+streetcar\u0026search_field=all_fields\u0026sort=dat_ssi+desc%2C+title_sort+desc"
+      }
+    },
+    {
+      "type": "sort",
+      "id": "dmcreated_ssi asc",
+      "attributes": {
+        "label": "Date Added: Oldest First"
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=%22RICE%22+AND+streetcar\u0026search_field=all_fields\u0026sort=dmcreated_ssi+asc"
+      }
+    },
+    {
+      "type": "sort",
+      "id": "dmcreated_ssi desc",
+      "attributes": {
+        "label": "Date Added: Newest First"
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=%22RICE%22+AND+streetcar\u0026search_field=all_fields\u0026sort=dmcreated_ssi+desc"
+      }
+    }
+  ]
+}

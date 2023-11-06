@@ -1,7 +1,6 @@
 import React, { FC } from "react";
 import { RoutePhoto, SetSelectedPhotoType } from "../../constants/types";
 
-import mapboxgl from "mapbox-gl";
 import styled from "styled-components";
 
 const Wrapper = styled.div`
@@ -22,7 +21,7 @@ const Wrapper = styled.div`
 `;
 
 type IProps = {
-  photo: RoutePhoto;
+  photo: RoutePhoto | null;
   isSelected: boolean | null;
   setSelectedPhoto: SetSelectedPhotoType;
 };
@@ -40,9 +39,12 @@ const Photo: FC<IProps> = ({ photo = null, isSelected, setSelectedPhoto }) => {
       className={`p-1 bg-picture border-white ${!photo ? "placeholder" : ""}`}
       onClick={onPhotoClick}>
       {photo ? (
-        <img src={photo.previewUrl} />
+        <img
+          src={photo.previewUrl}
+          loading="lazy"
+        />
       ) : (
-        <div className="placeholder placeholder-glow"></div>
+        <div className="spinner-border"></div>
       )}
     </Wrapper>
   );

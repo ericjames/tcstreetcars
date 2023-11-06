@@ -1,0 +1,2120 @@
+{
+  "links": {
+    "self": "https://collection.mndigital.org/catalog.json?all_fields=%22Fort+Snelling%22+AND+Streetcar\u0026city_or_township=St.+Paul\u0026county=\u0026creator=\u0026description=\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title=",
+    "next": "https://collection.mndigital.org/catalog.json?all_fields=%22Fort+Snelling%22+AND+Streetcar\u0026city_or_township=St.+Paul\u0026county=\u0026creator=\u0026description=\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026page=2\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title=",
+    "last": "https://collection.mndigital.org/catalog.json?all_fields=%22Fort+Snelling%22+AND+Streetcar\u0026city_or_township=St.+Paul\u0026county=\u0026creator=\u0026description=\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026page=2\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+  },
+  "meta": {
+    "pages": {
+      "current_page": 1,
+      "next_page": 2,
+      "prev_page": null,
+      "total_pages": 2,
+      "limit_value": 25,
+      "offset_value": 0,
+      "total_count": 26,
+      "first_page?": true,
+      "last_page?": false
+    }
+  },
+  "data": [
+    {
+      "id": "msn:731",
+      "type": "Still Image",
+      "attributes": {
+        "title": "Fort Snelling streetcar on West 7th Street, St. Paul, Minnesota",
+        "creator_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:731#creator_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Mehlenbeck, Robert",
+            "label": "Creator"
+          }
+        },
+        "dat_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:731#dat_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "1951",
+            "label": "Date Created"
+          }
+        },
+        "description_ts": {
+          "id": "https://collection.mndigital.org/catalog/msn:731#description_ts",
+          "type": "document_value",
+          "attributes": {
+            "value": "A \u003cem\u003eFort\u003c/em\u003e \u003cem\u003eSnelling\u003c/em\u003e-bound \u003cem\u003estreetcar\u003c/em\u003e on West 7th Street approaching the bridge over the Mississippi to the fort.",
+            "label": "Description"
+          }
+        },
+        "contributing_organization_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:731#contributing_organization_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Minnesota \u003cem\u003eStreetcar\u003c/em\u003e Museum",
+            "label": "Contributing Institution"
+          }
+        },
+        "type_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:731#type_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Still Image",
+            "label": "Type"
+          }
+        },
+        "physical_format_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:731#physical_format_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Color photographs",
+            "label": "Format"
+          }
+        }
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/msn:731"
+      }
+    },
+    {
+      "id": "msn:6",
+      "type": "Still Image",
+      "attributes": {
+        "title": "Shuttle streetcar, Fort Snelling, Minnesota",
+        "creator_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:6#creator_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Janssen, Bill",
+            "label": "Creator"
+          }
+        },
+        "dat_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:6#dat_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "1951",
+            "label": "Date Created"
+          }
+        },
+        "description_ts": {
+          "id": "https://collection.mndigital.org/catalog/msn:6#description_ts",
+          "type": "document_value",
+          "attributes": {
+            "value": "The \u003cem\u003eFort\u003c/em\u003e \u003cem\u003eSnelling\u003c/em\u003e Extension along Officers Row (Taylor Avenue), also called the dinky, dummy, shuttle or stub, runs alongside Highway 5 near the end of the Mendota Bridge.",
+            "label": "Description"
+          }
+        },
+        "contributing_organization_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:6#contributing_organization_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Minnesota \u003cem\u003eStreetcar\u003c/em\u003e Museum",
+            "label": "Contributing Institution"
+          }
+        },
+        "type_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:6#type_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Still Image",
+            "label": "Type"
+          }
+        },
+        "physical_format_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:6#physical_format_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Black-and-white photographs",
+            "label": "Format"
+          }
+        }
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/msn:6"
+      }
+    },
+    {
+      "id": "msn:781",
+      "type": "Still Image",
+      "attributes": {
+        "title": "Shuttle streetcar, Fort Snelling, Minnesota",
+        "creator_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:781#creator_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Janssen, William",
+            "label": "Creator"
+          }
+        },
+        "dat_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:781#dat_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "1951",
+            "label": "Date Created"
+          }
+        },
+        "description_ts": {
+          "id": "https://collection.mndigital.org/catalog/msn:781#description_ts",
+          "type": "document_value",
+          "attributes": {
+            "value": "The double-ended \u003cem\u003eFort\u003c/em\u003e \u003cem\u003eSnelling\u003c/em\u003e shuttle \u003cem\u003estreetcar\u003c/em\u003e that connected the historic fort with the Officers Row along Taylor Avenue is pictured next to Hwy. 5 near the Mendota Bridge.",
+            "label": "Description"
+          }
+        },
+        "contributing_organization_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:781#contributing_organization_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Minnesota \u003cem\u003eStreetcar\u003c/em\u003e Museum",
+            "label": "Contributing Institution"
+          }
+        },
+        "type_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:781#type_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Still Image",
+            "label": "Type"
+          }
+        },
+        "physical_format_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:781#physical_format_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Black-and-white photographs",
+            "label": "Format"
+          }
+        }
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/msn:781"
+      }
+    },
+    {
+      "id": "msn:782",
+      "type": "Still Image",
+      "attributes": {
+        "title": "Shuttle streetcar, Fort Snelling, Minnesota",
+        "creator_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:782#creator_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Mehlenbeck, Robert",
+            "label": "Creator"
+          }
+        },
+        "dat_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:782#dat_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "1951",
+            "label": "Date Created"
+          }
+        },
+        "description_ts": {
+          "id": "https://collection.mndigital.org/catalog/msn:782#description_ts",
+          "type": "document_value",
+          "attributes": {
+            "value": "The double-ended \u003cem\u003eFort\u003c/em\u003e \u003cem\u003eSnelling\u003c/em\u003e shuttle \u003cem\u003estreetcar\u003c/em\u003e that connected the historic fort with the Officers Row along Taylor Avenue is pictured next to Highway 5 near the Mendota Bridge.",
+            "label": "Description"
+          }
+        },
+        "contributing_organization_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:782#contributing_organization_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Minnesota \u003cem\u003eStreetcar\u003c/em\u003e Museum",
+            "label": "Contributing Institution"
+          }
+        },
+        "type_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:782#type_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Still Image",
+            "label": "Type"
+          }
+        },
+        "physical_format_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:782#physical_format_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Color photographs",
+            "label": "Format"
+          }
+        }
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/msn:782"
+      }
+    },
+    {
+      "id": "msn:778",
+      "type": "Still Image",
+      "attributes": {
+        "title": "Round tower with streetcar, Fort Snelling, Minnesota",
+        "dat_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:778#dat_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "1909?",
+            "label": "Date Created"
+          }
+        },
+        "description_ts": {
+          "id": "https://collection.mndigital.org/catalog/msn:778#description_ts",
+          "type": "document_value",
+          "attributes": {
+            "value": "A \u003cem\u003estreetcar\u003c/em\u003e passes the vine-covered \u003cem\u003eFort\u003c/em\u003e \u003cem\u003eSnelling\u003c/em\u003e round tower.",
+            "label": "Description"
+          }
+        },
+        "contributing_organization_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:778#contributing_organization_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Minnesota \u003cem\u003eStreetcar\u003c/em\u003e Museum",
+            "label": "Contributing Institution"
+          }
+        },
+        "type_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:778#type_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Still Image",
+            "label": "Type"
+          }
+        },
+        "physical_format_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:778#physical_format_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Postcards",
+            "label": "Format"
+          }
+        }
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/msn:778"
+      }
+    },
+    {
+      "id": "msn:586",
+      "type": "Still Image",
+      "attributes": {
+        "title": "Fort Snelling Hotel with streetcar, St. Paul, Minnesota",
+        "dat_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:586#dat_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "1895?",
+            "label": "Date Created"
+          }
+        },
+        "description_ts": {
+          "id": "https://collection.mndigital.org/catalog/msn:586#description_ts",
+          "type": "document_value",
+          "attributes": {
+            "value": "The \u003cem\u003eFort\u003c/em\u003e \u003cem\u003eSnelling\u003c/em\u003e Hotel was located at the east end of the West 7th Street bridge to the fort. Until 1909, a \u003cem\u003estreetcar\u003c/em\u003e looped next to it.",
+            "label": "Description"
+          }
+        },
+        "contributing_organization_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:586#contributing_organization_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Minnesota \u003cem\u003eStreetcar\u003c/em\u003e Museum",
+            "label": "Contributing Institution"
+          }
+        },
+        "type_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:586#type_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Still Image",
+            "label": "Type"
+          }
+        },
+        "physical_format_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:586#physical_format_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Postcards",
+            "label": "Format"
+          }
+        }
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/msn:586"
+      }
+    },
+    {
+      "id": "msn:1564",
+      "type": "Still Image",
+      "attributes": {
+        "title": "Fort Snelling shuttle, Fort Snelling, Minnesota",
+        "creator_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1564#creator_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Stitzel, James A.",
+            "label": "Creator"
+          }
+        },
+        "dat_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1564#dat_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "1949",
+            "label": "Date Created"
+          }
+        },
+        "description_ts": {
+          "id": "https://collection.mndigital.org/catalog/msn:1564#description_ts",
+          "type": "document_value",
+          "attributes": {
+            "value": "\u003cem\u003eFort\u003c/em\u003e \u003cem\u003eSnelling\u003c/em\u003e shuttle \u003cem\u003estreetcar\u003c/em\u003e.",
+            "label": "Description"
+          }
+        },
+        "contributing_organization_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1564#contributing_organization_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Minnesota \u003cem\u003eStreetcar\u003c/em\u003e Museum",
+            "label": "Contributing Institution"
+          }
+        },
+        "type_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1564#type_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Still Image",
+            "label": "Type"
+          }
+        },
+        "physical_format_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1564#physical_format_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Slides (photographs)",
+            "label": "Format"
+          }
+        }
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/msn:1564"
+      }
+    },
+    {
+      "id": "msn:1551",
+      "type": "Still Image",
+      "attributes": {
+        "title": "Fort Snelling shuttle, Fort Snelling, Minnesota",
+        "creator_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1551#creator_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Olsen, William J.",
+            "label": "Creator"
+          }
+        },
+        "dat_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1551#dat_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "1948",
+            "label": "Date Created"
+          }
+        },
+        "description_ts": {
+          "id": "https://collection.mndigital.org/catalog/msn:1551#description_ts",
+          "type": "document_value",
+          "attributes": {
+            "value": "\u003cem\u003eFort\u003c/em\u003e \u003cem\u003eSnelling\u003c/em\u003e shuttle \u003cem\u003estreetcar\u003c/em\u003e at Bridge Junction.",
+            "label": "Description"
+          }
+        },
+        "contributing_organization_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1551#contributing_organization_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Minnesota \u003cem\u003eStreetcar\u003c/em\u003e Museum",
+            "label": "Contributing Institution"
+          }
+        },
+        "type_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1551#type_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Still Image",
+            "label": "Type"
+          }
+        },
+        "physical_format_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1551#physical_format_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Slides (photographs)",
+            "label": "Format"
+          }
+        }
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/msn:1551"
+      }
+    },
+    {
+      "id": "msn:1552",
+      "type": "Still Image",
+      "attributes": {
+        "title": "Fort Snelling shuttle, Fort Snelling, Minnesota",
+        "creator_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1552#creator_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Olsen, William J.",
+            "label": "Creator"
+          }
+        },
+        "dat_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1552#dat_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "1948",
+            "label": "Date Created"
+          }
+        },
+        "description_ts": {
+          "id": "https://collection.mndigital.org/catalog/msn:1552#description_ts",
+          "type": "document_value",
+          "attributes": {
+            "value": "\u003cem\u003eFort\u003c/em\u003e \u003cem\u003eSnelling\u003c/em\u003e shuttle \u003cem\u003estreetcar\u003c/em\u003e at Bridge Junction.",
+            "label": "Description"
+          }
+        },
+        "contributing_organization_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1552#contributing_organization_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Minnesota \u003cem\u003eStreetcar\u003c/em\u003e Museum",
+            "label": "Contributing Institution"
+          }
+        },
+        "type_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1552#type_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Still Image",
+            "label": "Type"
+          }
+        },
+        "physical_format_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1552#physical_format_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Slides (photographs)",
+            "label": "Format"
+          }
+        }
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/msn:1552"
+      }
+    },
+    {
+      "id": "msn:1584",
+      "type": "Still Image",
+      "attributes": {
+        "title": "Fort Snelling shuttle, Fort Snelling, Minnesota",
+        "dat_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1584#dat_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "1951",
+            "label": "Date Created"
+          }
+        },
+        "description_ts": {
+          "id": "https://collection.mndigital.org/catalog/msn:1584#description_ts",
+          "type": "document_value",
+          "attributes": {
+            "value": "\u003cem\u003eFort\u003c/em\u003e \u003cem\u003eSnelling\u003c/em\u003e shuttle \u003cem\u003estreetcar\u003c/em\u003e at Bridge Junction.",
+            "label": "Description"
+          }
+        },
+        "contributing_organization_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1584#contributing_organization_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Minnesota \u003cem\u003eStreetcar\u003c/em\u003e Museum",
+            "label": "Contributing Institution"
+          }
+        },
+        "type_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1584#type_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Still Image",
+            "label": "Type"
+          }
+        },
+        "physical_format_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1584#physical_format_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Slides (photographs)",
+            "label": "Format"
+          }
+        }
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/msn:1584"
+      }
+    },
+    {
+      "id": "msn:1549",
+      "type": "Still Image",
+      "attributes": {
+        "title": "Fort Snelling shuttle, Fort Snelling, Minnesota",
+        "creator_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1549#creator_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Olsen, William J.",
+            "label": "Creator"
+          }
+        },
+        "dat_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1549#dat_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "1948",
+            "label": "Date Created"
+          }
+        },
+        "description_ts": {
+          "id": "https://collection.mndigital.org/catalog/msn:1549#description_ts",
+          "type": "document_value",
+          "attributes": {
+            "value": "Chartered railfan excursion and \u003cem\u003eFort\u003c/em\u003e \u003cem\u003eSnelling\u003c/em\u003e shuttle \u003cem\u003estreetcar\u003c/em\u003e at Bridge Junction.",
+            "label": "Description"
+          }
+        },
+        "contributing_organization_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1549#contributing_organization_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Minnesota \u003cem\u003eStreetcar\u003c/em\u003e Museum",
+            "label": "Contributing Institution"
+          }
+        },
+        "type_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1549#type_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Still Image",
+            "label": "Type"
+          }
+        },
+        "physical_format_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1549#physical_format_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Slides (photographs)",
+            "label": "Format"
+          }
+        }
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/msn:1549"
+      }
+    },
+    {
+      "id": "msn:1422",
+      "type": "Still Image",
+      "attributes": {
+        "title": "Fort Snelling streetcars, Fort Snelling, Minnesota",
+        "dat_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1422#dat_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "1919",
+            "label": "Date Created"
+          }
+        },
+        "description_ts": {
+          "id": "https://collection.mndigital.org/catalog/msn:1422#description_ts",
+          "type": "document_value",
+          "attributes": {
+            "value": "\u003cem\u003eStreetcars\u003c/em\u003e meet at \u003cem\u003eFort\u003c/em\u003e \u003cem\u003eSnelling\u003c/em\u003e.",
+            "label": "Description"
+          }
+        },
+        "contributing_organization_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1422#contributing_organization_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Minnesota \u003cem\u003eStreetcar\u003c/em\u003e Museum",
+            "label": "Contributing Institution"
+          }
+        },
+        "type_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1422#type_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Still Image",
+            "label": "Type"
+          }
+        },
+        "physical_format_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1422#physical_format_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Black-and-white photographs",
+            "label": "Format"
+          }
+        }
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/msn:1422"
+      }
+    },
+    {
+      "id": "msn:1570",
+      "type": "Still Image",
+      "attributes": {
+        "title": "Bridge Junction, Fort Snelling, Minnesota",
+        "creator_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1570#creator_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Mehlenbeck, Robert",
+            "label": "Creator"
+          }
+        },
+        "dat_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1570#dat_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "1951",
+            "label": "Date Created"
+          }
+        },
+        "description_ts": {
+          "id": "https://collection.mndigital.org/catalog/msn:1570#description_ts",
+          "type": "document_value",
+          "attributes": {
+            "value": "The Bridge Junction wye at \u003cem\u003eFort\u003c/em\u003e \u003cem\u003eSnelling\u003c/em\u003e.",
+            "label": "Description"
+          }
+        },
+        "contributing_organization_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1570#contributing_organization_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Minnesota \u003cem\u003eStreetcar\u003c/em\u003e Museum",
+            "label": "Contributing Institution"
+          }
+        },
+        "type_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1570#type_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Still Image",
+            "label": "Type"
+          }
+        },
+        "physical_format_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1570#physical_format_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Slides (photographs)",
+            "label": "Format"
+          }
+        }
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/msn:1570"
+      }
+    },
+    {
+      "id": "msn:1202",
+      "type": "Still Image",
+      "attributes": {
+        "title": "Glen near Fort Snelling, Minnesota",
+        "dat_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1202#dat_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "1908?",
+            "label": "Date Created"
+          }
+        },
+        "description_ts": {
+          "id": "https://collection.mndigital.org/catalog/msn:1202#description_ts",
+          "type": "document_value",
+          "attributes": {
+            "value": "\u003cem\u003eFort\u003c/em\u003e \u003cem\u003eSnelling\u003c/em\u003e \u003cem\u003estreetcar\u003c/em\u003e passes through a wooded area on the military reservation.",
+            "label": "Description"
+          }
+        },
+        "contributing_organization_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1202#contributing_organization_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Minnesota \u003cem\u003eStreetcar\u003c/em\u003e Museum",
+            "label": "Contributing Institution"
+          }
+        },
+        "type_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1202#type_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Still Image",
+            "label": "Type"
+          }
+        },
+        "physical_format_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1202#physical_format_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Postcards",
+            "label": "Format"
+          }
+        }
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/msn:1202"
+      }
+    },
+    {
+      "id": "msn:4",
+      "type": "Still Image",
+      "attributes": {
+        "title": "Streetcar crossing bridge to Fort Snelling, St. Paul, Minnesota",
+        "creator_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:4#creator_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Ross, R. Donald",
+            "label": "Creator"
+          }
+        },
+        "dat_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:4#dat_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "1951",
+            "label": "Date Created"
+          }
+        },
+        "description_ts": {
+          "id": "https://collection.mndigital.org/catalog/msn:4#description_ts",
+          "type": "document_value",
+          "attributes": {
+            "value": "A \u003cem\u003eFort\u003c/em\u003e \u003cem\u003eSnelling\u003c/em\u003e-bound \u003cem\u003estreetcar\u003c/em\u003e crosses the West 7th Street bridge over the Mississippi River to \u003cem\u003eFort\u003c/em\u003e \u003cem\u003eSnelling\u003c/em\u003e.",
+            "label": "Description"
+          }
+        },
+        "contributing_organization_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:4#contributing_organization_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Minnesota \u003cem\u003eStreetcar\u003c/em\u003e Museum",
+            "label": "Contributing Institution"
+          }
+        },
+        "type_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:4#type_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Still Image",
+            "label": "Type"
+          }
+        },
+        "physical_format_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:4#physical_format_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Black-and-white photographs",
+            "label": "Format"
+          }
+        }
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/msn:4"
+      }
+    },
+    {
+      "id": "msn:780",
+      "type": "Still Image",
+      "attributes": {
+        "title": "Shuttle streetcar at Bridge Junction, Fort Snelling, Minnesota",
+        "creator_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:780#creator_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Krambles, George",
+            "label": "Creator"
+          }
+        },
+        "dat_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:780#dat_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "1949",
+            "label": "Date Created"
+          }
+        },
+        "description_ts": {
+          "id": "https://collection.mndigital.org/catalog/msn:780#description_ts",
+          "type": "document_value",
+          "attributes": {
+            "value": "Double-ended \u003cem\u003eFort\u003c/em\u003e \u003cem\u003eSnelling\u003c/em\u003e shuttle \u003cem\u003estreetcar\u003c/em\u003e #1230 meets the Minneapolis and \u003cem\u003eSt\u003c/em\u003e. \u003cem\u003ePaul\u003c/em\u003e \u003cem\u003estreetcars\u003c/em\u003e at Bridge Junction wye. Today this location is inside the reconstructed historic fort.",
+            "label": "Description"
+          }
+        },
+        "contributing_organization_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:780#contributing_organization_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Minnesota \u003cem\u003eStreetcar\u003c/em\u003e Museum",
+            "label": "Contributing Institution"
+          }
+        },
+        "type_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:780#type_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Still Image",
+            "label": "Type"
+          }
+        },
+        "physical_format_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:780#physical_format_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Color photographs",
+            "label": "Format"
+          }
+        }
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/msn:780"
+      }
+    },
+    {
+      "id": "msn:783",
+      "type": "Still Image",
+      "attributes": {
+        "title": "Bridge Junction at Fort Snelling, St. Paul, Minnesota",
+        "creator_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:783#creator_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Mehlenbeck, Robert",
+            "label": "Creator"
+          }
+        },
+        "dat_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:783#dat_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "1951",
+            "label": "Date Created"
+          }
+        },
+        "description_ts": {
+          "id": "https://collection.mndigital.org/catalog/msn:783#description_ts",
+          "type": "document_value",
+          "attributes": {
+            "value": "\u003cem\u003eStreetcars\u003c/em\u003e from Minneapolis and \u003cem\u003eSt\u003c/em\u003e. \u003cem\u003ePaul\u003c/em\u003e prepare to back into the Bridge Junction wye at \u003cem\u003eFort\u003c/em\u003e \u003cem\u003eSnelling\u003c/em\u003e, where they will meet the \u003cem\u003eFort\u003c/em\u003e \u003cem\u003eSnelling\u003c/em\u003e Shuttle.",
+            "label": "Description"
+          }
+        },
+        "contributing_organization_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:783#contributing_organization_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Minnesota \u003cem\u003eStreetcar\u003c/em\u003e Museum",
+            "label": "Contributing Institution"
+          }
+        },
+        "type_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:783#type_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Still Image",
+            "label": "Type"
+          }
+        },
+        "physical_format_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:783#physical_format_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Color photographs",
+            "label": "Format"
+          }
+        }
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/msn:783"
+      }
+    },
+    {
+      "id": "msn:1216",
+      "type": "Still Image",
+      "attributes": {
+        "title": "New bridge at Fort Snelling, St. Paul, Minnesota",
+        "dat_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1216#dat_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "1909?",
+            "label": "Date Created"
+          }
+        },
+        "description_ts": {
+          "id": "https://collection.mndigital.org/catalog/msn:1216#description_ts",
+          "type": "document_value",
+          "attributes": {
+            "value": "The West 7th Street bridge over the Mississippi River, viewed from the \u003cem\u003eSt\u003c/em\u003e. \u003cem\u003ePaul\u003c/em\u003e side.",
+            "label": "Description"
+          }
+        },
+        "contributing_organization_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1216#contributing_organization_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Minnesota \u003cem\u003eStreetcar\u003c/em\u003e Museum",
+            "label": "Contributing Institution"
+          }
+        },
+        "type_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1216#type_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Still Image",
+            "label": "Type"
+          }
+        },
+        "physical_format_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1216#physical_format_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Postcards",
+            "label": "Format"
+          }
+        }
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/msn:1216"
+      }
+    },
+    {
+      "id": "msn:424",
+      "type": "Still Image",
+      "attributes": {
+        "title": "West 7th Street bridge to Fort Snelling, St. Paul, Minnesota",
+        "dat_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:424#dat_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "1931",
+            "label": "Date Created"
+          }
+        },
+        "description_ts": {
+          "id": "https://collection.mndigital.org/catalog/msn:424#description_ts",
+          "type": "document_value",
+          "attributes": {
+            "value": "\u003cem\u003eStreetcar\u003c/em\u003e tracks in the median of West 7th Street leading to the bridge over the Mississippi River. \u003cem\u003eFort\u003c/em\u003e \u003cem\u003eSnelling\u003c/em\u003e is visible in the distance.",
+            "label": "Description"
+          }
+        },
+        "contributing_organization_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:424#contributing_organization_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Minnesota \u003cem\u003eStreetcar\u003c/em\u003e Museum",
+            "label": "Contributing Institution"
+          }
+        },
+        "type_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:424#type_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Still Image",
+            "label": "Type"
+          }
+        },
+        "physical_format_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:424#physical_format_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Black-and-white photographs",
+            "label": "Format"
+          }
+        }
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/msn:424"
+      }
+    },
+    {
+      "id": "msn:7",
+      "type": "Still Image",
+      "attributes": {
+        "title": "Fort Snelling shuttle behind Officers Row, St. Paul, Minnesota",
+        "dat_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:7#dat_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "1951",
+            "label": "Date Created"
+          }
+        },
+        "description_ts": {
+          "id": "https://collection.mndigital.org/catalog/msn:7#description_ts",
+          "type": "document_value",
+          "attributes": {
+            "value": "The \u003cem\u003eFort\u003c/em\u003e \u003cem\u003eSnelling\u003c/em\u003e shuttle ran behind the Officers' Row barracks and houses that lined Taylor Avenue.",
+            "label": "Description"
+          }
+        },
+        "contributing_organization_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:7#contributing_organization_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Minnesota \u003cem\u003eStreetcar\u003c/em\u003e Museum",
+            "label": "Contributing Institution"
+          }
+        },
+        "type_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:7#type_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Still Image",
+            "label": "Type"
+          }
+        },
+        "physical_format_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:7#physical_format_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Black-and-white photographs",
+            "label": "Format"
+          }
+        }
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/msn:7"
+      }
+    },
+    {
+      "id": "msn:8",
+      "type": "Still Image",
+      "attributes": {
+        "title": "Streetcars by the Round Tower, Fort Snelling, Minnesota",
+        "creator_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:8#creator_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "DeGroote, Raymond",
+            "label": "Creator"
+          }
+        },
+        "dat_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:8#dat_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "1952",
+            "label": "Date Created"
+          }
+        },
+        "description_ts": {
+          "id": "https://collection.mndigital.org/catalog/msn:8#description_ts",
+          "type": "document_value",
+          "attributes": {
+            "value": "\u003cem\u003eStreetcars\u003c/em\u003e from Minneapolis and \u003cem\u003eSt\u003c/em\u003e. \u003cem\u003ePaul\u003c/em\u003e met next to the \u003cem\u003eFort\u003c/em\u003e \u003cem\u003eSnelling\u003c/em\u003e round tower, now the site of the restored historic fort.",
+            "label": "Description"
+          }
+        },
+        "contributing_organization_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:8#contributing_organization_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Minnesota \u003cem\u003eStreetcar\u003c/em\u003e Museum",
+            "label": "Contributing Institution"
+          }
+        },
+        "type_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:8#type_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Still Image",
+            "label": "Type"
+          }
+        },
+        "physical_format_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:8#physical_format_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Black-and-white photographs",
+            "label": "Format"
+          }
+        }
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/msn:8"
+      }
+    },
+    {
+      "id": "msn:2117",
+      "type": "Still Image",
+      "attributes": {
+        "title": "Double End Car, Twin City Rapid Transit, St. Paul, Minnesota",
+        "creator_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:2117#creator_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Harding, F. T.",
+            "label": "Creator"
+          }
+        },
+        "dat_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:2117#dat_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "1931-09-03",
+            "label": "Date Created"
+          }
+        },
+        "description_ts": {
+          "id": "https://collection.mndigital.org/catalog/msn:2117#description_ts",
+          "type": "document_value",
+          "attributes": {
+            "value": "Design drawing, including a plan and elevation of Twin City Rapid Transit \u003cem\u003estreetcar\u003c/em\u003e #1230, rebuilt for double ended operation on the one-mile shuttle that ran with \u003cem\u003eFort\u003c/em\u003e \u003cem\u003eSnelling\u003c/em\u003e to the upper post.",
+            "label": "Description"
+          }
+        },
+        "contributing_organization_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:2117#contributing_organization_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Minnesota \u003cem\u003eStreetcar\u003c/em\u003e Museum",
+            "label": "Contributing Institution"
+          }
+        },
+        "type_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:2117#type_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Still Image",
+            "label": "Type"
+          }
+        },
+        "physical_format_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:2117#physical_format_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Design drawings",
+            "label": "Format"
+          }
+        }
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/msn:2117"
+      }
+    },
+    {
+      "id": "msn:257",
+      "type": "Still Image",
+      "attributes": {
+        "title": "Streetcar on Burns Avenue, St. Paul, Minnesota",
+        "dat_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:257#dat_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "1948",
+            "label": "Date Created"
+          }
+        },
+        "description_ts": {
+          "id": "https://collection.mndigital.org/catalog/msn:257#description_ts",
+          "type": "document_value",
+          "attributes": {
+            "value": "A westbound Maria-\u003cem\u003eFort\u003c/em\u003e \u003cem\u003eSnelling\u003c/em\u003e \u003cem\u003estreetcar\u003c/em\u003e has just left the line's eastern terminus at Burns Avenue and English Street.",
+            "label": "Description"
+          }
+        },
+        "contributing_organization_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:257#contributing_organization_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Minnesota \u003cem\u003eStreetcar\u003c/em\u003e Museum",
+            "label": "Contributing Institution"
+          }
+        },
+        "type_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:257#type_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Still Image",
+            "label": "Type"
+          }
+        },
+        "physical_format_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:257#physical_format_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Black-and-white photographs",
+            "label": "Format"
+          }
+        }
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/msn:257"
+      }
+    }
+  ],
+  "included": [
+    {
+      "type": "facet",
+      "id": "topic_ssim",
+      "attributes": {
+        "label": "Topic",
+        "items": [
+          {
+            "attributes": {
+              "label": "Transportation",
+              "value": "Transportation",
+              "hits": 26
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=%22Fort+Snelling%22+AND+Streetcar\u0026city_or_township=St.+Paul\u0026county=\u0026creator=\u0026description=\u0026f%5Btopic_ssim%5D%5B%5D=Transportation\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/facet/topic_ssim.json?all_fields=%22Fort+Snelling%22+AND+Streetcar\u0026city_or_township=St.+Paul\u0026county=\u0026creator=\u0026description=\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+      }
+    },
+    {
+      "type": "facet",
+      "id": "type_ssi",
+      "attributes": {
+        "label": "Type",
+        "items": [
+          {
+            "attributes": {
+              "label": "Still Image",
+              "value": "Still Image",
+              "hits": 26
+            },
+            "links": {
+              "remove": "/catalog.json?all_fields=%22Fort+Snelling%22+AND+Streetcar\u0026city_or_township=St.+Paul\u0026county=\u0026creator=\u0026description=\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/facet/type_ssi.json?all_fields=%22Fort+Snelling%22+AND+Streetcar\u0026city_or_township=St.+Paul\u0026county=\u0026creator=\u0026description=\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+      }
+    },
+    {
+      "type": "facet",
+      "id": "physical_format_ssi",
+      "attributes": {
+        "label": "Physical Format",
+        "items": [
+          {
+            "attributes": {
+              "label": "Black-and-white photographs",
+              "value": "Black-and-white photographs",
+              "hits": 11
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=%22Fort+Snelling%22+AND+Streetcar\u0026city_or_township=St.+Paul\u0026county=\u0026creator=\u0026description=\u0026f%5Bphysical_format_ssi%5D%5B%5D=Black-and-white+photographs\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          },
+          {
+            "attributes": {
+              "label": "Slides (photographs)",
+              "value": "Slides (photographs)",
+              "hits": 6
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=%22Fort+Snelling%22+AND+Streetcar\u0026city_or_township=St.+Paul\u0026county=\u0026creator=\u0026description=\u0026f%5Bphysical_format_ssi%5D%5B%5D=Slides+%28photographs%29\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          },
+          {
+            "attributes": {
+              "label": "Color photographs",
+              "value": "Color photographs",
+              "hits": 4
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=%22Fort+Snelling%22+AND+Streetcar\u0026city_or_township=St.+Paul\u0026county=\u0026creator=\u0026description=\u0026f%5Bphysical_format_ssi%5D%5B%5D=Color+photographs\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          },
+          {
+            "attributes": {
+              "label": "Postcards",
+              "value": "Postcards",
+              "hits": 4
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=%22Fort+Snelling%22+AND+Streetcar\u0026city_or_township=St.+Paul\u0026county=\u0026creator=\u0026description=\u0026f%5Bphysical_format_ssi%5D%5B%5D=Postcards\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          },
+          {
+            "attributes": {
+              "label": "Design drawings",
+              "value": "Design drawings",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=%22Fort+Snelling%22+AND+Streetcar\u0026city_or_township=St.+Paul\u0026county=\u0026creator=\u0026description=\u0026f%5Bphysical_format_ssi%5D%5B%5D=Design+drawings\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/facet/physical_format_ssi.json?all_fields=%22Fort+Snelling%22+AND+Streetcar\u0026city_or_township=St.+Paul\u0026county=\u0026creator=\u0026description=\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+      }
+    },
+    {
+      "type": "facet",
+      "id": "dat_ssim",
+      "attributes": {
+        "label": "Date Created",
+        "items": [
+          {
+            "attributes": {
+              "label": "1951",
+              "value": "1951",
+              "hits": 9
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=%22Fort+Snelling%22+AND+Streetcar\u0026city_or_township=St.+Paul\u0026county=\u0026creator=\u0026description=\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=begin\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=end\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=\u0026range%5Bdat_ssim%5D%5B%5D=1951\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          },
+          {
+            "attributes": {
+              "label": "1948",
+              "value": "1948",
+              "hits": 4
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=%22Fort+Snelling%22+AND+Streetcar\u0026city_or_township=St.+Paul\u0026county=\u0026creator=\u0026description=\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=begin\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=end\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=\u0026range%5Bdat_ssim%5D%5B%5D=1948\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          },
+          {
+            "attributes": {
+              "label": "1952",
+              "value": "1952",
+              "hits": 3
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=%22Fort+Snelling%22+AND+Streetcar\u0026city_or_township=St.+Paul\u0026county=\u0026creator=\u0026description=\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=begin\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=end\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=\u0026range%5Bdat_ssim%5D%5B%5D=1952\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          },
+          {
+            "attributes": {
+              "label": "1909",
+              "value": "1909",
+              "hits": 2
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=%22Fort+Snelling%22+AND+Streetcar\u0026city_or_township=St.+Paul\u0026county=\u0026creator=\u0026description=\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=begin\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=end\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=\u0026range%5Bdat_ssim%5D%5B%5D=1909\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          },
+          {
+            "attributes": {
+              "label": "1931",
+              "value": "1931",
+              "hits": 2
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=%22Fort+Snelling%22+AND+Streetcar\u0026city_or_township=St.+Paul\u0026county=\u0026creator=\u0026description=\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=begin\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=end\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=\u0026range%5Bdat_ssim%5D%5B%5D=1931\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          },
+          {
+            "attributes": {
+              "label": "1949",
+              "value": "1949",
+              "hits": 2
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=%22Fort+Snelling%22+AND+Streetcar\u0026city_or_township=St.+Paul\u0026county=\u0026creator=\u0026description=\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=begin\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=end\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=\u0026range%5Bdat_ssim%5D%5B%5D=1949\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          },
+          {
+            "attributes": {
+              "label": "1895",
+              "value": "1895",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=%22Fort+Snelling%22+AND+Streetcar\u0026city_or_township=St.+Paul\u0026county=\u0026creator=\u0026description=\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=begin\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=end\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=\u0026range%5Bdat_ssim%5D%5B%5D=1895\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          },
+          {
+            "attributes": {
+              "label": "1901",
+              "value": "1901",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=%22Fort+Snelling%22+AND+Streetcar\u0026city_or_township=St.+Paul\u0026county=\u0026creator=\u0026description=\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=begin\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=end\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=\u0026range%5Bdat_ssim%5D%5B%5D=1901\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          },
+          {
+            "attributes": {
+              "label": "1908",
+              "value": "1908",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=%22Fort+Snelling%22+AND+Streetcar\u0026city_or_township=St.+Paul\u0026county=\u0026creator=\u0026description=\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=begin\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=end\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=\u0026range%5Bdat_ssim%5D%5B%5D=1908\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          },
+          {
+            "attributes": {
+              "label": "1919",
+              "value": "1919",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=%22Fort+Snelling%22+AND+Streetcar\u0026city_or_township=St.+Paul\u0026county=\u0026creator=\u0026description=\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=begin\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=end\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=\u0026range%5Bdat_ssim%5D%5B%5D=1919\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/facet/dat_ssim.json?all_fields=%22Fort+Snelling%22+AND+Streetcar\u0026city_or_township=St.+Paul\u0026county=\u0026creator=\u0026description=\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+      }
+    },
+    {
+      "type": "facet",
+      "id": "formal_subject_ssim",
+      "attributes": {
+        "label": "Subject Headings",
+        "items": [
+          {
+            "attributes": {
+              "label": "Street Railroads",
+              "value": "Street Railroads",
+              "hits": 26
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=%22Fort+Snelling%22+AND+Streetcar\u0026city_or_township=St.+Paul\u0026county=\u0026creator=\u0026description=\u0026f%5Bformal_subject_ssim%5D%5B%5D=Street+Railroads\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          },
+          {
+            "attributes": {
+              "label": "Electric Railroads Cars",
+              "value": "Electric Railroads Cars",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=%22Fort+Snelling%22+AND+Streetcar\u0026city_or_township=St.+Paul\u0026county=\u0026creator=\u0026description=\u0026f%5Bformal_subject_ssim%5D%5B%5D=Electric+Railroads+Cars\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/facet/formal_subject_ssim.json?all_fields=%22Fort+Snelling%22+AND+Streetcar\u0026city_or_township=St.+Paul\u0026county=\u0026creator=\u0026description=\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+      }
+    },
+    {
+      "type": "facet",
+      "id": "collection_name_ssi",
+      "attributes": {
+        "label": "Contributor",
+        "items": [
+          {
+            "attributes": {
+              "label": "Minnesota Streetcar Museum",
+              "value": "Minnesota Streetcar Museum",
+              "hits": 26
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=%22Fort+Snelling%22+AND+Streetcar\u0026city_or_township=St.+Paul\u0026county=\u0026creator=\u0026description=\u0026f%5Bcollection_name_ssi%5D%5B%5D=Minnesota+Streetcar+Museum\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/facet/collection_name_ssi.json?all_fields=%22Fort+Snelling%22+AND+Streetcar\u0026city_or_township=St.+Paul\u0026county=\u0026creator=\u0026description=\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+      }
+    },
+    {
+      "type": "facet",
+      "id": "contributing_organization_ssi",
+      "attributes": {
+        "label": "Contributing Organization",
+        "items": [
+          {
+            "attributes": {
+              "label": "Minnesota Streetcar Museum",
+              "value": "Minnesota Streetcar Museum",
+              "hits": 26
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=%22Fort+Snelling%22+AND+Streetcar\u0026city_or_township=St.+Paul\u0026county=\u0026creator=\u0026description=\u0026f%5Bcontributing_organization_ssi%5D%5B%5D=Minnesota+Streetcar+Museum\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/facet/contributing_organization_ssi.json?all_fields=%22Fort+Snelling%22+AND+Streetcar\u0026city_or_township=St.+Paul\u0026county=\u0026creator=\u0026description=\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+      }
+    },
+    {
+      "type": "facet",
+      "id": "creator_ssim",
+      "attributes": {
+        "label": "Creator",
+        "items": [
+          {
+            "attributes": {
+              "label": "Mehlenbeck, Robert",
+              "value": "Mehlenbeck, Robert",
+              "hits": 4
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=%22Fort+Snelling%22+AND+Streetcar\u0026city_or_township=St.+Paul\u0026county=\u0026creator=\u0026description=\u0026f%5Bcreator_ssim%5D%5B%5D=Mehlenbeck%2C+Robert\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          },
+          {
+            "attributes": {
+              "label": "Olsen, William J.",
+              "value": "Olsen, William J.",
+              "hits": 3
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=%22Fort+Snelling%22+AND+Streetcar\u0026city_or_township=St.+Paul\u0026county=\u0026creator=\u0026description=\u0026f%5Bcreator_ssim%5D%5B%5D=Olsen%2C+William+J.\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          },
+          {
+            "attributes": {
+              "label": "Selle, Robert A.",
+              "value": "Selle, Robert A.",
+              "hits": 2
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=%22Fort+Snelling%22+AND+Streetcar\u0026city_or_township=St.+Paul\u0026county=\u0026creator=\u0026description=\u0026f%5Bcreator_ssim%5D%5B%5D=Selle%2C+Robert+A.\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          },
+          {
+            "attributes": {
+              "label": "DeGroote, Raymond",
+              "value": "DeGroote, Raymond",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=%22Fort+Snelling%22+AND+Streetcar\u0026city_or_township=St.+Paul\u0026county=\u0026creator=\u0026description=\u0026f%5Bcreator_ssim%5D%5B%5D=DeGroote%2C+Raymond\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          },
+          {
+            "attributes": {
+              "label": "Harding, F. T.",
+              "value": "Harding, F. T.",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=%22Fort+Snelling%22+AND+Streetcar\u0026city_or_township=St.+Paul\u0026county=\u0026creator=\u0026description=\u0026f%5Bcreator_ssim%5D%5B%5D=Harding%2C+F.+T.\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          },
+          {
+            "attributes": {
+              "label": "Janssen, Bill",
+              "value": "Janssen, Bill",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=%22Fort+Snelling%22+AND+Streetcar\u0026city_or_township=St.+Paul\u0026county=\u0026creator=\u0026description=\u0026f%5Bcreator_ssim%5D%5B%5D=Janssen%2C+Bill\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          },
+          {
+            "attributes": {
+              "label": "Janssen, William",
+              "value": "Janssen, William",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=%22Fort+Snelling%22+AND+Streetcar\u0026city_or_township=St.+Paul\u0026county=\u0026creator=\u0026description=\u0026f%5Bcreator_ssim%5D%5B%5D=Janssen%2C+William\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          },
+          {
+            "attributes": {
+              "label": "Krambles, George",
+              "value": "Krambles, George",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=%22Fort+Snelling%22+AND+Streetcar\u0026city_or_township=St.+Paul\u0026county=\u0026creator=\u0026description=\u0026f%5Bcreator_ssim%5D%5B%5D=Krambles%2C+George\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          },
+          {
+            "attributes": {
+              "label": "Ross, R. Donald",
+              "value": "Ross, R. Donald",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=%22Fort+Snelling%22+AND+Streetcar\u0026city_or_township=St.+Paul\u0026county=\u0026creator=\u0026description=\u0026f%5Bcreator_ssim%5D%5B%5D=Ross%2C+R.+Donald\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          },
+          {
+            "attributes": {
+              "label": "Stitzel, James A.",
+              "value": "Stitzel, James A.",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=%22Fort+Snelling%22+AND+Streetcar\u0026city_or_township=St.+Paul\u0026county=\u0026creator=\u0026description=\u0026f%5Bcreator_ssim%5D%5B%5D=Stitzel%2C+James+A.\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/facet/creator_ssim.json?all_fields=%22Fort+Snelling%22+AND+Streetcar\u0026city_or_township=St.+Paul\u0026county=\u0026creator=\u0026description=\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+      }
+    },
+    {
+      "type": "facet",
+      "id": "contributor_ssim",
+      "attributes": {
+        "label": "Contributor",
+        "items": [
+          {
+            "attributes": {
+              "label": "Northwestern Photographic Studio (St. Paul, Minnesota)",
+              "value": "Northwestern Photographic Studio (St. Paul, Minnesota)",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=%22Fort+Snelling%22+AND+Streetcar\u0026city_or_township=St.+Paul\u0026county=\u0026creator=\u0026description=\u0026f%5Bcontributor_ssim%5D%5B%5D=Northwestern+Photographic+Studio+%28St.+Paul%2C+Minnesota%29\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          },
+          {
+            "attributes": {
+              "label": "Twin City Rapid Transit Company",
+              "value": "Twin City Rapid Transit Company",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=%22Fort+Snelling%22+AND+Streetcar\u0026city_or_township=St.+Paul\u0026county=\u0026creator=\u0026description=\u0026f%5Bcontributor_ssim%5D%5B%5D=Twin+City+Rapid+Transit+Company\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/facet/contributor_ssim.json?all_fields=%22Fort+Snelling%22+AND+Streetcar\u0026city_or_township=St.+Paul\u0026county=\u0026creator=\u0026description=\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+      }
+    },
+    {
+      "type": "facet",
+      "id": "publishing_agency_ssi",
+      "attributes": {
+        "label": "Publishing Agency",
+        "items": [
+          {
+            "attributes": {
+              "label": "C. J. Hibbard \u0026 Co.",
+              "value": "C. J. Hibbard \u0026 Co.",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=%22Fort+Snelling%22+AND+Streetcar\u0026city_or_township=St.+Paul\u0026county=\u0026creator=\u0026description=\u0026f%5Bpublishing_agency_ssi%5D%5B%5D=C.+J.+Hibbard+%26+Co.\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/facet/publishing_agency_ssi.json?all_fields=%22Fort+Snelling%22+AND+Streetcar\u0026city_or_township=St.+Paul\u0026county=\u0026creator=\u0026description=\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+      }
+    },
+    {
+      "type": "facet",
+      "id": "dimensions_ssi",
+      "attributes": {
+        "label": "Dimensions",
+        "items": [
+          {
+            "attributes": {
+              "label": "58.4 x 88.9",
+              "value": "58.4 x 88.9",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=%22Fort+Snelling%22+AND+Streetcar\u0026city_or_township=St.+Paul\u0026county=\u0026creator=\u0026description=\u0026f%5Bdimensions_ssi%5D%5B%5D=58.4+x+88.9\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/facet/dimensions_ssi.json?all_fields=%22Fort+Snelling%22+AND+Streetcar\u0026city_or_township=St.+Paul\u0026county=\u0026creator=\u0026description=\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+      }
+    },
+    {
+      "type": "facet",
+      "id": "subject_ssim",
+      "attributes": {
+        "label": "Keywords",
+        "items": [
+          {
+            "attributes": {
+              "label": "Streetcars",
+              "value": "Streetcars",
+              "hits": 25
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=%22Fort+Snelling%22+AND+Streetcar\u0026city_or_township=St.+Paul\u0026county=\u0026creator=\u0026description=\u0026f%5Bsubject_ssim%5D%5B%5D=Streetcars\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          },
+          {
+            "attributes": {
+              "label": "Street scenes",
+              "value": "Street scenes",
+              "hits": 18
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=%22Fort+Snelling%22+AND+Streetcar\u0026city_or_township=St.+Paul\u0026county=\u0026creator=\u0026description=\u0026f%5Bsubject_ssim%5D%5B%5D=Street+scenes\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          },
+          {
+            "attributes": {
+              "label": "Twin City Rapid Transit Company",
+              "value": "Twin City Rapid Transit Company",
+              "hits": 18
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=%22Fort+Snelling%22+AND+Streetcar\u0026city_or_township=St.+Paul\u0026county=\u0026creator=\u0026description=\u0026f%5Bsubject_ssim%5D%5B%5D=Twin+City+Rapid+Transit+Company\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          },
+          {
+            "attributes": {
+              "label": "Streetcar",
+              "value": "Streetcar",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=%22Fort+Snelling%22+AND+Streetcar\u0026city_or_township=St.+Paul\u0026county=\u0026creator=\u0026description=\u0026f%5Bsubject_ssim%5D%5B%5D=Streetcar\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/facet/subject_ssim.json?all_fields=%22Fort+Snelling%22+AND+Streetcar\u0026city_or_township=St.+Paul\u0026county=\u0026creator=\u0026description=\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+      }
+    },
+    {
+      "type": "facet",
+      "id": "city_ssim",
+      "attributes": {
+        "label": "City or Township",
+        "items": [
+          {
+            "attributes": {
+              "label": "St. Paul",
+              "value": "St. Paul",
+              "hits": 26
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=%22Fort+Snelling%22+AND+Streetcar\u0026city_or_township=St.+Paul\u0026county=\u0026creator=\u0026description=\u0026f%5Bcity_ssim%5D%5B%5D=St.+Paul\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          },
+          {
+            "attributes": {
+              "label": "Minneapolis",
+              "value": "Minneapolis",
+              "hits": 18
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=%22Fort+Snelling%22+AND+Streetcar\u0026city_or_township=St.+Paul\u0026county=\u0026creator=\u0026description=\u0026f%5Bcity_ssim%5D%5B%5D=Minneapolis\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/facet/city_ssim.json?all_fields=%22Fort+Snelling%22+AND+Streetcar\u0026city_or_township=St.+Paul\u0026county=\u0026creator=\u0026description=\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+      }
+    },
+    {
+      "type": "facet",
+      "id": "county_ssim",
+      "attributes": {
+        "label": "County",
+        "items": [
+          {
+            "attributes": {
+              "label": "Ramsey",
+              "value": "Ramsey",
+              "hits": 25
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=%22Fort+Snelling%22+AND+Streetcar\u0026city_or_township=St.+Paul\u0026county=\u0026creator=\u0026description=\u0026f%5Bcounty_ssim%5D%5B%5D=Ramsey\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          },
+          {
+            "attributes": {
+              "label": "Hennepin",
+              "value": "Hennepin",
+              "hits": 19
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=%22Fort+Snelling%22+AND+Streetcar\u0026city_or_township=St.+Paul\u0026county=\u0026creator=\u0026description=\u0026f%5Bcounty_ssim%5D%5B%5D=Hennepin\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          },
+          {
+            "attributes": {
+              "label": "Dakota",
+              "value": "Dakota",
+              "hits": 2
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=%22Fort+Snelling%22+AND+Streetcar\u0026city_or_township=St.+Paul\u0026county=\u0026creator=\u0026description=\u0026f%5Bcounty_ssim%5D%5B%5D=Dakota\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/facet/county_ssim.json?all_fields=%22Fort+Snelling%22+AND+Streetcar\u0026city_or_township=St.+Paul\u0026county=\u0026creator=\u0026description=\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+      }
+    },
+    {
+      "type": "facet",
+      "id": "state_ssi",
+      "attributes": {
+        "label": "State or Province",
+        "items": [
+          {
+            "attributes": {
+              "label": "Minnesota",
+              "value": "Minnesota",
+              "hits": 26
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=%22Fort+Snelling%22+AND+Streetcar\u0026city_or_township=St.+Paul\u0026county=\u0026creator=\u0026description=\u0026f%5Bstate_ssi%5D%5B%5D=Minnesota\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/facet/state_ssi.json?all_fields=%22Fort+Snelling%22+AND+Streetcar\u0026city_or_township=St.+Paul\u0026county=\u0026creator=\u0026description=\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+      }
+    },
+    {
+      "type": "facet",
+      "id": "country_ssi",
+      "attributes": {
+        "label": "Country",
+        "items": [
+          {
+            "attributes": {
+              "label": "United States",
+              "value": "United States",
+              "hits": 26
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=%22Fort+Snelling%22+AND+Streetcar\u0026city_or_township=St.+Paul\u0026county=\u0026creator=\u0026description=\u0026f%5Bcountry_ssi%5D%5B%5D=United+States\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/facet/country_ssi.json?all_fields=%22Fort+Snelling%22+AND+Streetcar\u0026city_or_township=St.+Paul\u0026county=\u0026creator=\u0026description=\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+      }
+    },
+    {
+      "type": "facet",
+      "id": "geographic_feature_ssim",
+      "attributes": {
+        "label": "Geographic Feature",
+        "items": [
+          {
+            "attributes": {
+              "label": "Mississippi River",
+              "value": "Mississippi River",
+              "hits": 2
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=%22Fort+Snelling%22+AND+Streetcar\u0026city_or_township=St.+Paul\u0026county=\u0026creator=\u0026description=\u0026f%5Bgeographic_feature_ssim%5D%5B%5D=Mississippi+River\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/facet/geographic_feature_ssim.json?all_fields=%22Fort+Snelling%22+AND+Streetcar\u0026city_or_township=St.+Paul\u0026county=\u0026creator=\u0026description=\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+      }
+    },
+    {
+      "type": "search_field",
+      "id": "all_fields",
+      "attributes": {
+        "label": "All Fields"
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog.json?all_fields=%22Fort+Snelling%22+AND+Streetcar\u0026city_or_township=St.+Paul\u0026county=\u0026creator=\u0026description=\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=all_fields\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+      }
+    },
+    {
+      "type": "search_field",
+      "id": "title",
+      "attributes": {
+        "label": "Title"
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog.json?all_fields=%22Fort+Snelling%22+AND+Streetcar\u0026city_or_township=St.+Paul\u0026county=\u0026creator=\u0026description=\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=title\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+      }
+    },
+    {
+      "type": "search_field",
+      "id": "creator",
+      "attributes": {
+        "label": "Creator"
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog.json?all_fields=%22Fort+Snelling%22+AND+Streetcar\u0026city_or_township=St.+Paul\u0026county=\u0026creator=\u0026description=\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=creator\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+      }
+    },
+    {
+      "type": "search_field",
+      "id": "subject",
+      "attributes": {
+        "label": "Subject"
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog.json?all_fields=%22Fort+Snelling%22+AND+Streetcar\u0026city_or_township=St.+Paul\u0026county=\u0026creator=\u0026description=\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=subject\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+      }
+    },
+    {
+      "type": "search_field",
+      "id": "description",
+      "attributes": {
+        "label": "Description"
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog.json?all_fields=%22Fort+Snelling%22+AND+Streetcar\u0026city_or_township=St.+Paul\u0026county=\u0026creator=\u0026description=\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=description\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+      }
+    },
+    {
+      "type": "search_field",
+      "id": "city_or_township",
+      "attributes": {
+        "label": "City or Township"
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog.json?all_fields=%22Fort+Snelling%22+AND+Streetcar\u0026city_or_township=St.+Paul\u0026county=\u0026creator=\u0026description=\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=city_or_township\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+      }
+    },
+    {
+      "type": "search_field",
+      "id": "county",
+      "attributes": {
+        "label": "County"
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog.json?all_fields=%22Fort+Snelling%22+AND+Streetcar\u0026city_or_township=St.+Paul\u0026county=\u0026creator=\u0026description=\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=county\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+      }
+    },
+    {
+      "type": "sort",
+      "id": "score desc, dat_sort desc, title_sort asc",
+      "attributes": {
+        "label": "Relevance"
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog.json?all_fields=%22Fort+Snelling%22+AND+Streetcar\u0026city_or_township=St.+Paul\u0026county=\u0026creator=\u0026description=\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+      }
+    },
+    {
+      "type": "sort",
+      "id": "title_sort asc, dat_sort asc",
+      "attributes": {
+        "label": "Title: A to Z"
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog.json?all_fields=%22Fort+Snelling%22+AND+Streetcar\u0026city_or_township=St.+Paul\u0026county=\u0026creator=\u0026description=\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=title_sort+asc%2C+dat_sort+asc\u0026title="
+      }
+    },
+    {
+      "type": "sort",
+      "id": "title_sort desc, dat_sort desc",
+      "attributes": {
+        "label": "Title: Z to A"
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog.json?all_fields=%22Fort+Snelling%22+AND+Streetcar\u0026city_or_township=St.+Paul\u0026county=\u0026creator=\u0026description=\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=title_sort+desc%2C+dat_sort+desc\u0026title="
+      }
+    },
+    {
+      "type": "sort",
+      "id": "creator_sort asc, title_sort asc",
+      "attributes": {
+        "label": "Creator: A to Z"
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog.json?all_fields=%22Fort+Snelling%22+AND+Streetcar\u0026city_or_township=St.+Paul\u0026county=\u0026creator=\u0026description=\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=creator_sort+asc%2C+title_sort+asc\u0026title="
+      }
+    },
+    {
+      "type": "sort",
+      "id": "creator_sort desc, title_sort desc",
+      "attributes": {
+        "label": "Creator: Z to A"
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog.json?all_fields=%22Fort+Snelling%22+AND+Streetcar\u0026city_or_township=St.+Paul\u0026county=\u0026creator=\u0026description=\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=creator_sort+desc%2C+title_sort+desc\u0026title="
+      }
+    },
+    {
+      "type": "sort",
+      "id": "dat_ssi asc, title_sort asc",
+      "attributes": {
+        "label": "Date: Oldest First"
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog.json?all_fields=%22Fort+Snelling%22+AND+Streetcar\u0026city_or_township=St.+Paul\u0026county=\u0026creator=\u0026description=\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=dat_ssi+asc%2C+title_sort+asc\u0026title="
+      }
+    },
+    {
+      "type": "sort",
+      "id": "dat_ssi desc, title_sort desc",
+      "attributes": {
+        "label": "Date: Newest First"
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog.json?all_fields=%22Fort+Snelling%22+AND+Streetcar\u0026city_or_township=St.+Paul\u0026county=\u0026creator=\u0026description=\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=dat_ssi+desc%2C+title_sort+desc\u0026title="
+      }
+    },
+    {
+      "type": "sort",
+      "id": "dmcreated_ssi asc",
+      "attributes": {
+        "label": "Date Added: Oldest First"
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog.json?all_fields=%22Fort+Snelling%22+AND+Streetcar\u0026city_or_township=St.+Paul\u0026county=\u0026creator=\u0026description=\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=dmcreated_ssi+asc\u0026title="
+      }
+    },
+    {
+      "type": "sort",
+      "id": "dmcreated_ssi desc",
+      "attributes": {
+        "label": "Date Added: Newest First"
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog.json?all_fields=%22Fort+Snelling%22+AND+Streetcar\u0026city_or_township=St.+Paul\u0026county=\u0026creator=\u0026description=\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=dmcreated_ssi+desc\u0026title="
+      }
+    }
+  ]
+}

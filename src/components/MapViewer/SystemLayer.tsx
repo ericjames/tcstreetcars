@@ -64,7 +64,7 @@ const SystemLayer: FC<IProps> = ({
             "line-color": [
               "case",
               ["==", ["get", "TYPE"], "Streetcar"],
-              COLORS.map_dark_red,
+              COLORS.streetcar,
               ["==", ["get", "TYPE"], "Bus"],
               COLORS.bus,
               ["==", ["get", "TYPE"], "Ferry"],

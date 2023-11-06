@@ -3,10 +3,8 @@ import {
   AppGeometryFeature,
   Corridor,
   FeatureCorridorNames,
-  GenericObjectMap,
   NavigationState,
   RegionName,
-  SharedFeatureCorridorNames,
   TransitTypes,
 } from "./types";
 import { TC_CENTER, TC_ZOOM, WESTMETRO_CENTER, WESTMETRO_ZOOM } from "./mapbox";
@@ -82,6 +80,7 @@ export const getDataFeatureCollection = () => {
   return fc;
 };
 
+// eslint-disable-next-line
 const _featureEditor = (fc: AppFeatureCollection) => {
   // Get types not in list
   let leftovers: any = {};

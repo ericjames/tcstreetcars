@@ -1,6 +1,5 @@
 import { Dispatch, SetStateAction } from "react";
 
-import { Type } from "typescript";
 import mapboxgl from "mapbox-gl";
 
 // export enum AllowedGeometryTypes {
@@ -85,8 +84,6 @@ export type Corridor = {
   overlapIndex?: number | null;
   mainCity?: string;
   operators?: string;
-  hasPhotos?: boolean;
-  photos?: Array<RoutePhoto>;
 };
 
 export type YearRange = [number | null, number | null];

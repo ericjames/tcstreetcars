@@ -125,7 +125,7 @@ const RouteLayer: FC<IProps> = ({
             "text-transform": "uppercase",
           },
           paint: {
-            "text-color": COLORS.map_dark_red,
+            "text-color": COLORS.map_bright_red,
             "text-halo-color": COLORS.map_bg_beige,
             "text-halo-width": 2,
             "text-opacity": 0,
@@ -234,7 +234,7 @@ const RouteLayer: FC<IProps> = ({
         "any",
         ["==", "CORRIDOR", selectedCorridor?.DATA_CORRIDOR || ""],
         ["==", "CORRIDOR", selectedCorridor?.DATA_CORRIDOR_SHARED || ""],
-        ["==", "CORRIDOR", selectedCorridor?.DATA_CORRIDOR_PAIRED || ""],
+        // ["==", "CORRIDOR", selectedCorridor?.DATA_CORRIDOR_PAIRED || ""],
       ];
 
       map.setFilter(highlightLayer, filter);
@@ -257,7 +257,7 @@ const RouteLayer: FC<IProps> = ({
 
   const styleInactiveLayer = () => {
     if (map) {
-      map.setPaintProperty(symbolLayerName, "text-color", COLORS.map_dark_red);
+      map.setPaintProperty(symbolLayerName, "text-color", COLORS.map_bright_red);
       map.setPaintProperty(symbolLayerName, "text-opacity", 0);
       map.setPaintProperty(highlightLayer, "line-opacity", 0);
       map.setPaintProperty(highlightOutlineLayer, "line-opacity", 0);

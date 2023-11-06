@@ -1,0 +1,1037 @@
+{
+  "links": {
+    "self": "https://collection.mndigital.org/catalog.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=RONDO+AND+streetcar\u0026search_field=all_fields",
+    "last": "https://collection.mndigital.org/catalog.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026page=1\u0026q=RONDO+AND+streetcar\u0026search_field=all_fields"
+  },
+  "meta": {
+    "pages": {
+      "current_page": 1,
+      "next_page": null,
+      "prev_page": null,
+      "total_pages": 1,
+      "limit_value": 25,
+      "offset_value": 0,
+      "total_count": 5,
+      "first_page?": true,
+      "last_page?": true
+    }
+  },
+  "data": [
+    {
+      "id": "msn:1030",
+      "type": "Still Image",
+      "attributes": {
+        "title": "Stryker and Annapolis with streetcar, St. Paul, Minnesota",
+        "creator_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1030#creator_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Whittaker, Wilbur C.",
+            "label": "Creator"
+          }
+        },
+        "dat_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1030#dat_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "1945",
+            "label": "Date Created"
+          }
+        },
+        "description_ts": {
+          "id": "https://collection.mndigital.org/catalog/msn:1030#description_ts",
+          "type": "document_value",
+          "attributes": {
+            "value": "A \u003cem\u003eStryker\u003c/em\u003e Avenue \u003cem\u003estreetcar\u003c/em\u003e lays over at the wye at Annapolis Street.",
+            "label": "Description"
+          }
+        },
+        "contributing_organization_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1030#contributing_organization_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Minnesota \u003cem\u003eStreetcar\u003c/em\u003e Museum",
+            "label": "Contributing Institution"
+          }
+        },
+        "type_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1030#type_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Still Image",
+            "label": "Type"
+          }
+        },
+        "physical_format_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1030#physical_format_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Black-and-white photographs",
+            "label": "Format"
+          }
+        }
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/msn:1030"
+      }
+    },
+    {
+      "id": "msn:1057",
+      "type": "Still Image",
+      "attributes": {
+        "title": "Streetcar at Rondo Avenue and Griggs Street, St. Paul, Minnesota",
+        "dat_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1057#dat_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "1947",
+            "label": "Date Created"
+          }
+        },
+        "description_ts": {
+          "id": "https://collection.mndigital.org/catalog/msn:1057#description_ts",
+          "type": "document_value",
+          "attributes": {
+            "value": "The west end of the \u003cem\u003eRondo\u003c/em\u003e Avenue \u003cem\u003estreetcar\u003c/em\u003e line, at Griggs Street.",
+            "label": "Description"
+          }
+        },
+        "contributing_organization_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1057#contributing_organization_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Minnesota \u003cem\u003eStreetcar\u003c/em\u003e Museum",
+            "label": "Contributing Institution"
+          }
+        },
+        "type_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1057#type_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Still Image",
+            "label": "Type"
+          }
+        },
+        "physical_format_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1057#physical_format_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Black-and-white photographs",
+            "label": "Format"
+          }
+        }
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/msn:1057"
+      }
+    },
+    {
+      "id": "msn:165",
+      "type": "Still Image",
+      "attributes": {
+        "title": "Removing the rails from Rondo Avenue, St. Paul, Minnesota",
+        "creator_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:165#creator_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Twin City Rapid Transit",
+            "label": "Creator"
+          }
+        },
+        "dat_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:165#dat_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "1948",
+            "label": "Date Created"
+          }
+        },
+        "description_ts": {
+          "id": "https://collection.mndigital.org/catalog/msn:165#description_ts",
+          "type": "document_value",
+          "attributes": {
+            "value": "Following its 1948 abandonment, a \u003cem\u003estreetcar\u003c/em\u003e company work car pulls the rails from the pavement of \u003cem\u003eRondo\u003c/em\u003e Avenue near Griggs Street.",
+            "label": "Description"
+          }
+        },
+        "contributing_organization_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:165#contributing_organization_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Minnesota \u003cem\u003eStreetcar\u003c/em\u003e Museum",
+            "label": "Contributing Institution"
+          }
+        },
+        "type_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:165#type_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Still Image",
+            "label": "Type"
+          }
+        },
+        "physical_format_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:165#physical_format_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Black-and-white photographs",
+            "label": "Format"
+          }
+        }
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/msn:165"
+      }
+    },
+    {
+      "id": "msn:2299",
+      "type": "Still Image",
+      "attributes": {
+        "title": "Earl Street at Clarence Street, St. Paul, Minnesota",
+        "dat_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:2299#dat_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "1900 - 1905",
+            "label": "Date Created"
+          }
+        },
+        "description_ts": {
+          "id": "https://collection.mndigital.org/catalog/msn:2299#description_ts",
+          "type": "document_value",
+          "attributes": {
+            "value": "\u003cem\u003eRondo\u003c/em\u003e - Maria \u003cem\u003estreetcar\u003c/em\u003e with crew.",
+            "label": "Description"
+          }
+        },
+        "contributing_organization_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:2299#contributing_organization_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Minnesota \u003cem\u003eStreetcar\u003c/em\u003e Museum",
+            "label": "Contributing Institution"
+          }
+        },
+        "type_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:2299#type_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Still Image",
+            "label": "Type"
+          }
+        },
+        "physical_format_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:2299#physical_format_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Black-and-white photographs",
+            "label": "Format"
+          }
+        }
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/msn:2299"
+      }
+    },
+    {
+      "id": "msn:2547",
+      "type": "Still Image",
+      "attributes": {
+        "title": "Carhouse interior St. Paul, Minnesota",
+        "dat_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:2547#dat_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "1896 - 1900",
+            "label": "Date Created"
+          }
+        },
+        "description_ts": {
+          "id": "https://collection.mndigital.org/catalog/msn:2547#description_ts",
+          "type": "document_value",
+          "attributes": {
+            "value": "Interior of a carbarn showing four open cars and mechanics in the foreground. The cars are carrying Lafayette and \u003cem\u003eRondo\u003c/em\u003e signs.",
+            "label": "Description"
+          }
+        },
+        "contributing_organization_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:2547#contributing_organization_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Minnesota \u003cem\u003eStreetcar\u003c/em\u003e Museum",
+            "label": "Contributing Institution"
+          }
+        },
+        "type_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:2547#type_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Still Image",
+            "label": "Type"
+          }
+        },
+        "physical_format_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:2547#physical_format_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Black-and-white photographs",
+            "label": "Format"
+          }
+        }
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/msn:2547"
+      }
+    },
+    {
+      "id": "msn:1335",
+      "type": "Still Image",
+      "attributes": {
+        "title": "Streetcar with crew, St. Paul, Minnesota",
+        "dat_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1335#dat_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "1905 - 1910",
+            "label": "Date Created"
+          }
+        },
+        "description_ts": {
+          "id": "https://collection.mndigital.org/catalog/msn:1335#description_ts",
+          "type": "document_value",
+          "attributes": {
+            "value": "\u003cem\u003eRondo\u003c/em\u003e \u0026 Maria \u003cem\u003estreetcar\u003c/em\u003e posed with crew, including motorman 1857 (maybe Charles F. Mogle) and a policeman.",
+            "label": "Description"
+          }
+        },
+        "contributing_organization_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1335#contributing_organization_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Minnesota \u003cem\u003eStreetcar\u003c/em\u003e Museum",
+            "label": "Contributing Institution"
+          }
+        },
+        "type_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1335#type_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Still Image",
+            "label": "Type"
+          }
+        },
+        "physical_format_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1335#physical_format_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Black-and-white photographs",
+            "label": "Format"
+          }
+        }
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/msn:1335"
+      }
+    }
+  ],
+  "included": [
+    {
+      "type": "facet",
+      "id": "topic_ssim",
+      "attributes": {
+        "label": "Topic",
+        "items": [
+          {
+            "attributes": {
+              "label": "Transportation",
+              "value": "Transportation",
+              "hits": 5
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Btopic_ssim%5D%5B%5D=Transportation\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=RONDO+AND+streetcar\u0026search_field=all_fields"
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/facet/topic_ssim.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=RONDO+AND+streetcar\u0026search_field=all_fields"
+      }
+    },
+    {
+      "type": "facet",
+      "id": "type_ssi",
+      "attributes": {
+        "label": "Type",
+        "items": [
+          {
+            "attributes": {
+              "label": "Still Image",
+              "value": "Still Image",
+              "hits": 5
+            },
+            "links": {
+              "remove": "/catalog.json?q=RONDO+AND+streetcar\u0026search_field=all_fields"
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/facet/type_ssi.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=RONDO+AND+streetcar\u0026search_field=all_fields"
+      }
+    },
+    {
+      "type": "facet",
+      "id": "physical_format_ssi",
+      "attributes": {
+        "label": "Physical Format",
+        "items": [
+          {
+            "attributes": {
+              "label": "Black-and-white photographs",
+              "value": "Black-and-white photographs",
+              "hits": 5
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Bphysical_format_ssi%5D%5B%5D=Black-and-white+photographs\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=RONDO+AND+streetcar\u0026search_field=all_fields"
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/facet/physical_format_ssi.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=RONDO+AND+streetcar\u0026search_field=all_fields"
+      }
+    },
+    {
+      "type": "facet",
+      "id": "dat_ssim",
+      "attributes": {
+        "label": "Date Created",
+        "items": [
+          {
+            "attributes": {
+              "label": "1900",
+              "value": "1900",
+              "hits": 2
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=RONDO+AND+streetcar\u0026range%5Bdat_ssim%5D%5B%5D=1900\u0026search_field=all_fields"
+            }
+          },
+          {
+            "attributes": {
+              "label": "1905",
+              "value": "1905",
+              "hits": 2
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=RONDO+AND+streetcar\u0026range%5Bdat_ssim%5D%5B%5D=1905\u0026search_field=all_fields"
+            }
+          },
+          {
+            "attributes": {
+              "label": "1896",
+              "value": "1896",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=RONDO+AND+streetcar\u0026range%5Bdat_ssim%5D%5B%5D=1896\u0026search_field=all_fields"
+            }
+          },
+          {
+            "attributes": {
+              "label": "1897",
+              "value": "1897",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=RONDO+AND+streetcar\u0026range%5Bdat_ssim%5D%5B%5D=1897\u0026search_field=all_fields"
+            }
+          },
+          {
+            "attributes": {
+              "label": "1898",
+              "value": "1898",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=RONDO+AND+streetcar\u0026range%5Bdat_ssim%5D%5B%5D=1898\u0026search_field=all_fields"
+            }
+          },
+          {
+            "attributes": {
+              "label": "1899",
+              "value": "1899",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=RONDO+AND+streetcar\u0026range%5Bdat_ssim%5D%5B%5D=1899\u0026search_field=all_fields"
+            }
+          },
+          {
+            "attributes": {
+              "label": "1901",
+              "value": "1901",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=RONDO+AND+streetcar\u0026range%5Bdat_ssim%5D%5B%5D=1901\u0026search_field=all_fields"
+            }
+          },
+          {
+            "attributes": {
+              "label": "1902",
+              "value": "1902",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=RONDO+AND+streetcar\u0026range%5Bdat_ssim%5D%5B%5D=1902\u0026search_field=all_fields"
+            }
+          },
+          {
+            "attributes": {
+              "label": "1903",
+              "value": "1903",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=RONDO+AND+streetcar\u0026range%5Bdat_ssim%5D%5B%5D=1903\u0026search_field=all_fields"
+            }
+          },
+          {
+            "attributes": {
+              "label": "1904",
+              "value": "1904",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=RONDO+AND+streetcar\u0026range%5Bdat_ssim%5D%5B%5D=1904\u0026search_field=all_fields"
+            }
+          },
+          {
+            "attributes": {
+              "label": "1906",
+              "value": "1906",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=RONDO+AND+streetcar\u0026range%5Bdat_ssim%5D%5B%5D=1906\u0026search_field=all_fields"
+            }
+          },
+          {
+            "attributes": {
+              "label": "1907",
+              "value": "1907",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=RONDO+AND+streetcar\u0026range%5Bdat_ssim%5D%5B%5D=1907\u0026search_field=all_fields"
+            }
+          },
+          {
+            "attributes": {
+              "label": "1908",
+              "value": "1908",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=RONDO+AND+streetcar\u0026range%5Bdat_ssim%5D%5B%5D=1908\u0026search_field=all_fields"
+            }
+          },
+          {
+            "attributes": {
+              "label": "1909",
+              "value": "1909",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=RONDO+AND+streetcar\u0026range%5Bdat_ssim%5D%5B%5D=1909\u0026search_field=all_fields"
+            }
+          },
+          {
+            "attributes": {
+              "label": "1910",
+              "value": "1910",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=RONDO+AND+streetcar\u0026range%5Bdat_ssim%5D%5B%5D=1910\u0026search_field=all_fields"
+            }
+          },
+          {
+            "attributes": {
+              "label": "1947",
+              "value": "1947",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=RONDO+AND+streetcar\u0026range%5Bdat_ssim%5D%5B%5D=1947\u0026search_field=all_fields"
+            }
+          },
+          {
+            "attributes": {
+              "label": "1948",
+              "value": "1948",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=RONDO+AND+streetcar\u0026range%5Bdat_ssim%5D%5B%5D=1948\u0026search_field=all_fields"
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/facet/dat_ssim.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=RONDO+AND+streetcar\u0026search_field=all_fields"
+      }
+    },
+    {
+      "type": "facet",
+      "id": "formal_subject_ssim",
+      "attributes": {
+        "label": "Subject Headings",
+        "items": [
+          {
+            "attributes": {
+              "label": "Street Railroads",
+              "value": "Street Railroads",
+              "hits": 5
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Bformal_subject_ssim%5D%5B%5D=Street+Railroads\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=RONDO+AND+streetcar\u0026search_field=all_fields"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Transportation",
+              "value": "Transportation",
+              "hits": 2
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Bformal_subject_ssim%5D%5B%5D=Transportation\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=RONDO+AND+streetcar\u0026search_field=all_fields"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Garages",
+              "value": "Garages",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Bformal_subject_ssim%5D%5B%5D=Garages\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=RONDO+AND+streetcar\u0026search_field=all_fields"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Street Railroads Employees",
+              "value": "Street Railroads Employees",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Bformal_subject_ssim%5D%5B%5D=Street+Railroads+Employees\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=RONDO+AND+streetcar\u0026search_field=all_fields"
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/facet/formal_subject_ssim.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=RONDO+AND+streetcar\u0026search_field=all_fields"
+      }
+    },
+    {
+      "type": "facet",
+      "id": "collection_name_ssi",
+      "attributes": {
+        "label": "Contributor",
+        "items": [
+          {
+            "attributes": {
+              "label": "Minnesota Streetcar Museum",
+              "value": "Minnesota Streetcar Museum",
+              "hits": 5
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Bcollection_name_ssi%5D%5B%5D=Minnesota+Streetcar+Museum\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=RONDO+AND+streetcar\u0026search_field=all_fields"
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/facet/collection_name_ssi.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=RONDO+AND+streetcar\u0026search_field=all_fields"
+      }
+    },
+    {
+      "type": "facet",
+      "id": "rights_status_ssi",
+      "attributes": {
+        "label": "Rights Status",
+        "items": [
+          {
+            "attributes": {
+              "label": "In Copyright",
+              "value": "In Copyright",
+              "hits": 2
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Brights_status_ssi%5D%5B%5D=In+Copyright\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=RONDO+AND+streetcar\u0026search_field=all_fields"
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/facet/rights_status_ssi.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=RONDO+AND+streetcar\u0026search_field=all_fields"
+      }
+    },
+    {
+      "type": "facet",
+      "id": "contributing_organization_ssi",
+      "attributes": {
+        "label": "Contributing Organization",
+        "items": [
+          {
+            "attributes": {
+              "label": "Minnesota Streetcar Museum",
+              "value": "Minnesota Streetcar Museum",
+              "hits": 5
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Bcontributing_organization_ssi%5D%5B%5D=Minnesota+Streetcar+Museum\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=RONDO+AND+streetcar\u0026search_field=all_fields"
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/facet/contributing_organization_ssi.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=RONDO+AND+streetcar\u0026search_field=all_fields"
+      }
+    },
+    {
+      "type": "facet",
+      "id": "creator_ssim",
+      "attributes": {
+        "label": "Creator",
+        "items": [
+          {
+            "attributes": {
+              "label": "Twin City Rapid Transit",
+              "value": "Twin City Rapid Transit",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Bcreator_ssim%5D%5B%5D=Twin+City+Rapid+Transit\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=RONDO+AND+streetcar\u0026search_field=all_fields"
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/facet/creator_ssim.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=RONDO+AND+streetcar\u0026search_field=all_fields"
+      }
+    },
+    {
+      "type": "facet",
+      "id": "subject_ssim",
+      "attributes": {
+        "label": "Keywords",
+        "items": [
+          {
+            "attributes": {
+              "label": "Streetcars",
+              "value": "Streetcars",
+              "hits": 3
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Bsubject_ssim%5D%5B%5D=Streetcars\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=RONDO+AND+streetcar\u0026search_field=all_fields"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Street scenes",
+              "value": "Street scenes",
+              "hits": 2
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Bsubject_ssim%5D%5B%5D=Street+scenes\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=RONDO+AND+streetcar\u0026search_field=all_fields"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Streetcar",
+              "value": "Streetcar",
+              "hits": 2
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Bsubject_ssim%5D%5B%5D=Streetcar\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=RONDO+AND+streetcar\u0026search_field=all_fields"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Twin City Rapid Transit Company",
+              "value": "Twin City Rapid Transit Company",
+              "hits": 2
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Bsubject_ssim%5D%5B%5D=Twin+City+Rapid+Transit+Company\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=RONDO+AND+streetcar\u0026search_field=all_fields"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Employees",
+              "value": "Employees",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Bsubject_ssim%5D%5B%5D=Employees\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=RONDO+AND+streetcar\u0026search_field=all_fields"
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/facet/subject_ssim.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=RONDO+AND+streetcar\u0026search_field=all_fields"
+      }
+    },
+    {
+      "type": "facet",
+      "id": "city_ssim",
+      "attributes": {
+        "label": "City or Township",
+        "items": [
+          {
+            "attributes": {
+              "label": "St. Paul",
+              "value": "St. Paul",
+              "hits": 5
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Bcity_ssim%5D%5B%5D=St.+Paul\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=RONDO+AND+streetcar\u0026search_field=all_fields"
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/facet/city_ssim.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=RONDO+AND+streetcar\u0026search_field=all_fields"
+      }
+    },
+    {
+      "type": "facet",
+      "id": "county_ssim",
+      "attributes": {
+        "label": "County",
+        "items": [
+          {
+            "attributes": {
+              "label": "Ramsey",
+              "value": "Ramsey",
+              "hits": 5
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Bcounty_ssim%5D%5B%5D=Ramsey\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=RONDO+AND+streetcar\u0026search_field=all_fields"
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/facet/county_ssim.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=RONDO+AND+streetcar\u0026search_field=all_fields"
+      }
+    },
+    {
+      "type": "facet",
+      "id": "state_ssi",
+      "attributes": {
+        "label": "State or Province",
+        "items": [
+          {
+            "attributes": {
+              "label": "Minnesota",
+              "value": "Minnesota",
+              "hits": 5
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Bstate_ssi%5D%5B%5D=Minnesota\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=RONDO+AND+streetcar\u0026search_field=all_fields"
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/facet/state_ssi.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=RONDO+AND+streetcar\u0026search_field=all_fields"
+      }
+    },
+    {
+      "type": "facet",
+      "id": "country_ssi",
+      "attributes": {
+        "label": "Country",
+        "items": [
+          {
+            "attributes": {
+              "label": "United States",
+              "value": "United States",
+              "hits": 5
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Bcountry_ssi%5D%5B%5D=United+States\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=RONDO+AND+streetcar\u0026search_field=all_fields"
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/facet/country_ssi.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=RONDO+AND+streetcar\u0026search_field=all_fields"
+      }
+    },
+    {
+      "type": "search_field",
+      "id": "all_fields",
+      "attributes": {
+        "label": "All Fields"
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=RONDO+AND+streetcar\u0026search_field=all_fields"
+      }
+    },
+    {
+      "type": "search_field",
+      "id": "title",
+      "attributes": {
+        "label": "Title"
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=RONDO+AND+streetcar\u0026search_field=title"
+      }
+    },
+    {
+      "type": "search_field",
+      "id": "creator",
+      "attributes": {
+        "label": "Creator"
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=RONDO+AND+streetcar\u0026search_field=creator"
+      }
+    },
+    {
+      "type": "search_field",
+      "id": "subject",
+      "attributes": {
+        "label": "Subject"
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=RONDO+AND+streetcar\u0026search_field=subject"
+      }
+    },
+    {
+      "type": "search_field",
+      "id": "description",
+      "attributes": {
+        "label": "Description"
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=RONDO+AND+streetcar\u0026search_field=description"
+      }
+    },
+    {
+      "type": "search_field",
+      "id": "city_or_township",
+      "attributes": {
+        "label": "City or Township"
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=RONDO+AND+streetcar\u0026search_field=city_or_township"
+      }
+    },
+    {
+      "type": "search_field",
+      "id": "county",
+      "attributes": {
+        "label": "County"
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=RONDO+AND+streetcar\u0026search_field=county"
+      }
+    },
+    {
+      "type": "sort",
+      "id": "score desc, dat_sort desc, title_sort asc",
+      "attributes": {
+        "label": "Relevance"
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=RONDO+AND+streetcar\u0026search_field=all_fields\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc"
+      }
+    },
+    {
+      "type": "sort",
+      "id": "title_sort asc, dat_sort asc",
+      "attributes": {
+        "label": "Title: A to Z"
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=RONDO+AND+streetcar\u0026search_field=all_fields\u0026sort=title_sort+asc%2C+dat_sort+asc"
+      }
+    },
+    {
+      "type": "sort",
+      "id": "title_sort desc, dat_sort desc",
+      "attributes": {
+        "label": "Title: Z to A"
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=RONDO+AND+streetcar\u0026search_field=all_fields\u0026sort=title_sort+desc%2C+dat_sort+desc"
+      }
+    },
+    {
+      "type": "sort",
+      "id": "creator_sort asc, title_sort asc",
+      "attributes": {
+        "label": "Creator: A to Z"
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=RONDO+AND+streetcar\u0026search_field=all_fields\u0026sort=creator_sort+asc%2C+title_sort+asc"
+      }
+    },
+    {
+      "type": "sort",
+      "id": "creator_sort desc, title_sort desc",
+      "attributes": {
+        "label": "Creator: Z to A"
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=RONDO+AND+streetcar\u0026search_field=all_fields\u0026sort=creator_sort+desc%2C+title_sort+desc"
+      }
+    },
+    {
+      "type": "sort",
+      "id": "dat_ssi asc, title_sort asc",
+      "attributes": {
+        "label": "Date: Oldest First"
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=RONDO+AND+streetcar\u0026search_field=all_fields\u0026sort=dat_ssi+asc%2C+title_sort+asc"
+      }
+    },
+    {
+      "type": "sort",
+      "id": "dat_ssi desc, title_sort desc",
+      "attributes": {
+        "label": "Date: Newest First"
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=RONDO+AND+streetcar\u0026search_field=all_fields\u0026sort=dat_ssi+desc%2C+title_sort+desc"
+      }
+    },
+    {
+      "type": "sort",
+      "id": "dmcreated_ssi asc",
+      "attributes": {
+        "label": "Date Added: Oldest First"
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=RONDO+AND+streetcar\u0026search_field=all_fields\u0026sort=dmcreated_ssi+asc"
+      }
+    },
+    {
+      "type": "sort",
+      "id": "dmcreated_ssi desc",
+      "attributes": {
+        "label": "Date Added: Newest First"
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=RONDO+AND+streetcar\u0026search_field=all_fields\u0026sort=dmcreated_ssi+desc"
+      }
+    }
+  ]
+}

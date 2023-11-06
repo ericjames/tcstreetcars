@@ -1,0 +1,2610 @@
+{
+  "links": {
+    "self": "https://collection.mndigital.org/catalog.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026search_field=all_fields",
+    "next": "https://collection.mndigital.org/catalog.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026page=2\u0026q=stillwater+AND+streetcar\u0026search_field=all_fields",
+    "last": "https://collection.mndigital.org/catalog.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026page=2\u0026q=stillwater+AND+streetcar\u0026search_field=all_fields"
+  },
+  "meta": {
+    "pages": {
+      "current_page": 1,
+      "next_page": 2,
+      "prev_page": null,
+      "total_pages": 2,
+      "limit_value": 25,
+      "offset_value": 0,
+      "total_count": 30,
+      "first_page?": true,
+      "last_page?": false
+    }
+  },
+  "data": [
+    {
+      "id": "msn:2718",
+      "type": "Still Image",
+      "attributes": {
+        "title": "Streetcar at Stillwater Prison, Oak Park Heights, Minnesota",
+        "dat_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:2718#dat_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "1905 - 1910",
+            "label": "Date Created"
+          }
+        },
+        "description_ts": {
+          "id": "https://collection.mndigital.org/catalog/msn:2718#description_ts",
+          "type": "document_value",
+          "attributes": {
+            "value": "\u003cem\u003eStreetcars\u003c/em\u003e on the \u003cem\u003eStillwater\u003c/em\u003e-South \u003cem\u003eStillwater\u003c/em\u003e (now Bayport) line stopped in front of the Minnesota state prison.",
+            "label": "Description"
+          }
+        },
+        "contributing_organization_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:2718#contributing_organization_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Minnesota \u003cem\u003eStreetcar\u003c/em\u003e Museum",
+            "label": "Contributing Institution"
+          }
+        },
+        "type_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:2718#type_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Still Image",
+            "label": "Type"
+          }
+        },
+        "physical_format_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:2718#physical_format_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Postcards",
+            "label": "Format"
+          }
+        }
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/msn:2718"
+      }
+    },
+    {
+      "id": "msn:584",
+      "type": "Still Image",
+      "attributes": {
+        "title": "Stillwater Public Library with streetcar, Stillwater, Minnesota",
+        "dat_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:584#dat_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "1910?",
+            "label": "Date Created"
+          }
+        },
+        "description_ts": {
+          "id": "https://collection.mndigital.org/catalog/msn:584#description_ts",
+          "type": "document_value",
+          "attributes": {
+            "value": "A \u003cem\u003estreetcar\u003c/em\u003e climbs the 4th Street hill in front of the \u003cem\u003eStillwater\u003c/em\u003e Public Library.",
+            "label": "Description"
+          }
+        },
+        "contributing_organization_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:584#contributing_organization_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Minnesota \u003cem\u003eStreetcar\u003c/em\u003e Museum",
+            "label": "Contributing Institution"
+          }
+        },
+        "type_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:584#type_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Still Image",
+            "label": "Type"
+          }
+        },
+        "physical_format_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:584#physical_format_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Postcards",
+            "label": "Format"
+          }
+        }
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/msn:584"
+      }
+    },
+    {
+      "id": "msn:1464",
+      "type": "Still Image",
+      "attributes": {
+        "title": "Streetcar employees, Stillwater, Minnesota",
+        "dat_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1464#dat_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "1925",
+            "label": "Date Created"
+          }
+        },
+        "description_ts": {
+          "id": "https://collection.mndigital.org/catalog/msn:1464#description_ts",
+          "type": "document_value",
+          "attributes": {
+            "value": "Motorman John Bonsic (sp?) with \u003cem\u003eStillwater\u003c/em\u003e lightweight \u003cem\u003estreetcar\u003c/em\u003e.",
+            "label": "Description"
+          }
+        },
+        "contributing_organization_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1464#contributing_organization_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Minnesota \u003cem\u003eStreetcar\u003c/em\u003e Museum",
+            "label": "Contributing Institution"
+          }
+        },
+        "type_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1464#type_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Still Image",
+            "label": "Type"
+          }
+        },
+        "physical_format_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1464#physical_format_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Black-and-white photographs",
+            "label": "Format"
+          }
+        }
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/msn:1464"
+      }
+    },
+    {
+      "id": "msn:2717",
+      "type": "Still Image",
+      "attributes": {
+        "title": "Stillwater Union Depot, Stillwater, Minnesota",
+        "dat_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:2717#dat_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "1909 - 1915",
+            "label": "Date Created"
+          }
+        },
+        "description_ts": {
+          "id": "https://collection.mndigital.org/catalog/msn:2717#description_ts",
+          "type": "document_value",
+          "attributes": {
+            "value": "The \u003cem\u003estreetcar\u003c/em\u003e is posed with its crew in front of the \u003cem\u003eStillwater\u003c/em\u003e Union Depot.",
+            "label": "Description"
+          }
+        },
+        "contributing_organization_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:2717#contributing_organization_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Minnesota \u003cem\u003eStreetcar\u003c/em\u003e Museum",
+            "label": "Contributing Institution"
+          }
+        },
+        "type_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:2717#type_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Still Image",
+            "label": "Type"
+          }
+        },
+        "physical_format_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:2717#physical_format_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Postcards",
+            "label": "Format"
+          }
+        }
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/msn:2717"
+      }
+    },
+    {
+      "id": "msn:2593",
+      "type": "Still Image",
+      "attributes": {
+        "title": "Express boat \u0026quot;Stillwater\u0026quot; on Lake Minnetonka, Minnesota",
+        "dat_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:2593#dat_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "1906 - 1910",
+            "label": "Date Created"
+          }
+        },
+        "description_ts": {
+          "id": "https://collection.mndigital.org/catalog/msn:2593#description_ts",
+          "type": "document_value",
+          "attributes": {
+            "value": "The express boat \"\u003cem\u003eStillwater\u003c/em\u003e\" at an unknown dock on Lake Minnetonka.",
+            "label": "Description"
+          }
+        },
+        "contributing_organization_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:2593#contributing_organization_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Minnesota \u003cem\u003eStreetcar\u003c/em\u003e Museum",
+            "label": "Contributing Institution"
+          }
+        },
+        "type_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:2593#type_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Still Image",
+            "label": "Type"
+          }
+        },
+        "physical_format_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:2593#physical_format_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Black-and-white photographs",
+            "label": "Format"
+          }
+        }
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/msn:2593"
+      }
+    },
+    {
+      "id": "msn:2183",
+      "type": "Still Image",
+      "attributes": {
+        "title": "New Stillwater streetcars debut, Bayport, Minnesota",
+        "dat_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:2183#dat_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "1925",
+            "label": "Date Created"
+          }
+        },
+        "description_ts": {
+          "id": "https://collection.mndigital.org/catalog/msn:2183#description_ts",
+          "type": "document_value",
+          "attributes": {
+            "value": "A group of businessmen lined up in front of the new 1-4 type lightweight \u003cem\u003estreetcar\u003c/em\u003e carrying a \"To \u003cem\u003eStillwater\u003c/em\u003e\" sign.",
+            "label": "Description"
+          }
+        },
+        "contributing_organization_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:2183#contributing_organization_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Minnesota \u003cem\u003eStreetcar\u003c/em\u003e Museum",
+            "label": "Contributing Institution"
+          }
+        },
+        "type_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:2183#type_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Still Image",
+            "label": "Type"
+          }
+        },
+        "physical_format_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:2183#physical_format_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Black-and-white photographs",
+            "label": "Format"
+          }
+        }
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/msn:2183"
+      }
+    },
+    {
+      "id": "msn:2224",
+      "type": "Still Image",
+      "attributes": {
+        "title": "Streetcars at Owen Street Siding, Stillwater, Minnesota",
+        "dat_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:2224#dat_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "1910",
+            "label": "Date Created"
+          }
+        },
+        "description_ts": {
+          "id": "https://collection.mndigital.org/catalog/msn:2224#description_ts",
+          "type": "document_value",
+          "attributes": {
+            "value": "\u003cem\u003eStillwater\u003c/em\u003e cars 1116 and 1117 meet at the Owen Street Siding on the west edge of \u003cem\u003eStillwater\u003c/em\u003e.",
+            "label": "Description"
+          }
+        },
+        "contributing_organization_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:2224#contributing_organization_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Minnesota \u003cem\u003eStreetcar\u003c/em\u003e Museum",
+            "label": "Contributing Institution"
+          }
+        },
+        "type_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:2224#type_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Still Image",
+            "label": "Type"
+          }
+        },
+        "physical_format_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:2224#physical_format_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Black-and-white photographs",
+            "label": "Format"
+          }
+        }
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/msn:2224"
+      }
+    },
+    {
+      "id": "msn:1306",
+      "type": "Still Image",
+      "attributes": {
+        "title": "Downtown view with streetcar, Stillwater, Minnesota",
+        "creator_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1306#creator_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Runk, John",
+            "label": "Creator"
+          }
+        },
+        "dat_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1306#dat_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "1912",
+            "label": "Date Created"
+          }
+        },
+        "description_ts": {
+          "id": "https://collection.mndigital.org/catalog/msn:1306#description_ts",
+          "type": "document_value",
+          "attributes": {
+            "value": "Looking north on Main Street at Chestnut Street, with local \u003cem\u003estreetcar\u003c/em\u003e.",
+            "label": "Description"
+          }
+        },
+        "contributing_organization_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1306#contributing_organization_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Minnesota \u003cem\u003eStreetcar\u003c/em\u003e Museum",
+            "label": "Contributing Institution"
+          }
+        },
+        "type_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1306#type_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Still Image",
+            "label": "Type"
+          }
+        },
+        "physical_format_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1306#physical_format_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Black-and-white photographs",
+            "label": "Format"
+          }
+        }
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/msn:1306"
+      }
+    },
+    {
+      "id": "msn:1240",
+      "type": "Still Image",
+      "attributes": {
+        "title": "Downtown view with streetcar, Stillwater, Minnesota",
+        "creator_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1240#creator_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Runk, John",
+            "label": "Creator"
+          }
+        },
+        "dat_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1240#dat_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "1932",
+            "label": "Date Created"
+          }
+        },
+        "description_ts": {
+          "id": "https://collection.mndigital.org/catalog/msn:1240#description_ts",
+          "type": "document_value",
+          "attributes": {
+            "value": "Looking toward the St. Croix River on Chestnut Street at Main Street.",
+            "label": "Description"
+          }
+        },
+        "contributing_organization_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1240#contributing_organization_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Minnesota \u003cem\u003eStreetcar\u003c/em\u003e Museum",
+            "label": "Contributing Institution"
+          }
+        },
+        "type_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1240#type_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Still Image",
+            "label": "Type"
+          }
+        },
+        "physical_format_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1240#physical_format_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Black-and-white photographs",
+            "label": "Format"
+          }
+        }
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/msn:1240"
+      }
+    },
+    {
+      "id": "msn:2755",
+      "type": "Still Image",
+      "attributes": {
+        "title": "Streetcar on Chestnut Street at Main Street, Stillwater, Minnesota",
+        "creator_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:2755#creator_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Runk, John",
+            "label": "Creator"
+          }
+        },
+        "dat_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:2755#dat_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "1909 - 1915",
+            "label": "Date Created"
+          }
+        },
+        "description_ts": {
+          "id": "https://collection.mndigital.org/catalog/msn:2755#description_ts",
+          "type": "document_value",
+          "attributes": {
+            "value": "Looking west on Chestnut Street across the Main Street intersection in \u003cem\u003eStillwater\u003c/em\u003e. A westbound car appears to be loading just west of Main Street.",
+            "label": "Description"
+          }
+        },
+        "contributing_organization_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:2755#contributing_organization_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Minnesota \u003cem\u003eStreetcar\u003c/em\u003e Museum",
+            "label": "Contributing Institution"
+          }
+        },
+        "type_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:2755#type_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Still Image",
+            "label": "Type"
+          }
+        },
+        "physical_format_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:2755#physical_format_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Postcards",
+            "label": "Format"
+          }
+        }
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/msn:2755"
+      }
+    },
+    {
+      "id": "msn:2433",
+      "type": "Still Image",
+      "attributes": {
+        "title": "State Fair grounds Streetcars, Falcon Heights, Minnesota",
+        "creator_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:2433#creator_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Runk, John",
+            "label": "Creator"
+          }
+        },
+        "dat_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:2433#dat_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "1953",
+            "label": "Date Created"
+          }
+        },
+        "description_ts": {
+          "id": "https://collection.mndigital.org/catalog/msn:2433#description_ts",
+          "type": "document_value",
+          "attributes": {
+            "value": "Three \u003cem\u003estreetcars\u003c/em\u003e and a bus at the Minnesota State Fair grounds.",
+            "label": "Description"
+          }
+        },
+        "contributing_organization_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:2433#contributing_organization_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Minnesota \u003cem\u003eStreetcar\u003c/em\u003e Museum",
+            "label": "Contributing Institution"
+          }
+        },
+        "type_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:2433#type_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Still Image",
+            "label": "Type"
+          }
+        },
+        "physical_format_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:2433#physical_format_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Black-and-white photographs",
+            "label": "Format"
+          }
+        }
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/msn:2433"
+      }
+    },
+    {
+      "id": "msn:2187",
+      "type": "Still Image",
+      "attributes": {
+        "title": "Streetcar on Chestnut Street at Main Street, Stillwater, Minnesota",
+        "dat_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:2187#dat_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "1900 - 1910",
+            "label": "Date Created"
+          }
+        },
+        "description_ts": {
+          "id": "https://collection.mndigital.org/catalog/msn:2187#description_ts",
+          "type": "document_value",
+          "attributes": {
+            "value": "Looking west and uphill on Chestnut Street with a downhill \u003cem\u003estreetcar\u003c/em\u003e in the distance. Note that the \u003cem\u003estreetcar\u003c/em\u003e has a plow given the considerable snow.",
+            "label": "Description"
+          }
+        },
+        "contributing_organization_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:2187#contributing_organization_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Minnesota \u003cem\u003eStreetcar\u003c/em\u003e Museum",
+            "label": "Contributing Institution"
+          }
+        },
+        "type_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:2187#type_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Still Image",
+            "label": "Type"
+          }
+        },
+        "physical_format_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:2187#physical_format_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Black-and-white photographs",
+            "label": "Format"
+          }
+        }
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/msn:2187"
+      }
+    },
+    {
+      "id": "msn:2737",
+      "type": "Still Image",
+      "attributes": {
+        "title": "Streetcar on Chestnut Street at Main Street, Stillwater, Minnesota",
+        "dat_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:2737#dat_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "1899 - 1905",
+            "label": "Date Created"
+          }
+        },
+        "description_ts": {
+          "id": "https://collection.mndigital.org/catalog/msn:2737#description_ts",
+          "type": "document_value",
+          "attributes": {
+            "value": "Looking east on Chestnut Street across the Main Street intersection at a pair of single truck \u003cem\u003estreetcars\u003c/em\u003e meeting. Printed in Germany.",
+            "label": "Description"
+          }
+        },
+        "contributing_organization_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:2737#contributing_organization_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Minnesota \u003cem\u003eStreetcar\u003c/em\u003e Museum",
+            "label": "Contributing Institution"
+          }
+        },
+        "type_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:2737#type_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Still Image",
+            "label": "Type"
+          }
+        },
+        "physical_format_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:2737#physical_format_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Postcards",
+            "label": "Format"
+          }
+        }
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/msn:2737"
+      }
+    },
+    {
+      "id": "msn:2768",
+      "type": "Still Image",
+      "attributes": {
+        "title": "Streetcar on Chestnut Street at Main Street, Stillwater, Minnesota",
+        "dat_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:2768#dat_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "1900 - 1908",
+            "label": "Date Created"
+          }
+        },
+        "description_ts": {
+          "id": "https://collection.mndigital.org/catalog/msn:2768#description_ts",
+          "type": "document_value",
+          "attributes": {
+            "value": "Looking west on Chestnut Street across the Main Street intersection. A westbound \u003cem\u003estreetcar\u003c/em\u003e is headed uphill in the block west of Main. Another \u003cem\u003estreetcar\u003c/em\u003e is northbound on Main Street at right.",
+            "label": "Description"
+          }
+        },
+        "contributing_organization_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:2768#contributing_organization_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Minnesota \u003cem\u003eStreetcar\u003c/em\u003e Museum",
+            "label": "Contributing Institution"
+          }
+        },
+        "type_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:2768#type_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Still Image",
+            "label": "Type"
+          }
+        },
+        "physical_format_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:2768#physical_format_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Postcards",
+            "label": "Format"
+          }
+        }
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/msn:2768"
+      }
+    },
+    {
+      "id": "msn:2391",
+      "type": "Still Image",
+      "attributes": {
+        "title": "Streetcar on Chestnut Street at 3rd Street, Stillwater, Minnesota",
+        "dat_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:2391#dat_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "1925 - 1930",
+            "label": "Date Created"
+          }
+        },
+        "description_ts": {
+          "id": "https://collection.mndigital.org/catalog/msn:2391#description_ts",
+          "type": "document_value",
+          "attributes": {
+            "value": "A view looking east down the steps on Chestnut Street with a \u003cem\u003estreetcar\u003c/em\u003e in the distance.",
+            "label": "Description"
+          }
+        },
+        "contributing_organization_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:2391#contributing_organization_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Minnesota \u003cem\u003eStreetcar\u003c/em\u003e Museum",
+            "label": "Contributing Institution"
+          }
+        },
+        "type_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:2391#type_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Still Image",
+            "label": "Type"
+          }
+        },
+        "physical_format_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:2391#physical_format_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Black-and-white photographs",
+            "label": "Format"
+          }
+        }
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/msn:2391"
+      }
+    },
+    {
+      "id": "msn:2161",
+      "type": "Still Image",
+      "attributes": {
+        "title": "One Man Car Stillwater - Duluth, LIghtweight \u0026amp; Noiseless Car Company, Minneapolis and St. Paul, Minnesota",
+        "creator_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:2161#creator_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Harding, F. T.",
+            "label": "Creator"
+          }
+        },
+        "dat_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:2161#dat_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "1924-05-02",
+            "label": "Date Created"
+          }
+        },
+        "description_ts": {
+          "id": "https://collection.mndigital.org/catalog/msn:2161#description_ts",
+          "type": "document_value",
+          "attributes": {
+            "value": "Design drawing, including plan, elevation and section of lightweight \u003cem\u003estreetcar\u003c/em\u003e built for Twin City Rapid Transit and Duluth Street Railway.",
+            "label": "Description"
+          }
+        },
+        "contributing_organization_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:2161#contributing_organization_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Minnesota \u003cem\u003eStreetcar\u003c/em\u003e Museum",
+            "label": "Contributing Institution"
+          }
+        },
+        "type_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:2161#type_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Still Image",
+            "label": "Type"
+          }
+        },
+        "physical_format_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:2161#physical_format_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Design drawings",
+            "label": "Format"
+          }
+        }
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/msn:2161"
+      }
+    },
+    {
+      "id": "msn:2754",
+      "type": "Still Image",
+      "attributes": {
+        "title": "Streetcar on Chestnut Street and Main Street",
+        "creator_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:2754#creator_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Runk, John",
+            "label": "Creator"
+          }
+        },
+        "dat_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:2754#dat_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "1926",
+            "label": "Date Created"
+          }
+        },
+        "description_ts": {
+          "id": "https://collection.mndigital.org/catalog/msn:2754#description_ts",
+          "type": "document_value",
+          "attributes": {
+            "value": "Looking west on Chestnut Street with a westbound \u003cem\u003estreetcar\u003c/em\u003e to St. Paul in the distance.",
+            "label": "Description"
+          }
+        },
+        "contributing_organization_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:2754#contributing_organization_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Minnesota \u003cem\u003eStreetcar\u003c/em\u003e Museum",
+            "label": "Contributing Institution"
+          }
+        },
+        "type_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:2754#type_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Still Image",
+            "label": "Type"
+          }
+        },
+        "physical_format_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:2754#physical_format_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Postcards",
+            "label": "Format"
+          }
+        }
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/msn:2754"
+      }
+    },
+    {
+      "id": "msn:2178",
+      "type": "Still Image",
+      "attributes": {
+        "title": "Excelsior docks, Excelsior, Minnesota",
+        "dat_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:2178#dat_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "1910 - 1915",
+            "label": "Date Created"
+          }
+        },
+        "description_ts": {
+          "id": "https://collection.mndigital.org/catalog/msn:2178#description_ts",
+          "type": "document_value",
+          "attributes": {
+            "value": "The boat \u003cem\u003eStillwater\u003c/em\u003e docked in Excelsior. Captain Mann and crew are standing on the foredeck.",
+            "label": "Description"
+          }
+        },
+        "contributing_organization_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:2178#contributing_organization_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Minnesota \u003cem\u003eStreetcar\u003c/em\u003e Museum",
+            "label": "Contributing Institution"
+          }
+        },
+        "type_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:2178#type_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Still Image",
+            "label": "Type"
+          }
+        },
+        "physical_format_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:2178#physical_format_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Black-and-white photographs",
+            "label": "Format"
+          }
+        }
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/msn:2178"
+      }
+    },
+    {
+      "id": "msn:565",
+      "type": "Still Image",
+      "attributes": {
+        "title": "Streetcar on Rattlesnake Curve, Stillwater, Minnesota",
+        "dat_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:565#dat_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "1910?",
+            "label": "Date Created"
+          }
+        },
+        "description_ts": {
+          "id": "https://collection.mndigital.org/catalog/msn:565#description_ts",
+          "type": "document_value",
+          "attributes": {
+            "value": "A St. Paul-\u003cem\u003eStillwater\u003c/em\u003e \u003cem\u003estreetcar\u003c/em\u003e traverses Rattlesnake Curve just west of McKusick's Lake on the outskirts of \u003cem\u003eStillwater\u003c/em\u003e.",
+            "label": "Description"
+          }
+        },
+        "contributing_organization_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:565#contributing_organization_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Minnesota \u003cem\u003eStreetcar\u003c/em\u003e Museum",
+            "label": "Contributing Institution"
+          }
+        },
+        "type_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:565#type_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Still Image",
+            "label": "Type"
+          }
+        },
+        "physical_format_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:565#physical_format_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Postcards",
+            "label": "Format"
+          }
+        }
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/msn:565"
+      }
+    },
+    {
+      "id": "msn:1906",
+      "type": "Still Image",
+      "attributes": {
+        "title": "Streetcar employee photographic collage, Minneapolis, Minnesota",
+        "dat_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1906#dat_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "1921",
+            "label": "Date Created"
+          }
+        },
+        "description_ts": {
+          "id": "https://collection.mndigital.org/catalog/msn:1906#description_ts",
+          "type": "document_value",
+          "attributes": {
+            "value": "Collage of studio portraits of the trainmen and supervisors of Lake Street Station in 1921.",
+            "label": "Description"
+          }
+        },
+        "contributing_organization_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1906#contributing_organization_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Minnesota \u003cem\u003eStreetcar\u003c/em\u003e Museum",
+            "label": "Contributing Institution"
+          }
+        },
+        "type_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1906#type_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Still Image",
+            "label": "Type"
+          }
+        },
+        "physical_format_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1906#physical_format_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Studio portraits",
+            "label": "Format"
+          }
+        }
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/msn:1906"
+      }
+    },
+    {
+      "id": "msn:1267",
+      "type": "Still Image",
+      "attributes": {
+        "title": "Lumber Exchange, Stillwater, Minnesota",
+        "creator_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1267#creator_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Runk, John",
+            "label": "Creator"
+          }
+        },
+        "dat_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1267#dat_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "1914",
+            "label": "Date Created"
+          }
+        },
+        "description_ts": {
+          "id": "https://collection.mndigital.org/catalog/msn:1267#description_ts",
+          "type": "document_value",
+          "attributes": {
+            "value": "The corner of Water Street and Chestnut Street, with the Lumber Exchange, \u003cem\u003eStillwater\u003c/em\u003e Union Depot and a \u003cem\u003estreetcar\u003c/em\u003e from St. Paul.",
+            "label": "Description"
+          }
+        },
+        "contributing_organization_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1267#contributing_organization_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Minnesota \u003cem\u003eStreetcar\u003c/em\u003e Museum",
+            "label": "Contributing Institution"
+          }
+        },
+        "type_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1267#type_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Still Image",
+            "label": "Type"
+          }
+        },
+        "physical_format_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1267#physical_format_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Black-and-white photographs",
+            "label": "Format"
+          }
+        }
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/msn:1267"
+      }
+    },
+    {
+      "id": "msn:658",
+      "type": "Still Image",
+      "attributes": {
+        "title": "4th of July, Stillwater, Minnesota",
+        "creator_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:658#creator_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Runk, John",
+            "label": "Creator"
+          }
+        },
+        "dat_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:658#dat_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "1912",
+            "label": "Date Created"
+          }
+        },
+        "description_ts": {
+          "id": "https://collection.mndigital.org/catalog/msn:658#description_ts",
+          "type": "document_value",
+          "attributes": {
+            "value": "Looking uphill on Chestnut Street from Main Street at rear of \u003cem\u003estreetcar\u003c/em\u003e. Buildings are decorated for the 4th of July.",
+            "label": "Description"
+          }
+        },
+        "contributing_organization_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:658#contributing_organization_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Minnesota \u003cem\u003eStreetcar\u003c/em\u003e Museum",
+            "label": "Contributing Institution"
+          }
+        },
+        "type_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:658#type_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Still Image",
+            "label": "Type"
+          }
+        },
+        "physical_format_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:658#physical_format_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Black-and-white photographs",
+            "label": "Format"
+          }
+        }
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/msn:658"
+      }
+    },
+    {
+      "id": "msn:1252",
+      "type": "Still Image",
+      "attributes": {
+        "title": "Owen Street Station, Stillwater, Minnesota",
+        "creator_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1252#creator_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Runk, John",
+            "label": "Creator"
+          }
+        },
+        "dat_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1252#dat_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "1932",
+            "label": "Date Created"
+          }
+        },
+        "description_ts": {
+          "id": "https://collection.mndigital.org/catalog/msn:1252#description_ts",
+          "type": "document_value",
+          "attributes": {
+            "value": "Owen Street Station (carbarn) and electrical substation, located at Owen Street and Laurel Street.",
+            "label": "Description"
+          }
+        },
+        "contributing_organization_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1252#contributing_organization_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Minnesota \u003cem\u003eStreetcar\u003c/em\u003e Museum",
+            "label": "Contributing Institution"
+          }
+        },
+        "type_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1252#type_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Still Image",
+            "label": "Type"
+          }
+        },
+        "physical_format_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1252#physical_format_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Black-and-white photographs",
+            "label": "Format"
+          }
+        }
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/msn:1252"
+      }
+    },
+    {
+      "id": "msn:55",
+      "type": "Still Image",
+      "attributes": {
+        "title": "Lower streetcar wye, Willernie, Minnesota",
+        "dat_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:55#dat_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "1950?",
+            "label": "Date Created"
+          }
+        },
+        "description_ts": {
+          "id": "https://collection.mndigital.org/catalog/msn:55#description_ts",
+          "type": "document_value",
+          "attributes": {
+            "value": "At this location from 1899 until 1932 the \u003cem\u003estreetcars\u003c/em\u003e heading to Mahtomedi turned left, while those heading to \u003cem\u003eStillwater\u003c/em\u003e turned right.",
+            "label": "Description"
+          }
+        },
+        "contributing_organization_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:55#contributing_organization_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Minnesota \u003cem\u003eStreetcar\u003c/em\u003e Museum",
+            "label": "Contributing Institution"
+          }
+        },
+        "type_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:55#type_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Still Image",
+            "label": "Type"
+          }
+        },
+        "physical_format_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:55#physical_format_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Black-and-white photographs",
+            "label": "Format"
+          }
+        }
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/msn:55"
+      }
+    },
+    {
+      "id": "msn:1274",
+      "type": "Still Image",
+      "attributes": {
+        "title": "Chestnut Street and Water Street, Stillwater, Minnesota",
+        "creator_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1274#creator_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Runk, John",
+            "label": "Creator"
+          }
+        },
+        "dat_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1274#dat_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "1914",
+            "label": "Date Created"
+          }
+        },
+        "description_ts": {
+          "id": "https://collection.mndigital.org/catalog/msn:1274#description_ts",
+          "type": "document_value",
+          "attributes": {
+            "value": "The corner of Water Street and Chestnut Street.",
+            "label": "Description"
+          }
+        },
+        "contributing_organization_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1274#contributing_organization_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Minnesota \u003cem\u003eStreetcar\u003c/em\u003e Museum",
+            "label": "Contributing Institution"
+          }
+        },
+        "type_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1274#type_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Still Image",
+            "label": "Type"
+          }
+        },
+        "physical_format_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1274#physical_format_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Black-and-white photographs",
+            "label": "Format"
+          }
+        }
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/msn:1274"
+      }
+    }
+  ],
+  "included": [
+    {
+      "type": "facet",
+      "id": "topic_ssim",
+      "attributes": {
+        "label": "Topic",
+        "items": [
+          {
+            "attributes": {
+              "label": "Transportation",
+              "value": "Transportation",
+              "hits": 30
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Btopic_ssim%5D%5B%5D=Transportation\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026search_field=all_fields"
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/facet/topic_ssim.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026search_field=all_fields"
+      }
+    },
+    {
+      "type": "facet",
+      "id": "type_ssi",
+      "attributes": {
+        "label": "Type",
+        "items": [
+          {
+            "attributes": {
+              "label": "Still Image",
+              "value": "Still Image",
+              "hits": 30
+            },
+            "links": {
+              "remove": "/catalog.json?q=stillwater+AND+streetcar\u0026search_field=all_fields"
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/facet/type_ssi.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026search_field=all_fields"
+      }
+    },
+    {
+      "type": "facet",
+      "id": "physical_format_ssi",
+      "attributes": {
+        "label": "Physical Format",
+        "items": [
+          {
+            "attributes": {
+              "label": "Black-and-white photographs",
+              "value": "Black-and-white photographs",
+              "hits": 17
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Bphysical_format_ssi%5D%5B%5D=Black-and-white+photographs\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026search_field=all_fields"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Postcards",
+              "value": "Postcards",
+              "hits": 9
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Bphysical_format_ssi%5D%5B%5D=Postcards\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026search_field=all_fields"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Architectural drawings (visual works)",
+              "value": "Architectural drawings (visual works)",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Bphysical_format_ssi%5D%5B%5D=Architectural+drawings+%28visual+works%29\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026search_field=all_fields"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Color photographs",
+              "value": "Color photographs",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Bphysical_format_ssi%5D%5B%5D=Color+photographs\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026search_field=all_fields"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Design drawings",
+              "value": "Design drawings",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Bphysical_format_ssi%5D%5B%5D=Design+drawings\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026search_field=all_fields"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Studio portraits",
+              "value": "Studio portraits",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Bphysical_format_ssi%5D%5B%5D=Studio+portraits\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026search_field=all_fields"
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/facet/physical_format_ssi.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026search_field=all_fields"
+      }
+    },
+    {
+      "type": "facet",
+      "id": "dat_ssim",
+      "attributes": {
+        "label": "Date Created",
+        "items": [
+          {
+            "attributes": {
+              "label": "1910",
+              "value": "1910",
+              "hits": 10
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026range%5Bdat_ssim%5D%5B%5D=1910\u0026search_field=all_fields"
+            }
+          },
+          {
+            "attributes": {
+              "label": "1908",
+              "value": "1908",
+              "hits": 6
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026range%5Bdat_ssim%5D%5B%5D=1908\u0026search_field=all_fields"
+            }
+          },
+          {
+            "attributes": {
+              "label": "1909",
+              "value": "1909",
+              "hits": 5
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026range%5Bdat_ssim%5D%5B%5D=1909\u0026search_field=all_fields"
+            }
+          },
+          {
+            "attributes": {
+              "label": "1912",
+              "value": "1912",
+              "hits": 5
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026range%5Bdat_ssim%5D%5B%5D=1912\u0026search_field=all_fields"
+            }
+          },
+          {
+            "attributes": {
+              "label": "1914",
+              "value": "1914",
+              "hits": 5
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026range%5Bdat_ssim%5D%5B%5D=1914\u0026search_field=all_fields"
+            }
+          },
+          {
+            "attributes": {
+              "label": "1905",
+              "value": "1905",
+              "hits": 4
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026range%5Bdat_ssim%5D%5B%5D=1905\u0026search_field=all_fields"
+            }
+          },
+          {
+            "attributes": {
+              "label": "1906",
+              "value": "1906",
+              "hits": 4
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026range%5Bdat_ssim%5D%5B%5D=1906\u0026search_field=all_fields"
+            }
+          },
+          {
+            "attributes": {
+              "label": "1907",
+              "value": "1907",
+              "hits": 4
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026range%5Bdat_ssim%5D%5B%5D=1907\u0026search_field=all_fields"
+            }
+          },
+          {
+            "attributes": {
+              "label": "1925",
+              "value": "1925",
+              "hits": 4
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026range%5Bdat_ssim%5D%5B%5D=1925\u0026search_field=all_fields"
+            }
+          },
+          {
+            "attributes": {
+              "label": "1900",
+              "value": "1900",
+              "hits": 3
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026range%5Bdat_ssim%5D%5B%5D=1900\u0026search_field=all_fields"
+            }
+          },
+          {
+            "attributes": {
+              "label": "1901",
+              "value": "1901",
+              "hits": 3
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026range%5Bdat_ssim%5D%5B%5D=1901\u0026search_field=all_fields"
+            }
+          },
+          {
+            "attributes": {
+              "label": "1902",
+              "value": "1902",
+              "hits": 3
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026range%5Bdat_ssim%5D%5B%5D=1902\u0026search_field=all_fields"
+            }
+          },
+          {
+            "attributes": {
+              "label": "1903",
+              "value": "1903",
+              "hits": 3
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026range%5Bdat_ssim%5D%5B%5D=1903\u0026search_field=all_fields"
+            }
+          },
+          {
+            "attributes": {
+              "label": "1904",
+              "value": "1904",
+              "hits": 3
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026range%5Bdat_ssim%5D%5B%5D=1904\u0026search_field=all_fields"
+            }
+          },
+          {
+            "attributes": {
+              "label": "1911",
+              "value": "1911",
+              "hits": 3
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026range%5Bdat_ssim%5D%5B%5D=1911\u0026search_field=all_fields"
+            }
+          },
+          {
+            "attributes": {
+              "label": "1913",
+              "value": "1913",
+              "hits": 3
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026range%5Bdat_ssim%5D%5B%5D=1913\u0026search_field=all_fields"
+            }
+          },
+          {
+            "attributes": {
+              "label": "1915",
+              "value": "1915",
+              "hits": 3
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026range%5Bdat_ssim%5D%5B%5D=1915\u0026search_field=all_fields"
+            }
+          },
+          {
+            "attributes": {
+              "label": "1926",
+              "value": "1926",
+              "hits": 2
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026range%5Bdat_ssim%5D%5B%5D=1926\u0026search_field=all_fields"
+            }
+          },
+          {
+            "attributes": {
+              "label": "1930",
+              "value": "1930",
+              "hits": 2
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026range%5Bdat_ssim%5D%5B%5D=1930\u0026search_field=all_fields"
+            }
+          },
+          {
+            "attributes": {
+              "label": "1932",
+              "value": "1932",
+              "hits": 2
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026range%5Bdat_ssim%5D%5B%5D=1932\u0026search_field=all_fields"
+            }
+          },
+          {
+            "attributes": {
+              "label": "1899",
+              "value": "1899",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026range%5Bdat_ssim%5D%5B%5D=1899\u0026search_field=all_fields"
+            }
+          },
+          {
+            "attributes": {
+              "label": "1921",
+              "value": "1921",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026range%5Bdat_ssim%5D%5B%5D=1921\u0026search_field=all_fields"
+            }
+          },
+          {
+            "attributes": {
+              "label": "1924",
+              "value": "1924",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026range%5Bdat_ssim%5D%5B%5D=1924\u0026search_field=all_fields"
+            }
+          },
+          {
+            "attributes": {
+              "label": "1927",
+              "value": "1927",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026range%5Bdat_ssim%5D%5B%5D=1927\u0026search_field=all_fields"
+            }
+          },
+          {
+            "attributes": {
+              "label": "1928",
+              "value": "1928",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026range%5Bdat_ssim%5D%5B%5D=1928\u0026search_field=all_fields"
+            }
+          },
+          {
+            "attributes": {
+              "label": "1929",
+              "value": "1929",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026range%5Bdat_ssim%5D%5B%5D=1929\u0026search_field=all_fields"
+            }
+          },
+          {
+            "attributes": {
+              "label": "1950",
+              "value": "1950",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026range%5Bdat_ssim%5D%5B%5D=1950\u0026search_field=all_fields"
+            }
+          },
+          {
+            "attributes": {
+              "label": "1953",
+              "value": "1953",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026range%5Bdat_ssim%5D%5B%5D=1953\u0026search_field=all_fields"
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/facet/dat_ssim.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026search_field=all_fields"
+      }
+    },
+    {
+      "type": "facet",
+      "id": "formal_subject_ssim",
+      "attributes": {
+        "label": "Subject Headings",
+        "items": [
+          {
+            "attributes": {
+              "label": "Street Railroads",
+              "value": "Street Railroads",
+              "hits": 27
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Bformal_subject_ssim%5D%5B%5D=Street+Railroads\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026search_field=all_fields"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Transportation",
+              "value": "Transportation",
+              "hits": 13
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Bformal_subject_ssim%5D%5B%5D=Transportation\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026search_field=all_fields"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Streets",
+              "value": "Streets",
+              "hits": 6
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Bformal_subject_ssim%5D%5B%5D=Streets\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026search_field=all_fields"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Boats and Boating",
+              "value": "Boats and Boating",
+              "hits": 2
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Bformal_subject_ssim%5D%5B%5D=Boats+and+Boating\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026search_field=all_fields"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Lakes",
+              "value": "Lakes",
+              "hits": 2
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Bformal_subject_ssim%5D%5B%5D=Lakes\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026search_field=all_fields"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Street Railroads Employees",
+              "value": "Street Railroads Employees",
+              "hits": 2
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Bformal_subject_ssim%5D%5B%5D=Street+Railroads+Employees\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026search_field=all_fields"
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/facet/formal_subject_ssim.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026search_field=all_fields"
+      }
+    },
+    {
+      "type": "facet",
+      "id": "collection_name_ssi",
+      "attributes": {
+        "label": "Contributor",
+        "items": [
+          {
+            "attributes": {
+              "label": "Minnesota Streetcar Museum",
+              "value": "Minnesota Streetcar Museum",
+              "hits": 29
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Bcollection_name_ssi%5D%5B%5D=Minnesota+Streetcar+Museum\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026search_field=all_fields"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Museum of Lake Minnetonka",
+              "value": "Museum of Lake Minnetonka",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Bcollection_name_ssi%5D%5B%5D=Museum+of+Lake+Minnetonka\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026search_field=all_fields"
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/facet/collection_name_ssi.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026search_field=all_fields"
+      }
+    },
+    {
+      "type": "facet",
+      "id": "rights_status_ssi",
+      "attributes": {
+        "label": "Rights Status",
+        "items": [
+          {
+            "attributes": {
+              "label": "In Copyright",
+              "value": "In Copyright",
+              "hits": 8
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Brights_status_ssi%5D%5B%5D=In+Copyright\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026search_field=all_fields"
+            }
+          },
+          {
+            "attributes": {
+              "label": "No Known Copyright",
+              "value": "No Known Copyright",
+              "hits": 6
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Brights_status_ssi%5D%5B%5D=No+Known+Copyright\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026search_field=all_fields"
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/facet/rights_status_ssi.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026search_field=all_fields"
+      }
+    },
+    {
+      "type": "facet",
+      "id": "contributing_organization_ssi",
+      "attributes": {
+        "label": "Contributing Organization",
+        "items": [
+          {
+            "attributes": {
+              "label": "Minnesota Streetcar Museum",
+              "value": "Minnesota Streetcar Museum",
+              "hits": 29
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Bcontributing_organization_ssi%5D%5B%5D=Minnesota+Streetcar+Museum\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026search_field=all_fields"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Museum of Lake Minnetonka",
+              "value": "Museum of Lake Minnetonka",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Bcontributing_organization_ssi%5D%5B%5D=Museum+of+Lake+Minnetonka\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026search_field=all_fields"
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/facet/contributing_organization_ssi.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026search_field=all_fields"
+      }
+    },
+    {
+      "type": "facet",
+      "id": "creator_ssim",
+      "attributes": {
+        "label": "Creator",
+        "items": [
+          {
+            "attributes": {
+              "label": "Runk, John",
+              "value": "Runk, John",
+              "hits": 10
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Bcreator_ssim%5D%5B%5D=Runk%2C+John\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026search_field=all_fields"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Harding, F. T.",
+              "value": "Harding, F. T.",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Bcreator_ssim%5D%5B%5D=Harding%2C+F.+T.\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026search_field=all_fields"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Smith, J.H.",
+              "value": "Smith, J.H.",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Bcreator_ssim%5D%5B%5D=Smith%2C+J.H.\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026search_field=all_fields"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Twin City Rapid Transit",
+              "value": "Twin City Rapid Transit",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Bcreator_ssim%5D%5B%5D=Twin+City+Rapid+Transit\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026search_field=all_fields"
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/facet/creator_ssim.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026search_field=all_fields"
+      }
+    },
+    {
+      "type": "facet",
+      "id": "contributor_ssim",
+      "attributes": {
+        "label": "Contributor",
+        "items": [
+          {
+            "attributes": {
+              "label": "American Eagle Studio (Stillwater, Minnesota)",
+              "value": "American Eagle Studio (Stillwater, Minnesota)",
+              "hits": 2
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Bcontributor_ssim%5D%5B%5D=American+Eagle+Studio+%28Stillwater%2C+Minnesota%29\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026search_field=all_fields"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Halmrast Photo Studio (Stillwater, Minnesota)",
+              "value": "Halmrast Photo Studio (Stillwater, Minnesota)",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Bcontributor_ssim%5D%5B%5D=Halmrast+Photo+Studio+%28Stillwater%2C+Minnesota%29\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026search_field=all_fields"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Smith, W.J.",
+              "value": "Smith, W.J.",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Bcontributor_ssim%5D%5B%5D=Smith%2C+W.J.\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026search_field=all_fields"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Twin City Lines",
+              "value": "Twin City Lines",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Bcontributor_ssim%5D%5B%5D=Twin+City+Lines\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026search_field=all_fields"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Twin City Rapid Transit Company",
+              "value": "Twin City Rapid Transit Company",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Bcontributor_ssim%5D%5B%5D=Twin+City+Rapid+Transit+Company\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026search_field=all_fields"
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/facet/contributor_ssim.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026search_field=all_fields"
+      }
+    },
+    {
+      "type": "facet",
+      "id": "publishing_agency_ssi",
+      "attributes": {
+        "label": "Publishing Agency",
+        "items": [
+          {
+            "attributes": {
+              "label": "V. O. Hammon Publishing Co.",
+              "value": "V. O. Hammon Publishing Co.",
+              "hits": 3
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Bpublishing_agency_ssi%5D%5B%5D=V.+O.+Hammon+Publishing+Co.\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026search_field=all_fields"
+            }
+          },
+          {
+            "attributes": {
+              "label": "V. O. Hammon Publishing Company (Minneapolis, Minnesota and Chicago, Illinois)",
+              "value": "V. O. Hammon Publishing Company (Minneapolis, Minnesota and Chicago, Illinois)",
+              "hits": 2
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Bpublishing_agency_ssi%5D%5B%5D=V.+O.+Hammon+Publishing+Company+%28Minneapolis%2C+Minnesota+and+Chicago%2C+Illinois%29\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026search_field=all_fields"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Crescent Photo Company (Minneapolis, Minnesota)",
+              "value": "Crescent Photo Company (Minneapolis, Minnesota)",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Bpublishing_agency_ssi%5D%5B%5D=Crescent+Photo+Company+%28Minneapolis%2C+Minnesota%29\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026search_field=all_fields"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Wright, Barrett \u0026 Stilwell Company (St. Paul, Minnesota)",
+              "value": "Wright, Barrett \u0026 Stilwell Company (St. Paul, Minnesota)",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Bpublishing_agency_ssi%5D%5B%5D=Wright%2C+Barrett+%26+Stilwell+Company+%28St.+Paul%2C+Minnesota%29\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026search_field=all_fields"
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/facet/publishing_agency_ssi.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026search_field=all_fields"
+      }
+    },
+    {
+      "type": "facet",
+      "id": "dimensions_ssi",
+      "attributes": {
+        "label": "Dimensions",
+        "items": [
+          {
+            "attributes": {
+              "label": "61 x 91.4",
+              "value": "61 x 91.4",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Bdimensions_ssi%5D%5B%5D=61+x+91.4\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026search_field=all_fields"
+            }
+          },
+          {
+            "attributes": {
+              "label": "63 x 92",
+              "value": "63 x 92",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Bdimensions_ssi%5D%5B%5D=63+x+92\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026search_field=all_fields"
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/facet/dimensions_ssi.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026search_field=all_fields"
+      }
+    },
+    {
+      "type": "facet",
+      "id": "subject_ssim",
+      "attributes": {
+        "label": "Keywords",
+        "items": [
+          {
+            "attributes": {
+              "label": "Streetcars",
+              "value": "Streetcars",
+              "hits": 15
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Bsubject_ssim%5D%5B%5D=Streetcars\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026search_field=all_fields"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Streetcar",
+              "value": "Streetcar",
+              "hits": 14
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Bsubject_ssim%5D%5B%5D=Streetcar\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026search_field=all_fields"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Street scenes",
+              "value": "Street scenes",
+              "hits": 13
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Bsubject_ssim%5D%5B%5D=Street+scenes\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026search_field=all_fields"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Twin City Rapid Transit Company",
+              "value": "Twin City Rapid Transit Company",
+              "hits": 12
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Bsubject_ssim%5D%5B%5D=Twin+City+Rapid+Transit+Company\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026search_field=all_fields"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Employees",
+              "value": "Employees",
+              "hits": 2
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Bsubject_ssim%5D%5B%5D=Employees\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026search_field=all_fields"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Express Boats",
+              "value": "Express Boats",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Bsubject_ssim%5D%5B%5D=Express+Boats\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026search_field=all_fields"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Lake Minnetonka",
+              "value": "Lake Minnetonka",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Bsubject_ssim%5D%5B%5D=Lake+Minnetonka\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026search_field=all_fields"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Streetcar boats",
+              "value": "Streetcar boats",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Bsubject_ssim%5D%5B%5D=Streetcar+boats\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026search_field=all_fields"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Transportation",
+              "value": "Transportation",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Bsubject_ssim%5D%5B%5D=Transportation\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026search_field=all_fields"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Twin Cities",
+              "value": "Twin Cities",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Bsubject_ssim%5D%5B%5D=Twin+Cities\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026search_field=all_fields"
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/facet/subject_ssim.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026search_field=all_fields"
+      }
+    },
+    {
+      "type": "facet",
+      "id": "city_ssim",
+      "attributes": {
+        "label": "City or Township",
+        "items": [
+          {
+            "attributes": {
+              "label": "Stillwater",
+              "value": "Stillwater",
+              "hits": 19
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Bcity_ssim%5D%5B%5D=Stillwater\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026search_field=all_fields"
+            }
+          },
+          {
+            "attributes": {
+              "label": "St. Paul",
+              "value": "St. Paul",
+              "hits": 3
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Bcity_ssim%5D%5B%5D=St.+Paul\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026search_field=all_fields"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Bayport",
+              "value": "Bayport",
+              "hits": 2
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Bcity_ssim%5D%5B%5D=Bayport\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026search_field=all_fields"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Minneapolis",
+              "value": "Minneapolis",
+              "hits": 2
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Bcity_ssim%5D%5B%5D=Minneapolis\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026search_field=all_fields"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Excelsior",
+              "value": "Excelsior",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Bcity_ssim%5D%5B%5D=Excelsior\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026search_field=all_fields"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Oak Park Heights",
+              "value": "Oak Park Heights",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Bcity_ssim%5D%5B%5D=Oak+Park+Heights\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026search_field=all_fields"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Willernie",
+              "value": "Willernie",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Bcity_ssim%5D%5B%5D=Willernie\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026search_field=all_fields"
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/facet/city_ssim.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026search_field=all_fields"
+      }
+    },
+    {
+      "type": "facet",
+      "id": "county_ssim",
+      "attributes": {
+        "label": "County",
+        "items": [
+          {
+            "attributes": {
+              "label": "Washington",
+              "value": "Washington",
+              "hits": 23
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Bcounty_ssim%5D%5B%5D=Washington\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026search_field=all_fields"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Hennepin",
+              "value": "Hennepin",
+              "hits": 5
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Bcounty_ssim%5D%5B%5D=Hennepin\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026search_field=all_fields"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Ramsey",
+              "value": "Ramsey",
+              "hits": 3
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Bcounty_ssim%5D%5B%5D=Ramsey\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026search_field=all_fields"
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/facet/county_ssim.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026search_field=all_fields"
+      }
+    },
+    {
+      "type": "facet",
+      "id": "state_ssi",
+      "attributes": {
+        "label": "State or Province",
+        "items": [
+          {
+            "attributes": {
+              "label": "Minnesota",
+              "value": "Minnesota",
+              "hits": 30
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Bstate_ssi%5D%5B%5D=Minnesota\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026search_field=all_fields"
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/facet/state_ssi.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026search_field=all_fields"
+      }
+    },
+    {
+      "type": "facet",
+      "id": "country_ssi",
+      "attributes": {
+        "label": "Country",
+        "items": [
+          {
+            "attributes": {
+              "label": "United States",
+              "value": "United States",
+              "hits": 30
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Bcountry_ssi%5D%5B%5D=United+States\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026search_field=all_fields"
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/facet/country_ssi.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026search_field=all_fields"
+      }
+    },
+    {
+      "type": "facet",
+      "id": "geographic_feature_ssim",
+      "attributes": {
+        "label": "Geographic Feature",
+        "items": [
+          {
+            "attributes": {
+              "label": "Minnetonka Lake",
+              "value": "Minnetonka Lake",
+              "hits": 3
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Bgeographic_feature_ssim%5D%5B%5D=Minnetonka+Lake\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026search_field=all_fields"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Mc Kusick Lake",
+              "value": "Mc Kusick Lake",
+              "hits": 2
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Bgeographic_feature_ssim%5D%5B%5D=Mc+Kusick+Lake\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026search_field=all_fields"
+            }
+          },
+          {
+            "attributes": {
+              "label": "St. Croix River",
+              "value": "St. Croix River",
+              "hits": 2
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?f%5Bgeographic_feature_ssim%5D%5B%5D=St.+Croix+River\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026search_field=all_fields"
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/facet/geographic_feature_ssim.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026search_field=all_fields"
+      }
+    },
+    {
+      "type": "search_field",
+      "id": "all_fields",
+      "attributes": {
+        "label": "All Fields"
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026search_field=all_fields"
+      }
+    },
+    {
+      "type": "search_field",
+      "id": "title",
+      "attributes": {
+        "label": "Title"
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026search_field=title"
+      }
+    },
+    {
+      "type": "search_field",
+      "id": "creator",
+      "attributes": {
+        "label": "Creator"
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026search_field=creator"
+      }
+    },
+    {
+      "type": "search_field",
+      "id": "subject",
+      "attributes": {
+        "label": "Subject"
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026search_field=subject"
+      }
+    },
+    {
+      "type": "search_field",
+      "id": "description",
+      "attributes": {
+        "label": "Description"
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026search_field=description"
+      }
+    },
+    {
+      "type": "search_field",
+      "id": "city_or_township",
+      "attributes": {
+        "label": "City or Township"
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026search_field=city_or_township"
+      }
+    },
+    {
+      "type": "search_field",
+      "id": "county",
+      "attributes": {
+        "label": "County"
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026search_field=county"
+      }
+    },
+    {
+      "type": "sort",
+      "id": "score desc, dat_sort desc, title_sort asc",
+      "attributes": {
+        "label": "Relevance"
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026search_field=all_fields\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc"
+      }
+    },
+    {
+      "type": "sort",
+      "id": "title_sort asc, dat_sort asc",
+      "attributes": {
+        "label": "Title: A to Z"
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026search_field=all_fields\u0026sort=title_sort+asc%2C+dat_sort+asc"
+      }
+    },
+    {
+      "type": "sort",
+      "id": "title_sort desc, dat_sort desc",
+      "attributes": {
+        "label": "Title: Z to A"
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026search_field=all_fields\u0026sort=title_sort+desc%2C+dat_sort+desc"
+      }
+    },
+    {
+      "type": "sort",
+      "id": "creator_sort asc, title_sort asc",
+      "attributes": {
+        "label": "Creator: A to Z"
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026search_field=all_fields\u0026sort=creator_sort+asc%2C+title_sort+asc"
+      }
+    },
+    {
+      "type": "sort",
+      "id": "creator_sort desc, title_sort desc",
+      "attributes": {
+        "label": "Creator: Z to A"
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026search_field=all_fields\u0026sort=creator_sort+desc%2C+title_sort+desc"
+      }
+    },
+    {
+      "type": "sort",
+      "id": "dat_ssi asc, title_sort asc",
+      "attributes": {
+        "label": "Date: Oldest First"
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026search_field=all_fields\u0026sort=dat_ssi+asc%2C+title_sort+asc"
+      }
+    },
+    {
+      "type": "sort",
+      "id": "dat_ssi desc, title_sort desc",
+      "attributes": {
+        "label": "Date: Newest First"
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026search_field=all_fields\u0026sort=dat_ssi+desc%2C+title_sort+desc"
+      }
+    },
+    {
+      "type": "sort",
+      "id": "dmcreated_ssi asc",
+      "attributes": {
+        "label": "Date Added: Oldest First"
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026search_field=all_fields\u0026sort=dmcreated_ssi+asc"
+      }
+    },
+    {
+      "type": "sort",
+      "id": "dmcreated_ssi desc",
+      "attributes": {
+        "label": "Date Added: Newest First"
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog.json?f%5Btype_ssi%5D%5B%5D=Still+Image\u0026q=stillwater+AND+streetcar\u0026search_field=all_fields\u0026sort=dmcreated_ssi+desc"
+      }
+    }
+  ]
+}

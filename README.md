@@ -1,4 +1,4 @@
-# Pathfinder
+# TC Streetcars
 
 TypeScript + React app to find a path through a grid.
 

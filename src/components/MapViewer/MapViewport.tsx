@@ -79,6 +79,10 @@ const MapViewport: FC<IProps> = ({
 
     setMap(mapboxMap);
 
+    // mapboxMap.on("styleimagemissing", (e) => {
+    //   console.log(e);
+    // });
+
     // mapboxMap.on("click", () => {
     //   console.log(mapboxMap.getCenter(), mapboxMap.getZoom());
     // });
@@ -164,9 +168,10 @@ const MapViewport: FC<IProps> = ({
   };
 
   return (
-    <div
-      ref={mapNode}
-      style={{ width: "100%", height: "100%" }}>
+    <>
+      <div
+        ref={mapNode}
+        style={{ width: "100%", height: "100%" }}></div>
       <StyledControl className="btn-group">
         <button
           className="btn"
@@ -179,7 +184,7 @@ const MapViewport: FC<IProps> = ({
           Satellite
         </button>
       </StyledControl>
-    </div>
+    </>
   );
 };
 

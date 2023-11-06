@@ -1,0 +1,1310 @@
+{
+  "links": {
+    "self": "https://collection.mndigital.org/catalog.json?all_fields=Bryant+AND+streetcar\u0026city_or_township=\u0026county=Hennepin\u0026creator=\u0026description=\u0026op=AND\u0026page=2\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title=",
+    "prev": "https://collection.mndigital.org/catalog.json?all_fields=Bryant+AND+streetcar\u0026city_or_township=\u0026county=Hennepin\u0026creator=\u0026description=\u0026op=AND\u0026page=1\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title=",
+    "last": "https://collection.mndigital.org/catalog.json?all_fields=Bryant+AND+streetcar\u0026city_or_township=\u0026county=Hennepin\u0026creator=\u0026description=\u0026op=AND\u0026page=2\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+  },
+  "meta": {
+    "pages": {
+      "current_page": 2,
+      "next_page": null,
+      "prev_page": 1,
+      "total_pages": 2,
+      "limit_value": 25,
+      "offset_value": 25,
+      "total_count": 33,
+      "first_page?": false,
+      "last_page?": true
+    }
+  },
+  "data": [
+    {
+      "id": "msn:2342",
+      "type": "Still Image",
+      "attributes": {
+        "title": "Streetcar on Hennepin Avenue at 8th Street, Minneapolis, Minnesota",
+        "creator_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:2342#creator_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Norton and Peel",
+            "label": "Creator"
+          }
+        },
+        "dat_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:2342#dat_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "1952-08-19",
+            "label": "Date Created"
+          }
+        },
+        "description_ts": {
+          "id": "https://collection.mndigital.org/catalog/msn:2342#description_ts",
+          "type": "document_value",
+          "attributes": {
+            "value": "Looking south on \u003cem\u003eHennepin\u003c/em\u003e Avenue across 8th Street at northbound \u003cem\u003eBryant\u003c/em\u003e - Johnson PCC car. The State Theater is at left.",
+            "label": "Description"
+          }
+        },
+        "contributing_organization_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:2342#contributing_organization_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Minnesota \u003cem\u003eStreetcar\u003c/em\u003e Museum",
+            "label": "Contributing Institution"
+          }
+        },
+        "type_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:2342#type_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Still Image",
+            "label": "Type"
+          }
+        },
+        "physical_format_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:2342#physical_format_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Black-and-white photographs",
+            "label": "Format"
+          }
+        }
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/msn:2342"
+      }
+    },
+    {
+      "id": "msn:1086",
+      "type": "Still Image",
+      "attributes": {
+        "title": "6th Avenue North at Bryant Avenue, Minneapolis, Minnesota",
+        "dat_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1086#dat_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "1936",
+            "label": "Date Created"
+          }
+        },
+        "description_ts": {
+          "id": "https://collection.mndigital.org/catalog/msn:1086#description_ts",
+          "type": "document_value",
+          "attributes": {
+            "value": "6th Avenue N. at \u003cem\u003eBryant\u003c/em\u003e Avenue N.",
+            "label": "Description"
+          }
+        },
+        "contributing_organization_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1086#contributing_organization_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Minnesota \u003cem\u003eStreetcar\u003c/em\u003e Museum",
+            "label": "Contributing Institution"
+          }
+        },
+        "type_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1086#type_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Still Image",
+            "label": "Type"
+          }
+        },
+        "physical_format_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1086#physical_format_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Black-and-white photographs",
+            "label": "Format"
+          }
+        }
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/msn:1086"
+      }
+    },
+    {
+      "id": "msn:988",
+      "type": "Still Image",
+      "attributes": {
+        "title": "Bryant Avenue South at Minnehaha Parkway, Minneapolis, Minnesota",
+        "creator_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:988#creator_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Schumacher, Bob",
+            "label": "Creator"
+          }
+        },
+        "dat_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:988#dat_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "1953",
+            "label": "Date Created"
+          }
+        },
+        "description_ts": {
+          "id": "https://collection.mndigital.org/catalog/msn:988#description_ts",
+          "type": "document_value",
+          "attributes": {
+            "value": "Members of the Minnesota Railfans Assn. photograph chartered \u003cem\u003estreetcar\u003c/em\u003e on the bridge over Minnehaha Creek.",
+            "label": "Description"
+          }
+        },
+        "contributing_organization_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:988#contributing_organization_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Minnesota \u003cem\u003eStreetcar\u003c/em\u003e Museum",
+            "label": "Contributing Institution"
+          }
+        },
+        "type_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:988#type_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Still Image",
+            "label": "Type"
+          }
+        },
+        "physical_format_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:988#physical_format_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Black-and-white photographs",
+            "label": "Format"
+          }
+        }
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/msn:988"
+      }
+    },
+    {
+      "id": "msn:197",
+      "type": "Still Image",
+      "attributes": {
+        "title": "Streetcar collides with fire truck, Minneapolis, Minnesota",
+        "dat_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:197#dat_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "1948",
+            "label": "Date Created"
+          }
+        },
+        "description_ts": {
+          "id": "https://collection.mndigital.org/catalog/msn:197#description_ts",
+          "type": "document_value",
+          "attributes": {
+            "value": "A \u003cem\u003eBryant\u003c/em\u003e Avenue \u003cem\u003estreetcar\u003c/em\u003e has collided with a fire truck at 44th Street, derailing the \u003cem\u003estreetcar\u003c/em\u003e and overturning the truck.",
+            "label": "Description"
+          }
+        },
+        "contributing_organization_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:197#contributing_organization_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Minnesota \u003cem\u003eStreetcar\u003c/em\u003e Museum",
+            "label": "Contributing Institution"
+          }
+        },
+        "type_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:197#type_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Still Image",
+            "label": "Type"
+          }
+        },
+        "physical_format_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:197#physical_format_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Black-and-white photographs",
+            "label": "Format"
+          }
+        }
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/msn:197"
+      }
+    },
+    {
+      "id": "msn:761",
+      "type": "Still Image",
+      "attributes": {
+        "title": "Oak-Harriet streetcar at 50th Street and Penn Avenue, Minneapolis, Minnesota",
+        "creator_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:761#creator_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Langdon, Vernon",
+            "label": "Creator"
+          }
+        },
+        "dat_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:761#dat_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "1954",
+            "label": "Date Created"
+          }
+        },
+        "description_ts": {
+          "id": "https://collection.mndigital.org/catalog/msn:761#description_ts",
+          "type": "document_value",
+          "attributes": {
+            "value": "Oak-Harriet \u003cem\u003estreetcars\u003c/em\u003e terminated at the wye at 50th Street and Penn Avenue South, as did some \u003cem\u003eBryant\u003c/em\u003e Avenue cars.",
+            "label": "Description"
+          }
+        },
+        "contributing_organization_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:761#contributing_organization_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Minnesota \u003cem\u003eStreetcar\u003c/em\u003e Museum",
+            "label": "Contributing Institution"
+          }
+        },
+        "type_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:761#type_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Still Image",
+            "label": "Type"
+          }
+        },
+        "physical_format_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:761#physical_format_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Color photographs",
+            "label": "Format"
+          }
+        }
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/msn:761"
+      }
+    },
+    {
+      "id": "msn:1049",
+      "type": "Still Image",
+      "attributes": {
+        "title": "Descending Lowry Hill, Minneapolis, Minnesota",
+        "creator_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1049#creator_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Whittaker, Wilbur C.",
+            "label": "Creator"
+          }
+        },
+        "dat_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1049#dat_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "1948",
+            "label": "Date Created"
+          }
+        },
+        "description_ts": {
+          "id": "https://collection.mndigital.org/catalog/msn:1049#description_ts",
+          "type": "document_value",
+          "attributes": {
+            "value": "A \u003cem\u003eBryant\u003c/em\u003e \u003cem\u003estreetcar\u003c/em\u003e on Lyndale Avenue at Groveland Terrace passes the statue of Thomas Lowry.",
+            "label": "Description"
+          }
+        },
+        "contributing_organization_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1049#contributing_organization_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Minnesota \u003cem\u003eStreetcar\u003c/em\u003e Museum",
+            "label": "Contributing Institution"
+          }
+        },
+        "type_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1049#type_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Still Image",
+            "label": "Type"
+          }
+        },
+        "physical_format_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:1049#physical_format_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Black-and-white photographs",
+            "label": "Format"
+          }
+        }
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/msn:1049"
+      }
+    },
+    {
+      "id": "msn:707",
+      "type": "Still Image",
+      "attributes": {
+        "title": "54th Street and Penn Avenue, Minneapolis, Minnesota",
+        "dat_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:707#dat_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "1953",
+            "label": "Date Created"
+          }
+        },
+        "description_ts": {
+          "id": "https://collection.mndigital.org/catalog/msn:707#description_ts",
+          "type": "document_value",
+          "attributes": {
+            "value": "\u003cem\u003eBryant\u003c/em\u003e Avenue \u003cem\u003estreetcars\u003c/em\u003e that ended at 54th Street and Penn Avenue South laid over  on the east leg of the intersection, on quite a steep hill.",
+            "label": "Description"
+          }
+        },
+        "contributing_organization_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:707#contributing_organization_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Minnesota \u003cem\u003eStreetcar\u003c/em\u003e Museum",
+            "label": "Contributing Institution"
+          }
+        },
+        "type_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:707#type_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Still Image",
+            "label": "Type"
+          }
+        },
+        "physical_format_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:707#physical_format_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Color photographs",
+            "label": "Format"
+          }
+        }
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/msn:707"
+      }
+    },
+    {
+      "id": "msn:379",
+      "type": "Still Image",
+      "attributes": {
+        "title": "Old 6th Avenue North, Minneapolis, Minnesota",
+        "dat_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:379#dat_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "1936",
+            "label": "Date Created"
+          }
+        },
+        "description_ts": {
+          "id": "https://collection.mndigital.org/catalog/msn:379#description_ts",
+          "type": "document_value",
+          "attributes": {
+            "value": "6th Avenue North at \u003cem\u003eBryant\u003c/em\u003e Avenue, showing the street as it was before being replaced by the Olson Memorial Highway.",
+            "label": "Description"
+          }
+        },
+        "contributing_organization_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:379#contributing_organization_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Minnesota \u003cem\u003eStreetcar\u003c/em\u003e Museum",
+            "label": "Contributing Institution"
+          }
+        },
+        "type_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:379#type_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Still Image",
+            "label": "Type"
+          }
+        },
+        "physical_format_tesi": {
+          "id": "https://collection.mndigital.org/catalog/msn:379#physical_format_tesi",
+          "type": "document_value",
+          "attributes": {
+            "value": "Black-and-white photographs",
+            "label": "Format"
+          }
+        }
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/msn:379"
+      }
+    }
+  ],
+  "included": [
+    {
+      "type": "facet",
+      "id": "topic_ssim",
+      "attributes": {
+        "label": "Topic",
+        "items": [
+          {
+            "attributes": {
+              "label": "Transportation",
+              "value": "Transportation",
+              "hits": 33
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=Bryant+AND+streetcar\u0026city_or_township=\u0026county=Hennepin\u0026creator=\u0026description=\u0026f%5Btopic_ssim%5D%5B%5D=Transportation\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/facet/topic_ssim.json?all_fields=Bryant+AND+streetcar\u0026city_or_township=\u0026county=Hennepin\u0026creator=\u0026description=\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+      }
+    },
+    {
+      "type": "facet",
+      "id": "type_ssi",
+      "attributes": {
+        "label": "Type",
+        "items": [
+          {
+            "attributes": {
+              "label": "Still Image",
+              "value": "Still Image",
+              "hits": 33
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=Bryant+AND+streetcar\u0026city_or_township=\u0026county=Hennepin\u0026creator=\u0026description=\u0026f%5Btype_ssi%5D%5B%5D=Still+Image\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/facet/type_ssi.json?all_fields=Bryant+AND+streetcar\u0026city_or_township=\u0026county=Hennepin\u0026creator=\u0026description=\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+      }
+    },
+    {
+      "type": "facet",
+      "id": "physical_format_ssi",
+      "attributes": {
+        "label": "Physical Format",
+        "items": [
+          {
+            "attributes": {
+              "label": "Black-and-white photographs",
+              "value": "Black-and-white photographs",
+              "hits": 25
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=Bryant+AND+streetcar\u0026city_or_township=\u0026county=Hennepin\u0026creator=\u0026description=\u0026f%5Bphysical_format_ssi%5D%5B%5D=Black-and-white+photographs\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          },
+          {
+            "attributes": {
+              "label": "Color photographs",
+              "value": "Color photographs",
+              "hits": 5
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=Bryant+AND+streetcar\u0026city_or_township=\u0026county=Hennepin\u0026creator=\u0026description=\u0026f%5Bphysical_format_ssi%5D%5B%5D=Color+photographs\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          },
+          {
+            "attributes": {
+              "label": "Color transparencies",
+              "value": "Color transparencies",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=Bryant+AND+streetcar\u0026city_or_township=\u0026county=Hennepin\u0026creator=\u0026description=\u0026f%5Bphysical_format_ssi%5D%5B%5D=Color+transparencies\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          },
+          {
+            "attributes": {
+              "label": "Negatives (photographic)",
+              "value": "Negatives (photographic)",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=Bryant+AND+streetcar\u0026city_or_township=\u0026county=Hennepin\u0026creator=\u0026description=\u0026f%5Bphysical_format_ssi%5D%5B%5D=Negatives+%28photographic%29\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          },
+          {
+            "attributes": {
+              "label": "Slides (photographs)",
+              "value": "Slides (photographs)",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=Bryant+AND+streetcar\u0026city_or_township=\u0026county=Hennepin\u0026creator=\u0026description=\u0026f%5Bphysical_format_ssi%5D%5B%5D=Slides+%28photographs%29\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/facet/physical_format_ssi.json?all_fields=Bryant+AND+streetcar\u0026city_or_township=\u0026county=Hennepin\u0026creator=\u0026description=\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+      }
+    },
+    {
+      "type": "facet",
+      "id": "dat_ssim",
+      "attributes": {
+        "label": "Date Created",
+        "items": [
+          {
+            "attributes": {
+              "label": "1948",
+              "value": "1948",
+              "hits": 13
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=Bryant+AND+streetcar\u0026city_or_township=\u0026county=Hennepin\u0026creator=\u0026description=\u0026op=AND\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=begin\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=end\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=\u0026range%5Bdat_ssim%5D%5B%5D=1948\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          },
+          {
+            "attributes": {
+              "label": "1953",
+              "value": "1953",
+              "hits": 10
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=Bryant+AND+streetcar\u0026city_or_township=\u0026county=Hennepin\u0026creator=\u0026description=\u0026op=AND\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=begin\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=end\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=\u0026range%5Bdat_ssim%5D%5B%5D=1953\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          },
+          {
+            "attributes": {
+              "label": "1952",
+              "value": "1952",
+              "hits": 7
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=Bryant+AND+streetcar\u0026city_or_township=\u0026county=Hennepin\u0026creator=\u0026description=\u0026op=AND\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=begin\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=end\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=\u0026range%5Bdat_ssim%5D%5B%5D=1952\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          },
+          {
+            "attributes": {
+              "label": "1951",
+              "value": "1951",
+              "hits": 4
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=Bryant+AND+streetcar\u0026city_or_township=\u0026county=Hennepin\u0026creator=\u0026description=\u0026op=AND\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=begin\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=end\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=\u0026range%5Bdat_ssim%5D%5B%5D=1951\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          },
+          {
+            "attributes": {
+              "label": "1936",
+              "value": "1936",
+              "hits": 3
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=Bryant+AND+streetcar\u0026city_or_township=\u0026county=Hennepin\u0026creator=\u0026description=\u0026op=AND\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=begin\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=end\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=\u0026range%5Bdat_ssim%5D%5B%5D=1936\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          },
+          {
+            "attributes": {
+              "label": "1945",
+              "value": "1945",
+              "hits": 3
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=Bryant+AND+streetcar\u0026city_or_township=\u0026county=Hennepin\u0026creator=\u0026description=\u0026op=AND\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=begin\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=end\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=\u0026range%5Bdat_ssim%5D%5B%5D=1945\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          },
+          {
+            "attributes": {
+              "label": "1946",
+              "value": "1946",
+              "hits": 3
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=Bryant+AND+streetcar\u0026city_or_township=\u0026county=Hennepin\u0026creator=\u0026description=\u0026op=AND\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=begin\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=end\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=\u0026range%5Bdat_ssim%5D%5B%5D=1946\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          },
+          {
+            "attributes": {
+              "label": "1947",
+              "value": "1947",
+              "hits": 3
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=Bryant+AND+streetcar\u0026city_or_township=\u0026county=Hennepin\u0026creator=\u0026description=\u0026op=AND\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=begin\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=end\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=\u0026range%5Bdat_ssim%5D%5B%5D=1947\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          },
+          {
+            "attributes": {
+              "label": "1950",
+              "value": "1950",
+              "hits": 3
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=Bryant+AND+streetcar\u0026city_or_township=\u0026county=Hennepin\u0026creator=\u0026description=\u0026op=AND\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=begin\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=end\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=\u0026range%5Bdat_ssim%5D%5B%5D=1950\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          },
+          {
+            "attributes": {
+              "label": "1954",
+              "value": "1954",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=Bryant+AND+streetcar\u0026city_or_township=\u0026county=Hennepin\u0026creator=\u0026description=\u0026op=AND\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=begin\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=end\u0026range%5Bdat_ssim%5D%5B%5D%5B%5D=\u0026range%5Bdat_ssim%5D%5B%5D=1954\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/facet/dat_ssim.json?all_fields=Bryant+AND+streetcar\u0026city_or_township=\u0026county=Hennepin\u0026creator=\u0026description=\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+      }
+    },
+    {
+      "type": "facet",
+      "id": "formal_subject_ssim",
+      "attributes": {
+        "label": "Subject Headings",
+        "items": [
+          {
+            "attributes": {
+              "label": "Street Railroads",
+              "value": "Street Railroads",
+              "hits": 33
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=Bryant+AND+streetcar\u0026city_or_township=\u0026county=Hennepin\u0026creator=\u0026description=\u0026f%5Bformal_subject_ssim%5D%5B%5D=Street+Railroads\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          },
+          {
+            "attributes": {
+              "label": "Transportation",
+              "value": "Transportation",
+              "hits": 14
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=Bryant+AND+streetcar\u0026city_or_township=\u0026county=Hennepin\u0026creator=\u0026description=\u0026f%5Bformal_subject_ssim%5D%5B%5D=Transportation\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          },
+          {
+            "attributes": {
+              "label": "Streets",
+              "value": "Streets",
+              "hits": 10
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=Bryant+AND+streetcar\u0026city_or_township=\u0026county=Hennepin\u0026creator=\u0026description=\u0026f%5Bformal_subject_ssim%5D%5B%5D=Streets\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          },
+          {
+            "attributes": {
+              "label": "Railroad Tracks",
+              "value": "Railroad Tracks",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=Bryant+AND+streetcar\u0026city_or_township=\u0026county=Hennepin\u0026creator=\u0026description=\u0026f%5Bformal_subject_ssim%5D%5B%5D=Railroad+Tracks\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/facet/formal_subject_ssim.json?all_fields=Bryant+AND+streetcar\u0026city_or_township=\u0026county=Hennepin\u0026creator=\u0026description=\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+      }
+    },
+    {
+      "type": "facet",
+      "id": "collection_name_ssi",
+      "attributes": {
+        "label": "Contributor",
+        "items": [
+          {
+            "attributes": {
+              "label": "Minnesota Streetcar Museum",
+              "value": "Minnesota Streetcar Museum",
+              "hits": 33
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=Bryant+AND+streetcar\u0026city_or_township=\u0026county=Hennepin\u0026creator=\u0026description=\u0026f%5Bcollection_name_ssi%5D%5B%5D=Minnesota+Streetcar+Museum\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/facet/collection_name_ssi.json?all_fields=Bryant+AND+streetcar\u0026city_or_township=\u0026county=Hennepin\u0026creator=\u0026description=\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+      }
+    },
+    {
+      "type": "facet",
+      "id": "rights_status_ssi",
+      "attributes": {
+        "label": "Rights Status",
+        "items": [
+          {
+            "attributes": {
+              "label": "In Copyright",
+              "value": "In Copyright",
+              "hits": 14
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=Bryant+AND+streetcar\u0026city_or_township=\u0026county=Hennepin\u0026creator=\u0026description=\u0026f%5Brights_status_ssi%5D%5B%5D=In+Copyright\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/facet/rights_status_ssi.json?all_fields=Bryant+AND+streetcar\u0026city_or_township=\u0026county=Hennepin\u0026creator=\u0026description=\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+      }
+    },
+    {
+      "type": "facet",
+      "id": "contributing_organization_ssi",
+      "attributes": {
+        "label": "Contributing Organization",
+        "items": [
+          {
+            "attributes": {
+              "label": "Minnesota Streetcar Museum",
+              "value": "Minnesota Streetcar Museum",
+              "hits": 33
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=Bryant+AND+streetcar\u0026city_or_township=\u0026county=Hennepin\u0026creator=\u0026description=\u0026f%5Bcontributing_organization_ssi%5D%5B%5D=Minnesota+Streetcar+Museum\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/facet/contributing_organization_ssi.json?all_fields=Bryant+AND+streetcar\u0026city_or_township=\u0026county=Hennepin\u0026creator=\u0026description=\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+      }
+    },
+    {
+      "type": "facet",
+      "id": "creator_ssim",
+      "attributes": {
+        "label": "Creator",
+        "items": [
+          {
+            "attributes": {
+              "label": "Stern, John",
+              "value": "Stern, John",
+              "hits": 4
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=Bryant+AND+streetcar\u0026city_or_township=\u0026county=Hennepin\u0026creator=\u0026description=\u0026f%5Bcreator_ssim%5D%5B%5D=Stern%2C+John\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          },
+          {
+            "attributes": {
+              "label": "Ross, Donald",
+              "value": "Ross, Donald",
+              "hits": 3
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=Bryant+AND+streetcar\u0026city_or_township=\u0026county=Hennepin\u0026creator=\u0026description=\u0026f%5Bcreator_ssim%5D%5B%5D=Ross%2C+Donald\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          },
+          {
+            "attributes": {
+              "label": "Blewett, Kirt",
+              "value": "Blewett, Kirt",
+              "hits": 2
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=Bryant+AND+streetcar\u0026city_or_township=\u0026county=Hennepin\u0026creator=\u0026description=\u0026f%5Bcreator_ssim%5D%5B%5D=Blewett%2C+Kirt\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          },
+          {
+            "attributes": {
+              "label": "Scholes, Cliff",
+              "value": "Scholes, Cliff",
+              "hits": 2
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=Bryant+AND+streetcar\u0026city_or_township=\u0026county=Hennepin\u0026creator=\u0026description=\u0026f%5Bcreator_ssim%5D%5B%5D=Scholes%2C+Cliff\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          },
+          {
+            "attributes": {
+              "label": "Langdon, Vernon",
+              "value": "Langdon, Vernon",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=Bryant+AND+streetcar\u0026city_or_township=\u0026county=Hennepin\u0026creator=\u0026description=\u0026f%5Bcreator_ssim%5D%5B%5D=Langdon%2C+Vernon\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          },
+          {
+            "attributes": {
+              "label": "Nelson, Edwin",
+              "value": "Nelson, Edwin",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=Bryant+AND+streetcar\u0026city_or_township=\u0026county=Hennepin\u0026creator=\u0026description=\u0026f%5Bcreator_ssim%5D%5B%5D=Nelson%2C+Edwin\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          },
+          {
+            "attributes": {
+              "label": "Neubauer, Jim",
+              "value": "Neubauer, Jim",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=Bryant+AND+streetcar\u0026city_or_township=\u0026county=Hennepin\u0026creator=\u0026description=\u0026f%5Bcreator_ssim%5D%5B%5D=Neubauer%2C+Jim\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          },
+          {
+            "attributes": {
+              "label": "Norton and Peel",
+              "value": "Norton and Peel",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=Bryant+AND+streetcar\u0026city_or_township=\u0026county=Hennepin\u0026creator=\u0026description=\u0026f%5Bcreator_ssim%5D%5B%5D=Norton+and+Peel\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          },
+          {
+            "attributes": {
+              "label": "Olsen, Bill",
+              "value": "Olsen, Bill",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=Bryant+AND+streetcar\u0026city_or_township=\u0026county=Hennepin\u0026creator=\u0026description=\u0026f%5Bcreator_ssim%5D%5B%5D=Olsen%2C+Bill\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          },
+          {
+            "attributes": {
+              "label": "Olsen, William",
+              "value": "Olsen, William",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=Bryant+AND+streetcar\u0026city_or_township=\u0026county=Hennepin\u0026creator=\u0026description=\u0026f%5Bcreator_ssim%5D%5B%5D=Olsen%2C+William\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          },
+          {
+            "attributes": {
+              "label": "Rolfe, Norman",
+              "value": "Rolfe, Norman",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=Bryant+AND+streetcar\u0026city_or_township=\u0026county=Hennepin\u0026creator=\u0026description=\u0026f%5Bcreator_ssim%5D%5B%5D=Rolfe%2C+Norman\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          },
+          {
+            "attributes": {
+              "label": "Ross, R. Donald",
+              "value": "Ross, R. Donald",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=Bryant+AND+streetcar\u0026city_or_township=\u0026county=Hennepin\u0026creator=\u0026description=\u0026f%5Bcreator_ssim%5D%5B%5D=Ross%2C+R.+Donald\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          },
+          {
+            "attributes": {
+              "label": "Schumacher, Bob",
+              "value": "Schumacher, Bob",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=Bryant+AND+streetcar\u0026city_or_township=\u0026county=Hennepin\u0026creator=\u0026description=\u0026f%5Bcreator_ssim%5D%5B%5D=Schumacher%2C+Bob\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          },
+          {
+            "attributes": {
+              "label": "Whittaker, Wilbur C.",
+              "value": "Whittaker, Wilbur C.",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=Bryant+AND+streetcar\u0026city_or_township=\u0026county=Hennepin\u0026creator=\u0026description=\u0026f%5Bcreator_ssim%5D%5B%5D=Whittaker%2C+Wilbur+C.\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/facet/creator_ssim.json?all_fields=Bryant+AND+streetcar\u0026city_or_township=\u0026county=Hennepin\u0026creator=\u0026description=\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+      }
+    },
+    {
+      "type": "facet",
+      "id": "contributor_ssim",
+      "attributes": {
+        "label": "Contributor",
+        "items": [
+          {
+            "attributes": {
+              "label": "Twin City Rapid Transit Company",
+              "value": "Twin City Rapid Transit Company",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=Bryant+AND+streetcar\u0026city_or_township=\u0026county=Hennepin\u0026creator=\u0026description=\u0026f%5Bcontributor_ssim%5D%5B%5D=Twin+City+Rapid+Transit+Company\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/facet/contributor_ssim.json?all_fields=Bryant+AND+streetcar\u0026city_or_township=\u0026county=Hennepin\u0026creator=\u0026description=\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+      }
+    },
+    {
+      "type": "facet",
+      "id": "dimensions_ssi",
+      "attributes": {
+        "label": "Dimensions",
+        "items": [
+          {
+            "attributes": {
+              "label": "6.4 x 8.9",
+              "value": "6.4 x 8.9",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=Bryant+AND+streetcar\u0026city_or_township=\u0026county=Hennepin\u0026creator=\u0026description=\u0026f%5Bdimensions_ssi%5D%5B%5D=6.4+x+8.9\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/facet/dimensions_ssi.json?all_fields=Bryant+AND+streetcar\u0026city_or_township=\u0026county=Hennepin\u0026creator=\u0026description=\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+      }
+    },
+    {
+      "type": "facet",
+      "id": "subject_ssim",
+      "attributes": {
+        "label": "Keywords",
+        "items": [
+          {
+            "attributes": {
+              "label": "Streetcars",
+              "value": "Streetcars",
+              "hits": 18
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=Bryant+AND+streetcar\u0026city_or_township=\u0026county=Hennepin\u0026creator=\u0026description=\u0026f%5Bsubject_ssim%5D%5B%5D=Streetcars\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          },
+          {
+            "attributes": {
+              "label": "Street scenes",
+              "value": "Street scenes",
+              "hits": 17
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=Bryant+AND+streetcar\u0026city_or_township=\u0026county=Hennepin\u0026creator=\u0026description=\u0026f%5Bsubject_ssim%5D%5B%5D=Street+scenes\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          },
+          {
+            "attributes": {
+              "label": "Twin City Rapid Transit Company",
+              "value": "Twin City Rapid Transit Company",
+              "hits": 17
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=Bryant+AND+streetcar\u0026city_or_township=\u0026county=Hennepin\u0026creator=\u0026description=\u0026f%5Bsubject_ssim%5D%5B%5D=Twin+City+Rapid+Transit+Company\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          },
+          {
+            "attributes": {
+              "label": "Streetcar",
+              "value": "Streetcar",
+              "hits": 15
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=Bryant+AND+streetcar\u0026city_or_township=\u0026county=Hennepin\u0026creator=\u0026description=\u0026f%5Bsubject_ssim%5D%5B%5D=Streetcar\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/facet/subject_ssim.json?all_fields=Bryant+AND+streetcar\u0026city_or_township=\u0026county=Hennepin\u0026creator=\u0026description=\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+      }
+    },
+    {
+      "type": "facet",
+      "id": "city_ssim",
+      "attributes": {
+        "label": "City or Township",
+        "items": [
+          {
+            "attributes": {
+              "label": "Minneapolis",
+              "value": "Minneapolis",
+              "hits": 33
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=Bryant+AND+streetcar\u0026city_or_township=\u0026county=Hennepin\u0026creator=\u0026description=\u0026f%5Bcity_ssim%5D%5B%5D=Minneapolis\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/facet/city_ssim.json?all_fields=Bryant+AND+streetcar\u0026city_or_township=\u0026county=Hennepin\u0026creator=\u0026description=\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+      }
+    },
+    {
+      "type": "facet",
+      "id": "county_ssim",
+      "attributes": {
+        "label": "County",
+        "items": [
+          {
+            "attributes": {
+              "label": "Hennepin",
+              "value": "Hennepin",
+              "hits": 33
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=Bryant+AND+streetcar\u0026city_or_township=\u0026county=Hennepin\u0026creator=\u0026description=\u0026f%5Bcounty_ssim%5D%5B%5D=Hennepin\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/facet/county_ssim.json?all_fields=Bryant+AND+streetcar\u0026city_or_township=\u0026county=Hennepin\u0026creator=\u0026description=\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+      }
+    },
+    {
+      "type": "facet",
+      "id": "state_ssi",
+      "attributes": {
+        "label": "State or Province",
+        "items": [
+          {
+            "attributes": {
+              "label": "Minnesota",
+              "value": "Minnesota",
+              "hits": 33
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=Bryant+AND+streetcar\u0026city_or_township=\u0026county=Hennepin\u0026creator=\u0026description=\u0026f%5Bstate_ssi%5D%5B%5D=Minnesota\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/facet/state_ssi.json?all_fields=Bryant+AND+streetcar\u0026city_or_township=\u0026county=Hennepin\u0026creator=\u0026description=\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+      }
+    },
+    {
+      "type": "facet",
+      "id": "country_ssi",
+      "attributes": {
+        "label": "Country",
+        "items": [
+          {
+            "attributes": {
+              "label": "United States",
+              "value": "United States",
+              "hits": 33
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=Bryant+AND+streetcar\u0026city_or_township=\u0026county=Hennepin\u0026creator=\u0026description=\u0026f%5Bcountry_ssi%5D%5B%5D=United+States\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/facet/country_ssi.json?all_fields=Bryant+AND+streetcar\u0026city_or_township=\u0026county=Hennepin\u0026creator=\u0026description=\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+      }
+    },
+    {
+      "type": "facet",
+      "id": "geographic_feature_ssim",
+      "attributes": {
+        "label": "Geographic Feature",
+        "items": [
+          {
+            "attributes": {
+              "label": "Minnehaha Creek",
+              "value": "Minnehaha Creek",
+              "hits": 9
+            },
+            "links": {
+              "self": "https://collection.mndigital.org/catalog.json?all_fields=Bryant+AND+streetcar\u0026city_or_township=\u0026county=Hennepin\u0026creator=\u0026description=\u0026f%5Bgeographic_feature_ssim%5D%5B%5D=Minnehaha+Creek\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog/facet/geographic_feature_ssim.json?all_fields=Bryant+AND+streetcar\u0026city_or_township=\u0026county=Hennepin\u0026creator=\u0026description=\u0026op=AND\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+      }
+    },
+    {
+      "type": "search_field",
+      "id": "all_fields",
+      "attributes": {
+        "label": "All Fields"
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog.json?all_fields=Bryant+AND+streetcar\u0026city_or_township=\u0026county=Hennepin\u0026creator=\u0026description=\u0026op=AND\u0026page=2\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=all_fields\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+      }
+    },
+    {
+      "type": "search_field",
+      "id": "title",
+      "attributes": {
+        "label": "Title"
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog.json?all_fields=Bryant+AND+streetcar\u0026city_or_township=\u0026county=Hennepin\u0026creator=\u0026description=\u0026op=AND\u0026page=2\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=title\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+      }
+    },
+    {
+      "type": "search_field",
+      "id": "creator",
+      "attributes": {
+        "label": "Creator"
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog.json?all_fields=Bryant+AND+streetcar\u0026city_or_township=\u0026county=Hennepin\u0026creator=\u0026description=\u0026op=AND\u0026page=2\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=creator\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+      }
+    },
+    {
+      "type": "search_field",
+      "id": "subject",
+      "attributes": {
+        "label": "Subject"
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog.json?all_fields=Bryant+AND+streetcar\u0026city_or_township=\u0026county=Hennepin\u0026creator=\u0026description=\u0026op=AND\u0026page=2\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=subject\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+      }
+    },
+    {
+      "type": "search_field",
+      "id": "description",
+      "attributes": {
+        "label": "Description"
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog.json?all_fields=Bryant+AND+streetcar\u0026city_or_township=\u0026county=Hennepin\u0026creator=\u0026description=\u0026op=AND\u0026page=2\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=description\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+      }
+    },
+    {
+      "type": "search_field",
+      "id": "city_or_township",
+      "attributes": {
+        "label": "City or Township"
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog.json?all_fields=Bryant+AND+streetcar\u0026city_or_township=\u0026county=Hennepin\u0026creator=\u0026description=\u0026op=AND\u0026page=2\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=city_or_township\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+      }
+    },
+    {
+      "type": "search_field",
+      "id": "county",
+      "attributes": {
+        "label": "County"
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog.json?all_fields=Bryant+AND+streetcar\u0026city_or_township=\u0026county=Hennepin\u0026creator=\u0026description=\u0026op=AND\u0026page=2\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=county\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+      }
+    },
+    {
+      "type": "sort",
+      "id": "score desc, dat_sort desc, title_sort asc",
+      "attributes": {
+        "label": "Relevance"
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog.json?all_fields=Bryant+AND+streetcar\u0026city_or_township=\u0026county=Hennepin\u0026creator=\u0026description=\u0026op=AND\u0026page=2\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=score+desc%2C+dat_sort+desc%2C+title_sort+asc\u0026title="
+      }
+    },
+    {
+      "type": "sort",
+      "id": "title_sort asc, dat_sort asc",
+      "attributes": {
+        "label": "Title: A to Z"
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog.json?all_fields=Bryant+AND+streetcar\u0026city_or_township=\u0026county=Hennepin\u0026creator=\u0026description=\u0026op=AND\u0026page=2\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=title_sort+asc%2C+dat_sort+asc\u0026title="
+      }
+    },
+    {
+      "type": "sort",
+      "id": "title_sort desc, dat_sort desc",
+      "attributes": {
+        "label": "Title: Z to A"
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog.json?all_fields=Bryant+AND+streetcar\u0026city_or_township=\u0026county=Hennepin\u0026creator=\u0026description=\u0026op=AND\u0026page=2\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=title_sort+desc%2C+dat_sort+desc\u0026title="
+      }
+    },
+    {
+      "type": "sort",
+      "id": "creator_sort asc, title_sort asc",
+      "attributes": {
+        "label": "Creator: A to Z"
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog.json?all_fields=Bryant+AND+streetcar\u0026city_or_township=\u0026county=Hennepin\u0026creator=\u0026description=\u0026op=AND\u0026page=2\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=creator_sort+asc%2C+title_sort+asc\u0026title="
+      }
+    },
+    {
+      "type": "sort",
+      "id": "creator_sort desc, title_sort desc",
+      "attributes": {
+        "label": "Creator: Z to A"
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog.json?all_fields=Bryant+AND+streetcar\u0026city_or_township=\u0026county=Hennepin\u0026creator=\u0026description=\u0026op=AND\u0026page=2\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=creator_sort+desc%2C+title_sort+desc\u0026title="
+      }
+    },
+    {
+      "type": "sort",
+      "id": "dat_ssi asc, title_sort asc",
+      "attributes": {
+        "label": "Date: Oldest First"
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog.json?all_fields=Bryant+AND+streetcar\u0026city_or_township=\u0026county=Hennepin\u0026creator=\u0026description=\u0026op=AND\u0026page=2\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=dat_ssi+asc%2C+title_sort+asc\u0026title="
+      }
+    },
+    {
+      "type": "sort",
+      "id": "dat_ssi desc, title_sort desc",
+      "attributes": {
+        "label": "Date: Newest First"
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog.json?all_fields=Bryant+AND+streetcar\u0026city_or_township=\u0026county=Hennepin\u0026creator=\u0026description=\u0026op=AND\u0026page=2\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=dat_ssi+desc%2C+title_sort+desc\u0026title="
+      }
+    },
+    {
+      "type": "sort",
+      "id": "dmcreated_ssi asc",
+      "attributes": {
+        "label": "Date Added: Oldest First"
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog.json?all_fields=Bryant+AND+streetcar\u0026city_or_township=\u0026county=Hennepin\u0026creator=\u0026description=\u0026op=AND\u0026page=2\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=dmcreated_ssi+asc\u0026title="
+      }
+    },
+    {
+      "type": "sort",
+      "id": "dmcreated_ssi desc",
+      "attributes": {
+        "label": "Date Added: Newest First"
+      },
+      "links": {
+        "self": "https://collection.mndigital.org/catalog.json?all_fields=Bryant+AND+streetcar\u0026city_or_township=\u0026county=Hennepin\u0026creator=\u0026description=\u0026op=AND\u0026page=2\u0026range%5Bdat_ssim%5D%5Bbegin%5D=\u0026range%5Bdat_ssim%5D%5Bend%5D=\u0026search_field=advanced\u0026sort=dmcreated_ssi+desc\u0026title="
+      }
+    }
+  ]
+}

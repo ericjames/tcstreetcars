@@ -5,7 +5,7 @@ export const COLORS = {
   tcrt_olive: "#455041",
   tcrt_map_red: "#FA5340",
   tcrt_map_green: "#679D5F",
-  streetcar: "#FA5340",
+  streetcar: "#A12A1E",
   ferry: "#BB9765",
   horsecar: "#964B00",
   bus: "#679D5F",

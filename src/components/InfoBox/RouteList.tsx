@@ -1,7 +1,6 @@
 import { Dispatch, FC, SetStateAction } from "react";
 
 import { Corridor } from "../../constants/types";
-import { Images } from "react-bootstrap-icons";
 import styled from "styled-components";
 
 interface IProps {
@@ -61,7 +60,6 @@ const RouteList: FC<IProps> = ({
                 `}
             onClick={() => setSelectedCorridor(corridor)}>
             {corridor.routeName}
-            {corridor?.hasPhotos && <Images />}
           </StyledButton>
         ))}
     </div>

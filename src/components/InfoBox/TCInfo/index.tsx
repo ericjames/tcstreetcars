@@ -27,20 +27,20 @@ const TCInfo: FC<IPropsInfoBox> = ({
 }) => {
   return (
     <>
-      <StyledImage className="bg-picture">
+      {/* <StyledImage className="bg-picture">
         {selectedType === TransitTypes.STREETCAR && (
           <img
             className="w-100 h-100 object-fit-cover"
             src={graphicStreetcar}
           />
         )}
-      </StyledImage>
+      </StyledImage> */}
       <div className="p-4">
-        <ButtonGroup
+        {/* <ButtonGroup
           setSelectedType={setSelectedType}
           selectedType={selectedType}
           navigation={navigation}
-        />
+        /> */}
         <h1>Twin Cities</h1>
         {selectedType === TransitTypes.STREETCAR ? (
           <>

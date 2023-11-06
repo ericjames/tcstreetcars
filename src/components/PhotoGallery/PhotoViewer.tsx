@@ -1,4 +1,5 @@
-import { FC } from "react";
+import { FC, useEffect } from "react";
+
 import { RoutePhoto } from "../../constants/types";
 import { XSquare } from "react-bootstrap-icons";
 import styled from "styled-components";
@@ -7,16 +8,6 @@ const Wrapper = styled.div`
   top: 0;
   left: 0;
   z-index: 100;
-  div {
-    width: 73vw;
-    margin: 1em auto;
-    max-height: 70vh;
-  }
-  img {
-    width: 100%;
-    height: auto;
-    max-height: 50vh;
-  }
   background: rgb(0, 0, 0, 0.6);
 `;
 
@@ -26,6 +17,18 @@ type IProps = {
 };
 
 const PhotoViewer: FC<IProps> = ({ photo, exitPhotoViewer }) => {
+  useEffect(() => {
+    const onKeyDown = (e: any) => {
+      if (e.keyCode === 8 || e.keyCode === 27) {
+        exitPhotoViewer();
+      }
+    };
+    window.onkeydown = onKeyDown;
+    return () => {
+      window.onkeydown = null;
+    };
+  }, []);
+
   return (
     <Wrapper
       className={`position-absolute w-100 h-100 ${
@@ -36,18 +39,20 @@ const PhotoViewer: FC<IProps> = ({ photo, exitPhotoViewer }) => {
         className="p-4 position-absolute top-0 end-0 btn fs-4">
         <XSquare />
       </button>
-      <div className="p-3 bg-white rounded">
-        <img
-          className="object-fit-contain"
-          src={photo?.fullSizeUrl}
-          alt={photo?.title}
-        />
-        <div className="p-2 w-auto">
+      <div className="p-3 bg-white rounded m-3 d-flex flex-column h-75">
+        <div className="flex-fill h-75 mb-4">
+          <img
+            className="object-fit-contain w-100 h-100"
+            src={photo?.fullSizeUrl}
+            alt={photo?.title}
+          />
+        </div>
+        <div className="p-2 w-100">
           <p className="lead">{photo?.title}</p>
           <p className="small">{photo?.description}</p>
           <p className="small">
-            Source: {photo?.source}{" "}
-            {photo?.sourceLink && <a href={photo?.sourceLink}>Original Link</a>}
+            Source: (PENDING APPROVAL) {photo?.source}{" "}
+            {photo?.sourceLink && <a href={photo?.sourceLink}>Source Link</a>}
           </p>
         </div>
       </div>

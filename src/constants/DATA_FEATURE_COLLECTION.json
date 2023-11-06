@@ -1677,7 +1677,7 @@
       "properties": {
         "ID": 119,
         "TYPE": "Streetcar",
-        "CORRIDOR": "BRYN_MAUR_STREETCAR",
+        "CORRIDOR": "BRYN_MAWR_STREETCAR",
         "YR_START1": 1890,
         "YR_END1": 19501954,
         "YR_START2": 0,
@@ -4060,7 +4060,7 @@
       "properties": {
         "ID": 177,
         "TYPE": "Streetcar",
-        "CORRIDOR": "BRYN_MAUR_STREETCAR",
+        "CORRIDOR": "BRYN_MAWR_STREETCAR",
         "YR_START1": 1892,
         "YR_END1": 1939,
         "YR_START2": 0,
@@ -6108,7 +6108,7 @@
       "properties": {
         "ID": 55,
         "TYPE": "Streetcar",
-        "CORRIDOR": "KENWOOD_STLOUISPARK_STREETCAR",
+        "CORRIDOR": "KENWOOD_SLP_STREETCAR",
         "YR_START1": 1892,
         "YR_END1": 1938,
         "YR_START2": 0,
@@ -10748,7 +10748,7 @@
       "properties": {
         "ID": 17,
         "TYPE": "Streetcar",
-        "CORRIDOR": "BRYN_MAUR_STREETCAR",
+        "CORRIDOR": "BRYN_MAWR_STREETCAR",
         "YR_START1": 1928,
         "YR_END1": 1939,
         "YR_START2": 0,
@@ -12281,7 +12281,7 @@
       "properties": {
         "ID": 305,
         "TYPE": "Streetcar",
-        "CORRIDOR": "KENWOOD_STLOUISPARK_STREETCAR",
+        "CORRIDOR": "KENWOOD_SLP_STREETCAR",
         "YR_START1": 1891,
         "YR_END1": 19501954,
         "YR_START2": 0,
@@ -13382,7 +13382,7 @@
       "properties": {
         "ID": 55,
         "TYPE": "Streetcar",
-        "CORRIDOR": "KENWOOD_STLOUISPARK_STREETCAR",
+        "CORRIDOR": "KENWOOD_SLP_STREETCAR",
         "YR_START1": 1892,
         "YR_END1": 1938,
         "YR_START2": 0,
@@ -17414,7 +17414,7 @@
       "properties": {
         "ID": 55,
         "TYPE": "Streetcar",
-        "CORRIDOR": "KENWOOD_STLOUISPARK_STREETCAR",
+        "CORRIDOR": "KENWOOD_SLP_STREETCAR",
         "YR_START1": 1892,
         "YR_END1": 1938,
         "YR_START2": 0,
@@ -19295,7 +19295,7 @@
       "properties": {
         "ID": 391,
         "TYPE": "Streetcar",
-        "CORRIDOR": "KENWOOD_STLOUISPARK_STREETCAR",
+        "CORRIDOR": "KENWOOD_SLP_STREETCAR",
         "YR_START1": 1897,
         "YR_END1": 1907,
         "YR_START2": 0,
@@ -21837,7 +21837,7 @@
       "properties": {
         "ID": 390,
         "TYPE": "Streetcar",
-        "CORRIDOR": "KENWOOD_STLOUISPARK_STREETCAR",
+        "CORRIDOR": "KENWOOD_SLP_STREETCAR",
         "YR_START1": 1898,
         "YR_END1": 1907,
         "YR_START2": 0,

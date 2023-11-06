@@ -19,19 +19,23 @@ const PhotoGallery: FC<IProps> = ({
   selectedPhoto,
   setSelectedPhoto,
 }) => {
+  const limit = 6;
   return (
     <Wrapper
       className={`d-flex align-items-center gap-3 w-100 overflow-scroll p-3 ${
         selectedPhoto ? "opacity-0" : "opacity-100"
       }`}>
-      {photos?.map((photo, i) => (
-        <Photo
-          key={i}
-          photo={photo}
-          isSelected={selectedPhoto && selectedPhoto === photo}
-          setSelectedPhoto={setSelectedPhoto}
-        />
-      ))}
+      {photos?.map(
+        (photo, i) =>
+          i < limit && (
+            <Photo
+              key={i}
+              photo={i < limit ? photo : null}
+              isSelected={selectedPhoto && selectedPhoto === photo}
+              setSelectedPhoto={setSelectedPhoto}
+            />
+          )
+      )}
       {/* {!photos && (
         <>
           <Photo />

@@ -25,6 +25,7 @@ const Wrapper = styled.div<{
 
 const StyledPhotoGallery = styled.div`
   position: absolute;
+  width: 100%;
   bottom: 2em;
   left: 0;
 `;
@@ -47,15 +48,11 @@ const RouteInfoBox: FC<IProps> = ({
   const hasSelectedPhoto = selectedPhoto !== null;
 
   useEffect(() => {
-    const fetchData = async () => {
-      return await GET_PHOTO_JSON(corridor?.DATA_CORRIDOR);
-    };
-
-    const photos = fetchData()
-      .catch(console.error)
-      .then((photos) => {
-        setPhotos(photos);
-      });
+    GET_PHOTO_JSON(corridor?.DATA_CORRIDOR).then((response) => {
+      if (response && response.length > 0) {
+        setPhotos(response);
+      }
+    });
   }, [corridor]);
 
   const exitPhotoViewer = () => {
