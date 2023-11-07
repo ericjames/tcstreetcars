@@ -3,10 +3,12 @@ import {
   Corridor,
   NavigationStateProp,
   TransitTypes,
+  YearRange,
 } from "../../constants/types";
 import {
   NAVIGATION,
   PRODUCTION_MODE,
+  YEAR_RANGES,
   getCorridors,
   getDataFeatureCollection,
 } from "../../constants";
@@ -33,6 +35,7 @@ const Home: FC = () => {
   const [selectedCorridor, setSelectedCorridor] = useState<Corridor | null>(
     null
   );
+  const [yearRange, setYearRange] = useState<YearRange | null>(YEAR_RANGES[1]);
 
   const [selectedType, setSelectedType] = useState<TransitTypes | null>(
     TransitTypes.STREETCAR
@@ -59,10 +62,13 @@ const Home: FC = () => {
         <Header
           setSiteNavigation={setSiteNavigation}
           navigation={navigation}
+          yearRange={yearRange}
+          setYearRange={setYearRange}
+          selectedCorridor={selectedCorridor}
         />
       </StyledHeader>
       <StyledWrapper className="row g-0 overflow-hidden">
-        <div className="d-none d-md-block col-md-3 h-100">
+        <div className="d-none d-md-block col-md-3 h-100 border-end">
           <InfoBox
             navigation={navigation}
             corridors={corridors}
@@ -83,6 +89,7 @@ const Home: FC = () => {
             setSelectedType={setSelectedType}
             geoJSON={geoJSON}
             setGeoJSON={setGeoJSON}
+            yearRange={yearRange}
           />
         </div>
       </StyledWrapper>

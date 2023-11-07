@@ -8,4 +8,6 @@ $theme-colors: (
   "sidebar": $map_bg_beige
 );
 
+$list-group-active-bg: $tcrt_red;
+
 @import "~bootstrap/scss/bootstrap.scss";

@@ -88,7 +88,12 @@ export type Corridor = {
 
 export type YearRange = [number | null, number | null];
 
-export type MapboxFilterArray = Array<Array<string> | string>;
+export type MapboxFilterArray = Array<
+  string[] | string | number | null | MapboxFilterArray
+>;
+
+type SubFilterType = Array<"all" | "any" | MapboxFilterArray>;
+export type InitialFilterType = Array<"all" | SubFilterType>;
 
 export type GenericObjectMap = {
   [key: string]: string;
@@ -101,6 +106,15 @@ export type CorridorNameMap = {
 export interface IPropsHeader {
   navigation: NavigationStateProp;
   setSiteNavigation: (nav: NavigationStateProp) => void;
+  selectedCorridor: Corridor | null;
+  yearRange: YearRange | null;
+  setYearRange: Dispatch<SetStateAction<YearRange | null>>;
+}
+
+export interface IPropsYearToggler {
+  selectedCorridor?: Corridor | null;
+  yearRange: YearRange | null;
+  setYearRange: Dispatch<SetStateAction<YearRange | null>>;
 }
 
 export interface IPropsInfoBox {
@@ -112,6 +126,29 @@ export interface IPropsInfoBox {
   setSelectedType: Dispatch<SetStateAction<TransitTypes | null>>;
 }
 
+export interface IPropsSystemLayer {
+  layerName: string;
+  sourceId: string;
+  sourceLayerName: string;
+  map: mapboxgl.Map | undefined;
+  yearRange: YearRange | null;
+  selectedCorridor: Corridor | null;
+  selectedType: TransitTypes | null;
+  onCorridorSelect?: (corridorName: FeatureCorridorNames) => void;
+}
+
+export interface IPropsRouteLayer {
+  map: mapboxgl.Map | undefined;
+  selectedCorridor: Corridor | null;
+  corridors?: Array<Corridor> | null;
+  layerName: string;
+  sourceId: string;
+  sourceLayerName?: string;
+  yearRange: YearRange | null;
+  onCorridorSelect: (corridorName: FeatureCorridorNames) => void;
+  selectedType?: TransitTypes | null;
+}
+
 export interface IPropsMapViewer {
   navigation?: NavigationStateProp;
   corridors?: Array<Corridor> | null;
@@ -121,6 +158,7 @@ export interface IPropsMapViewer {
   setSelectedType: Dispatch<SetStateAction<TransitTypes | null>>;
   geoJSON: AppFeatureCollection | null;
   setGeoJSON: Dispatch<SetStateAction<AppFeatureCollection | null>>;
+  yearRange: YearRange | null;
 }
 
 export interface IPropsCorridorInfo {

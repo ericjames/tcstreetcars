@@ -6,6 +6,7 @@ import {
   NavigationState,
   RegionName,
   TransitTypes,
+  YearRange,
 } from "./types";
 import { TC_CENTER, TC_ZOOM, WESTMETRO_CENTER, WESTMETRO_ZOOM } from "./mapbox";
 
@@ -70,6 +71,15 @@ export const NAVIGATION: Array<NavigationState> = [
     types: [TransitTypes.STREETCAR, TransitTypes.BUS],
     region: RegionName.south,
   },
+];
+
+export const YEAR_RANGES: Array<YearRange> = [
+  [1890, 1899],
+  [1900, 1917],
+  [1918, 1926],
+  [1927, 1932],
+  [1933, 1954],
+  [null, null],
 ];
 
 export const getDataFeatureCollection = () => {

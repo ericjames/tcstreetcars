@@ -1679,8 +1679,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "BRYN_MAWR_STREETCAR",
         "YR_START1": 1890,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 1812.03090202
       },
@@ -1755,7 +1755,6 @@
         "CORRIDOR": "NW_TERMINAL_STREETCAR",
         "YR_START1": 1921,
         "YR_END1": 1948,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 910.729653425
       },
@@ -1793,8 +1792,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "COLUMBIA_HEIGHTS_STREETCAR",
         "YR_START1": 1906,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 997.446632971
       },
@@ -1858,6 +1857,7 @@
         "YR_START1": 1891,
         "YR_END1": 1900,
         "YR_START2": 1916,
+        "YR_END2": 1950,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 1605.75712559
       },
@@ -1883,8 +1883,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "GRAND_AVE_S_STREETCAR",
         "YR_START1": 1907,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 1988.07094091
       },
@@ -1947,7 +1947,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 1883,
         "YR_END1": 1887,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 615.044212361
       },
@@ -1978,7 +1977,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 1885,
         "YR_END1": 1891,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 1145.74739212
       },
@@ -2008,8 +2006,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "28TH_AVE_34TH_AVE_STREETCAR",
         "YR_START1": 1914,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 1401.00249542
       },
@@ -2047,8 +2045,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "FORT_SNELLING_STREETCAR",
         "YR_START1": 1891,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 4729.09100341
       },
@@ -2104,6 +2102,7 @@
         "YR_START1": 1915,
         "YR_END1": 1917,
         "YR_START2": 1930,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 508.841951324
       },
@@ -2129,8 +2128,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "HAZEL_PARK_STREETCAR",
         "YR_START1": 1889,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 4816.31620292
       },
@@ -2200,8 +2199,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "MINNEHAHA_STREETCAR",
         "YR_START1": 1930,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 1603.59320502
       },
@@ -2235,8 +2234,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "COMO_HARRIET_STREETCAR",
         "YR_START1": 1904,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 965.375507806
       },
@@ -2310,8 +2309,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "BROADWAY_STREETCAR",
         "YR_START1": 1914,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 1959.50369872
       },
@@ -2397,8 +2396,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "MINNEHAHA_STREETCAR",
         "YR_START1": 1891,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "TRUE",
         "Shape_Leng": 719.802834678
       },
@@ -2428,8 +2427,8 @@
         "TYPE": "Bus",
         "CORRIDOR": "WHITE_BEAR_BUS",
         "YR_START1": 1948,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 12682.2594559
       },
@@ -2620,7 +2619,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 0,
         "YR_END1": 1891,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 1790.2898793
       },
@@ -2679,7 +2677,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 1884,
         "YR_END1": 1890,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 408.396836998
       },
@@ -2714,7 +2711,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 1884,
         "YR_END1": 1891,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 802.456615222
       },
@@ -2820,7 +2816,6 @@
         "CORRIDOR": "WILDHURST_FERRY",
         "YR_START1": 1906,
         "YR_END1": 1926,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 13351.5350897
       },
@@ -2987,7 +2982,6 @@
         "CORRIDOR": "NW_TERMINAL_STREETCAR",
         "YR_START1": 1920,
         "YR_END1": 1948,
-        "YR_START2": 0,
         "PRIV_ROW": "TRUE",
         "Shape_Leng": 689.082511525
       },
@@ -3017,8 +3011,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "BRYANT_AVE_S_STREETCAR",
         "YR_START1": 1931,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 663.831415326
       },
@@ -3057,7 +3051,6 @@
         "CORRIDOR": "ROBBINSDALE_STREETCAR",
         "YR_START1": 1891,
         "YR_END1": 1914,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 820.287553929
       },
@@ -3116,7 +3109,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 1887,
         "YR_END1": 1891,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 690.260689354
       },
@@ -3146,8 +3138,8 @@
         "TYPE": "Bus",
         "CORRIDOR": "NICOLLET_HENNEPIN_BUS",
         "YR_START1": 1948,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 6380.89735308
       },
@@ -3213,8 +3205,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "BRYANT_AVE_S_STREETCAR",
         "YR_START1": 1927,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 2216.62383404
       },
@@ -3304,8 +3296,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "COMO_HARRIET_STREETCAR",
         "YR_START1": 1898,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 4830.2261777
       },
@@ -3439,8 +3431,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "MINNEHAHA_STREETCAR",
         "YR_START1": 1905,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "TRUE",
         "Shape_Leng": 1712.76784311
       },
@@ -3479,7 +3471,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 1888,
         "YR_END1": 1891,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 743.318635184
       },
@@ -3509,8 +3500,7 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "ROBBINSDALE_STREETCAR",
         "YR_START1": 1891,
-        "YR_END1": 1914,
-        "YR_START2": 1914,
+        "YR_END1": 1954,
         "PRIV_ROW": "TRUE",
         "Shape_Leng": 708.917065224
       },
@@ -3552,8 +3542,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "BLOOMINGTON_AVE_STREETCAR",
         "YR_START1": 1922,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 2003.02405458
       },
@@ -3616,7 +3606,6 @@
         "CORRIDOR": "HOPE_STREETCAR",
         "YR_START1": 1915,
         "YR_END1": 1939,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 797.979041311
       },
@@ -3643,7 +3632,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 1882,
         "YR_END1": 1891,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 1331.17991654
       },
@@ -3678,7 +3666,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 0,
         "YR_END1": 1891,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 113.058999998
       },
@@ -3705,7 +3692,6 @@
         "CORRIDOR": "STILLWATER_STREETCAR_STREETCAR",
         "YR_START1": 1889,
         "YR_END1": 1897,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 3108.89664
       },
@@ -3764,7 +3750,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 1881,
         "YR_END1": 1891,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 1558.90517746
       },
@@ -3799,7 +3784,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 1884,
         "YR_END1": 1886,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 313.803703611
       },
@@ -3825,8 +3809,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "MINNEHAHA_STREETCAR",
         "YR_START1": 1914,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 552.446350943
       },
@@ -3852,8 +3836,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "NICOLLET_STREETCAR",
         "YR_START1": 1928,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 677.51376513
       },
@@ -3887,8 +3871,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "PAYNE_AVE_STREETCAR",
         "YR_START1": 1891,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 1711.01725287
       },
@@ -3922,8 +3906,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "SELBY_LAKE_STREETCAR",
         "YR_START1": 1888,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 1585.04957487
       },
@@ -3978,7 +3962,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 1888,
         "YR_END1": 1891,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 783.819223623
       },
@@ -4005,7 +3988,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 1882,
         "YR_END1": 1891,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 696.025944799
       },
@@ -4032,7 +4014,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 1886,
         "YR_END1": 1891,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 1552.9946926
       },
@@ -4063,7 +4044,6 @@
         "CORRIDOR": "BRYN_MAWR_STREETCAR",
         "YR_START1": 1892,
         "YR_END1": 1939,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 2159.30619655
       },
@@ -4109,8 +4089,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "HOPE_STREETCAR",
         "YR_START1": 1889,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 3232.9004553
       },
@@ -4161,7 +4141,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 1886,
         "YR_END1": 1891,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 243.995198717
       },
@@ -4188,7 +4167,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 0,
         "YR_END1": 1891,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 284.220412952
       },
@@ -4215,7 +4193,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 1884,
         "YR_END1": 1890,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 394.632807915
       },
@@ -4249,8 +4226,8 @@
         "TYPE": "Bus",
         "CORRIDOR": "CHICAGO_AVE_BUS",
         "YR_START1": 1948,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 228.577410469
       },
@@ -4284,8 +4261,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "SAINT_CLAIR_STREETCAR",
         "YR_START1": 1915,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 2105.82684344
       },
@@ -4311,8 +4288,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "RICE_ST_STREETCAR",
         "YR_START1": 1909,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 405.235061749
       },
@@ -4342,8 +4319,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "2ND_ST_NE_STREETCAR",
         "YR_START1": 1890,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 2673.93044474
       },
@@ -4413,8 +4390,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "PHALEN_STREETCAR",
         "YR_START1": 1889,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 3463.38199576
       },
@@ -4468,8 +4445,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "BRYANT_AVE_S_STREETCAR",
         "YR_START1": 1905,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 395.492532501
       },
@@ -4500,7 +4477,6 @@
         "CORRIDOR": "STEAM_POWER_STEAM_POWER",
         "YR_START1": 1879,
         "YR_END1": 1884,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 701.828225295
       },
@@ -4538,8 +4514,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "COMO_HARRIET_OAK_XER_STREETCAR",
         "YR_START1": 1883,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "TRUE",
         "Shape_Leng": 961.139272139
       },
@@ -4597,8 +4573,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "NICOLLET_STREETCAR",
         "YR_START1": 1947,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 799.012289718
       },
@@ -4640,8 +4616,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "PLYMOUTH_AVE_STREETCAR",
         "YR_START1": 1890,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 2581.10767471
       },
@@ -4736,7 +4712,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 1888,
         "YR_END1": 1891,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 607.6721
       },
@@ -4763,7 +4738,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 1888,
         "YR_END1": 1891,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 788.710902245
       },
@@ -4789,8 +4763,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "WASHINGTON_AVE_N_STREETCAR",
         "YR_START1": 1890,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 7065.74540819
       },
@@ -4964,8 +4938,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "PHALEN_STREETCAR",
         "YR_START1": 1905,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "TRUE",
         "Shape_Leng": 557.79399159
       },
@@ -5004,7 +4978,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 1879,
         "YR_END1": 1888,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 1000.75992618
       },
@@ -5035,7 +5008,6 @@
         "CORRIDOR": "HOPE_STREETCAR",
         "YR_START1": 1909,
         "YR_END1": 1939,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 932.186139963
       },
@@ -5073,8 +5045,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "JOHNSON_ST_NE_STREETCAR",
         "YR_START1": 1911,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 1405.52729084
       },
@@ -5125,7 +5097,6 @@
         "CORRIDOR": "SELBY_LAKE_STREETCAR",
         "YR_START1": 1891,
         "YR_END1": 1938,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 442.187271037
       },
@@ -5152,7 +5123,6 @@
         "CORRIDOR": "RONDO_STREETCAR",
         "YR_START1": 1891,
         "YR_END1": 1948,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 2390.921789
       },
@@ -5198,8 +5168,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "RICE_ST_STREETCAR",
         "YR_START1": 1891,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 764.557827689
       },
@@ -5238,7 +5208,6 @@
         "CORRIDOR": "WASHINGTON_AVE_N_STREETCAR",
         "YR_START1": 1899,
         "YR_END1": 1925,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 834.899328065
       },
@@ -5292,8 +5261,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "MINNEHAHA_STREETCAR",
         "YR_START1": 1890,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 1998.00872449
       },
@@ -5333,6 +5302,7 @@
         "YR_START1": 1891,
         "YR_END1": 1900,
         "YR_START2": 1909,
+        "YR_END2": 1950,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 401.859214173
       },
@@ -5359,7 +5329,6 @@
         "CORRIDOR": "STILLWATER_STREETCAR_STREETCAR",
         "YR_START1": 1905,
         "YR_END1": 1932,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 4037.14854287
       },
@@ -5438,7 +5407,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 1888,
         "YR_END1": 1891,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 587.76526004
       },
@@ -5465,7 +5433,6 @@
         "CORRIDOR": "WHITE_BEAR_LAKE_STREETCAR",
         "YR_START1": 1904,
         "YR_END1": 1932,
-        "YR_START2": 0,
         "PRIV_ROW": "TRUE",
         "Shape_Leng": 4466.82838993
       },
@@ -5567,8 +5534,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "STRYKER_AVE_STREETCAR",
         "YR_START1": 1890,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 2636.37939686
       },
@@ -5679,7 +5646,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 0,
         "YR_END1": 1891,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 619.496387704
       },
@@ -5706,7 +5672,6 @@
         "CORRIDOR": "STILLWATER_STREETCAR_STREETCAR",
         "YR_START1": 1889,
         "YR_END1": 1897,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 1016.61998681
       },
@@ -5745,7 +5710,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 1880,
         "YR_END1": 1890,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 404.227700082
       },
@@ -5771,8 +5735,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "CHICAGO_AVE_STREETCAR",
         "YR_START1": 1890,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 5484.01214684
       },
@@ -5866,8 +5830,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "ROBERT_ST_STREETCAR",
         "YR_START1": 1891,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 3196.56643388
       },
@@ -5946,7 +5910,6 @@
         "CORRIDOR": "FRANKLIN_STREETCAR",
         "YR_START1": 1914,
         "YR_END1": 1940,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 1124.80411298
       },
@@ -5980,8 +5943,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "PENN_FREMONT_STREETCAR",
         "YR_START1": 1920,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 4878.87280688
       },
@@ -6084,7 +6047,6 @@
         "CORRIDOR": "RONDO_STREETCAR",
         "YR_START1": 1893,
         "YR_END1": 1948,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 545.488703411
       },
@@ -6111,7 +6073,6 @@
         "CORRIDOR": "KENWOOD_SLP_STREETCAR",
         "YR_START1": 1892,
         "YR_END1": 1938,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 695.822955955
       },
@@ -6137,8 +6098,8 @@
         "TYPE": "Bus",
         "CORRIDOR": "E_6TH_ST_BUS",
         "YR_START1": 1948,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 7095.92016809
       },
@@ -6208,8 +6169,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "PAYNE_AVE_STREETCAR",
         "YR_START1": 1891,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 1632.87007154
       },
@@ -6291,8 +6252,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "RANDOLPH_STREETCAR",
         "YR_START1": 1924,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 1786.99729205
       },
@@ -6323,7 +6284,6 @@
         "CORRIDOR": "MINNEHAHA_STREETCAR",
         "YR_START1": 1905,
         "YR_END1": 1930,
-        "YR_START2": 0,
         "PRIV_ROW": "TRUE",
         "Shape_Leng": 807.142909329
       },
@@ -6353,8 +6313,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "4TH_AVE_STREETCAR",
         "YR_START1": 1890,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 801.522480008
       },
@@ -6393,7 +6353,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 1880,
         "YR_END1": 1884,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 559.921628449
       },
@@ -6427,8 +6386,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "JOHNSON_ST_NE_STREETCAR",
         "YR_START1": 1923,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 801.00744055
       },
@@ -6471,7 +6430,6 @@
         "CORRIDOR": "WASHINGTON_AVE_N_STREETCAR",
         "YR_START1": 1899,
         "YR_END1": 1947,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 572.960741628
       },
@@ -6509,8 +6467,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "GRAND_AVE_S_STREETCAR",
         "YR_START1": 1890,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 4469.17226687
       },
@@ -6584,8 +6542,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "SAINT_CLAIR_STREETCAR",
         "YR_START1": 1922,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 804.455196341
       },
@@ -6611,8 +6569,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "COLUMBIA_HEIGHTS_STREETCAR",
         "YR_START1": 0,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 1622.09457307
       },
@@ -6658,8 +6616,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "HAMLINE_STREETCAR",
         "YR_START1": 1906,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 1756.92834642
       },
@@ -6689,8 +6647,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "GRAND_AVE_S_STREETCAR",
         "YR_START1": 1905,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 506.780506494
       },
@@ -6724,8 +6682,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "FRANKLIN_STREETCAR",
         "YR_START1": 1914,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 1807.92385027
       },
@@ -6763,8 +6721,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "28TH_AVE_34TH_AVE_STREETCAR",
         "YR_START1": 1889,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 2835.91192591
       },
@@ -6823,7 +6781,6 @@
         "CORRIDOR": "STEAM_POWER_STEAM_POWER",
         "YR_START1": 1884,
         "YR_END1": 1891,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 6856.07343529
       },
@@ -6878,7 +6835,6 @@
         "CORRIDOR": "STEAM_POWER_STEAM_POWER",
         "YR_START1": 1884,
         "YR_END1": 1891,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 876.238568297
       },
@@ -6920,8 +6876,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "SHARED__NICOLLET_NW_TERMINAL_STREETCAR",
         "YR_START1": 1891,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 562.052789766
       },
@@ -6947,8 +6903,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "PENN_FREMONT_STREETCAR",
         "YR_START1": 1923,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 803.065604373
       },
@@ -6986,8 +6942,7 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "ROBBINSDALE_STREETCAR",
         "YR_START1": 1891,
-        "YR_END1": 1914,
-        "YR_START2": 1914,
+        "YR_END1": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 1309.09958968
       },
@@ -7017,8 +6972,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "25TH_ST_E_STREETCAR",
         "YR_START1": 1921,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 4187.37071616
       },
@@ -7116,8 +7071,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "OAK_HARRIET_STREETCAR",
         "YR_START1": 1907,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 996.577376678,
         "GROUP_ID": 2
@@ -7169,7 +7124,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 1885,
         "YR_END1": 1891,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 797.945404595
       },
@@ -7196,7 +7150,6 @@
         "CORRIDOR": "KENWOOD_STREETCAR",
         "YR_START1": 1890,
         "YR_END1": 1938,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 4330.97392719
       },
@@ -7335,7 +7288,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 1887,
         "YR_END1": 1891,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 715.836712284
       },
@@ -7369,8 +7321,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "ROBBINSDALE_STREETCAR",
         "YR_START1": 1890,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 4087.56806304
       },
@@ -7532,8 +7484,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "COMO_HARRIET_OAK_XER_STREETCAR",
         "YR_START1": 1905,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 302.464165419
       },
@@ -7568,7 +7520,6 @@
         "CORRIDOR": "PENN_FREMONT_STREETCAR",
         "YR_START1": 1891,
         "YR_END1": 1920,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 3880.72781994
       },
@@ -7706,8 +7657,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "BRYANT_AVE_S_STREETCAR",
         "YR_START1": 1931,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "TRUE",
         "Shape_Leng": 133.343535274
       },
@@ -7733,8 +7684,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "SOUTH_ST_PAUL_HASTINGS_STREETCAR",
         "YR_START1": 1914,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 8343.84189898
       },
@@ -7808,8 +7759,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "COMO_HARRIET_OAK_XER_STREETCAR",
         "YR_START1": 1883,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 292.061974795
       },
@@ -7840,7 +7791,6 @@
         "CORRIDOR": "STRYKER_AVE_STREETCAR",
         "YR_START1": 1894,
         "YR_END1": 1948,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 1297.97870607
       },
@@ -7866,8 +7816,8 @@
         "TYPE": "Bus",
         "CORRIDOR": "WESTERN_AVE_BUS",
         "YR_START1": 1948,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 962.364691643
       },
@@ -7894,7 +7844,6 @@
         "CORRIDOR": "STEAM_POWER_STEAM_POWER",
         "YR_START1": 1879,
         "YR_END1": 1891,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 758.06982764
       },
@@ -7920,8 +7869,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "MISSISSIPPI_ST_STREETCAR",
         "YR_START1": 1923,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 803.860563423
       },
@@ -7955,8 +7904,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "STPAUL_MINNEAPOLIS_STREETCAR",
         "YR_START1": 1890,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 16581.1524477
       },
@@ -8107,7 +8056,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 1886,
         "YR_END1": 1891,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 956.746763536
       },
@@ -8137,8 +8085,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "DALE_ST_STREETCAR",
         "YR_START1": 1890,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 3666.3829526
       },
@@ -8217,7 +8165,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 0,
         "YR_END1": 1891,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 1268.43790752
       },
@@ -8243,8 +8190,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "BROADWAY_STREETCAR",
         "YR_START1": 1891,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 1795.74513746
       },
@@ -8370,8 +8317,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "SHARED__NICOLLET_NW_TERMINAL_STREETCAR",
         "YR_START1": 1890,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 2724.73468558
       },
@@ -8446,7 +8393,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 1884,
         "YR_END1": 1891,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 570.36515074
       },
@@ -8489,7 +8435,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 1880,
         "YR_END1": 1891,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 716.092186853
       },
@@ -8515,8 +8460,8 @@
         "TYPE": "Bus",
         "CORRIDOR": "AIRPORT_BUS",
         "YR_START1": 1948,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 1966.20157826
       },
@@ -8558,8 +8503,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "SAINT_CLAIR_STREETCAR",
         "YR_START1": 1890,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 3149.7079974
       },
@@ -8618,7 +8563,6 @@
         "CORRIDOR": "28TH_AVE_STREETCAR",
         "YR_START1": 1921,
         "YR_END1": 1933,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 2007.5137031
       },
@@ -8645,7 +8589,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 1887,
         "YR_END1": 1891,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 777.085410108
       },
@@ -8695,8 +8638,8 @@
         "TYPE": "Bus",
         "CORRIDOR": "JACKSON_ROBERT_ST_BUS",
         "YR_START1": 1948,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 3501.46123302
       },
@@ -8758,8 +8701,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "SNELLING_AVE_STREETCAR",
         "YR_START1": 1898,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 412.960330477
       },
@@ -8786,7 +8729,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 1884,
         "YR_END1": 1891,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 336.351238134
       },
@@ -8817,7 +8759,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 1877,
         "YR_END1": 1878,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 375.005367455
       },
@@ -8844,7 +8785,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 1887,
         "YR_END1": 1891,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 1601.36894891
       },
@@ -8890,8 +8830,8 @@
         "TYPE": "Bus",
         "CORRIDOR": "ST_PAUL_AIRPORT_BUS",
         "YR_START1": 1948,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 3220.37252772
       },
@@ -8985,8 +8925,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "SOUTH_ST_PAUL_STREETCAR",
         "YR_START1": 1891,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 764.557827689
       },
@@ -9025,7 +8965,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 0,
         "YR_END1": 1891,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 585.213215654
       },
@@ -9063,8 +9002,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "CHICAGO_AVE_STREETCAR",
         "YR_START1": 1922,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 400.020929115
       },
@@ -9094,8 +9033,8 @@
         "TYPE": "Bus",
         "CORRIDOR": "AIRPORT_BUS",
         "YR_START1": 1948,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 1004.46652917
       },
@@ -9134,7 +9073,6 @@
         "CORRIDOR": "STEAM_POWER_STEAM_POWER",
         "YR_START1": 1882,
         "YR_END1": 1886,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 22217.6741013
       },
@@ -9445,7 +9383,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 1888,
         "YR_END1": 1891,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 2023.18428359
       },
@@ -9519,8 +9456,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "OAK_HARRIET_STREETCAR",
         "YR_START1": 1891,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 1037.15932039,
         "GROUP_ID": 2
@@ -9572,7 +9509,6 @@
         "CORRIDOR": "28TH_AVE_34TH_AVE_STREETCAR",
         "YR_START1": 1914,
         "YR_END1": 1926,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 740.75
       },
@@ -9599,7 +9535,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 1881,
         "YR_END1": 1891,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 1402.75003915
       },
@@ -9634,7 +9569,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 1887,
         "YR_END1": 1891,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 2101.75555237
       },
@@ -9688,8 +9622,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "RONDO_STREETCAR",
         "YR_START1": 0,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 787.004421367
       },
@@ -9728,7 +9662,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 1875,
         "YR_END1": 1878,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 382.313941222
       },
@@ -9754,8 +9687,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "PENN_FREMONT_STREETCAR",
         "YR_START1": 1926,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 950.09837757
       },
@@ -9846,7 +9779,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 1884,
         "YR_END1": 1887,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 577.106474692
       },
@@ -9872,8 +9804,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "JOHNSON_ST_NE_STREETCAR",
         "YR_START1": 1891,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 1696.19790622
       },
@@ -9940,7 +9872,6 @@
         "CORRIDOR": "STILLWATER_EXTENSION_STREETCAR",
         "YR_START1": 1899,
         "YR_END1": 1932,
-        "YR_START2": 0,
         "PRIV_ROW": "TRUE",
         "Shape_Leng": 11677.4375886
       },
@@ -10067,7 +9998,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 1876,
         "YR_END1": 1891,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 721.910950289
       },
@@ -10102,7 +10032,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 1887,
         "YR_END1": 1891,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 1778.54725571
       },
@@ -10129,7 +10058,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 1886,
         "YR_END1": 1891,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 499.703419602
       },
@@ -10163,8 +10091,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "COMO_HARRIET_STREETCAR",
         "YR_START1": 1891,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 213.655930419
       },
@@ -10190,8 +10118,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "BLOOMINGTON_AVE_STREETCAR",
         "YR_START1": 1933,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 398.521504686
       },
@@ -10222,7 +10150,6 @@
         "CORRIDOR": "ROBBINSDALE_STREETCAR",
         "YR_START1": 1891,
         "YR_END1": 1948,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 1280.10486948
       },
@@ -10285,7 +10212,6 @@
         "CORRIDOR": "STILLWATER_STREETCAR_STREETCAR",
         "YR_START1": 1899,
         "YR_END1": 1932,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 1658.7878625
       },
@@ -10328,7 +10254,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 1878,
         "YR_END1": 1891,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 340.126862104
       },
@@ -10358,8 +10283,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "SOUTH_ST_PAUL_STREETCAR",
         "YR_START1": 1905,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 7828.6836545
       },
@@ -10530,7 +10455,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 1879,
         "YR_END1": 1888,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 357.463971193
       },
@@ -10560,8 +10484,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "SELBY_LAKE_STREETCAR",
         "YR_START1": 1905,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 5615.56269263
       },
@@ -10659,8 +10583,8 @@
         "TYPE": "Bus",
         "CORRIDOR": "MPLS_ST_PAUL_EXPRESS_BUS",
         "YR_START1": 1948,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 15633.3461484
       },
@@ -10751,7 +10675,6 @@
         "CORRIDOR": "BRYN_MAWR_STREETCAR",
         "YR_START1": 1928,
         "YR_END1": 1939,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 620.564494743
       },
@@ -10806,7 +10729,6 @@
         "CORRIDOR": "6TH_AVE_N_STREETCAR",
         "YR_START1": 1893,
         "YR_END1": 1940,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 213.595303705
       },
@@ -10832,8 +10754,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "COMO_HARRIET_STREETCAR",
         "YR_START1": 1925,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 1116.01287217,
         "GROUP_ID": 1
@@ -10896,8 +10818,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "MARIA_STREETCAR",
         "YR_START1": 1914,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 968.131360061
       },
@@ -10927,8 +10849,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "6TH_AVE_N_STREETCAR",
         "YR_START1": 1890,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 629.995794135
       },
@@ -10966,8 +10888,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "JOHNSON_ST_NE_STREETCAR",
         "YR_START1": 1912,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 2169.87766303
       },
@@ -11005,8 +10927,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "BRYANT_AVE_S_STREETCAR",
         "YR_START1": 1911,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 805.501451997
       },
@@ -11045,7 +10967,6 @@
         "CORRIDOR": "SOUTH_ST_PAUL_HASTINGS_STREETCAR",
         "YR_START1": 1914,
         "YR_END1": 1933,
-        "YR_START2": 0,
         "PRIV_ROW": "TRUE",
         "Shape_Leng": 1560.94744301
       },
@@ -11115,8 +11036,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "MINNEHAHA_STREETCAR",
         "YR_START1": 1891,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 4696.48702149
       },
@@ -11174,8 +11095,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "2ND_ST_NE_STREETCAR",
         "YR_START1": 1891,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 3325.3809051
       },
@@ -11297,8 +11218,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "OAK_HARRIET_STREETCAR",
         "YR_START1": 1914,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 801.48372326,
         "GROUP_ID": 2
@@ -11353,8 +11274,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "COMO_HARRIET_STREETCAR",
         "YR_START1": 1891,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "TRUE",
         "Shape_Leng": 962.433732853
       },
@@ -11400,8 +11321,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "25TH_ST_E_STREETCAR",
         "YR_START1": 1912,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 2618.18320795
       },
@@ -11447,8 +11368,8 @@
         "TYPE": "Bus",
         "CORRIDOR": "BROOKSIDE_HOPKINS_BUS",
         "YR_START1": 1948,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 4136.9946757
       },
@@ -11511,7 +11432,6 @@
         "CORRIDOR": "PAYNE_AVE_STREETCAR",
         "YR_START1": 1891,
         "YR_END1": 1905,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 199.85532966
       },
@@ -11537,8 +11457,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "DALE_ST_STREETCAR",
         "YR_START1": 1923,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 717.431018182
       },
@@ -11564,8 +11484,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "SNELLING_AVE_STREETCAR",
         "YR_START1": 1927,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 808.477835294
       },
@@ -11592,7 +11512,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 1886,
         "YR_END1": 1891,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 358.020199999
       },
@@ -11618,8 +11537,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "SELBY_LAKE_STREETCAR",
         "YR_START1": 1890,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 4020.15960306
       },
@@ -11654,7 +11573,6 @@
         "CORRIDOR": "STILLWATER_STREETCAR_STREETCAR",
         "YR_START1": 1899,
         "YR_END1": 1932,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 343.434870568
       },
@@ -11684,8 +11602,8 @@
         "TYPE": "Bus",
         "CORRIDOR": "KENWOOD_SLP_RUSSELL_BUS",
         "YR_START1": 1948,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 6071.64300577
       },
@@ -11828,7 +11746,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 1880,
         "YR_END1": 1891,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 794.895271763
       },
@@ -11854,8 +11771,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "SOUTH_ST_PAUL_STREETCAR",
         "YR_START1": 1891,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 4625.2726427
       },
@@ -11970,7 +11887,6 @@
         "CORRIDOR": "DEEPHAVEN_STREETCAR",
         "YR_START1": 1906,
         "YR_END1": 1932,
-        "YR_START2": 0,
         "PRIV_ROW": "TRUE",
         "Shape_Leng": 9679.04377467
       },
@@ -12093,7 +12009,6 @@
         "CORRIDOR": "WASHINGTON_AVE_N_STREETCAR",
         "YR_START1": 1913,
         "YR_END1": 1925,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 600.041590484
       },
@@ -12124,7 +12039,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 1880,
         "YR_END1": 1891,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 376.889112262
       },
@@ -12155,7 +12069,6 @@
         "CORRIDOR": "EXCELSIOR_TONKA_BAY_STREETCAR",
         "YR_START1": 1907,
         "YR_END1": 1932,
-        "YR_START2": 0,
         "PRIV_ROW": "TRUE",
         "Shape_Leng": 2039.50928348
       },
@@ -12218,7 +12131,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 1882,
         "YR_END1": 1891,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 1279.7913856
       },
@@ -12257,7 +12169,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 1875,
         "YR_END1": 1877,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 693.79547199
       },
@@ -12283,8 +12194,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "KENWOOD_SLP_STREETCAR",
         "YR_START1": 1891,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 4794.32828531
       },
@@ -12411,7 +12322,6 @@
         "CORRIDOR": "CABLE_CAR_CABLE_CAR",
         "YR_START1": 1886,
         "YR_END1": 1891,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 4231.47968996
       },
@@ -12466,7 +12376,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 1884,
         "YR_END1": 1890,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 790.578117086
       },
@@ -12493,7 +12402,6 @@
         "CORRIDOR": "STEAM_POWER_STEAM_POWER",
         "YR_START1": 1879,
         "YR_END1": 1891,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 1168.66676859
       },
@@ -12532,7 +12440,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 1880,
         "YR_END1": 1891,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 959.211166543
       },
@@ -12558,8 +12465,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "CHICAGO_AVE_STREETCAR",
         "YR_START1": 1928,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 1208.03625593
       },
@@ -12614,7 +12521,6 @@
         "CORRIDOR": "RANDOLPH_STREETCAR",
         "YR_START1": 1891,
         "YR_END1": 1900,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 739.995656976
       },
@@ -12641,7 +12547,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 1888,
         "YR_END1": 1891,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 881.66299853
       },
@@ -12667,8 +12572,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "HAMLINE_STREETCAR",
         "YR_START1": 1891,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 441.118711906
       },
@@ -12703,7 +12608,6 @@
         "CORRIDOR": "MARIA_STREETCAR",
         "YR_START1": 1894,
         "YR_END1": 1909,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 286.547443141
       },
@@ -12730,7 +12634,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 1872,
         "YR_END1": 1891,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 981.010313048
       },
@@ -12765,7 +12668,6 @@
         "CORRIDOR": "FRANKLIN_STREETCAR",
         "YR_START1": 1916,
         "YR_END1": 1940,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 625.435544215
       },
@@ -12819,8 +12721,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "SNELLING_AVE_STREETCAR",
         "YR_START1": 1909,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 1453.41350261
       },
@@ -12850,8 +12752,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "HAMLINE_STREETCAR",
         "YR_START1": 1906,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 4324.31225131
       },
@@ -12894,7 +12796,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 0,
         "YR_END1": 1891,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 1319.51768891
       },
@@ -12924,8 +12825,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "DALE_ST_STREETCAR",
         "YR_START1": 1914,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 4162.03891206
       },
@@ -12975,8 +12876,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "MARIA_STREETCAR",
         "YR_START1": 1891,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 1148.45640322
       },
@@ -13015,7 +12916,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 1884,
         "YR_END1": 1891,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 2838.02535687
       },
@@ -13070,7 +12970,6 @@
         "CORRIDOR": "NW_TERMINAL_STREETCAR",
         "YR_START1": 1920,
         "YR_END1": 1948,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 921.837216009
       },
@@ -13116,8 +13015,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "JOHNSON_ST_NE_STREETCAR",
         "YR_START1": 1912,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 201.502968166
       },
@@ -13143,8 +13042,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "HAMLINE_STREETCAR",
         "YR_START1": 1891,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 811.271312855
       },
@@ -13170,8 +13069,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "MARIA_STREETCAR",
         "YR_START1": 1949,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 194.061452012
       },
@@ -13197,8 +13096,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "GRAND_AVE_STREETCAR",
         "YR_START1": 0,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 1576.01210812
       },
@@ -13253,7 +13152,6 @@
         "CORRIDOR": "COMO_HOPKINS_STREETCAR",
         "YR_START1": 1905,
         "YR_END1": 1932,
-        "YR_START2": 0,
         "PRIV_ROW": "TRUE",
         "Shape_Leng": 9215.69332809,
         "GROUP_ID": "3,1"
@@ -13385,7 +13283,6 @@
         "CORRIDOR": "KENWOOD_SLP_STREETCAR",
         "YR_START1": 1892,
         "YR_END1": 1938,
-        "YR_START2": 0,
         "PRIV_ROW": "TRUE",
         "Shape_Leng": 815.759763276
       },
@@ -13443,8 +13340,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "ROBBINSDALE_STREETCAR",
         "YR_START1": 1892,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 396.923183133
       },
@@ -13470,8 +13367,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "2ND_ST_NE_STREETCAR",
         "YR_START1": 1912,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 1013.70351606
       },
@@ -13522,7 +13419,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 0,
         "YR_END1": 1891,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 1946.06814794
       },
@@ -13564,8 +13460,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "PHALEN_STREETCAR",
         "YR_START1": 1905,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 846.774450012
       },
@@ -13600,7 +13496,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 1875,
         "YR_END1": 1891,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 1883.30282872
       },
@@ -13631,7 +13526,6 @@
         "CORRIDOR": "SELBY_LAKE_STREETCAR",
         "YR_START1": 1893,
         "YR_END1": 1938,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 580.878043766
       },
@@ -13661,8 +13555,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "25TH_ST_E_STREETCAR",
         "YR_START1": 1923,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 1004.82153159
       },
@@ -13696,8 +13590,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "U_OF_M_TRANSITWAY_STREETCAR",
         "YR_START1": 0,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "TRUE",
         "Shape_Leng": 152.762594042
       },
@@ -13723,8 +13617,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "BLOOMINGTON_AVE_STREETCAR",
         "YR_START1": 1905,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 378.005973002
       },
@@ -13750,8 +13644,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "BRYANT_AVE_S_STREETCAR",
         "YR_START1": 1893,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 1611.55262104
       },
@@ -13805,8 +13699,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "COLUMBIA_HEIGHTS_STREETCAR",
         "YR_START1": 1893,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 2287.18864423
       },
@@ -13872,8 +13766,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "COLUMBIA_HEIGHTS_STREETCAR",
         "YR_START1": 1891,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 3549.37564401
       },
@@ -14000,7 +13894,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 1888,
         "YR_END1": 1891,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 882.189681971
       },
@@ -14043,7 +13936,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 0,
         "YR_END1": 1891,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 796.4461192
       },
@@ -14102,7 +13994,6 @@
         "CORRIDOR": "JOHNSON_ST_NE_STREETCAR",
         "YR_START1": 1899,
         "YR_END1": 1912,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 501.396328052
       },
@@ -14140,8 +14031,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "BRYANT_AVE_S_STREETCAR",
         "YR_START1": 1891,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 4696.28231123
       },
@@ -14247,8 +14138,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "PAYNE_AVE_STREETCAR",
         "YR_START1": 0,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 1498.65413599
       },
@@ -14286,8 +14177,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "MINNEHAHA_STREETCAR",
         "YR_START1": 1890,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 2262.13638817
       },
@@ -14325,8 +14216,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "N_SAINT_PAUL_STREETCAR",
         "YR_START1": 1890,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "TRUE",
         "Shape_Leng": 15492.6528316
       },
@@ -14532,8 +14423,8 @@
         "TYPE": "Bus",
         "CORRIDOR": "BROOKSIDE_HOPKINS_BUS",
         "YR_START1": 0,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 9227.55091273
       },
@@ -14660,7 +14551,6 @@
         "CORRIDOR": "PAYNE_AVE_STREETCAR",
         "YR_START1": 1927,
         "YR_END1": 1948,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 1448.69628098
       },
@@ -14687,7 +14577,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 1888,
         "YR_END1": 1891,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 1196.98387252
       },
@@ -14725,8 +14614,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "PAYNE_AVE_STREETCAR",
         "YR_START1": 1905,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 795.600144314
       },
@@ -14752,8 +14641,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "6TH_AVE_N_STREETCAR",
         "YR_START1": 1890,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 2327.70453038
       },
@@ -14800,7 +14689,6 @@
         "CORRIDOR": "EXCELSIOR_TONKA_BAY_STREETCAR",
         "YR_START1": 1908,
         "YR_END1": 1932,
-        "YR_START2": 0,
         "PRIV_ROW": "TRUE",
         "Shape_Leng": 2114.35239915
       },
@@ -14867,7 +14755,6 @@
         "CORRIDOR": "ROBERT_ST_STREETCAR",
         "YR_START1": 1891,
         "YR_END1": 1938,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 1166.16224314
       },
@@ -14945,8 +14832,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "ANOKA_STREETCAR",
         "YR_START1": 0,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 614.021263883
       },
@@ -14980,8 +14867,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "28TH_AVE_STREETCAR",
         "YR_START1": 1926,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 4294.28755222
       },
@@ -15007,8 +14894,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "34TH_AVE_STREETCAR",
         "YR_START1": 1926,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 4294.28755222
       },
@@ -15043,7 +14930,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 1887,
         "YR_END1": 1891,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 1672.0805602
       },
@@ -15101,8 +14987,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "FORT_SNELLING_STREETCAR",
         "YR_START1": 1890,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 4896.7373709
       },
@@ -15173,7 +15059,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 1886,
         "YR_END1": 1891,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 609.163060405
       },
@@ -15199,8 +15084,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "COMO_HARRIET_OAK_XER_STREETCAR",
         "YR_START1": 1880,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "TRUE",
         "Shape_Leng": 2335.17233618
       },
@@ -15319,7 +15204,6 @@
         "CORRIDOR": "COMO_HARRIET_STREETCAR",
         "YR_START1": 1898,
         "YR_END1": 1904,
-        "YR_START2": 0,
         "PRIV_ROW": "TRUE",
         "Shape_Leng": 982.019679895
       },
@@ -15362,7 +15246,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 1881,
         "YR_END1": 1891,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 1584.92921979
       },
@@ -15388,8 +15271,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "NICOLLET_STREETCAR",
         "YR_START1": 1911,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 986.05157388
       },
@@ -15424,7 +15307,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 1878,
         "YR_END1": 1891,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 2306.17264704
       },
@@ -15482,8 +15364,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "28TH_AVE_34TH_AVE_STREETCAR",
         "YR_START1": 1914,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 1808.04224366
       },
@@ -15521,8 +15403,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "MONROE_ST_NE_STREETCAR",
         "YR_START1": 1920,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 3102.01494905
       },
@@ -15604,8 +15486,8 @@
         "TYPE": "Bus",
         "CORRIDOR": "HIGHLAND_PARK_CLEVELAND_BUS",
         "YR_START1": 1948,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 9771.87203894
       },
@@ -15703,8 +15585,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "BROADWAY_STREETCAR",
         "YR_START1": 1914,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 203.395438817
       },
@@ -15735,7 +15617,6 @@
         "CORRIDOR": "STILLWATER_STREETCAR_STREETCAR",
         "YR_START1": 1899,
         "YR_END1": 1932,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 2348.73595611
       },
@@ -15773,8 +15654,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "CHICAGO_AVE_STREETCAR",
         "YR_START1": 1904,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 2205.10075647
       },
@@ -15841,7 +15722,6 @@
         "CORRIDOR": "EXCELSIOR_TONKA_BAY_STREETCAR",
         "YR_START1": 1907,
         "YR_END1": 1932,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 545.043169354
       },
@@ -15871,8 +15751,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "PENN_FREMONT_STREETCAR",
         "YR_START1": 1914,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 435.527547891
       },
@@ -15906,8 +15786,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "28TH_AVE_STREETCAR",
         "YR_START1": 1913,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 1588.54967389
       },
@@ -15933,8 +15813,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "PLYMOUTH_AVE_STREETCAR",
         "YR_START1": 1912,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 302.574840243
       },
@@ -15969,7 +15849,6 @@
         "CORRIDOR": "SOUTH_ST_PAUL_HASTINGS_STREETCAR",
         "YR_START1": 1914,
         "YR_END1": 1928,
-        "YR_START2": 0,
         "PRIV_ROW": "TRUE",
         "Shape_Leng": 4446.00463852
       },
@@ -16064,7 +15943,6 @@
         "CORRIDOR": "PAYNE_AVE_STREETCAR",
         "YR_START1": 1891,
         "YR_END1": 1898,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 304.749372317
       },
@@ -16094,8 +15972,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "N_SAINT_PAUL_STREETCAR",
         "YR_START1": 1890,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 1985.98172365
       },
@@ -16121,8 +15999,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "COMO_HARRIET_OAK_XER_STREETCAR",
         "YR_START1": 1891,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 4020.97538236
       },
@@ -16236,8 +16114,8 @@
         "TYPE": "Bus",
         "CORRIDOR": "WHITE_BEAR_BUS",
         "YR_START1": 1948,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 4419.05265813
       },
@@ -16388,7 +16266,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 0,
         "YR_END1": 1891,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 611.114824061
       },
@@ -16427,7 +16304,6 @@
         "CORRIDOR": "MARIA_STREETCAR",
         "YR_START1": 1891,
         "YR_END1": 1949,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 227.054250101
       },
@@ -16458,7 +16334,6 @@
         "CORRIDOR": "ROBBINSDALE_STREETCAR",
         "YR_START1": 1914,
         "YR_END1": 1948,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 1348.08532406
       },
@@ -16528,8 +16403,8 @@
         "TYPE": "Bus",
         "CORRIDOR": "RICE_ST_PAYNE_AVE_BUS",
         "YR_START1": 1948,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 4454.36897107
       },
@@ -16620,7 +16495,6 @@
         "CORRIDOR": "ANOKA_STREETCAR",
         "YR_START1": 1913,
         "YR_END1": 1947,
-        "YR_START2": 0,
         "PRIV_ROW": "TRUE",
         "Shape_Leng": 4786.5874292
       },
@@ -16679,7 +16553,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 1884,
         "YR_END1": 1887,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 3045.8605929
       },
@@ -16713,8 +16586,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "NICOLLET_STREETCAR",
         "YR_START1": 1890,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 8316.72669855
       },
@@ -16796,8 +16669,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "COMO_HOPKINS_STREETCAR",
         "YR_START1": 1906,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 405.751398582
       },
@@ -16823,8 +16696,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "SNELLING_AVE_STREETCAR",
         "YR_START1": 1924,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 817.619678065
       },
@@ -16854,8 +16727,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "SNELLING_AVE_STREETCAR",
         "YR_START1": 1927,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 789.466359988
       },
@@ -16885,8 +16758,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "SNELLING_AVE_STREETCAR",
         "YR_START1": 1905,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 2533.24794031
       },
@@ -16925,7 +16798,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 1885,
         "YR_END1": 1891,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 1795.6912582
       },
@@ -16963,8 +16835,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "SELBY_LAKE_STREETCAR",
         "YR_START1": 1891,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 663.558571993
       },
@@ -16999,7 +16871,6 @@
         "CORRIDOR": "JOHNSON_ST_NE_STREETCAR",
         "YR_START1": 1911,
         "YR_END1": 1912,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 804.077048913
       },
@@ -17061,8 +16932,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "U_OF_M_TRANSITWAY_STREETCAR",
         "YR_START1": 0,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 326.124024346
       },
@@ -17101,7 +16972,6 @@
         "CORRIDOR": "ROBBINSDALE_STREETCAR",
         "YR_START1": 1914,
         "YR_END1": 1947,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 1546.1637754
       },
@@ -17167,8 +17037,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "34TH_AVE_STREETCAR",
         "YR_START1": 1912,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 2805.70485616
       },
@@ -17212,6 +17082,7 @@
         "YR_START1": 1891,
         "YR_END1": 1900,
         "YR_START2": 1906,
+        "YR_END2": 1950,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 2683.00596821
       },
@@ -17237,8 +17108,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "EXCELSIOR_TONKA_BAY_STREETCAR",
         "YR_START1": 1905,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "TRUE",
         "Shape_Leng": 11942.6738358
       },
@@ -17417,7 +17288,6 @@
         "CORRIDOR": "KENWOOD_SLP_STREETCAR",
         "YR_START1": 1892,
         "YR_END1": 1938,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 3975.02143505
       },
@@ -17455,8 +17325,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "ROBBINSDALE_STREETCAR",
         "YR_START1": 1891,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 2981.73743623
       },
@@ -17619,7 +17489,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 1887,
         "YR_END1": 1891,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 1268.04295484
       },
@@ -17650,7 +17519,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 1880,
         "YR_END1": 1890,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 381.928134476
       },
@@ -17680,8 +17548,8 @@
         "TYPE": "Bus",
         "CORRIDOR": "DALE_HOYT_BUS",
         "YR_START1": 1948,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 3802.09904322
       },
@@ -17736,7 +17604,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 1875,
         "YR_END1": 1891,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 813.459461624
       },
@@ -17766,8 +17633,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "SNELLING_AVE_STREETCAR",
         "YR_START1": 1891,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 1610.84470546
       },
@@ -17794,7 +17661,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 1882,
         "YR_END1": 1891,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 2098.9299906
       },
@@ -17828,8 +17694,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "25TH_ST_E_STREETCAR",
         "YR_START1": 1890,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 1998.00872449
       },
@@ -17871,8 +17737,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "SAINT_CLAIR_STREETCAR",
         "YR_START1": 1917,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 2618.8352144
       },
@@ -17903,7 +17769,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 1888,
         "YR_END1": 1890,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 403.472586531
       },
@@ -17933,8 +17798,8 @@
         "TYPE": "Bus",
         "CORRIDOR": "LOWRY_AVE_BUS",
         "YR_START1": 1948,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 8691.30631301
       },
@@ -17972,8 +17837,8 @@
         "TYPE": "Bus",
         "CORRIDOR": "WHITE_BEAR_BUS",
         "YR_START1": 1948,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 15516.1563475
       },
@@ -18111,8 +17976,8 @@
         "TYPE": "Bus",
         "CORRIDOR": "CHICAGO_AVE_BUS",
         "YR_START1": 1948,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 4095.90674431
       },
@@ -18182,8 +18047,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "PENN_FREMONT_STREETCAR",
         "YR_START1": 1892,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 396.923183133
       },
@@ -18209,8 +18074,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "PENN_FREMONT_STREETCAR",
         "YR_START1": 1891,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 1557.65228384
       },
@@ -18289,7 +18154,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 1880,
         "YR_END1": 1890,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 648.612535112
       },
@@ -18328,7 +18192,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 1878,
         "YR_END1": 1891,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 565.680431056
       },
@@ -18355,7 +18218,6 @@
         "CORRIDOR": "MINNEHAHA_STREETCAR",
         "YR_START1": 1915,
         "YR_END1": 1917,
-        "YR_START2": 0,
         "PRIV_ROW": "TRUE",
         "Shape_Leng": 1179.45468514
       },
@@ -18382,7 +18244,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 1888,
         "YR_END1": 1891,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 1034.2649257
       },
@@ -18409,7 +18270,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 1889,
         "YR_END1": 1891,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 1559.10131843
       },
@@ -18451,8 +18311,8 @@
         "TYPE": "Bus",
         "CORRIDOR": "FRANKLIN_AVE_N_LYNDALE_BUS",
         "YR_START1": 1948,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 9640.05186181
       },
@@ -18523,7 +18383,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 1876,
         "YR_END1": 1891,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 1142.14299037
       },
@@ -18557,8 +18416,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "MONROE_ST_NE_STREETCAR",
         "YR_START1": 1923,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 542.080070495
       },
@@ -18608,8 +18467,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "SELBY_LAKE_STREETCAR",
         "YR_START1": 1888,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 1975.99595559
       },
@@ -18652,7 +18511,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 1880,
         "YR_END1": 1884,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 717.736274164
       },
@@ -18695,7 +18553,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 0,
         "YR_END1": 1891,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 611.411724263
       },
@@ -18722,7 +18579,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 0,
         "YR_END1": 1891,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 143.202179238
       },
@@ -18748,8 +18604,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "GLENWOOD_AVE_STREETCAR",
         "YR_START1": 1891,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 2447.85254842
       },
@@ -18835,8 +18691,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "PLYMOUTH_AVE_STREETCAR",
         "YR_START1": 1891,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 2124.88794934
       },
@@ -18955,7 +18811,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 1888,
         "YR_END1": 1891,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 2171.44074704
       },
@@ -18989,8 +18844,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "GRAND_AVE_S_STREETCAR",
         "YR_START1": 1923,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 1610.03337956
       },
@@ -19045,7 +18900,6 @@
         "CORRIDOR": "28TH_AVE_STREETCAR",
         "YR_START1": 1925,
         "YR_END1": 1928,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 404.633698964
       },
@@ -19071,8 +18925,8 @@
         "TYPE": "Bus",
         "CORRIDOR": "E_6TH_ST_BUS",
         "YR_START1": 1948,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 24620.8706329
       },
@@ -19271,7 +19125,6 @@
         "CORRIDOR": "RONDO_STREETCAR",
         "YR_START1": 1912,
         "YR_END1": 1948,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 800.272784065
       },
@@ -19298,7 +19151,6 @@
         "CORRIDOR": "KENWOOD_SLP_STREETCAR",
         "YR_START1": 1897,
         "YR_END1": 1907,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 3631.25923039
       },
@@ -19344,8 +19196,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "CHEROKEE_STREETCAR",
         "YR_START1": 1890,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 5017.93237676
       },
@@ -19471,8 +19323,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "BROADWAY_STREETCAR",
         "YR_START1": 1891,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 643.466367505
       },
@@ -19518,8 +19370,8 @@
         "TYPE": "Ferry",
         "CORRIDOR": "FERRY_FERRY",
         "YR_START1": 1906,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 3223.4453392
       },
@@ -19562,7 +19414,6 @@
         "CORRIDOR": "WASHINGTON_AVE_N_STREETCAR",
         "YR_START1": 1925,
         "YR_END1": 1947,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 1687.72117482
       },
@@ -19625,7 +19476,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 1886,
         "YR_END1": 1891,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 386.422145502
       },
@@ -19651,8 +19501,8 @@
         "TYPE": "Freight",
         "CORRIDOR": "FERRY_FREIGHT",
         "YR_START1": 0,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "TRUE",
         "Shape_Leng": 1491.65482516
       },
@@ -19723,7 +19573,6 @@
         "CORRIDOR": "STEAM_POWER_STEAM_POWER",
         "YR_START1": 1884,
         "YR_END1": 1891,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 1182.14608069
       },
@@ -19749,8 +19598,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "MINNEHAHA_STREETCAR",
         "YR_START1": 1891,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 289.909683346
       },
@@ -19776,8 +19625,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "GLENWOOD_AVE_STREETCAR",
         "YR_START1": 1916,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 786.415865638
       },
@@ -19820,7 +19669,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 1886,
         "YR_END1": 1891,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 597.909731694
       },
@@ -19846,8 +19694,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "BLOOMINGTON_AVE_STREETCAR",
         "YR_START1": 1892,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 5424.56676984
       },
@@ -19925,8 +19773,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "GRAND_AVE_STREETCAR",
         "YR_START1": 1890,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 7430.19514873
       },
@@ -20004,8 +19852,7 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "BRYANT_AVE_S_STREETCAR",
         "YR_START1": 1890,
-        "YR_END1": 1891,
-        "YR_START2": 1891,
+        "YR_END1": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 815.210299999
       },
@@ -20031,8 +19878,8 @@
         "TYPE": "Bus",
         "CORRIDOR": "BRYN_MAWR_NW_TERMINAL_BUS",
         "YR_START1": 1948,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 6906.57831416
       },
@@ -20135,7 +19982,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 1876,
         "YR_END1": 1891,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 764.622374463
       },
@@ -20169,8 +20015,8 @@
         "TYPE": "Bus",
         "CORRIDOR": "HENNEPIN_FRANCE_BUS",
         "YR_START1": 1948,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 5560.11052576
       },
@@ -20236,8 +20082,8 @@
         "TYPE": "Bus",
         "CORRIDOR": "PENN_AVE_S_BUS",
         "YR_START1": 1946,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 1312.98755146,
         "GROUP_ID": 1
@@ -20265,7 +20111,6 @@
         "CORRIDOR": "STEAM_POWER_STEAM_POWER",
         "YR_START1": 1887,
         "YR_END1": 1891,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 2568.66313894
       },
@@ -20331,8 +20176,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "COLUMBIA_HEIGHTS_STREETCAR",
         "YR_START1": 1920,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 1175.92368483
       },
@@ -20399,7 +20244,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 1881,
         "YR_END1": 1891,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 497.217079574
       },
@@ -20430,7 +20274,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 1888,
         "YR_END1": 1891,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 815.526147354
       },
@@ -20461,7 +20304,6 @@
         "CORRIDOR": "WESTERN_STREETCAR",
         "YR_START1": 1914,
         "YR_END1": 1941,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 962.364691643
       },
@@ -20487,8 +20329,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "BLOOMINGTON_AVE_STREETCAR",
         "YR_START1": 1911,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 803.002337423
       },
@@ -20530,8 +20372,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "25TH_ST_E_STREETCAR",
         "YR_START1": 1891,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 872.415652643
       },
@@ -20561,8 +20403,8 @@
         "TYPE": "Bus",
         "CORRIDOR": "38TH_ST_BUS",
         "YR_START1": 1946,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 7090.54182006
       },
@@ -20588,8 +20430,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "25TH_ST_E_STREETCAR",
         "YR_START1": 1927,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 924.018696157
       },
@@ -20636,7 +20478,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 1882,
         "YR_END1": 1888,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 805.930386995
       },
@@ -20666,8 +20507,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "2ND_ST_NE_STREETCAR",
         "YR_START1": 1915,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 203.720804245
       },
@@ -20698,7 +20539,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 1883,
         "YR_END1": 1891,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 801.381032922
       },
@@ -20728,8 +20568,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "28TH_AVE_STREETCAR",
         "YR_START1": 1929,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 1210.06392038
       },
@@ -20755,8 +20595,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "GLENWOOD_AVE_STREETCAR",
         "YR_START1": 0,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 1707.04395968
       },
@@ -20811,7 +20651,6 @@
         "CORRIDOR": "STEAM_POWER_STEAM_POWER",
         "YR_START1": 1879,
         "YR_END1": 1891,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 1649.98722445
       },
@@ -20837,8 +20676,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "PAYNE_AVE_STREETCAR",
         "YR_START1": 1898,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 307.013
       },
@@ -20869,7 +20708,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 1886,
         "YR_END1": 1891,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 2105.73812502
       },
@@ -20915,8 +20753,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "HAMLINE_STREETCAR",
         "YR_START1": 0,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 1679.9535648
       },
@@ -20963,7 +20801,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 1880,
         "YR_END1": 1891,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 647.271643311
       },
@@ -20989,8 +20826,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "PHALEN_STREETCAR",
         "YR_START1": 1913,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 2133.57942728
       },
@@ -21029,7 +20866,6 @@
         "CORRIDOR": "EXCELSIOR_FERRY",
         "YR_START1": 1906,
         "YR_END1": 1926,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 15837.8499263
       },
@@ -21235,8 +21071,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "WESTERN_STREETCAR",
         "YR_START1": 1891,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 3157.76293839
       },
@@ -21303,7 +21139,6 @@
         "CORRIDOR": "PAYNE_AVE_STREETCAR",
         "YR_START1": 1917,
         "YR_END1": 1948,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 955.648838339
       },
@@ -21330,7 +21165,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 1884,
         "YR_END1": 1891,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 289.585759745
       },
@@ -21361,7 +21195,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 1886,
         "YR_END1": 1891,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 1592.30085952
       },
@@ -21388,7 +21221,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 1879,
         "YR_END1": 1884,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 107.268360242
       },
@@ -21414,8 +21246,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "COMO_HARRIET_OAK_XER_STREETCAR",
         "YR_START1": 1890,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 3717.7598544,
         "GROUP_ID": "1,2"
@@ -21522,8 +21354,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "PENN_FREMONT_STREETCAR",
         "YR_START1": 1907,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 892.444008654
       },
@@ -21565,8 +21397,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "4TH_AVE_STREETCAR",
         "YR_START1": 1923,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 2007.14155993
       },
@@ -21629,7 +21461,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 1888,
         "YR_END1": 1891,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 405.340240708
       },
@@ -21667,8 +21498,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "COMO_HARRIET_STREETCAR",
         "YR_START1": 1929,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 801.50432468,
         "GROUP_ID": 1
@@ -21708,7 +21539,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 1882,
         "YR_END1": 1891,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 1213.52481365
       },
@@ -21734,8 +21564,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "BRYANT_AVE_S_STREETCAR",
         "YR_START1": 1931,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 408.843704544
       },
@@ -21765,8 +21595,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "JOHNSON_ST_NE_STREETCAR",
         "YR_START1": 1899,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 925.741443768
       },
@@ -21813,7 +21643,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 1888,
         "YR_END1": 1891,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 981.084261694
       },
@@ -21840,7 +21669,6 @@
         "CORRIDOR": "KENWOOD_SLP_STREETCAR",
         "YR_START1": 1898,
         "YR_END1": 1907,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 969.952585851
       },
@@ -21879,7 +21707,6 @@
         "CORRIDOR": "HAMLINE_STREETCAR",
         "YR_START1": 1891,
         "YR_END1": 1906,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 1604.51635324
       },
@@ -21914,7 +21741,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 1888,
         "YR_END1": 1891,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 593.183633743
       },
@@ -21941,7 +21767,6 @@
         "CORRIDOR": "COLUMBIA_HEIGHTS_STREETCAR",
         "YR_START1": 1917,
         "YR_END1": 1953,
-        "YR_START2": 0,
         "PRIV_ROW": "TRUE",
         "Shape_Leng": 2069.63787503
       },
@@ -22000,7 +21825,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 1877,
         "YR_END1": 1880,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 417.737583791
       },
@@ -22026,8 +21850,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "FORT_SNELLING_STREETCAR",
         "YR_START1": 1909,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 2420.94964055
       },
@@ -22065,8 +21889,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "4TH_AVE_STREETCAR",
         "YR_START1": 1889,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 4851.70144674
       },
@@ -22132,8 +21956,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "RICE_ST_STREETCAR",
         "YR_START1": 1891,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 4414.44759505
       },
@@ -22203,8 +22027,8 @@
         "TYPE": "Bus",
         "CORRIDOR": "50TH_ST_BUS",
         "YR_START1": 1948,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 11944.8794792
       },
@@ -22302,8 +22126,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "OAK_HARRIET_STREETCAR",
         "YR_START1": 1914,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 326.094304571
       },
@@ -22333,8 +22157,8 @@
         "TYPE": "Bus",
         "CORRIDOR": "FRANKLIN_N_LYNDALE_BUS",
         "YR_START1": 1948,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 6003.51958412
       },
@@ -22409,7 +22233,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 1882,
         "YR_END1": 1891,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 792.123156637
       },
@@ -22444,7 +22267,6 @@
         "CORRIDOR": "CABLE_CAR_CABLE_CAR",
         "YR_START1": 1886,
         "YR_END1": 1891,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 7570.68911007
       },
@@ -22511,7 +22333,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 1880,
         "YR_END1": 1884,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 1368.54906731
       },
@@ -22554,7 +22375,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 0,
         "YR_END1": 1891,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 454.434261521
       },
@@ -22596,8 +22416,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "JOHNSON_ST_NE_STREETCAR",
         "YR_START1": 1891,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 281.896001847
       },
@@ -22636,7 +22456,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 1888,
         "YR_END1": 1891,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 745.506801919
       },
@@ -22675,7 +22494,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 1884,
         "YR_END1": 1891,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 256.746160958
       },
@@ -22706,7 +22524,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 1883,
         "YR_END1": 1887,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 1403.47926085
       },
@@ -22737,7 +22554,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 1875,
         "YR_END1": 1891,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 256.322432349
       },
@@ -22767,8 +22583,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "FRANKLIN_STREETCAR",
         "YR_START1": 1889,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 892.482851175
       },
@@ -22795,7 +22611,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 1882,
         "YR_END1": 1891,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 1603.85472617
       },
@@ -22821,8 +22636,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "BROADWAY_STREETCAR",
         "YR_START1": 1923,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 949.443807868
       },
@@ -22881,7 +22696,6 @@
         "CORRIDOR": "FRANKLIN_STREETCAR",
         "YR_START1": 1914,
         "YR_END1": 1914,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 883.980941557
       },
@@ -22916,7 +22730,6 @@
         "CORRIDOR": "6TH_AVE_N_STREETCAR",
         "YR_START1": 1891,
         "YR_END1": 1897,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 416.443897079
       },
@@ -22942,8 +22755,8 @@
         "TYPE": "Bus",
         "CORRIDOR": "KENWOOD_SLP_RUSSELL_BUS",
         "YR_START1": 1948,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 3452.031105
       },
@@ -22985,8 +22798,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "COMO_HARRIET_STREETCAR",
         "YR_START1": 1898,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 1305.19313572
       },
@@ -23020,8 +22833,8 @@
         "TYPE": "Bus",
         "CORRIDOR": "RONDO_STRYKER_BUS",
         "YR_START1": 1948,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 8231.69838681
       },
@@ -23123,8 +22936,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "SELBY_LAKE_STREETCAR",
         "YR_START1": 1906,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 3499.66147373
       },
@@ -23155,7 +22968,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 1887,
         "YR_END1": 1891,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 913.698235356
       },
@@ -23181,8 +22993,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "BLOOMINGTON_AVE_STREETCAR",
         "YR_START1": 1928,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 803.038849558
       },
@@ -23221,7 +23033,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 1880,
         "YR_END1": 1891,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 1038.04377516
       },
@@ -23248,7 +23059,6 @@
         "CORRIDOR": "FRANKLIN_STREETCAR",
         "YR_START1": 1924,
         "YR_END1": 1940,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 585.845814234
       },
@@ -23295,7 +23105,6 @@
         "CORRIDOR": "6TH_AVE_N_STREETCAR",
         "YR_START1": 1891,
         "YR_END1": 1940,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 2275.22446606
       },
@@ -23338,7 +23147,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 1887,
         "YR_END1": 1890,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 603.642446153
       },
@@ -23373,7 +23181,6 @@
         "CORRIDOR": "BRYANT_AVE_S_STREETCAR",
         "YR_START1": 1891,
         "YR_END1": 1905,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 396.292414616
       },
@@ -23404,7 +23211,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 1888,
         "YR_END1": 1892,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 445.114800001
       },
@@ -23430,8 +23236,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "28TH_AVE_34TH_AVE_STREETCAR",
         "YR_START1": 1891,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 3500.00769932
       },
@@ -23477,8 +23283,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "MONROE_ST_NE_STREETCAR",
         "YR_START1": 1931,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 755.184708663
       },
@@ -23524,8 +23330,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "STILLWATER_STREETCAR_STREETCAR",
         "YR_START1": 1899,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 648.533314394
       },
@@ -23559,8 +23365,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "JOHNSON_ST_NE_STREETCAR",
         "YR_START1": 1890,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 2421.44687466
       },
@@ -23651,7 +23457,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 1890,
         "YR_END1": 1891,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 3814.74026097
       },
@@ -23685,8 +23490,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "PENN_FREMONT_STREETCAR",
         "YR_START1": 1922,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 401.321169469
       },
@@ -23724,8 +23529,8 @@
         "TYPE": "Bus",
         "CORRIDOR": "HUMBOLDT_AVE_BUS",
         "YR_START1": 1948,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 2463.7800106
       },
@@ -23803,8 +23608,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "MISSISSIPPI_ST_STREETCAR",
         "YR_START1": 1890,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 6015.6588552
       },
@@ -23931,7 +23736,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 1881,
         "YR_END1": 1891,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 670.757186838
       },
@@ -23961,8 +23765,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "MARIA_STREETCAR",
         "YR_START1": 1891,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 824.348929758
       },
@@ -23989,7 +23793,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 1886,
         "YR_END1": 1891,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 665.39673341
       },
@@ -24016,7 +23819,6 @@
         "CORRIDOR": "JACKSON_ST_STREETCAR",
         "YR_START1": 1892,
         "YR_END1": 1938,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 4148.48079473
       },
@@ -24118,8 +23920,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "28TH_AVE_34TH_AVE_STREETCAR",
         "YR_START1": 1890,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 2124.70769562
       },
@@ -24165,8 +23967,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "PAYNE_AVE_STREETCAR",
         "YR_START1": 1889,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 294.261081788
       },
@@ -24192,8 +23994,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "MONROE_ST_NE_STREETCAR",
         "YR_START1": 1891,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 2307.87816926
       },
@@ -24276,7 +24078,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 0,
         "YR_END1": 1891,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 117.070564629
       },
@@ -24303,7 +24104,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 1883,
         "YR_END1": 1891,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 357.200489283
       },
@@ -24338,7 +24138,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 1888,
         "YR_END1": 1891,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 186.447832991
       },
@@ -24364,8 +24163,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "BRYANT_AVE_S_STREETCAR",
         "YR_START1": 1891,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 1391.5829894
       },
@@ -24415,8 +24214,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "MINNEHAHA_STREETCAR",
         "YR_START1": 1909,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "TRUE",
         "Shape_Leng": 1966.69516172
       },
@@ -24451,7 +24250,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 1880,
         "YR_END1": 1891,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 725.482475589
       },
@@ -24485,8 +24283,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "PENN_FREMONT_STREETCAR",
         "YR_START1": 1911,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 1205.01679694
       },
@@ -24533,7 +24331,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 1887,
         "YR_END1": 1891,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 1410.78000492
       },
@@ -24579,8 +24376,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "MARIA_STREETCAR",
         "YR_START1": 1889,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 2124.27136256
       },
@@ -24623,7 +24420,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 1881,
         "YR_END1": 1891,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 935.533353128
       },
@@ -24670,7 +24466,6 @@
         "CORRIDOR": "ANOKA_STREETCAR",
         "YR_START1": 1913,
         "YR_END1": 1942,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 19424.4358049
       },
@@ -24912,8 +24707,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "COMO_HARRIET_STREETCAR",
         "YR_START1": 1891,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 7095.9082876
       },
@@ -25035,8 +24830,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "PENN_FREMONT_STREETCAR",
         "YR_START1": 1891,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 2013.58225437
       },
@@ -25134,8 +24929,8 @@
         "TYPE": "Bus",
         "CORRIDOR": "2ND_ST_NE_BUS",
         "YR_START1": 1948,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 4331.38813765
       },
@@ -25213,8 +25008,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "GLENWOOD_AVE_STREETCAR",
         "YR_START1": 1916,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "TRUE",
         "Shape_Leng": 138.302008839
       },
@@ -25240,8 +25035,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "OAK_HARRIET_STREETCAR",
         "YR_START1": 1913,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 1209.50204516,
         "GROUP_ID": 2
@@ -25289,7 +25084,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 1876,
         "YR_END1": 1891,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 584.818053006
       },
@@ -25316,7 +25110,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 1890,
         "YR_END1": 1891,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 663.536437258
       },
@@ -25354,8 +25147,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "STILLWATER_STREETCAR_STREETCAR",
         "YR_START1": 0,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 523.464857747
       },
@@ -25393,8 +25186,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "U_OF_M_TRANSITWAY_STREETCAR",
         "YR_START1": 0,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 5648.11067853
       },
@@ -25469,7 +25262,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 1884,
         "YR_END1": 1891,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 454.09980829
       },
@@ -25504,7 +25296,6 @@
         "CORRIDOR": "RONDO_STREETCAR",
         "YR_START1": 1905,
         "YR_END1": 1948,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 649.4193
       },
@@ -25530,8 +25321,8 @@
         "TYPE": "Bus",
         "CORRIDOR": "W_39TH_ST_BUS",
         "YR_START1": 1948,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 1740.84253605
       },
@@ -25577,8 +25368,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "COMO_HARRIET_STREETCAR",
         "YR_START1": 1891,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 958.41702907
       },
@@ -25633,7 +25424,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 1884,
         "YR_END1": 1891,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 138.8079892
       },
@@ -25660,7 +25450,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 1875,
         "YR_END1": 1878,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 260.991732809
       },
@@ -25687,7 +25476,6 @@
         "CORRIDOR": "STEAM_POWER_STEAM_POWER",
         "YR_START1": 1879,
         "YR_END1": 1891,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 2576.30752524
       },
@@ -25722,7 +25510,6 @@
         "CORRIDOR": "HORSECAR_HORSECAR",
         "YR_START1": 1890,
         "YR_END1": 1891,
-        "YR_START2": 0,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 633.141536215
       },
@@ -25756,8 +25543,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "RANDOLPH_STREETCAR",
         "YR_START1": 1890,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 4321.79214199
       },
@@ -25827,8 +25614,8 @@
         "TYPE": "Bus",
         "CORRIDOR": "JACKSON_ROBERT_ST_BUS",
         "YR_START1": 1948,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 15547.1226654
       },
@@ -25970,8 +25757,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "JOHNSON_ST_NE_STREETCAR",
         "YR_START1": 1891,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 562.052789766
       },
@@ -25997,8 +25784,8 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "PENN_FREMONT_STREETCAR",
         "YR_START1": 1912,
-        "YR_END1": 19501954,
-        "YR_START2": 0,
+        "YR_END1": 1950,
+        "YR_END2": 1954,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 1240.26534422
       },

@@ -42,16 +42,6 @@ export const SELECTED_LINE_WIDTH = 8;
 
 export const RECEDED_LINE_OPACITY = 0.3;
 
-export const YEAR_RANGES: Array<YearRange> = [
-  [null, 1888],
-  [1889, 1899],
-  [1904, 1917],
-  [1917, 1927],
-  [1928, 1930],
-  [1931, 1954],
-  [null, null],
-];
-
 export const LINE_WIDTH_STOPS = {
   stops: [
     [8, DEFAULT_LINE_WIDTH],

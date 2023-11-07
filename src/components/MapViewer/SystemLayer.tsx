@@ -1,6 +1,8 @@
 import {
   Corridor,
   FeatureCorridorNames,
+  IPropsSystemLayer,
+  InitialFilterType,
   TransitTypes,
   YearRange,
 } from "../../constants/types";
@@ -11,18 +13,7 @@ import { COLORS } from "../../constants/colors";
 import { YEAR_FILTER_HOOK } from "./maphooks";
 import mapboxgl from "mapbox-gl";
 
-type IProps = {
-  layerName: string;
-  sourceId: string;
-  sourceLayerName: string;
-  map: mapboxgl.Map | undefined;
-  yearRange: YearRange;
-  selectedCorridor: Corridor | null;
-  selectedType: TransitTypes | null;
-  onCorridorSelect?: (corridorName: FeatureCorridorNames) => void;
-};
-
-const SystemLayer: FC<IProps> = ({
+const SystemLayer: FC<IPropsSystemLayer> = ({
   layerName,
   sourceId,
   sourceLayerName,
@@ -32,11 +23,15 @@ const SystemLayer: FC<IProps> = ({
   onCorridorSelect,
   selectedType,
 }) => {
-  const initialFilter = [
-    "any",
-    ["==", "TYPE", selectedType],
-    ["==", "TYPE", "Ferry"],
-    // ["==", "TYPE", "Train"],
+  const initialFilter: InitialFilterType = [
+    "all",
+    ["all", [">=", "YR_START1", 0]],
+    [
+      "any",
+      ["==", "TYPE", `${selectedType || ""}`],
+      ["==", "TYPE", "Ferry"],
+      // ["==", "TYPE", "Train"],
+    ],
   ];
 
   useEffect(() => {
@@ -99,7 +94,6 @@ const SystemLayer: FC<IProps> = ({
     map,
     yearRange,
     layerNames: [layerName],
-    initialFilter,
   });
 
   return null;

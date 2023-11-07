@@ -1,11 +1,13 @@
 import {
   Corridor,
   FeatureCorridorNames,
+  IPropsRouteLayer,
+  InitialFilterType,
   MapboxFilterArray,
   TransitTypes,
   YearRange,
 } from "../../constants/types";
-import { FC, useEffect } from "react";
+import { FC, useEffect, useRef } from "react";
 import {
   LABEL_SIZE_STOPS,
   getFeatureCorridorNames,
@@ -16,23 +18,7 @@ import { COLORS } from "../../constants/colors";
 import MapPopup from "./MapPopup";
 import { YEAR_FILTER_HOOK } from "./maphooks";
 
-interface IProps {
-  map: mapboxgl.Map | undefined;
-  selectedCorridor: Corridor | null;
-  corridors?: Array<Corridor> | null;
-  layerName: string;
-  sourceId: string;
-  sourceLayerName?: string;
-  yearRange: YearRange;
-  onCorridorSelect: (corridorName: FeatureCorridorNames) => void;
-  selectedType?: TransitTypes | null;
-}
-
-interface Refs {
-  popup?: mapboxgl.Popup | null;
-}
-
-const RouteLayer: FC<IProps> = ({
+const RouteLayer: FC<IPropsRouteLayer> = ({
   layerName,
   sourceId,
   corridors = null,
@@ -43,11 +29,22 @@ const RouteLayer: FC<IProps> = ({
   selectedType,
   onCorridorSelect,
 }) => {
+  const activeCorridor = useRef<FeatureCorridorNames[] | null>(null);
+
   const selectorLayer = layerName + "-selector";
   const highlightLayer = "highlight-layer";
   const highlightOutlineLayer = "highlight-outline-layer";
   const symbolLayerName = layerName + "-symbols";
-  const initialFilter = ["all", ["==", "TYPE", selectedType || ""]];
+  const initialFilter: InitialFilterType = [
+    "all",
+    ["all", [">=", "YR_START1", 0]],
+    [
+      "any",
+      ["==", "TYPE", `${selectedType || ""}`],
+      ["==", "TYPE", "Ferry"],
+      // ["==", "TYPE", "Train"],
+    ],
+  ];
 
   const isDiscoveryMode = selectedCorridor === null; // User is searching around map for a route to click on
 
@@ -80,6 +77,7 @@ const RouteLayer: FC<IProps> = ({
             "line-width": 14,
             "line-opacity": 0,
           },
+          filter: initialFilter,
         });
         map.addLayer({
           id: highlightLayer,
@@ -108,6 +106,7 @@ const RouteLayer: FC<IProps> = ({
             "line-width": 8,
             "line-opacity": 0,
           },
+          filter: initialFilter,
         });
 
         map.addLayer({
@@ -130,6 +129,7 @@ const RouteLayer: FC<IProps> = ({
             "text-halo-width": 2,
             "text-opacity": 0,
           },
+          filter: initialFilter,
         });
 
         map.addLayer({
@@ -154,21 +154,29 @@ const RouteLayer: FC<IProps> = ({
   const onMouseEnter = (e: MapMouseEvent) => {
     if (map) {
       map.getCanvas().style.cursor = "pointer";
-
-      if (isDiscoveryMode) {
-        const corridorNames = getFeatureCorridorNames(map, e);
-        if (corridorNames) {
-          highlightCorridor(corridorNames);
-        }
-      }
+      tryToHighlight(map, e);
     }
   };
 
   const onMouseMove = (e: MapMouseEvent) => {
-    if (map && isDiscoveryMode) {
+    if (map) {
+      tryToHighlight(map, e);
+    }
+  };
+
+  const tryToHighlight = (map: mapboxgl.Map, e: MapMouseEvent) => {
+    if (isDiscoveryMode) {
       const corridorNames = getFeatureCorridorNames(map, e);
       if (corridorNames) {
-        highlightCorridor(corridorNames);
+        if (
+          activeCorridor.current === null ||
+          (activeCorridor.current &&
+            activeCorridor.current[0] !== corridorNames[0])
+        ) {
+          console.log("HIGHLIGHT?", activeCorridor.current);
+          activeCorridor.current = corridorNames;
+          highlightCorridor(corridorNames);
+        }
       }
     }
   };
@@ -182,6 +190,7 @@ const RouteLayer: FC<IProps> = ({
         isDiscoveryMode &&
         e.originalEvent.relatedTarget instanceof HTMLButtonElement === false
       ) {
+        activeCorridor.current = null;
         deHighlightCorridors();
       }
     }
@@ -191,13 +200,17 @@ const RouteLayer: FC<IProps> = ({
 
   const highlightCorridor = (corridorNames: FeatureCorridorNames[]) => {
     if (map) {
-      let filter: MapboxFilterArray = ["any"];
+      let highlightFilter: MapboxFilterArray = ["any"];
       corridorNames.forEach((corridorName) => {
         // Grab all routes in each corridor
         corridors?.some((corridor) => {
           if (corridor.DATA_CORRIDOR === corridorName) {
-            filter.push(["==", "CORRIDOR", corridor.DATA_CORRIDOR || ""]);
-            filter.push([
+            highlightFilter.push([
+              "==",
+              "CORRIDOR",
+              corridor.DATA_CORRIDOR || "",
+            ]);
+            highlightFilter.push([
               "==",
               "CORRIDOR",
               corridor.DATA_CORRIDOR_SHARED || "",
@@ -207,8 +220,11 @@ const RouteLayer: FC<IProps> = ({
           return false;
         });
       });
-      map.setFilter(highlightLayer, filter);
-      map.setFilter(highlightOutlineLayer, filter);
+
+      const newFilter = map.getFilter(highlightLayer);
+      newFilter[2] = highlightFilter;
+      map.setFilter(highlightLayer, newFilter);
+      map.setFilter(highlightOutlineLayer, newFilter);
 
       map.setPaintProperty(highlightLayer, "line-opacity", 1);
       map.setPaintProperty(highlightOutlineLayer, "line-opacity", 1);
@@ -257,7 +273,11 @@ const RouteLayer: FC<IProps> = ({
 
   const styleInactiveLayer = () => {
     if (map) {
-      map.setPaintProperty(symbolLayerName, "text-color", COLORS.map_bright_red);
+      map.setPaintProperty(
+        symbolLayerName,
+        "text-color",
+        COLORS.map_bright_red
+      );
       map.setPaintProperty(symbolLayerName, "text-opacity", 0);
       map.setPaintProperty(highlightLayer, "line-opacity", 0);
       map.setPaintProperty(highlightOutlineLayer, "line-opacity", 0);

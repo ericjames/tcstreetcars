@@ -10,8 +10,6 @@ import MapViewport from "./MapViewport";
 import RouteInfoBox from "./RouteInfoBox";
 import RouteLayer from "./RouteLayer";
 import SystemLayer from "./SystemLayer";
-import { YearRange } from "../../constants/types";
-import YearToggler from "./YearToggler";
 import mapboxgl from "mapbox-gl";
 
 const MapViewer: FC<IPropsMapViewer> = ({
@@ -23,10 +21,10 @@ const MapViewer: FC<IPropsMapViewer> = ({
   selectedType,
   setSelectedCorridor,
   setSelectedType,
+  yearRange,
 }) => {
   // const [appState, setAppState] = useState<AppState>(null);
   const [map, setMap] = useState<mapboxgl.Map>();
-  const [yearRange, setYearRange] = useState<YearRange>([null, null]);
 
   const onCorridorSelect = (corridorName: FeatureCorridorNames) => {
     if (corridors) {
@@ -49,12 +47,6 @@ const MapViewer: FC<IPropsMapViewer> = ({
           navigation={navigation}
           selectedCorridor={selectedCorridor}
         />
-
-        {/* <YearToggler
-          selectedCorridor={selectedCorridor}
-          yearRange={yearRange}
-          setYearRange={setYearRange}
-        /> */}
 
         {/* <MapSource map={map} type="vector" id={SOURCE_ID} url={SOURCE_URL} /> */}
         <MapSource
