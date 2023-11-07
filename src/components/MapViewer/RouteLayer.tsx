@@ -10,6 +10,7 @@ import {
 import { FC, useEffect, useRef } from "react";
 import {
   LABEL_SIZE_STOPS,
+  ROUTE_FILTER_INDEX,
   getFeatureCorridorNames,
 } from "../../constants/mapbox";
 import mapboxgl, { MapMouseEvent } from "mapbox-gl";
@@ -173,7 +174,7 @@ const RouteLayer: FC<IPropsRouteLayer> = ({
           (activeCorridor.current &&
             activeCorridor.current[0] !== corridorNames[0])
         ) {
-          console.log("HIGHLIGHT?", activeCorridor.current);
+          // console.log("HIGHLIGHT?", activeCorridor.current);
           activeCorridor.current = corridorNames;
           highlightCorridor(corridorNames);
         }
@@ -222,7 +223,8 @@ const RouteLayer: FC<IPropsRouteLayer> = ({
       });
 
       const newFilter = map.getFilter(highlightLayer);
-      newFilter[2] = highlightFilter;
+
+      newFilter[ROUTE_FILTER_INDEX] = highlightFilter;
       map.setFilter(highlightLayer, newFilter);
       map.setFilter(highlightOutlineLayer, newFilter);
 
@@ -246,15 +248,17 @@ const RouteLayer: FC<IPropsRouteLayer> = ({
 
   const styleSelectedCorridor = () => {
     if (map) {
-      const filter = [
+      const newFilter = map.getFilter(highlightLayer);
+      const newRouteFilter = [
         "any",
         ["==", "CORRIDOR", selectedCorridor?.DATA_CORRIDOR || ""],
         ["==", "CORRIDOR", selectedCorridor?.DATA_CORRIDOR_SHARED || ""],
         // ["==", "CORRIDOR", selectedCorridor?.DATA_CORRIDOR_PAIRED || ""],
       ];
+      newFilter[ROUTE_FILTER_INDEX] = newRouteFilter;
 
-      map.setFilter(highlightLayer, filter);
-      map.setFilter(highlightOutlineLayer, filter);
+      map.setFilter(highlightLayer, newFilter);
+      map.setFilter(highlightOutlineLayer, newFilter);
 
       // Highlight selected layer
       // map.setLayoutProperty(highlightLayer, "visibility", "visible");
@@ -331,16 +335,16 @@ const RouteLayer: FC<IPropsRouteLayer> = ({
     }
   }, [map, selectedCorridor]); // Dependent variables in methods above must be added
 
-  YEAR_FILTER_HOOK({
-    map,
-    yearRange,
-    layerNames: [
-      highlightLayer,
-      highlightOutlineLayer,
-      selectorLayer,
-      symbolLayerName,
-    ],
-  });
+  // YEAR_FILTER_HOOK({
+  //   map,
+  //   yearRange,
+  //   layerNames: [
+  //     highlightLayer,
+  //     highlightOutlineLayer,
+  //     selectorLayer,
+  //     symbolLayerName,
+  //   ],
+  // });
 
   return (
     <MapPopup

@@ -36,6 +36,10 @@ export const SOURCE_LAYER_NAME = "Historic_Transit_Routes_-_Twin_C";
 
 export const SOURCE_LAYER_ID = "historic-routes-layer";
 
+export const YEAR_FILTER_INDEX = 1;
+export const TYPE_FILTER_INDEX = 2;
+export const ROUTE_FILTER_INDEX = 3;
+
 export const DEFAULT_LINE_WIDTH = 2;
 
 export const SELECTED_LINE_WIDTH = 8;

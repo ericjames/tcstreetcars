@@ -16669,8 +16669,7 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "COMO_HOPKINS_STREETCAR",
         "YR_START1": 1906,
-        "YR_END1": 1950,
-        "YR_END2": 1954,
+        "YR_END1": 1932,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 405.751398582
       },
@@ -17108,8 +17107,7 @@
         "TYPE": "Streetcar",
         "CORRIDOR": "EXCELSIOR_TONKA_BAY_STREETCAR",
         "YR_START1": 1905,
-        "YR_END1": 1950,
-        "YR_END2": 1954,
+        "YR_END1": 1932,
         "PRIV_ROW": "TRUE",
         "Shape_Leng": 11942.6738358
       },
@@ -19370,8 +19368,7 @@
         "TYPE": "Ferry",
         "CORRIDOR": "FERRY_FERRY",
         "YR_START1": 1906,
-        "YR_END1": 1950,
-        "YR_END2": 1954,
+        "YR_END1": 1926,
         "PRIV_ROW": "FALSE",
         "Shape_Leng": 3223.4453392
       },
