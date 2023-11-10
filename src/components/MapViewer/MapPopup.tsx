@@ -14,7 +14,7 @@ const MapPopup: FC<{
 }> = ({ map, selectorLayer, selectedCorridor, onCorridorSelect }) => {
   const [corridorNames, setCorridorNames] =
     useState<Array<FeatureCorridorNames> | null>(null);
-  const [year, setYear] = useState<string | null>(null);
+  const [yearText, setYearText] = useState<string | null>(null);
 
   const mapPopup = useRef<mapboxgl.Popup>(
     new mapboxgl.Popup({
@@ -60,13 +60,14 @@ const MapPopup: FC<{
       const hoveredCorridors = getFeatureCorridorNames(map, e);
       const compare = corridorNames ? corridorNames[0] : "";
       if (hoveredCorridors && hoveredCorridors[0] !== compare) {
-        getFeatureProperties(e);
         setCorridorNames(hoveredCorridors);
       }
+      // Always update the popup
+      updatePopupText(e);
     }
   };
 
-  const getFeatureProperties = (e: MapMouseEvent) => {
+  const updatePopupText = (e: MapMouseEvent) => {
     if (map) {
       const features = map.queryRenderedFeatures(e.point);
       if (features && features.length > 0) {
@@ -76,7 +77,9 @@ const MapPopup: FC<{
         if (features[0].properties?.YR_START2) {
           text += ` / ${features[0].properties?.YR_START2} - ${features[0].properties?.YR_END2}`;
         }
-        setYear(text);
+        if (text !== yearText) {
+          setYearText(text);
+        }
       }
     }
   };
@@ -126,7 +129,7 @@ const MapPopup: FC<{
               onClick={() => onButtonClick(corridorName)}>
               {niceName}
               <br />
-              <small>{year}</small>
+              <small>{yearText}</small>
             </button>
           );
         })}

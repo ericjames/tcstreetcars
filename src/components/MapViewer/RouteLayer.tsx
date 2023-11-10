@@ -12,6 +12,7 @@ import {
   LABEL_SIZE_STOPS,
   ROUTE_FILTER_INDEX,
   getFeatureCorridorNames,
+  getLineColorGradient,
 } from "../../constants/mapbox";
 import mapboxgl, { MapMouseEvent } from "mapbox-gl";
 
@@ -64,6 +65,8 @@ const RouteLayer: FC<IPropsRouteLayer> = ({
   const setupLayer = () => {
     if (map) {
       map.on("style.load", () => {
+        const lineColors = getLineColorGradient();
+
         map.addLayer({
           id: highlightOutlineLayer,
           source: sourceId,
@@ -90,20 +93,7 @@ const RouteLayer: FC<IPropsRouteLayer> = ({
             "line-cap": "round",
           },
           paint: {
-            "line-color": [
-              "case",
-              ["==", ["get", "TYPE"], "Streetcar"],
-              COLORS.map_bright_red,
-              ["==", ["get", "TYPE"], "Bus"],
-              COLORS.bus,
-              ["==", ["get", "TYPE"], "Ferry"],
-              COLORS.ferry,
-              ["==", ["get", "TYPE"], "Steam Power"],
-              COLORS.steampower,
-              ["==", ["get", "TYPE"], "Horsecar"],
-              COLORS.horsecar,
-              COLORS.black1,
-            ],
+            "line-color": lineColors,
             "line-width": 8,
             "line-opacity": 0,
           },

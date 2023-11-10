@@ -44,13 +44,13 @@ const TCInfo: FC<IPropsInfoBox> = ({
         <h1>Twin Cities</h1>
         {selectedType === TransitTypes.STREETCAR ? (
           <>
-            <p>
+            {/* <p>
               A great streetcar system created the Twin Cities metro area and
               peaked at around 1947 until its demise in 1954. Explore the map by
               hovering over routes and clicking on them to enter. You can also
               directly select routes below or explore other regions in the
               navigation bar above.
-            </p>
+            </p> */}
             <RouteList
               corridors={corridors}
               selectedCorridor={selectedCorridor}

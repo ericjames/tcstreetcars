@@ -35,7 +35,7 @@ const Home: FC = () => {
   const [selectedCorridor, setSelectedCorridor] = useState<Corridor | null>(
     null
   );
-  const [yearRange, setYearRange] = useState<YearRange | null>(YEAR_RANGES[1]);
+  const [yearRange, setYearRange] = useState<YearRange | null>([null, null]);
 
   const [selectedType, setSelectedType] = useState<TransitTypes | null>(
     TransitTypes.STREETCAR

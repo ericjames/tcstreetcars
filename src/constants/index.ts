@@ -1,6 +1,5 @@
 import {
   AppFeatureCollection,
-  AppGeometryFeature,
   Corridor,
   FeatureCorridorNames,
   NavigationState,
@@ -10,7 +9,6 @@ import {
 } from "./types";
 import { TC_CENTER, TC_ZOOM, WESTMETRO_CENTER, WESTMETRO_ZOOM } from "./mapbox";
 
-import CORRIDOR_NAMES from "./CORRIDOR_NAMES.json";
 import DATA_CORRIDORS_BUS from "./DATA_CORRIDORS_BUS.json";
 import DATA_CORRIDORS_FERRY from "./DATA_CORRIDORS_FERRY.json";
 import DATA_CORRIDORS_HORSECAR from "./DATA_CORRIDORS_HORSECAR.json";
@@ -24,7 +22,7 @@ import SHARED_FEATURE_CORRIDORS from "./SHARED_FEATURE_CORRIDORS.json";
 // });
 // console.log(DATA_CORRIDORS_BUS);
 
-export const EDITOR_MODE: boolean = false;
+export const ADMIN_MODE: boolean = true;
 export const PRODUCTION_MODE: boolean = false;
 
 export const NAVIGATION: Array<NavigationState> = [
@@ -74,58 +72,21 @@ export const NAVIGATION: Array<NavigationState> = [
 ];
 
 export const YEAR_RANGES: Array<YearRange> = [
-  [1890, 1899],
-  [1900, 1917],
+  [1880, 1900],
+  [1901, 1917],
   [1918, 1926],
   [1927, 1932],
   [1933, 1954],
-  [null, null],
+  // [null, null],
 ];
+
+export const YEAR_END_GRADIENT: Array<number> = [1909, 1933, 1947, 1954];
 
 export const getDataFeatureCollection = () => {
   const fc = JSON.parse(
     JSON.stringify(FEATURE_COLLECTION)
   ) as AppFeatureCollection;
-  // _featureEditor(fc);
   return fc;
-};
-
-// eslint-disable-next-line
-const _featureEditor = (fc: AppFeatureCollection) => {
-  // Get types not in list
-  let leftovers: any = {};
-  const names: any = CORRIDOR_NAMES;
-  fc.features.forEach((feature: AppGeometryFeature) => {
-    if (!names[feature.properties.CORRIDOR]) {
-      leftovers[feature.properties.CORRIDOR] = "";
-    }
-  });
-  console.log(leftovers);
-  // Get list of types
-  // const corridorNameTypes: Array<string> = [];
-  // fc.features.forEach((feature: AppGeometryFeature) => {
-  //   if (corridorNameTypes.indexOf(feature?.properties?.CORRIDOR) === -1) {
-  //     corridorNameTypes.push(feature?.properties?.CORRIDOR);
-  //   }
-  // });
-  // console.log(corridorNameTypes.sort());
-
-  // // Edit names
-  // let col: any = {};
-  // console.log("data");
-  // fc.features.forEach((feature: AppGeometryFeature) => {
-  //   const corridorNameType = `${feature?.properties?.CORRIDOR} ${feature?.properties?.TYPE}`;
-
-  //   const transformedName = corridorNameType
-  //     .toUpperCase()
-  //     .replace("-", "")
-  //     .replaceAll(" ", "_");
-  //   feature.properties.CORRIDOR = transformedName;
-  //   if (!col[corridorNameType]) {
-  //     col[corridorNameType] = transformedName;
-  //   }
-  // });
-  // console.log(col);
 };
 
 export const getCorridors = () => {

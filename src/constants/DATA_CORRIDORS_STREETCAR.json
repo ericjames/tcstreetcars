@@ -201,7 +201,7 @@
     "terminus": "",
     "yearStart": 1890,
     "yearEnd": 1954,
-    "description": "Ft. Snelling - Minnehaha",
+    "description": "Originally an intercity line from St. Paul down to Ft. Snelling up to Minneapolis. Split in 1936 into separate routes.",
     "sources": "Met Council Data",
     "overlapIndex": null
   },
@@ -320,13 +320,13 @@
     "terminus": "",
     "yearStart": 1890,
     "yearEnd": 1954,
-    "description": "Paired with 25th St E",
+    "description": "Paired with 25th St E in 1946",
     "sources": "Met Council Data",
     "overlapIndex": null
   },
   {
     "id": 22,
-    "routeName": "25th St E",
+    "routeName": "E. 25th Street",
     "DATA_CORRIDOR": "25TH_ST_E_STREETCAR",
     "DATA_CORRIDOR_PAIRED": "PLYMOUTH_AVE_STREETCAR",
     "DATA_TYPE": "Streetcar",
@@ -335,7 +335,7 @@
     "terminus": "",
     "yearStart": 1890,
     "yearEnd": 1954,
-    "description": "Paired with Plymouth Ave",
+    "description": "Paired with Kenwood until 1938. Paired with Plymouth Ave in 1946",
     "sources": "Met Council Data",
     "overlapIndex": null
   },
@@ -475,8 +475,8 @@
     "start": "",
     "terminus": "",
     "yearStart": 1891,
-    "yearEnd": 1954,
-    "description": "",
+    "yearEnd": 1938,
+    "description": "Paired with E 25th St",
     "sources": "Met Council Data",
     "overlapIndex": null
   },
@@ -612,7 +612,7 @@
     "terminus": "",
     "yearStart": 1890,
     "yearEnd": 1954,
-    "description": "",
+    "description": "Originally an intercity route from St. Paul to Ft. Snelling and into Minneapolis via Minnehaha, it split in 1936.",
     "sources": "Met Council Data",
     "overlapIndex": null
   },

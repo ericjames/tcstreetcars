@@ -6,12 +6,18 @@ import {
   TransitTypes,
   YearRange,
 } from "../../constants/types";
-import { LINE_WIDTH_STOPS, RECEDED_LINE_OPACITY } from "../../constants/mapbox";
+import {
+  LINE_WIDTH_STOPS,
+  RECEDED_LINE_OPACITY,
+  getLineColorGradient,
+} from "../../constants/mapbox";
 import React, { FC, useEffect } from "react";
+import { YEAR_END_GRADIENT, YEAR_RANGES } from "../../constants";
+import mapboxgl, { Expression } from "mapbox-gl";
 
 import { COLORS } from "../../constants/colors";
+import { Gradient } from "typescript-color-gradient";
 import { YEAR_FILTER_HOOK } from "./maphooks";
-import mapboxgl from "mapbox-gl";
 
 const SystemLayer: FC<IPropsSystemLayer> = ({
   layerName,
@@ -28,7 +34,7 @@ const SystemLayer: FC<IPropsSystemLayer> = ({
     ["all", [">=", "YR_START1", 0]],
     [
       "any",
-      ["==", "TYPE", `${selectedType || ""}`],
+      ["==", "TYPE", "Streetcar"],
       ["==", "TYPE", "Ferry"],
       // ["==", "TYPE", "Train"],
     ],
@@ -46,6 +52,8 @@ const SystemLayer: FC<IPropsSystemLayer> = ({
   const addLayer = () => {
     if (map) {
       map.on("style.load", () => {
+        const lineColors = getLineColorGradient();
+        console.log(lineColors);
         map.addLayer({
           id: layerName,
           source: sourceId,
@@ -54,24 +62,26 @@ const SystemLayer: FC<IPropsSystemLayer> = ({
           layout: {
             "line-join": "round",
             "line-cap": "round",
+            "line-sort-key": ["get", "YR_END1"],
           },
           paint: {
-            "line-color": [
-              "case",
-              ["==", ["get", "TYPE"], "Streetcar"],
-              COLORS.streetcar,
-              ["==", ["get", "TYPE"], "Bus"],
-              COLORS.bus,
-              ["==", ["get", "TYPE"], "Ferry"],
-              COLORS.ferry,
-              ["==", ["get", "TYPE"], "Train"],
-              COLORS.train,
-              ["==", ["get", "TYPE"], "Steam Power"],
-              COLORS.steampower,
-              ["==", ["get", "TYPE"], "Horsecar"],
-              COLORS.horsecar,
-              COLORS.black1,
-            ],
+            "line-color": lineColors,
+            // "line-color": [
+            //   "case",
+            //   ["==", ["get", "TYPE"], "Streetcar"],
+            //   COLORS.streetcar,
+            //   ["==", ["get", "TYPE"], "Bus"],
+            //   COLORS.bus,
+            //   ["==", ["get", "TYPE"], "Ferry"],
+            //   COLORS.ferry,
+            //   ["==", ["get", "TYPE"], "Train"],
+            //   COLORS.train,
+            //   ["==", ["get", "TYPE"], "Steam Power"],
+            //   COLORS.steampower,
+            //   ["==", ["get", "TYPE"], "Horsecar"],
+            //   COLORS.horsecar,
+            //   COLORS.black1,
+            // ],
             "line-width": LINE_WIDTH_STOPS,
           },
           filter: initialFilter,

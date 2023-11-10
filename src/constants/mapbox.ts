@@ -1,8 +1,9 @@
 import { FeatureCorridorNames, YearRange } from "./types";
-import mapboxgl, { MapMouseEvent } from "mapbox-gl";
+import { YEAR_END_GRADIENT, disambiguateCorridorNames } from ".";
+import mapboxgl, { Expression, MapMouseEvent } from "mapbox-gl";
 
+import { COLORS } from "./colors";
 import CORRIDOR_NAMES from "./CORRIDOR_NAMES.json";
-import { disambiguateCorridorNames } from ".";
 
 export const TC_CENTER: [number, number] = [-93.201, 44.9675];
 export const WESTMETRO_CENTER: [number, number] = [-93.48, 44.932];
@@ -10,7 +11,7 @@ export const EASTMETRO_CENTER: [number, number] = [-92.918, 45.024];
 export const NORTHMETRO_CENTER: [number, number] = [-93.319, 45.123];
 export const SOUTHMETRO_CENTER: [number, number] = [-93.121, 44.786];
 
-export const TC_ZOOM = 11.2;
+export const TC_ZOOM = 11;
 export const WESTMETRO_ZOOM = 10.5;
 export const EASTMETRO_ZOOM = 10.9;
 export const NORTHMETRO_ZOOM = 11;
@@ -78,6 +79,22 @@ export const LABEL_SIZE_STOPS = {
 //   }
 //   return null;
 // };
+
+export const getLineColorGradient = (): Expression => {
+  const gradients: any = COLORS.getYearGradients();
+  const cases: Array<string | Array<any>> = [];
+  YEAR_END_GRADIENT.forEach((yearEnd, i) => {
+    cases.push([
+      "all",
+      ["<=", ["get", "YR_END1"], yearEnd],
+      // [">=", ["get", "YR_START1"], startYear],
+      // ["<=", ["get", "YR_END1"], endYear],
+    ]);
+    cases.push(gradients[i]);
+  });
+
+  return ["case", ...cases, "#00ff00"] as Expression;
+};
 
 export const getPopupHTML = (
   corridorNames: Array<FeatureCorridorNames>,

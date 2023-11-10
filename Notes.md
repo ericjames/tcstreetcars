@@ -33,3 +33,20 @@ NOtes:
 - UM pillsbury Dr - Wye behind the building on southwest corner
 
 - 1920 238 million riders 
+
+
+1930 all the lines quit minnetonka quit 
+
+no point in time that has it all 
+
+1906 disappeared 
+
+
+permanent regardless
+St. Paul Southern quit in 1927 - 
+
+
+Composite map
+
+Latitude longitude  
+

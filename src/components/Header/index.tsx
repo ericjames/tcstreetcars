@@ -39,11 +39,11 @@ const Header: FC<IPropsHeader> = ({
         ))}
       </div>
 
-      <YearToggler
+      {/* <YearToggler
         selectedCorridor={selectedCorridor}
         yearRange={yearRange}
         setYearRange={setYearRange}
-      />
+      /> */}
     </Wrapper>
   );
 };
