@@ -10,7 +10,11 @@ import {
   useRef,
   useState,
 } from "react";
-import { GeoJSONSource, MapboxGeoJSONFeature } from "mapbox-gl";
+import {
+  FeatureIdentifier,
+  GeoJSONSource,
+  MapboxGeoJSONFeature,
+} from "mapbox-gl";
 import { SOURCE_ID, SOURCE_LAYER_NAME } from "../../constants/mapbox";
 import {
   SnapDirectSelect,
@@ -23,14 +27,19 @@ import {
 import CutLineMode from "mapbox-gl-draw-cut-line-mode";
 import { FeatureCollection } from "geojson";
 import MapboxDraw from "@mapbox/mapbox-gl-draw";
+import styled from "styled-components";
+
+const Wrapper = styled.div`
+  > div {
+    min-height: 200px;
+  }
+`;
 
 interface IProps {
   map: mapboxgl.Map | undefined;
-  feature?: AppGeometryFeature | undefined;
-  setFeature?: Dispatch<SetStateAction<AppGeometryFeature | null>>;
-  geoJSON?: any;
-  setGeoJSON?: any;
-  selectedCorridor?: any;
+  geoJSON: any;
+  setGeoJSON: any;
+  selectedCorridor: any;
 }
 
 const MapEditor: FC<IProps> = ({
@@ -41,7 +50,10 @@ const MapEditor: FC<IProps> = ({
 }) => {
   const [editableFeature, setEditableFeature] =
     useState<AppGeometryFeature | null>(null);
-  const componentRef = useRef<any>({ mapboxDraw: null });
+  const [hasError, setHasError] = useState(false);
+  const componentRef = useRef<{ mapboxDraw: MapboxDraw | null }>({
+    mapboxDraw: null,
+  });
 
   const exportData = (data: object) => {
     const jsonString = `data:text/json;chatset=utf-8,${encodeURIComponent(
@@ -54,17 +66,50 @@ const MapEditor: FC<IProps> = ({
     link.click();
   };
 
+  const updateGeoJSON = () => {
+    const updatedFeatureCollection =
+      componentRef?.current?.mapboxDraw?.getAll();
+
+    if (updatedFeatureCollection) {
+      const newJson = {
+        ...geoJSON,
+        features: [...geoJSON.features, ...updatedFeatureCollection.features],
+      };
+      console.log("newJson", newJson);
+      setGeoJSON(newJson);
+    }
+  };
+
   const updateFeatureProps = () => {
     if (map) {
-      const updatedFeatures = geoJSON.features?.map(
-        (feature: any, i: number) => {
-          const newFeature =
-            feature?.id === editableFeature?.id ? editableFeature : feature;
-          return { ...newFeature, id: i + 1 };
+      try {
+        if (editableFeature) {
+          const feats = componentRef?.current?.mapboxDraw?.getSelected();
+          console.log("getSelected", feats);
+
+          Object.entries(editableFeature).forEach(([key, value]) => {
+            componentRef?.current?.mapboxDraw?.setFeatureProperty(
+              `${editableFeature.id}`,
+              key,
+              value
+            );
+          });
+
+          const feature = componentRef?.current?.mapboxDraw?.get(
+            `${editableFeature.id}`
+          );
+          console.log("newfeature", feature);
+          if (feature) {
+            componentRef?.current?.mapboxDraw?.add(feature);
+          }
+
+          setHasError(false);
+          updateGeoJSON();
+          return;
         }
-      );
-      // console.log("updatedFeatures", updatedFeatures);
-      setGeoJSON({ ...geoJSON, features: updatedFeatures });
+      } catch (e) {
+        setHasError(true);
+      }
 
       // const source = map.getSource(SOURCE_ID) as GeoJSONSource;
       // source.setData({ ...geoJSON, features: updatedFeatures });
@@ -103,13 +148,13 @@ const MapEditor: FC<IProps> = ({
           div.addEventListener("click", (e) => {
             const dom: any = e.target;
             mapboxDraw.changeMode("cut_line");
-            if (componentRef.current.cut) {
+            if (componentRef.current.mapboxDraw) {
               dom.className = "";
-              componentRef.current.cut = false;
+              // componentRef.current.mapboxDraw?.cut = false;
               mapboxDraw.changeMode("simple_select");
             } else {
               dom.className = "bg-selected";
-              componentRef.current.cut = true;
+              // componentRef.current.mapboxDraw?.cut = true;
               mapboxDraw.changeMode("cut_line");
             }
           });
@@ -128,21 +173,18 @@ const MapEditor: FC<IProps> = ({
         map.addControl(cutButton, "top-left");
 
         geoJSON.features.forEach((feature: any) => {
-          componentRef.current.mapboxDraw.add(feature);
+          if (feature.id === 131) {
+            componentRef?.current?.mapboxDraw?.add(feature);
+          }
         });
 
+        // eslint-disable-next-line
+        const window2 = window as any;
+        window2._mapboxDraw = mapboxDraw;
+
         const updateArea = (e: any) => {
-          const featureCollection = mapboxDraw.getAll();
-          console.log("Draw update", featureCollection);
-          // const merged = { ...geoJSON };
-          // featureCollection.features.forEach((feature: any) => {
-          //   merged.features.forEach((mergeFeature: any) => {
-          //     if (feature.id === mergeFeature.id) {
-          //       mergeFeature = { ...feature };
-          //     }
-          //   });
-          // });
-          setGeoJSON(featureCollection);
+          console.log("UPDATEAREA");
+          updateGeoJSON();
         };
 
         map.on("draw.create", updateArea);
@@ -151,7 +193,6 @@ const MapEditor: FC<IProps> = ({
         map.on("click", () => {
           const featureCollection = mapboxDraw.getSelected();
           if (featureCollection?.features[0]) {
-            console.log(featureCollection?.features[0]);
             const feature = featureCollection?.features[0];
 
             const geometry = feature.geometry as {
@@ -159,7 +200,7 @@ const MapEditor: FC<IProps> = ({
               coordinates: Array<any>;
             };
             setEditableFeature({
-              id: feature?.id || 9999,
+              id: `${feature?.id}`,
               type: feature?.type,
               properties: feature?.properties,
               geometry: {
@@ -174,70 +215,96 @@ const MapEditor: FC<IProps> = ({
       return () => {
         map.removeControl(mapboxDraw);
         map.removeControl(cutButton);
-        geoJSON.features.forEach((feature: any) => {
-          componentRef.current.mapboxDraw.delete(feature);
-        });
+        if (componentRef.current.mapboxDraw) {
+          geoJSON.features.forEach((feature: any) => {
+            componentRef?.current?.mapboxDraw?.delete(feature);
+          });
+        }
         componentRef.current.mapboxDraw = null;
       };
     }
   }, [map]);
 
-  useEffect(() => {
-    if (selectedCorridor) {
-      geoJSON.features.forEach((feature: any) => {
-        if (feature.properties.CORRIDOR === selectedCorridor.DATA_CORRIDOR) {
-          componentRef.current.mapboxDraw.add(feature);
-        }
-      });
-    }
-  }, [selectedCorridor]);
+  // useEffect(() => {
+  //   if (selectedCorridor) {
+  //     geoJSON.features.forEach((feature: any) => {
+  //       if (feature.properties.CORRIDOR === selectedCorridor.DATA_CORRIDOR) {
+  //         componentRef?.current?.mapboxDraw?.add(feature);
+  //       }
+  //     });
+  //   }
+  // }, [selectedCorridor]);
+
+  const getFields = (valueObj: any) => {
+    return Object.entries(valueObj).map(([key, value]) => {
+      return (
+        <div className="mb-2">
+          {key}
+          <input
+            type="text"
+            className="w-100"
+            value={`${value}` || ""}
+            onChange={(e) => {
+              const newFeature: any = { ...editableFeature };
+              newFeature[key] = e.target.value;
+              setEditableFeature(newFeature);
+            }}></input>
+        </div>
+      );
+    });
+  };
 
   return (
-    <div
+    <Wrapper
       className="position-absolute bg-light"
       style={{
         width: 300,
         overflow: "scroll",
-        height: 400,
+        height: "80vh",
         right: 0,
         top: 50,
         zIndex: 10,
         border: "1px solid #888",
+        padding: 20,
       }}>
       <b>Editor</b>
-      {editableFeature &&
-        Object.entries(editableFeature).map(([key, value], i) => (
-          <div key={i}>
-            {key}:{" "}
-            {typeof value === "string" || typeof value === "number" ? (
-              <input
-                type="text"
-                className="w-100"
-                value={`${value}` || ""}
-                onChange={(e) => {
-                  const newFeature: any = { ...editableFeature };
-                  newFeature[key] = e.target.value;
-                  setEditableFeature(newFeature);
-                }}></input>
-            ) : typeof value === "object" ? (
-              <textarea
-                className="w-100"
-                onChange={(e) => {
-                  const newFeature: any = { ...editableFeature };
-                  newFeature[key] = JSON.parse(e.target.value);
-                  setEditableFeature(newFeature);
-                }}
-                value={JSON.stringify(value)}></textarea>
-            ) : (
-              <></>
-            )}
-          </div>
-        ))}
+      <div>
+        {editableFeature &&
+          Object.entries(editableFeature).map(([key, value], i) => (
+            <div key={i}>
+              {key}:{" "}
+              {typeof value === "string" || typeof value === "number" ? (
+                <input
+                  type="text"
+                  className="w-100"
+                  value={`${value}` || ""}
+                  disabled={key !== "properties"}
+                  onChange={(e) => {
+                    const newFeature: any = { ...editableFeature };
+                    newFeature[key] = e.target.value;
+                    setEditableFeature(newFeature);
+                  }}></input>
+              ) : typeof value === "object" ? (
+                getFields(value)
+              ) : (
+                <></>
+              )}
+            </div>
+          ))}
+      </div>
       <br />
-      <button onClick={updateFeatureProps}>Update Feature Properties</button>
+      <button
+        className={`btn btn-outline-dark ${hasError ? "btn-danger" : ""}`}
+        onClick={updateFeatureProps}>
+        Update Feature Props
+      </button>
       <br />
-      <button onClick={onExportButtonClick}>Download All</button>
-    </div>
+      <button
+        className={`btn btn-outline-dark`}
+        onClick={onExportButtonClick}>
+        Download GEOJSON
+      </button>
+    </Wrapper>
   );
 };
 
