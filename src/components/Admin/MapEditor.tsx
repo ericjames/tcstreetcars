@@ -1,37 +1,17 @@
 import {
   AllowedGeometryTypes,
   AppGeometryFeature,
+  FeatureType,
 } from "../../constants/types";
-import {
-  Dispatch,
-  FC,
-  SetStateAction,
-  useEffect,
-  useRef,
-  useState,
-} from "react";
-import {
-  FeatureIdentifier,
-  GeoJSONSource,
-  MapboxGeoJSONFeature,
-} from "mapbox-gl";
-import { SOURCE_ID, SOURCE_LAYER_NAME } from "../../constants/mapbox";
-import {
-  SnapDirectSelect,
-  SnapLineMode,
-  SnapModeDrawStyles,
-  SnapPointMode,
-  SnapPolygonMode,
-} from "mapbox-gl-draw-snap-mode";
+import { FC, useEffect, useRef, useState } from "react";
+import { getCutButtonClass, getMapOptions, mapStyles } from "./helpers";
 
-import CutLineMode from "mapbox-gl-draw-cut-line-mode";
-import { FeatureCollection } from "geojson";
 import MapboxDraw from "@mapbox/mapbox-gl-draw";
+import { exportFile } from "./admin";
 import styled from "styled-components";
 
 const Wrapper = styled.div`
   > div {
-    min-height: 200px;
   }
 `;
 
@@ -51,61 +31,69 @@ const MapEditor: FC<IProps> = ({
   const [editableFeature, setEditableFeature] =
     useState<AppGeometryFeature | null>(null);
   const [hasError, setHasError] = useState(false);
+  const [needSave, setNeedSave] = useState(false);
+  const [chooseFeatures, setChooseFeatures] =
+    useState<Array<AppGeometryFeature> | null>(null);
   const componentRef = useRef<{ mapboxDraw: MapboxDraw | null }>({
     mapboxDraw: null,
   });
 
-  const exportData = (data: object) => {
-    const jsonString = `data:text/json;chatset=utf-8,${encodeURIComponent(
-      JSON.stringify(data)
-    )}`;
-    const link = document.createElement("a");
-    link.href = jsonString;
-    link.download = "DATA_FEATURE_COLLECTION.json";
+  // useEffect(() => {
+  //   console.log("change");
+  // }, [editableFeature]);
 
-    link.click();
+  const exportData = (data: object) => {
+    exportFile(data, "DATA_FEATURE_COLLECTION.json");
   };
 
   const updateGeoJSON = () => {
-    const updatedFeatureCollection =
+    const mapboxDrawFeatureCollection =
       componentRef?.current?.mapboxDraw?.getAll();
 
-    if (updatedFeatureCollection) {
-      const newJson = {
-        ...geoJSON,
-        features: [...geoJSON.features, ...updatedFeatureCollection.features],
-      };
-      console.log("newJson", newJson);
-      setGeoJSON(newJson);
+    if (mapboxDrawFeatureCollection) {
+      // Find and replace in the existing json
+      // mapboxDraw returns tons of virtual elements and trash
+
+      const newJSON = { ...geoJSON };
+      newJSON.features.forEach((feature: any, i: number) => {
+        const newFeature = mapboxDrawFeatureCollection.features.find(
+          (mdFeature) => `${mdFeature.id}` === `${feature.id}`
+        );
+        if (newFeature) {
+          console.log("update feature", newFeature);
+          newJSON.features[i] = { ...newFeature };
+        }
+      });
+      console.log("updateGeoJSON", newJSON);
+      setGeoJSON(newJSON);
     }
   };
 
   const updateFeatureProps = () => {
     if (map) {
       try {
-        if (editableFeature) {
-          const feats = componentRef?.current?.mapboxDraw?.getSelected();
-          console.log("getSelected", feats);
+        if (editableFeature && componentRef.current.mapboxDraw !== null) {
+          const mapboxDraw = componentRef.current.mapboxDraw;
 
-          Object.entries(editableFeature).forEach(([key, value]) => {
-            componentRef?.current?.mapboxDraw?.setFeatureProperty(
-              `${editableFeature.id}`,
-              key,
-              value
-            );
+          const featureCollection = mapboxDraw.getSelected();
+          const drawFeature = featureCollection?.features[0];
+
+          const editedProperties = editableFeature.properties;
+
+          // console.log("editedProperties", editedProperties);
+
+          Object.entries(editedProperties).forEach(([key, value]) => {
+            mapboxDraw.setFeatureProperty(`${editableFeature.id}`, key, value);
           });
 
-          const feature = componentRef?.current?.mapboxDraw?.get(
-            `${editableFeature.id}`
-          );
-          console.log("newfeature", feature);
+          const feature = mapboxDraw.get(`${editableFeature.id}`);
+          // console.log("To Be Added", feature);
           if (feature) {
-            componentRef?.current?.mapboxDraw?.add(feature);
+            mapboxDraw.add(feature);
           }
 
           setHasError(false);
           updateGeoJSON();
-          return;
         }
       } catch (e) {
         setHasError(true);
@@ -122,51 +110,15 @@ const MapEditor: FC<IProps> = ({
 
   useEffect(() => {
     if (map) {
-      const options: any = {
-        modes: {
-          ...MapboxDraw.modes,
-          cut_line: CutLineMode,
-          draw_point: SnapPointMode,
-          draw_polygon: SnapPolygonMode,
-          draw_line_string: SnapLineMode,
-          direct_select: SnapDirectSelect,
-        },
-        snap: true,
-        snapOptions: {
-          snapPx: 15, // defaults to 15
-          snapToMidPoints: true, // defaults to false
-          snapVertexPriorityDistance: 0.0025, // defaults to 1.25
-        },
-      };
-
-      class CutButton {
-        onAdd(map: any) {
-          const div = document.createElement("div");
-          div.className = "mapboxgl-ctrl mapboxgl-ctrl-group";
-          div.innerHTML = `<button>CUT</button>`;
-          div.addEventListener("contextmenu", (e) => e.preventDefault());
-          div.addEventListener("click", (e) => {
-            const dom: any = e.target;
-            mapboxDraw.changeMode("cut_line");
-            if (componentRef.current.mapboxDraw) {
-              dom.className = "";
-              // componentRef.current.mapboxDraw?.cut = false;
-              mapboxDraw.changeMode("simple_select");
-            } else {
-              dom.className = "bg-selected";
-              // componentRef.current.mapboxDraw?.cut = true;
-              mapboxDraw.changeMode("cut_line");
-            }
-          });
-
-          return div;
-        }
-        onRemove() {}
-      }
-      const cutButton = new CutButton();
-
-      const mapboxDraw = new MapboxDraw(options);
+      const mapboxDraw = new MapboxDraw(getMapOptions());
       componentRef.current.mapboxDraw = mapboxDraw;
+
+      // eslint-disable-next-line
+      const window2 = window as any;
+      window2._mapboxDraw = mapboxDraw;
+
+      const cutButtonClass = getCutButtonClass(mapboxDraw);
+      const cutButton = new cutButtonClass();
 
       map.on("load", () => {
         map.addControl(mapboxDraw, "top-left");
@@ -178,49 +130,40 @@ const MapEditor: FC<IProps> = ({
           }
         });
 
-        // eslint-disable-next-line
-        const window2 = window as any;
-        window2._mapboxDraw = mapboxDraw;
-
         const updateArea = (e: any) => {
-          console.log("UPDATEAREA");
+          // console.log("UPDATEAREA", e);
           updateGeoJSON();
         };
 
         map.on("draw.create", updateArea);
         map.on("draw.delete", updateArea);
         map.on("draw.update", updateArea);
-        map.on("click", () => {
-          const featureCollection = mapboxDraw.getSelected();
-          if (featureCollection?.features[0]) {
-            const feature = featureCollection?.features[0];
+        map.on("click", (e) => {
+          const features = mapboxDraw.getFeatureIdsAt(e.point);
+          const decide = features.map((id) =>
+            mapboxDraw.get(id)
+          ) as Array<AppGeometryFeature>;
+          setChooseFeatures(decide);
 
-            const geometry = feature.geometry as {
-              type: AllowedGeometryTypes;
-              coordinates: Array<any>;
-            };
-            setEditableFeature({
-              id: `${feature?.id}`,
-              type: feature?.type,
-              properties: feature?.properties,
-              geometry: {
-                type: geometry.type,
-                coordinates: geometry?.coordinates || null,
-              },
-            });
+          if (features.length === 1) {
+            selectFeatureForEditing(
+              mapboxDraw.get(features[0]) as AppGeometryFeature
+            );
           }
         });
       });
 
       return () => {
-        map.removeControl(mapboxDraw);
-        map.removeControl(cutButton);
-        if (componentRef.current.mapboxDraw) {
-          geoJSON.features.forEach((feature: any) => {
-            componentRef?.current?.mapboxDraw?.delete(feature);
+        if (map) {
+          map.on("remove", () => {
+            if (componentRef.current.mapboxDraw) {
+              componentRef.current.mapboxDraw.deleteAll();
+              map.removeControl(componentRef.current.mapboxDraw);
+              map.removeControl(cutButton);
+              componentRef.current.mapboxDraw = null;
+            }
           });
         }
-        componentRef.current.mapboxDraw = null;
       };
     }
   }, [map]);
@@ -235,30 +178,55 @@ const MapEditor: FC<IProps> = ({
   //   }
   // }, [selectedCorridor]);
 
-  const getFields = (valueObj: any) => {
-    return Object.entries(valueObj).map(([key, value]) => {
-      return (
-        <div className="mb-2">
-          {key}
-          <input
-            type="text"
-            className="w-100"
-            value={`${value}` || ""}
-            onChange={(e) => {
-              const newFeature: any = { ...editableFeature };
-              newFeature[key] = e.target.value;
-              setEditableFeature(newFeature);
-            }}></input>
-        </div>
-      );
+  const selectFeatureForEditing = (feature: AppGeometryFeature) => {
+    const geometry = feature.geometry as {
+      type: AllowedGeometryTypes;
+      coordinates: Array<any>;
+    };
+    setEditableFeature({
+      id: `${feature?.id}`,
+      type: feature?.type,
+      properties: feature?.properties,
+      geometry: {
+        type: geometry.type,
+        coordinates: geometry?.coordinates || null,
+      },
     });
+  };
+
+  const getSubFields = (key: string, valueObj: any) => {
+    return (
+      <div className="flex-fill">
+        {Object.entries(valueObj).map(([subKey, subValue]) => {
+          return (
+            <div
+              className="mb-2 d-flex gap-1 align-items-center"
+              key={subKey}>
+              <label>{subKey}</label>
+              <input
+                type="text"
+                disabled={key !== "properties"}
+                className="w-100 input"
+                value={`${subValue}` || ""}
+                onChange={(e) => {
+                  const newFeature: any = { ...editableFeature };
+
+                  // console.log("UPDATE", e.target.value);
+                  newFeature[key][subKey] = e.target.value;
+                  setEditableFeature(newFeature);
+                }}></input>
+            </div>
+          );
+        })}
+      </div>
+    );
   };
 
   return (
     <Wrapper
       className="position-absolute bg-light"
       style={{
-        width: 300,
+        width: 350,
         overflow: "scroll",
         height: "80vh",
         right: 0,
@@ -267,16 +235,30 @@ const MapEditor: FC<IProps> = ({
         border: "1px solid #888",
         padding: 20,
       }}>
-      <b>Editor</b>
-      <div>
+      <h4>Clicked Features</h4>
+      <div className="mt-2 btn-group">
+        {chooseFeatures &&
+          chooseFeatures?.map((feature) => (
+            <button
+              className="btn btn-small btn-gray w-100 text-nowrap"
+              onClick={() => selectFeatureForEditing(feature)}>
+              {feature?.id} {feature?.properties?.TYPE}{" "}
+              {feature?.properties?.CORRIDOR}
+            </button>
+          ))}
+      </div>
+      <div className="mt-2">
+        <h4>Editor</h4>
         {editableFeature &&
-          Object.entries(editableFeature).map(([key, value], i) => (
-            <div key={i}>
-              {key}:{" "}
-              {typeof value === "string" || typeof value === "number" ? (
+          Object.entries(editableFeature).map(([key, value], i) =>
+            typeof value === "string" || typeof value === "number" ? (
+              <div
+                key={i}
+                className="d-flex gap-1 align-items-center text-gray">
+                <label>{key}</label>
                 <input
                   type="text"
-                  className="w-100"
+                  className="w-100 text-gray"
                   value={`${value}` || ""}
                   disabled={key !== "properties"}
                   onChange={(e) => {
@@ -284,23 +266,30 @@ const MapEditor: FC<IProps> = ({
                     newFeature[key] = e.target.value;
                     setEditableFeature(newFeature);
                   }}></input>
-              ) : typeof value === "object" ? (
-                getFields(value)
-              ) : (
-                <></>
-              )}
-            </div>
-          ))}
+              </div>
+            ) : typeof value === "object" ? (
+              <div
+                key={i}
+                className="d-flex gap-1 align-items-center flex-wrap">
+                <label className="text-gray">{key}</label>
+                {getSubFields(key, value)}
+              </div>
+            ) : (
+              <div key={i}></div>
+            )
+          )}
       </div>
-      <br />
+      {editableFeature && (
+        <button
+          className={`btn w-100 btn-sm btn-outline-dark ${
+            hasError ? "btn-danger" : ""
+          }`}
+          onClick={updateFeatureProps}>
+          Update Feature Props
+        </button>
+      )}
       <button
-        className={`btn btn-outline-dark ${hasError ? "btn-danger" : ""}`}
-        onClick={updateFeatureProps}>
-        Update Feature Props
-      </button>
-      <br />
-      <button
-        className={`btn btn-outline-dark`}
+        className={`btn w-100 btn-outline-dark mt-5`}
         onClick={onExportButtonClick}>
         Download GEOJSON
       </button>

@@ -3,6 +3,7 @@ import { FC, useEffect, useState } from "react";
 import { FeatureCorridorNames, IPropsMapViewer } from "../../constants/types";
 import { SOURCE_ID, SOURCE_LAYER_NAME } from "../../constants/mapbox";
 
+import DataTable from "../Admin/DataTable";
 import { ErrorBoundary } from "react-error-boundary";
 import MapEditor from "../Admin/MapEditor";
 import MapLegend from "./MapLegend";
@@ -90,6 +91,13 @@ const MapViewer: FC<IPropsMapViewer> = ({
             geoJSON={geoJSON}
             setGeoJSON={setGeoJSON}
             selectedCorridor={selectedCorridor}
+          />
+        )}
+
+        {ADMIN_MODE && (
+          <DataTable
+            geoJSON={geoJSON}
+            setGeoJSON={setGeoJSON}
           />
         )}
 

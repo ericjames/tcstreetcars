@@ -6,6 +6,8 @@ import {
 } from "../../constants/mapbox";
 import mapboxgl, { GeoJSONSource } from "mapbox-gl";
 
+import { ADMIN_MODE } from "../../constants";
+
 type IProps = {
   id: string;
   type: string;
@@ -31,14 +33,16 @@ const MapSource: FC<IProps> = ({ id, url, map, type, data }) => {
           map.addSource(id, {
             type,
             data,
-            // generateId: true,
+            // generateId: ADMIN_MODE,
           });
         }
       });
     }
     return () => {
       if (map) {
-        map.removeSource(id);
+        map.on("remove", () => {
+          map.removeSource(id);
+        });
       }
     };
   }, [map]);

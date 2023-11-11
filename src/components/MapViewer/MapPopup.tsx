@@ -124,7 +124,7 @@ const MapPopup: FC<{
           const niceName = niceMap[corridorName] || corridorName;
           return (
             <button
-              key={corridorName}
+              key={i}
               className="btn w-100"
               onClick={() => onButtonClick(corridorName)}>
               {niceName}

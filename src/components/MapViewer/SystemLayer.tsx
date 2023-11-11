@@ -44,7 +44,9 @@ const SystemLayer: FC<IPropsSystemLayer> = ({
     addLayer();
     return () => {
       if (map) {
-        map.removeLayer(layerName);
+        map.on("remove", () => {
+          map.removeLayer(layerName);
+        });
       }
     };
   }, [map]);
@@ -53,7 +55,7 @@ const SystemLayer: FC<IPropsSystemLayer> = ({
     if (map) {
       map.on("style.load", () => {
         const lineColors = getLineColorGradient();
-        console.log(lineColors);
+        // console.log(lineColors);
         map.addLayer({
           id: layerName,
           source: sourceId,

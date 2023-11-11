@@ -16,6 +16,7 @@ import {
 } from "../../constants/mapbox";
 import mapboxgl, { MapMouseEvent } from "mapbox-gl";
 
+import { ADMIN_MODE } from "../../constants";
 import { COLORS } from "../../constants/colors";
 import MapPopup from "./MapPopup";
 import { YEAR_FILTER_HOOK } from "./maphooks";
@@ -54,10 +55,12 @@ const RouteLayer: FC<IPropsRouteLayer> = ({
     setupLayer();
     return () => {
       if (map) {
-        map.removeLayer(selectorLayer);
-        map.removeLayer(highlightOutlineLayer);
-        map.removeLayer(highlightLayer);
-        map.removeLayer(symbolLayerName);
+        map.on("remove", () => {
+          map.removeLayer(selectorLayer);
+          map.removeLayer(highlightOutlineLayer);
+          map.removeLayer(highlightLayer);
+          map.removeLayer(symbolLayerName);
+        });
       }
     };
   }, [map]);
@@ -284,6 +287,8 @@ const RouteLayer: FC<IPropsRouteLayer> = ({
   };
 
   const onClickLayer = (e: MapMouseEvent) => {
+    if (ADMIN_MODE) return null;
+
     if (map) {
       const corridorNames = getFeatureCorridorNames(map, e);
       if (corridorNames && isDiscoveryMode) {
@@ -335,6 +340,8 @@ const RouteLayer: FC<IPropsRouteLayer> = ({
   //     symbolLayerName,
   //   ],
   // });
+
+  if (ADMIN_MODE) return null;
 
   return (
     <MapPopup
