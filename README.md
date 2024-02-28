@@ -1,6 +1,7 @@
 # TC Streetcars
 
-TypeScript + React app to find a path through a grid.
+TypeScript + React app showing historic Twin City Streetcar system. View live at https://twincitian.com/streetcars/
+
 
 # Getting Started with Create React App
 
